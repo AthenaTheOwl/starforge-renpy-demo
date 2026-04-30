@@ -1,0 +1,12 @@
+*.rpyc
+*.rpyb
+*.save
+__pycache__/
+.pytest_cache/
+game/cache/
+game/saves/
+errors.txt
+traceback.txt
+log.txt
+renpy-*-sdk/
+tmp/

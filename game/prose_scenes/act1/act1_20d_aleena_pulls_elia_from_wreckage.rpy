@@ -1,0 +1,118 @@
+## Generated from 20d_aleena_pulls_elia_from_wreckage.md by convert_prose.py
+## Do not edit manually — re-run converter after prose changes
+
+label act1_20d_aleena_pulls_elia_from_wreckage:
+    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH20]{/b}\n{i}Trigger: Avyanna watches Elia move through the ship like it belongs to her{/i}\n{i}Purpose: Aleena as origin of \"you coming?\" as invitation, not leash{/i}{{/color}}"
+    pause 0.3
+    narrator "{i}After \"The Receipt,\" the ship feels too bright.{/i}"
+    narrator "{i}Not because the lights changed.{/i}"
+    narrator "{i}Because Avyanna's brain is doing what it always does when something impossible happens:{/i}"
+    narrator "{i}Replaying it until it becomes survivable.{/i}"
+    narrator "{i}She walks the corridor to bleed off the energy.{/i}"
+    narrator "{i}She finds Elia in the maintenance bay, stripped down to a tank and cargo pants, wiping her blades with a cloth that looks too ordinary to be allowed near relic steel.{/i}"
+    narrator "{i}Elia glances up and clocks Avyanna's posture in half a second.{/i}"
+    elia "You're vibrating."
+    avyanna "I'm not."
+    elia "You are."
+    narrator "{i}Elia's mouth quirks.{/i}"
+    elia "Want to break something."
+    avyanna "No."
+    elia "{i}[[delighted]]{/i} Lies."
+    narrator "{i}Avyanna surprises herself by almost smiling.{/i}"
+
+    scene black with dissolve
+    pause 0.5
+    scene bg ship_interior with dissolve
+    narrator "{i}Elia sets the cloth down.{/i}"
+    elia "What's the spiral."
+    avyanna "Vesper said-"
+    narrator "{i}Avyanna stops.{/i}"
+    narrator "{i}She doesn't know how to say \"family\" without choking.{/i}"
+    elia "{i}[[softer, still blunt]]{/i} Yeah."
+    elia "That'll do it."
+    narrator "{i}Avyanna's gaze flicks to Elia's hands.{/i}"
+    narrator "{i}Scarred. Precise. Calm with weapons.{/i}"
+    avyanna "How did you get like this."
+    narrator "{i}Elia blinks.{/i}"
+    elia "Like what."
+    avyanna "Like you're... not scared."
+    narrator "{i}Elia laughs once, sharp.{/i}"
+    elia "I'm terrified."
+    elia "I just don't let it drive."
+    narrator "{i}A beat.{/i}"
+    elia "Aleena taught me that."
+    narrator "{i}The name lands with weight. Avyanna has heard it in scraps, in the way Elisira and Elia say it like a rule.{/i}"
+    avyanna "Who was she."
+    narrator "{i}Elia's eyes go distant.{/i}"
+
+    scene black with dissolve
+    pause 0.5
+    scene bg ship_interior with dissolve
+    narrator "{i}Smoke.{/i}"
+    narrator "{i}Hot metal.{/i}"
+    narrator "{i}The kind of silence that comes after alarms die and before the survivors start screaming.{/i}"
+    narrator "{i}Elia is a small bundle in the wreckage.{/i}"
+    narrator "{i}Too young to understand what happened, only old enough to understand that everything hurts and no one is answering.{/i}"
+    narrator "{i}A shadow falls over her.{/i}"
+    narrator "{i}Not a supervisor shadow.{/i}"
+    narrator "{i}A different kind: broad-shouldered, steady, moving through debris like it's familiar.{/i}"
+    narrator "{i}Aleena Lagrange kneels.{/i}"
+    narrator "{i}Her face is smeared with soot. There is blood on her sleeve that isn't hers. Her eyes are bright with anger that doesn't spill onto the child.{/i}"
+    narrator "{i}Aleena doesn't reach in and grab.{/i}"
+    narrator "{i}She clears a piece of twisted plating first.{/i}"
+    narrator "{i}Makes space.{/i}"
+    narrator "{i}Then she holds out her hand.{/i}"
+    aleena "Hey."
+    narrator "{i}Elia makes a sound that could be a sob, could be a laugh.{/i}"
+    aleena "You hurt."
+    aleena "That's real."
+    aleena "But you're alive."
+    narrator "{i}Elia stares at the offered hand like it's a myth.{/i}"
+    aleena "You can stay."
+    aleena "Or you can come with me."
+    narrator "{i}A pause.{/i}"
+    aleena "No penalty."
+    narrator "{i}Elia doesn't know what \"penalty\" means.{/i}"
+    narrator "{i}She knows what \"come with me\" means.{/i}"
+    narrator "{i}It means there is a direction.{/i}"
+    narrator "{i}A floor.{/i}"
+    narrator "{i}Elia reaches out with shaking fingers.{/i}"
+    narrator "{i}Aleena closes her hand around Elia's wrist, not tight, not taking, just... confirming contact.{/i}"
+    aleena "You coming?"
+    narrator "{i}Elia doesn't have words.{/i}"
+    narrator "{i}Elia nods.{/i}"
+
+    scene black with dissolve
+    pause 0.5
+    scene bg ship_interior with dissolve
+    narrator "{i}Elia's gaze snaps back to Avyanna like she realized she left the room for too long.{/i}"
+    elia "She found me in wreckage."
+    elia "Asked."
+    elia "Didn't take."
+    narrator "{i}Avyanna's throat tightens.{/i}"
+    avyanna "She said \"you coming?\""
+    elia "{i}[[a small nod]]{/i} Yeah."
+    elia "That's the whole thing."
+    elia "It's not a command."
+    elia "It's a door."
+    narrator "{i}Elia picks up the cloth again, wipes a blade edge with ritual care.{/i}"
+    elia "Sometimes you hold the door."
+    elia "Sometimes you walk through it."
+    elia "Sometimes you kick it down."
+    narrator "{i}She looks up, eyes bright with something that might be grief and might be joy.{/i}"
+    elia "But it's always your feet."
+    narrator "{i}Avyanna swallows.{/i}"
+    avyanna "Okay."
+    elia "{i}[[crooked]]{/i} Good."
+    elia "Now go do whatever your vibrating problem is."
+    avyanna "{i}[[deadpan]]{/i} That was emotional."
+    elia "{i}[[immediately defensive]]{/i} It was practical."
+    narrator "{i}Avyanna walks out of the bay with her chest tight and her spine a fraction straighter.{/i}"
+    narrator "{i}A door, offered.{/i}"
+    narrator "{i}A phrase that means: choose.{/i}"
+
+    scene black with dissolve
+    pause 0.5
+    scene bg ship_interior with dissolve
+    narrator "{i}End Chapter 20d{/i}"
+    return
