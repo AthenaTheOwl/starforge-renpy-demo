@@ -1,14 +1,10 @@
 # No. 15 - starforge-renpy-demo
 
-A curated exhibit from Starforge, an in-progress narrative game project. This
-repo is the Act 1-only cleaned Ren'Py source copy: released narrative scenes,
-dialogue files, combat vignettes, state systems, and UI screens without SDK
-files, saves, logs, or compiled runtime artifacts.
-
-The story itself is published as
-[Starforge Canticles on Royal Road](https://www.royalroad.com/fiction/149065/starforge-canticles).
-This repo shows one in-progress game adaptation path for the published portion
-of that public serial.
+[Starforge Canticles](https://www.royalroad.com/fiction/149065/starforge-canticles)
+is a serialized speculative-fiction novel I'm publishing chapter-by-chapter on
+Royal Road. This repo is one game-adaptation path for it: Act 1 of the serial
+rendered as a Ren'Py narrative demo with branching scenes, dialogue, combat
+vignettes, and relationship-state systems.
 
 Active development happens in a private workshop. This public copy is meant for
 portfolio review and future iteration; unreleased later-act material is excluded.
@@ -63,5 +59,4 @@ Excluded:
 Part of the Starforge cluster:
 
 - [starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools) - public Act 1 corpus + conversion/validation tooling
-- [starforge-renpy-demo](https://github.com/AthenaTheOwl/starforge-renpy-demo) - Act 1 Ren'Py narrative demo copy
 - [starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) - Act 1 Godot RPG prototype copy
