@@ -34,7 +34,23 @@ E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe . lint
 ```powershell
 python -m pytest
 python tools\validate_renpy.py game
+python tools\playtest_audit.py
+python tools\check_release.py
 ```
+
+For the full native release gate on a machine with Ren'Py installed:
+
+```powershell
+python tools\check_release.py --clean --fail-on-generated --fail-on-renpy-lint-diagnostics --require-renpy --renpy E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe
+```
+
+`tools/check_release.py` is the deterministic orchestration entry point for
+this repo. Python checks cover cleanup, static source validation, and
+path/dead-letter audit; Ren'Py lint remains the engine-native gate. The
+`--clean` flag explicitly removes known Ren'Py generated artifacts before and
+after the native lint run, and
+`--fail-on-renpy-lint-diagnostics` treats captured lint diagnostics as
+release-blocking. See `docs/deterministic-orchestration.md` for the proof gates.
 
 ## Cleanup boundary
 
@@ -44,6 +60,7 @@ Included:
 - game data JSON
 - UI screens and Python systems
 - validation tests
+- deterministic playtest/path audit
 
 Excluded:
 
@@ -60,3 +77,5 @@ Part of the Starforge cluster:
 
 - [starforge-narrative-tools](https://github.com/AthenaTheOwl/starforge-narrative-tools) - public Act 1 corpus + conversion/validation tooling
 - [starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) - Act 1 Godot RPG prototype copy
+- [starforge-twine-demo](https://github.com/AthenaTheOwl/starforge-twine-demo) - single-HTML Twine/SugarCube demo
+- [starforge-choicescript-demo](https://github.com/AthenaTheOwl/starforge-choicescript-demo) - stat-forward ChoiceScript demo

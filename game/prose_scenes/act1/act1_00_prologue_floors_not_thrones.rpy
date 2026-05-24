@@ -237,7 +237,7 @@ label act1_00_prologue_floors_not_thrones:
     narrator "{i}And somewhere in the ship's systems, Cinnamon.exe logs everything-the coordinates, the financial traces, the patterns that mean something if you know how to read them.{/i}"
     narrator "{{color=#43d4a8}}<CINNAMON.EXE// MINING COLONY: K-9 \"THE KENNEL\" | WORKER MORTALITY: ELEVATED | ENERGY CONSUMPTION: ANOMALOUS | DEBTOR BOARD CONNECTIONS: PROBABLE | RECOMMENDATION: INVESTIGATE | SECONDARY RECOMMENDATION: PACK EXTRA MED SUPPLIES. PACK EXTRA GRIEF. THIS ONE LOOKS LONG.>{{/color}}"
     narrator "{i}The mine is real. The workers are dying. Someone found something. Someone else wants it collected.{/i}"
-    narrator "{i}Sparkles{/i}, the crew calls them. The points of light in the dark. The moments when wrong and right become visible enough to act on.{/i}"
+    narrator "{i}Sparkles{/i}, the crew calls them. The points of light in the dark. The moments when wrong and right become visible enough to act on."
     narrator "{i}They're going to find one.{/i}"
     narrator "{i}They don't know yet what it will cost.{/i}"
     narrator "{i}But they know it will cost something. That's how it works. That's how it always works. You spend yourself on the things that matter, and the only question is whether you're spending on floors or thrones.{/i}"

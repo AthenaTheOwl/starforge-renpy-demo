@@ -46,7 +46,7 @@ def scan_rpy_files(game_dir):
                     # Collect calls
                     call_match = re.match(r'^call\s+(?:expression\s+)?(\S+)', stripped)
                     if call_match:
-                        target = call_match.group(1)
+                        target = call_match.group(1).split("(", 1)[0]
                         # Skip expression calls with variables
                         if not target.startswith("_") and not target.startswith('"'):
                             calls.setdefault(target, []).append((relpath, line_num))
@@ -68,7 +68,7 @@ def scan_rpy_files(game_dir):
                                           "screen", "frame", "vbox", "hbox", "bar", "add",
                                           "null", "timer", "use", "fixed", "grid", "window",
                                           "viewport", "vpgrid", "has", "tag", "zorder",
-                                          "modal", "action", "at"):
+                                          "modal", "action", "at", "tooltip"):
                             speakers.add(speaker)
 
     return labels, jumps, calls, speakers, defined_chars
@@ -118,8 +118,9 @@ def validate(game_dir):
                        "font", "id", "key", "layout", "scrollbars", "size_group",
                        "style_prefix", "text_color", "text_hover_color", "margin",
                        "xmaximum", "ymaximum", "xminimum", "yminimum", "yfill",
-                       "xfill", "spacing", "first_spacing", "box_wrap",
-                       "xcenter", "ycenter", "anchor", "pos", "align"}
+                       "xfill", "first_spacing", "box_wrap",
+                       "xcenter", "ycenter", "anchor", "pos", "align",
+                       "tooltip"}
     undefined_speakers -= false_positives
     for speaker in sorted(undefined_speakers):
         print(f"  WARNING: Speaker variable '{speaker}' used but not defined with Character()")

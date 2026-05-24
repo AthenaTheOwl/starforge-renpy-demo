@@ -223,7 +223,9 @@ init python:
     }
 
     ## Act titles for title cards
-    ACT_TITLES = {`r`n        1: "Act I: Foundations",`r`n    }
+    ACT_TITLES = {
+        1: "Act I: Foundations",
+    }
 
     ## Display names for optional scenes in the hub
     DIALOGUE_DISPLAY_NAMES = {

@@ -70,5 +70,3 @@ init python:
 
 default skill_system = SkillCheckSystem()
 default last_skill_check = {}
-default persistent.skill_checks_attempted = 0
-default persistent.skill_checks_succeeded = 0
