@@ -103,7 +103,8 @@ init python:
                 damage = max(1, base_damage - target_armor // 2)
                 if crit:
                     damage *= 2
-                self.enemy_hp[target_key] = max(0, self.enemy_hp[target_key] - damage)
+                if target_key in self.enemy_hp:
+                    self.enemy_hp[target_key] = max(0, self.enemy_hp[target_key] - damage)
             else:
                 damage = 0
 
@@ -121,7 +122,7 @@ init python:
                 "attacker": attacker_id,
                 "target": target_key,
                 "target_name": self.enemy_names.get(target_key, target_key),
-                "target_alive": self.enemy_hp[target_key] > 0,
+                "target_alive": self.enemy_hp.get(target_key, 0) > 0,
             }
 
             # Store for dice screen display

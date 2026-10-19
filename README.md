@@ -28,6 +28,9 @@ Ren'Py playtest audit
 - dead-letter marker hits: 0
 - lowest encounter threat: act1_husk_echo hp=70 atk=16
 - highest encounter threat: act1_mine_breach hp=508 atk=188
+
+Dead-letter / balance queue:
+- routed combat act1_glitter_vein: attack option has no data/encounters/act1_glitter_vein.json, so it rolls against no enemies
 playtest audit passed
 ```
 
