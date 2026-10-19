@@ -7,6 +7,7 @@ Checks:
 3. No orphan labels (unreachable from entry points)
 4. Label naming conventions
 5. Screen text uses only known text tags and substitutions of defined names
+6. Script text has no over-escaped text tags or unmatched closing braces
 """
 
 import ast
@@ -122,6 +123,91 @@ def check_screen_text(screen_strings, defined_names):
     return problems
 
 
+# Ren'Py escapes a literal '{' as '{{' but has no escape for '}': any '}' that
+# does not close a tag is shown as written, so '{i}}' or '...}}' shows stray
+# braces and '{{color=...}}' shows the markup instead of applying it.
+OVER_ESCAPED_TAG = re.compile(
+    r"\{\{(/?(?:" + "|".join(sorted(tag for tag in RENPY_TEXT_TAGS if tag)) + r")(?:=[^{}]*)?)\}"
+)
+PYTHON_BLOCK = re.compile(r"^\s*(?:init(?:\s+-?\d+)?\s+)?python\b[^:]*:\s*$")
+
+
+def iter_script_strings(source):
+    """Yield (line_num, text) for each string literal in Ren'Py script code.
+
+    Strings in python blocks and in $, define and default lines are Python,
+    where '{{' and '}}' are str.format escapes, so they are skipped.
+    """
+    python_indent = None
+    in_python = False
+    at_line_start = True
+    line_num, pos, end = 1, 0, len(source)
+    while pos < end:
+        if at_line_start:
+            at_line_start = False
+            eol = source.find("\n", pos)
+            line = source[pos:eol if eol != -1 else end]
+            stripped = line.strip()
+            if stripped and not stripped.startswith("#"):
+                indent = len(line) - len(line.lstrip())
+                if python_indent is not None and indent <= python_indent:
+                    python_indent = None
+                in_python = python_indent is not None or stripped.startswith(("$", "define ", "default "))
+                if python_indent is None and PYTHON_BLOCK.match(line):
+                    python_indent = indent
+        char = source[pos]
+        if char == "\n":
+            line_num += 1
+            at_line_start = True
+        elif char == "#":
+            eol = source.find("\n", pos)
+            pos = eol if eol != -1 else end
+            continue
+        elif char in "\"'`":
+            quote = char * 3 if source.startswith(char * 3, pos) else char
+            start = stop = pos + len(quote)
+            while stop < end and not source.startswith(quote, stop):
+                stop += 2 if source[stop] == "\\" else 1
+            if not in_python:
+                yield line_num, source[start:stop]
+            line_num += source.count("\n", start, stop)
+            pos = stop + len(quote)
+            continue
+        pos += 1
+
+
+def check_text_escapes(script_strings):
+    """Return error messages for script text whose braces Ren'Py would show as written."""
+    problems = []
+    for relpath, line_num, text in script_strings:
+        for match in OVER_ESCAPED_TAG.finditer(text):
+            problems.append(
+                f"Over-escaped text tag '{match.group(0)}' shows as raw markup at {relpath}:{line_num} "
+                f"(write '{{{match.group(1)}}}')"
+            )
+        literal_open = 0
+        pos = 0
+        while pos < len(text):
+            if text.startswith("{{", pos):
+                literal_open += 1
+                pos += 2
+            elif text[pos] == "{":
+                close = text.find("}", pos)
+                pos = len(text) if close == -1 else close + 1
+            elif text[pos] == "}":
+                if not literal_open:
+                    problems.append(
+                        f"Unmatched '}}' shows as a stray brace at {relpath}:{line_num} "
+                        "(only '{' is escaped, as '{{'; a closing '}' is written once)"
+                    )
+                    break
+                literal_open -= 1
+                pos += 1
+            else:
+                pos += 1
+    return problems
+
+
 def scan_rpy_files(game_dir):
     """Scan all .rpy files and collect labels, jumps, and character references."""
     labels = set()
@@ -131,6 +217,7 @@ def scan_rpy_files(game_dir):
     defined_chars = set()
     defined_names = set()
     screen_strings = []  # [(file, line_num, text), ...] for displayed screen text
+    script_strings = []  # [(file, line_num, text), ...] for all non-Python string literals
 
     for root, dirs, files in os.walk(game_dir):
         for fname in files:
@@ -141,7 +228,10 @@ def scan_rpy_files(game_dir):
 
             in_screen = False
             with open(filepath, "r", encoding="utf-8") as f:
-                for line_num, line in enumerate(f, 1):
+                source = f.read()
+                for line_num, text in iter_script_strings(source):
+                    script_strings.append((relpath, line_num, text))
+                for line_num, line in enumerate(source.split("\n"), 1):
                     stripped = line.strip()
                     collect_defined_names(line, defined_names)
 
@@ -191,14 +281,14 @@ def scan_rpy_files(game_dir):
                                           "modal", "action", "at", "tooltip"):
                             speakers.add(speaker)
 
-    return labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings
+    return labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings, script_strings
 
 
 def validate(game_dir):
     """Run all validation checks."""
     print(f"Validating Ren'Py project: {game_dir}\n")
 
-    labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings = scan_rpy_files(game_dir)
+    labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings, script_strings = scan_rpy_files(game_dir)
 
     errors = 0
     warnings = 0
@@ -252,7 +342,13 @@ def validate(game_dir):
         print(f"  ERROR: {problem}")
         errors += 1
 
-    # 5. Summary stats
+    # 5. Check braces in script text that Ren'Py would show as written (lint does not)
+    print("\n--- Text Escape Validation ---")
+    for problem in check_text_escapes(script_strings):
+        print(f"  ERROR: {problem}")
+        errors += 1
+
+    # 6. Summary stats
     print(f"\n--- Summary ---")
     print(f"  Labels found:    {len(labels)}")
     print(f"  Jump targets:    {len(jumps)}")
@@ -260,6 +356,7 @@ def validate(game_dir):
     print(f"  Speakers used:   {len(speakers)}")
     print(f"  Characters defined: {len(defined_chars)}")
     print(f"  Screen text strings: {len(screen_strings)}")
+    print(f"  Script text strings: {len(script_strings)}")
     print(f"")
     print(f"  Errors:   {errors}")
     print(f"  Warnings: {warnings}")
