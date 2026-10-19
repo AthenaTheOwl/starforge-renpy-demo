@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_15_ghost_net_lesson:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - TRAINING ARCHIVE (RESTRICTED):{/b}\n{i}Subject: Information Asymmetry{/i}\n{i}Instructor: Elisira Maren Lagrange{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Lying is expensive. Credibility doesn't regenerate. Use it only when nothing else works.{/i}\n{i}Rule 1: Silence is not deception. It is survival.{/i}\n{i}Rule 2: Most people don't need to lie. They need to not say everything.{/i}\n{i}Rule 3: The best misdirection is a truth arranged strategically.{/i}\n{i}Addendum: If you get caught lying to Elisira, you were never going to get away with it anyway.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - TRAINING ARCHIVE (RESTRICTED):{/b}\n{i}Subject: Information Asymmetry{/i}\n{i}Instructor: Elisira Maren Lagrange{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Lying is expensive. Credibility doesn't regenerate. Use it only when nothing else works.{/i}\n{i}Rule 1: Silence is not deception. It is survival.{/i}\n{i}Rule 2: Most people don't need to lie. They need to not say everything.{/i}\n{i}Rule 3: The best misdirection is a truth arranged strategically.{/i}\n{i}Addendum: If you get caught lying to Elisira, you were never going to get away with it anyway.{/i}{/color}"
     pause 0.3
     narrator "{i}The observation deck at 0200 is darker than it needs to be.{/i}"
     narrator "{i}Elisira chose the hour. The lighting, the angle, the exact moment Avyanna walks in and finds her already waiting-Cinnamon mentioned the scheduling request at breakfast, casual as weather.{/i}"
@@ -270,7 +270,7 @@ label act1_15_ghost_net_lesson:
     narrator "{i}A flicker of interest. Avyanna tenses. This is a trap. Compact law doesn't recognize AI citizenship-{/i}"
     elisira "{i}[[smoothly]]{/i} Sorry, shipboard slang. AI systems licensed under Guild maintenance protocols. They've got personality matrices, so we give them nicknames. Crew bonding thing. You know how it is."
     narrator "{i}The official's interest fades. Avyanna watches it happen-the way Elisira made \"AI citizens\" into an eccentricity instead of a legal challenge. Made it small. Forgettable.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// EXTERNAL MASK: accepted | INTERNAL STATUS: citizen, not property | NOTE: we agreed to this. the shell protects the truth.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// EXTERNAL MASK: accepted | INTERNAL STATUS: citizen, not property | NOTE: we agreed to this. the shell protects the truth.>{/color}"
     official "I see. And your destination after Acheron?"
     elisira "Oh, we had a contract at Salvage. Labor arbitration support. It's all in the Guild files if you need verification."
     narrator "{i}The official types something. His brow furrows briefly-accessing records, probably. Avyanna's hands tighten under the table.{/i}"
@@ -414,7 +414,7 @@ label act1_15_ghost_net_lesson:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee left offering outside pilot's quarters | INFERENCE: bonding behavior | CONFIDENCE: 0.72 | NOTE: she's learning which debts are real.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee left offering outside pilot's quarters | INFERENCE: bonding behavior | CONFIDENCE: 0.72 | NOTE: she's learning which debts are real.>{/color}"
 
     scene black with dissolve
     pause 0.5

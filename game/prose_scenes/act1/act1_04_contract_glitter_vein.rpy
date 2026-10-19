@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_04_contract_glitter_vein:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - EXTERNAL VISITOR ADVISORY{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Visitor Class:{/i} Guild Contractor (Vessel: Lumen Thief, Registry: Independent)\n{i}Contract Type:{/i} Equipment Diagnostics / Lattice Coherence Assessment (7-Gamma Sector)\n{i}Duration:{/i} Estimated 72 hours\n{i}Worker Instructions:{/i} Maintain productivity during visitor presence. Do not approach contractor personnel. Do not discuss operational concerns. Direct all inquiries to Shift Supervisor.\n{i}Reminder:{/i} Professional appearance reflects company values. Violations will be noted.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - EXTERNAL VISITOR ADVISORY{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Visitor Class:{/i} Guild Contractor (Vessel: Lumen Thief, Registry: Independent)\n{i}Contract Type:{/i} Equipment Diagnostics / Lattice Coherence Assessment (7-Gamma Sector)\n{i}Duration:{/i} Estimated 72 hours\n{i}Worker Instructions:{/i} Maintain productivity during visitor presence. Do not approach contractor personnel. Do not discuss operational concerns. Direct all inquiries to Shift Supervisor.\n{i}Reminder:{/i} Professional appearance reflects company values. Violations will be noted.{/color}"
     pause 0.3
     narrator "{i}The rumor moves through the Processing Hall faster than the slurry line.{/i}"
     narrator "{i}Avyanna hears it first from the woman at Station 8-a whisper passed during the three-second gap when the grinders cycle down for recalibration.{/i}"
@@ -193,21 +193,21 @@ label act1_04_contract_glitter_vein:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - INTERNAL MEMO (CONFIDENTIAL){/b}\n{i}To:{/i} Site Director Hask\n{i}From:{/i} Security Chief Morrow\n{i}Subject:{/i} Guild Contractor Observations\n{i}Classification:{/i} EYES ONLY{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - INTERNAL MEMO (CONFIDENTIAL){/b}\n{i}To:{/i} Site Director Hask\n{i}From:{/i} Security Chief Morrow\n{i}Subject:{/i} Guild Contractor Observations\n{i}Classification:{/i} EYES ONLY{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Director,{{/color}}"
+    narrator "{color=#808090}Director,{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Initial assessment of the Lumen Thief crew suggests atypical behavior for standard contract workers. The lead operative (\"Elia\") refused formal protocols and has been observed examining worker movement patterns rather than equipment systems. The secondary operative (\"Elisira\") has been conducting unauthorized interviews with line supervisors under the guise of \"operational context.\"{{/color}}"
+    narrator "{color=#808090}Initial assessment of the Lumen Thief crew suggests atypical behavior for standard contract workers. The lead operative (\"Elia\") refused formal protocols and has been observed examining worker movement patterns rather than equipment systems. The secondary operative (\"Elisira\") has been conducting unauthorized interviews with line supervisors under the guise of \"operational context.\"{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Recommend enhanced monitoring. Their questions are not consistent with equipment diagnostics.{{/color}}"
+    narrator "{color=#808090}Recommend enhanced monitoring. Their questions are not consistent with equipment diagnostics.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Additionally: one of their AI citizens (\"Bubbles\") has been attempting to access restricted network segments. Access has been denied per standard protocol. The AI expressed \"disappointment\" and filed a formal complaint with the Guild.{{/color}}"
+    narrator "{color=#808090}Additionally: one of their AI citizens (\"Bubbles\") has been attempting to access restricted network segments. Access has been denied per standard protocol. The AI expressed \"disappointment\" and filed a formal complaint with the Guild.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Will advise on further developments.{{/color}}"
+    narrator "{color=#808090}Will advise on further developments.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}{i}-Morrow{/i}{{/color}}"
+    narrator "{color=#808090}{i}-Morrow{/i}{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}{i}Note: Worker 477 was observed in proximity to the lead operative for approximately 90 seconds. Reviewing footage. Audio degraded in that corridor segment (see maintenance ticket #4471). No apparent interaction beyond visual contact. Flagging for follow-up.{/i}{{/color}}"
+    narrator "{color=#808090}{i}Note: Worker 477 was observed in proximity to the lead operative for approximately 90 seconds. Reviewing footage. Audio degraded in that corridor segment (see maintenance ticket #4471). No apparent interaction beyond visual contact. Flagging for follow-up.{/i}{/color}"
 
     scene black with dissolve
     pause 0.5

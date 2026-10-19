@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_16_breach_hymn:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - DEMOLITIONS TRAINING MANUAL (RESTRICTED):{/b}\n{i}Subject: Controlled Destruction{/i}\n{i}Instructor: Rho Sable{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Making things fall is easy. Making them fall where you want is the job.{/i}\n{i}Rule 1: Know what's on the other side of the wall.{/i}\n{i}Rule 2: Precision is slower. Precision is the point.{/i}\n{i}Rule 3: The shortcut always costs more than it saves.{/i}\n{i}Addendum: If you're in a hurry, you're already losing.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - DEMOLITIONS TRAINING MANUAL (RESTRICTED):{/b}\n{i}Subject: Controlled Destruction{/i}\n{i}Instructor: Rho Sable{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Making things fall is easy. Making them fall where you want is the job.{/i}\n{i}Rule 1: Know what's on the other side of the wall.{/i}\n{i}Rule 2: Precision is slower. Precision is the point.{/i}\n{i}Rule 3: The shortcut always costs more than it saves.{/i}\n{i}Addendum: If you're in a hurry, you're already losing.{/i}{/color}"
     pause 0.3
     narrator "{i}The range is in the cargo hold's lower section-a reinforced bay that smells like ozone and old polymer and something sharp that catches in the back of Avyanna's throat. The walls are analog-hardened against corridor drift; someone has scratched \"NO LATTICE INTERFERENCE\" into the blast door frame.{/i}"
     narrator "{i}Rho is already there when she arrives. He's setting up a simulation grid: holographic walls projected onto a metal frame, sensors embedded in the deck to track debris patterns.{/i}"
@@ -238,7 +238,7 @@ label act1_16_breach_hymn:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: trainee completed demolitions drill | INFERENCE: moral framework strengthening | CONFIDENCE: 0.81 | NOTE: slower is harder. slower is what we do.>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: trainee completed demolitions drill | INFERENCE: moral framework strengthening | CONFIDENCE: 0.81 | NOTE: slower is harder. slower is what we do.>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -294,14 +294,14 @@ label act1_16_breach_hymn_coda_0:
     narrator "{i}He looks at her. The mask-grin is gone.{/i}"
     rho "It means they never intended you to pay it off."
     narrator "{i}Avyanna's stomach drops.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// DEMONSTRATION AVAILABLE: compound interest visualization | RECOMMEND: show her the curve>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// DEMONSTRATION AVAILABLE: compound interest visualization | RECOMMEND: show her the curve>{/color}"
     narrator "{i}The screen shifts. A graph appears-a line that starts flat, then curves upward like a scream.{/i}"
     rho "This is what twenty-two percent does over time. Every year, you owe more. Every payment you make barely touches the principal."
     avyanna "But if I just work harder-"
     rho "No."
     narrator "{i}He says it flat. Final.{/i}"
     rho "You can't outwork compound interest. That's the point. They built the math to be unbeatable."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CALCULATION: at 22%% annual interest, original debt of 50k credits | TIME TO DOUBLE: 3.5 years | TIME TO QUADRUPLE: 7 years | ASSUMING MINIMUM PAYMENTS: never resolves>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CALCULATION: at 22%% annual interest, original debt of 50k credits | TIME TO DOUBLE: 3.5 years | TIME TO QUADRUPLE: 7 years | ASSUMING MINIMUM PAYMENTS: never resolves>{/color}"
     narrator "{i}Avyanna reads the numbers. Her hands go cold.{/i}"
     avyanna "{i}[[quiet]]{/i} I would have died there."
     rho "Yes."
@@ -311,7 +311,7 @@ label act1_16_breach_hymn_coda_0:
     rho "The math doesn't trap you. It just... exists."
     avyanna "The mine didn't teach us about interest rates."
     rho "Of course they didn't. If you understood the math, you'd understand you were being robbed."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// PHILOSOPHY: innumeracy is a control tool | OBSERVATION: people who can't calculate percentages can't argue with debt claims | STRATEGY: teach the math, break the control>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// PHILOSOPHY: innumeracy is a control tool | OBSERVATION: people who can't calculate percentages can't argue with debt claims | STRATEGY: teach the math, break the control>{/color}"
     narrator "{i}Avyanna stares at the graphs.{/i}"
     avyanna "So if someone won't show me the math..."
     rho "They're lying."
@@ -325,7 +325,7 @@ label act1_16_breach_hymn_coda_0:
     rho "That's why they're powerful. And that's why people who want to control you make sure you never learn them."
     avyanna "{i}[[slow, tasting it]]{/i} So learning math is..."
     rho "Leverage."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// LESSON PLAN AVAILABLE: basic percentages, compound interest, probability, statistical literacy | ESTIMATED TIME: 6 hours distributed | OUTCOME: quantitative ammunition against exploitation>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// LESSON PLAN AVAILABLE: basic percentages, compound interest, probability, statistical literacy | ESTIMATED TIME: 6 hours distributed | OUTCOME: quantitative ammunition against exploitation>{/color}"
     avyanna "Cinnamon wants to teach me."
     rho "Good. Let her."
     rho "Percentages first. Then compound interest. Then probability-so you know when someone's selling you a bad bet."
@@ -336,7 +336,7 @@ label act1_16_breach_hymn_coda_0:
     narrator "{i}Avyanna feels something shift. Like a lock she didn't know existed just... opened.{/i}"
     avyanna "{i}[[quiet]]{/i} Thank you."
     rho "{i}[[grin sliding back]]{/i} Don't thank me yet. Cinnamon's a brutal teacher. She'll make you show your work."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// AFFIRMATIVE: precision is required | NO SHORTCUTS | UNDERSTANDING > MEMORIZATION>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// AFFIRMATIVE: precision is required | NO SHORTCUTS | UNDERSTANDING > MEMORIZATION>{/color}"
     narrator "{i}Avyanna almost laughs. Almost.{/i}"
     avyanna "I think I can handle that."
     rho "Good."

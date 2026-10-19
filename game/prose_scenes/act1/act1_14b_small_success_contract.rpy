@@ -157,7 +157,7 @@ label act1_14b_small_success_contract:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONTRACT LOG: 7852-M completed successfully | TRAINEE ROLE: lookout and active participant | PERFORMANCE: appropriate for skill level | COMPENSATION: 200 credits transferred to trainee account | ASSESSMENT: first successful active contract participation | STATUS: trainee competence developing>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONTRACT LOG: 7852-M completed successfully | TRAINEE ROLE: lookout and active participant | PERFORMANCE: appropriate for skill level | COMPENSATION: 200 credits transferred to trainee account | ASSESSMENT: first successful active contract participation | STATUS: trainee competence developing>{/color}"
     narrator "{i}<RHO PERSONAL LOG: \"Small contract. Simple retrieval. But she was shaking the whole time and she did it anyway. That's courage. That's what we need. Also, her face when we paid her? Worth every credit. She's learning that work has value. That she has value.\">{/i}"
     narrator "{i}<ELISIRA PERSONAL LOG: \"Training contract executed cleanly. Avyanna maintained position, didn't panic, didn't blow cover. Next time we'll increase complexity. But today? Today she learned she can do this. That's the first step toward believing she can do harder things.\">{/i}"
 

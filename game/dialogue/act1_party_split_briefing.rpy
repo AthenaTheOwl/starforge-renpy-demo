@@ -34,7 +34,7 @@ label act1_party_split_briefing_elisira_layout_inner:
     jump act1_party_split_briefing_bee_tactical_overlay
 
 label act1_party_split_briefing_bee_tactical_overlay:
-    bee "{{BEE:: FACILITY_ANALYSIS: Site Onyx defensive topology mapped | STATUS: 94.2%% schema confidence | DETAIL: subsurface resonance patterns suggest additional ward layers not visible on procurement schematics—recommend caution at depth}}"
+    bee "{{BEE:: FACILITY_ANALYSIS: Site Onyx defensive topology mapped | STATUS: 94.2%% schema confidence | DETAIL: subsurface resonance patterns suggest additional ward layers not visible on procurement schematics—recommend caution at depth}"
     jump act1_party_split_briefing_nyx_ward_warning
 
 label act1_party_split_briefing_nyx_ward_warning:
@@ -200,7 +200,7 @@ label act1_party_split_briefing_jalen_dual_tech_success:
     jump act1_party_split_briefing_bee_confirms_dual
 
 label act1_party_split_briefing_bee_confirms_dual:
-    bee "{{BEE:: PROCESSING_ALLOCATION: approved | STATUS: matrix capacity sufficient for dual-channel operation | DETAIL: estimated coverage extension from 8 minutes to 14.7 minutes with cascaded handoff protocol}}"
+    bee "{{BEE:: PROCESSING_ALLOCATION: approved | STATUS: matrix capacity sufficient for dual-channel operation | DETAIL: estimated coverage extension from 8 minutes to 14.7 minutes with cascaded handoff protocol}"
     jump act1_party_split_briefing_team_composition_intro
 
 label act1_party_split_briefing_jalen_dual_tech_fail:
@@ -382,7 +382,7 @@ label act1_party_split_briefing_jalen_gear:
     jump act1_party_split_briefing_bee_gear_analysis
 
 label act1_party_split_briefing_bee_gear_analysis:
-    bee "{{BEE:: LOADOUT_ASSESSMENT: all teams within operational parameters | STATUS: ammunition reserves at 94%% optimal | DETAIL: recommend infiltration team carry additional null-anchors—subsurface ward density exceeds initial projections by factor of 1.4}}"
+    bee "{{BEE:: LOADOUT_ASSESSMENT: all teams within operational parameters | STATUS: ammunition reserves at 94%% optimal | DETAIL: recommend infiltration team carry additional null-anchors—subsurface ward density exceeds initial projections by factor of 1.4}"
     jump act1_party_split_briefing_nyx_extra_anchors
 
 label act1_party_split_briefing_nyx_extra_anchors:
@@ -600,7 +600,7 @@ label act1_party_split_briefing_final_acknowledgments:
     jump act1_party_split_briefing_waffle_briefing_status
 
 label act1_party_split_briefing_waffle_briefing_status:
-    waffle "{i}}{{WAFFLE.BAT// TACTICAL_SUMMARY: all teams assigned | COMMS_STATUS: encrypted channels active | NOTE: I will be monitoring all channels. You are not alone in there.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// TACTICAL_SUMMARY: all teams assigned | COMMS_STATUS: encrypted channels active | NOTE: I will be monitoring all channels. You are not alone in there.}{/i}"
     jump act1_party_split_briefing_bubbles_briefing_prep
 
 label act1_party_split_briefing_bubbles_briefing_prep:

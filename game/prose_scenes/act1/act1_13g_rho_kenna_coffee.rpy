@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_13g_rho_kenna_coffee:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH13b]{/b}\n{i}Trigger: Rho's coffee is care, not just habit{/i}\n{i}Purpose: show Rho's \"governance\" started as love{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH13b]{/b}\n{i}Trigger: Rho's coffee is care, not just habit{/i}\n{i}Purpose: show Rho's \"governance\" started as love{/i}{/color}"
     pause 0.3
     narrator "{i}Rho makes coffee like he's sealing a hull breach.{/i}"
     narrator "{i}Measured. Repeated. Mildly furious at physics.{/i}"

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_15d_rival_crew_probe:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - GUILD STATION NOTE (INTERNAL):{/b}\n{i}Topic: curiosity is a form of targeting{/i}\n{i}Rule: understate; let them remember their own assumptions{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - GUILD STATION NOTE (INTERNAL):{/b}\n{i}Topic: curiosity is a form of targeting{/i}\n{i}Rule: understate; let them remember their own assumptions{/i}{/color}"
     pause 0.3
     narrator "{i}The Guild concourse is loud in a way the mine never was.{/i}"
     narrator "{i}The mine's noise was work.{/i}"
@@ -24,7 +24,7 @@ label act1_15d_rival_crew_probe:
     narrator "{i}Because Vesper's stillness reads like a warning sign to anyone with sense.{/i}"
     narrator "{i}Because Rho carries a parts crate like it weighs nothing and his eyes like it weighs everything.{/i}"
     narrator "{i}Because the AIs talk where everyone can hear them and nobody shushes them.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: external attention density elevated within 8m radius | INFERENCE: reputation gradient interacting with local rumor flow | CONFIDENCE: 0.74>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: external attention density elevated within 8m radius | INFERENCE: reputation gradient interacting with local rumor flow | CONFIDENCE: 0.74>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -79,7 +79,7 @@ label act1_15d_rival_crew_probe:
     their_pilot "{i}[[low]]{/i} Plus their drones."
     their_medic "And the ship systems. You can't count them as bodies."
     elia "{i}[[cheerful]]{/i} You can if they yell at you."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: external crew attempting informal intimidation via headcount | COUNTERMEASURE: ignoring | CONFIDENCE: 0.92 | COMMENTARY: numbers are not competence>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: external crew attempting informal intimidation via headcount | COUNTERMEASURE: ignoring | CONFIDENCE: 0.92 | COMMENTARY: numbers are not competence>{/color}"
     their_tech "{i}[[to Cinnamon's voice source]]{/i} Is that your ship AI."
     narrator "{i}Cinnamon doesn't answer questions from strangers.{/i}"
     vesper "She has a name."
@@ -166,7 +166,7 @@ label act1_15d_rival_crew_probe:
     elia "{i}[[cheerful]]{/i} See."
     elia "We can do public spaces without murder. Growth."
     vesper "{i}[[dry]]{/i} Don't jinx it."
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee held boundary under social pressure | INFERENCE: integration improving | CONFIDENCE: 0.86 | NOTE: good work>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee held boundary under social pressure | INFERENCE: integration improving | CONFIDENCE: 0.86 | NOTE: good work>{/color}"
     narrator "{i}Avyanna doesn't smile.{/i}"
     narrator "{i}But she feels something settle in her chest.{/i}"
     narrator "{i}Not safety.{/i}"

@@ -121,7 +121,7 @@ label act1_prologue_boarding_bubbles_wrap:
     jump act1_prologue_boarding_waffle_post_boarding
 
 label act1_prologue_boarding_waffle_post_boarding:
-    waffle "{i}}{{WAFFLE.BAT// DAMAGE_REPORT: hull breach sealed temporary | HOSTILE_COUNT: 4 neutralized, 1 departed | CREW_STATUS: all accounted for | MOOD: relieved}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// DAMAGE_REPORT: hull breach sealed temporary | HOSTILE_COUNT: 4 neutralized, 1 departed | CREW_STATUS: all accounted for | MOOD: relieved}{/i}"
     jump act1_prologue_boarding_cinnamon_post_boarding
 
 label act1_prologue_boarding_cinnamon_post_boarding:
@@ -250,7 +250,7 @@ label act1_prologue_boarding_bee_first_signal:
     jump act1_prologue_boarding_bee_proto_message
 
 label act1_prologue_boarding_bee_proto_message:
-    "{i}}{{BEE:: ...ledger... | STATUS: sub-threshold | DETAIL: signal below conscious parsing — catalogued as somatic noise}}{/i}}"
+    "{i}{{BEE:: ...ledger... | STATUS: sub-threshold | DETAIL: signal below conscious parsing — catalogued as somatic noise}{/i}"
     jump act1_prologue_boarding_bee_dismissed
 
 label act1_prologue_boarding_bee_dismissed:
@@ -354,7 +354,7 @@ label act1_prologue_boarding_ftl_aftermath:
     jump act1_prologue_boarding_bee_ftl_signal
 
 label act1_prologue_boarding_bee_ftl_signal:
-    "{i}}{{BEE:: ...transit-resonance... | STATUS: signal spike during FTL boundary crossing | DETAIL: harmonic match 0.03 above noise floor — still sub-threshold — still deniable}}{/i}}"
+    "{i}{{BEE:: ...transit-resonance... | STATUS: signal spike during FTL boundary crossing | DETAIL: harmonic match 0.03 above noise floor — still sub-threshold — still deniable}{/i}"
     jump act1_prologue_boarding_ftl_settle
 
 label act1_prologue_boarding_ftl_settle:

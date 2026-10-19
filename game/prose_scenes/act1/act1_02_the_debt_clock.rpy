@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_02_the_debt_clock:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - WELLNESS ADVISORY{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Subject:{/i} Quarterly Health Metrics Review\n{i}Status:{/i} DEFERRED (resource allocation pending)\n{i}Note:{/i} Workers experiencing respiratory distress should report to Medical Bay during off-shift hours. Wait times currently average 4.2 hours. Productivity exemptions not available. Rest recommendations unpaid.\n{i}Reminder:{/i} Your health is your responsibility. Wellness is productivity.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - WELLNESS ADVISORY{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Subject:{/i} Quarterly Health Metrics Review\n{i}Status:{/i} DEFERRED (resource allocation pending)\n{i}Note:{/i} Workers experiencing respiratory distress should report to Medical Bay during off-shift hours. Wait times currently average 4.2 hours. Productivity exemptions not available. Rest recommendations unpaid.\n{i}Reminder:{/i} Your health is your responsibility. Wellness is productivity.{/color}"
     pause 0.3
     narrator "{i}The medical bay smells like disinfectant and failure.{/i}"
     narrator "{i}Avyanna stands near the entrance, not quite inside. She's escorting-if you can call it that. The woman leaning against her shoulder is named Tella, or was. Worker 394. She collapsed on Slurry 5, and the line foreman sent Avyanna to walk her here because Avyanna was closest and the foreman didn't want to file a transport request.{/i}"
@@ -72,7 +72,7 @@ label act1_02_the_debt_clock:
     narrator "{i}The debt terminal is in the commissary. A row of screens against the wall, where workers can check their \"balance\" during meal breaks. Most people avoid them. Looking at the numbers doesn't change them. It just makes them harder to ignore.{/i}"
     narrator "{i}Avyanna stands in front of one. The screen is grimy, cracked in one corner. Someone has scratched \"TRAP\" into the metal frame, then scratched it out, then scratched it again.{/i}"
     narrator "{i}She presses her palm to the reader. The tag in her neck syncs. The numbers appear.{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - DEBT STATUS{/b}\n{i}Previous Balance:{/i} 487,341 ticks\n{i}Overnight Adjustment:{/i} +17 ticks (dormitory audit, standard)\n{i}Current Balance:{/i} 487,358 ticks (debt)\n{i}Daily Accrual Rate:{/i} 0.015%% (compounding)\n{i}Yesterday's Interest:{/i} 72 ticks\n{i}Yesterday's Net Earnings:{/i} -17 ticks\n{i}Projected Clearance Date:{/i} N/A (insufficient progress trajectory)\n{i}Note:{/i} Balance has increased 2.4%% over the past 30 days. Consider productivity enhancement opportunities.{{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - DEBT STATUS{/b}\n{i}Previous Balance:{/i} 487,341 ticks\n{i}Overnight Adjustment:{/i} +17 ticks (dormitory audit, standard)\n{i}Current Balance:{/i} 487,358 ticks (debt)\n{i}Daily Accrual Rate:{/i} 0.015%% (compounding)\n{i}Yesterday's Interest:{/i} 72 ticks\n{i}Yesterday's Net Earnings:{/i} -17 ticks\n{i}Projected Clearance Date:{/i} N/A (insufficient progress trajectory)\n{i}Note:{/i} Balance has increased 2.4%% over the past 30 days. Consider productivity enhancement opportunities.{/color}"
     narrator "{i}N/A. Not applicable. The system has calculated that she will never pay it off. It's not hiding it. It's just noting it, like any other data point.{/i}"
     narrator "Projected clearance date: never. They put it right there. They tell us."
     narrator "{i}She stares at the numbers. Runs them in her head. The habit she can't break.{/i}"
@@ -101,11 +101,11 @@ label act1_02_the_debt_clock:
     narrator "Or maybe he's just lucky. Maybe luck is the only thing the system can't calculate."
     narrator "But luck runs out. Everyone's luck runs out eventually."
     narrator "{i}She presses her palm to the terminal again. The screen updates.{/i}"
-    narrator "{{color=#808090}}{i}Productivity Enhancement Opportunity Available{/i}\n{i}Voluntary overtime: +4 hours{/i}\n{i}Additional earnings: 200 ticks (before deductions){/i}\n{i}Air premium (overtime): 30 ticks{/i}\n{i}Equipment rental (overtime): 45 ticks{/i}\n{i}Net overtime earnings: 125 ticks{/i}\n{i}Note: Overtime shifts may impact recovery and future productivity. Health consequences are the responsibility of the worker.{/i}{{/color}}"
+    narrator "{color=#808090}{i}Productivity Enhancement Opportunity Available{/i}\n{i}Voluntary overtime: +4 hours{/i}\n{i}Additional earnings: 200 ticks (before deductions){/i}\n{i}Air premium (overtime): 30 ticks{/i}\n{i}Equipment rental (overtime): 45 ticks{/i}\n{i}Net overtime earnings: 125 ticks{/i}\n{i}Note: Overtime shifts may impact recovery and future productivity. Health consequences are the responsibility of the worker.{/i}{/color}"
     narrator "One hundred twenty-five ticks. Four extra hours. I'd fall behind by only... negative 52 today instead of negative 73. That's still negative. Still sinking. Just slower."
     narrator "They're offering me the chance to work myself to death slightly less quickly."
     narrator "{i}She declines the overtime. The screen chirps. Friendly. Helpful.{/i}"
-    narrator "{{color=#808090}}{i}Productivity Enhancement Opportunity Declined{/i}\n{i}Note: Declining voluntary opportunities does not affect your standing. However, consistent non-participation may be noted in quarterly reviews.{/i}{{/color}}"
+    narrator "{color=#808090}{i}Productivity Enhancement Opportunity Declined{/i}\n{i}Note: Declining voluntary opportunities does not affect your standing. However, consistent non-participation may be noted in quarterly reviews.{/i}{/color}"
     narrator "May be noted. In quarterly reviews. Which affect shift assignments. Which affect earnings. Which affect-"
     narrator "Everything is connected. Everything is designed."
     narrator "{i}She walks away from the terminal. The numbers stay behind. But she can feel them, following her like a shadow she can't shake.{/i}"
@@ -219,7 +219,7 @@ label act1_02_the_debt_clock:
     narrator "{i}She walks to the hab stack. Her muscles ache. Her lungs feel heavy. The gold dust is in her creases, her pores, her eyelashes. It never comes out completely.{/i}"
     narrator "{i}The wash line is long. The water is lukewarm. She scrubs mechanically, watching the gray-gold water swirl down the drain. Her body, dissolving by degrees.{/i}"
     narrator "{i}Her tag vibrates. The daily summary.{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - SHIFT SUMMARY{/b}\n{i}Quota:{/i} 351/340 (103%%)\n{i}Base Earnings:{/i} 420 ticks\n{i}Tool Rental:{/i} -90 ticks\n{i}Air Premium:{/i} -60 ticks\n{i}Water Ration:{/i} -30 ticks\n{i}Food Ration:{/i} -45 ticks\n{i}Bunk Rental:{/i} -120 ticks\n{i}Net:{/i} +75 ticks\n{i}Balance Adjustment:{/i} -73 ticks (interest accrual)\n{i}New Balance:{/i} 487,360 ticks (debt)\n{i}Daily Net Change:{/i} +2 ticks{{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - SHIFT SUMMARY{/b}\n{i}Quota:{/i} 351/340 (103%%)\n{i}Base Earnings:{/i} 420 ticks\n{i}Tool Rental:{/i} -90 ticks\n{i}Air Premium:{/i} -60 ticks\n{i}Water Ration:{/i} -30 ticks\n{i}Food Ration:{/i} -45 ticks\n{i}Bunk Rental:{/i} -120 ticks\n{i}Net:{/i} +75 ticks\n{i}Balance Adjustment:{/i} -73 ticks (interest accrual)\n{i}New Balance:{/i} 487,360 ticks (debt)\n{i}Daily Net Change:{/i} +2 ticks{/color}"
     narrator "Plus two. I made quota plus thirteen percent. Worked harder than yesterday. And I moved the needle by two ticks."
     narrator "At this rate-two ticks per day-I'll be free in... 667 years."
     narrator "{i}She laughs. It comes out wrong-harsh, broken, the sound of something tearing. The woman next to her glances over, then away. No one asks. Everyone understands.{/i}"
@@ -295,7 +295,7 @@ label act1_02_the_debt_clock:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - INCIDENT LOG (SUMMARY){/b}\n{i}Site:{/i} K-9\n{i}Date:{/i} [[REDACTED]\n{i}Incident Type:{/i} Equipment Malfunction (Filtration)\n{i}Personnel Affected:{/i} 1 (Worker 612 - status: TRANSFERRED TO LONG-TERM CARE)\n{i}Root Cause:{/i} Pending investigation\n{i}Corrective Action:{/i} Pending budget allocation\n{i}Productivity Impact:{/i} 0.3%% (within acceptable parameters)\n{i}Note:{/i} Incident does not meet threshold for external reporting. Internal review scheduled for Q4. Maintenance deferral policy remains in effect per Directive 7.8(c).{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - INCIDENT LOG (SUMMARY){/b}\n{i}Site:{/i} K-9\n{i}Date:{/i} [[REDACTED]\n{i}Incident Type:{/i} Equipment Malfunction (Filtration)\n{i}Personnel Affected:{/i} 1 (Worker 612 - status: TRANSFERRED TO LONG-TERM CARE)\n{i}Root Cause:{/i} Pending investigation\n{i}Corrective Action:{/i} Pending budget allocation\n{i}Productivity Impact:{/i} 0.3%% (within acceptable parameters)\n{i}Note:{/i} Incident does not meet threshold for external reporting. Internal review scheduled for Q4. Maintenance deferral policy remains in effect per Directive 7.8(c).{/color}"
 
     scene black with dissolve
     pause 0.5

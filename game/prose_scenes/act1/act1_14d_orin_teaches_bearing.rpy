@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_14d_orin_teaches_bearing:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH14]{/b}\n{i}Trigger: Jalen refuses to teach \"instinct\" without ethics{/i}\n{i}Purpose: Orin Vey's framework, carried forward{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH14]{/b}\n{i}Trigger: Jalen refuses to teach \"instinct\" without ethics{/i}\n{i}Purpose: Orin Vey's framework, carried forward{/i}{/color}"
     pause 0.3
     narrator "{i}Jalen teaches like every mistake will kill someone.{/i}"
     narrator "{i}Which is not paranoia.{/i}"

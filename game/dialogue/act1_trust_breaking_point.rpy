@@ -136,7 +136,7 @@ label act1_trust_breaking_point_play_out_break:
     jump act1_trust_breaking_point_waffle_crisis_log
 
 label act1_trust_breaking_point_waffle_crisis_log:
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: crew stress levels elevated | RECOMMENDATION: cooling period 2 hours minimum | NOTE: I am monitoring. I am here.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: crew stress levels elevated | RECOMMENDATION: cooling period 2 hours minimum | NOTE: I am monitoring. I am here.}{/i}"
     jump act1_trust_breaking_point_bubbles_crisis_comfort
 
 label act1_trust_breaking_point_bubbles_crisis_comfort:

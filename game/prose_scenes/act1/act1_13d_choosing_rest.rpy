@@ -173,7 +173,7 @@ label act1_13d_choosing_rest:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// RECOVERY DAY LOG: trainee exhibited systemic fatigue | NYX PRESCRIBED REST | TRAINEE COMPLIED | CREW SUPPORTED WITHOUT JUDGMENT | OUTCOME: trainee rested for 11.4 hours, consumed adequate nutrition, engaged in low-effort social contact | ASSESSMENT: appropriate recovery protocol>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// RECOVERY DAY LOG: trainee exhibited systemic fatigue | NYX PRESCRIBED REST | TRAINEE COMPLIED | CREW SUPPORTED WITHOUT JUDGMENT | OUTCOME: trainee rested for 11.4 hours, consumed adequate nutrition, engaged in low-effort social contact | ASSESSMENT: appropriate recovery protocol>{/color}"
     narrator "{i}<NYX PERSONAL LOG: \"Systemic exhaustion. She's been pushing herself too hard. Typical post-trauma pattern-compensating for perceived inadequacy by overworking. Prescribed rest. She struggled to accept it. But she rested. That's progress. She's learning that she's allowed to have limits.\">{/i}"
     narrator "{i}<RHO PERSONAL LOG: \"She took a recovery day. Sat with me. Read trash fiction. Didn't apologize for existing without being useful. That's growth. She's learning that crew isn't transactional. That she's valued even when she's not producing. That matters.\">{/i}"
     narrator "{i}<ELIA MESSAGE TO NYX: \"Thanks for canceling training. She's been pushing hard. Needed the break. Let me know when she's ready to resume. No rush.\">{/i}"

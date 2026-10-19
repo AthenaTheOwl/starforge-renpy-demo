@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_09_a_name_given_not_owned:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - AUTOMATED GALLEY LOG:{/b}\n{i}Daily ration summary: Guest consumption increased 340%% from Day 1 baseline.{/i}\n{i}Note: This is good. Stop flagging it as anomaly.{/i}\n{i}Addendum: Guest has been observed asking permission to eat. Three times. Today.{/i}\n{i}Recommendation: Patience. She's learning.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - AUTOMATED GALLEY LOG:{/b}\n{i}Daily ration summary: Guest consumption increased 340%% from Day 1 baseline.{/i}\n{i}Note: This is good. Stop flagging it as anomaly.{/i}\n{i}Addendum: Guest has been observed asking permission to eat. Three times. Today.{/i}\n{i}Recommendation: Patience. She's learning.{/i}{/color}"
     pause 0.3
     narrator "{i}Days pass. Avyanna counts them in meals.{/i}"
     narrator "{i}Breakfast: real food, offered without conditions. Lunch: whatever she wants from the galley, no one monitoring portions. Dinner: Vesper cooking, or Elia ordering takeout at stations, or Rho making something that shouldn't work but does.{/i}"
@@ -19,7 +19,7 @@ label act1_09_a_name_given_not_owned:
     narrator "{i}Elia and Elisira move in tandem-not finishing each other's sentences, but anticipating each other's needs. Elia decides; Elisira executes. Or sometimes the reverse, so seamlessly Avyanna can't tell who leads.{/i}"
     narrator "{i}Vesper handles the world outside the ship. Comm calls. Contracts. The steady work of making sure no one comes looking for a rescued mine worker with marks on her spine. She checks on Avyanna's sleep at breakfast-not intrusively, just \"how'd you rest?\"-and Avyanna doesn't know what to do with attention that doesn't come with a price tag.{/i}"
     narrator "{i}The AI citizens are everywhere and nowhere. Cinnamon adjusting resource allocation. Waffle designing training protocols. Bubbles hovering near Avyanna's quarters in the evening, not intruding, just... guarding.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// LOCATION: corridor outside guest quarters | DURATION: 4.2 hours today | COMMENT: she's still counting exits. that's okay. I counted exits for a decade.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// LOCATION: corridor outside guest quarters | DURATION: 4.2 hours today | COMMENT: she's still counting exits. that's okay. I counted exits for a decade.>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -72,7 +72,7 @@ label act1_09_a_name_given_not_owned:
     narrator "{i}A snort from somewhere else in the cargo bay. Avyanna's heart stutters-she's not the only one listening.{/i}"
     rho "{i}[[mouth full of something, probably contraband protein]]{/i} You both suck at this. It's kind of adorable."
     jalen "{i}[[also there somehow]]{/i} I'm logging this as \"parental units experiencing turbulence.\""
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: turbulence confirmed | RECOMMENDATION: seatbelts | COMMENT: also popcorn>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: turbulence confirmed | RECOMMENDATION: seatbelts | COMMENT: also popcorn>{/color}"
     elia "{i}[[dangerous]]{/i} Were you both hiding back there the entire time?"
     rho "{i}[[unrepentant]]{/i} You're in a shared cargo bay. We're not hiding. We're just present."
     jalen "Very present."
@@ -96,7 +96,7 @@ label act1_09_a_name_given_not_owned:
     elia "We're not doing this again."
     jalen "We are absolutely doing this again. You keep trying to turn my life into a geometry problem."
     elia "It {i}is{/i} a geometry problem."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// GALLEY-STATE: \"family\" | VOLUME: up | THREAT: none | COMMENT: humans yell for bonding. noted.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// GALLEY-STATE: \"family\" | VOLUME: up | THREAT: none | COMMENT: humans yell for bonding. noted.>{/color}"
     narrator "{i}Avyanna sits at the edge of the table, chewing like every bite might be audited. The conversation from yesterday loops in her head. {i}Offer. Consent. Ours.{/i}"
     narrator "{i}Elisira sets her utensil down with careful precision.{/i}"
     narrator "{i}The noise thins. Not stops-this isn't the Kennel-but the crew's attention angles toward her like a wall rotating into place.{/i}"
@@ -118,7 +118,7 @@ label act1_09_a_name_given_not_owned:
     rho "{i}[[raising his glass]]{/i} \"Welcome to the family\" is shorter."
     elisira "{i}[[a brief glare]]{/i} I wasn't finished."
     rho "I know. That's why I said it."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// ELISIRA: irritation spike | SOURCE: \"interrupted\" | CONFIDENCE: 0.91 | COMMENT: delicious.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// ELISIRA: irritation spike | SOURCE: \"interrupted\" | CONFIDENCE: 0.91 | COMMENT: delicious.>{/color}"
     narrator "{i}Elisira exhales once, like she's letting go of the version of this conversation that went perfectly in her head.{/i}"
     elisira "We can register you as Lagrange."
     avyanna "{i}[[quiet]]{/i} That's your name."
@@ -137,7 +137,7 @@ label act1_09_a_name_given_not_owned:
     elisira "{i}[[dry]]{/i} \"Ours\" means priority, not possession."
     rho "{i}[[pointing at Elisira]]{/i} What she said. [[beat] But also in the {i}mostly{/i} non-creepy way."
     elia "{i}[[bright, offended]]{/i} I'm never creepy."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// STATEMENT: \"I'm never creepy\" | INTERPRETATION: historically inaccurate | CONFIDENCE: 0.94>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// STATEMENT: \"I'm never creepy\" | INTERPRETATION: historically inaccurate | CONFIDENCE: 0.94>{/color}"
     jalen "You threatened a customs official with a philosophical argument last week."
     elia "He started it."
     jalen "He asked for your paperwork."
@@ -164,7 +164,7 @@ label act1_09_a_name_given_not_owned:
     nyx "Tell me about your shard sensitivity when you're ready. Purely academic interest."
     jalen "{i}[[already typing]]{/i} Adjusting crew mass allocations. Standard procedure for new family members."
     narrator "{i}Normal. Like she was always supposed to be here. Like the universe had a slot waiting for her and she finally fell into it.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// FAMILY-REGISTER: updated | NEW-ENTRY: Avyanna Lagrange | STATUS: home | COMMENT: finally.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// FAMILY-REGISTER: updated | NEW-ENTRY: Avyanna Lagrange | STATUS: home | COMMENT: finally.>{/color}"
     narrator "{i}Avyanna stares at her plate. Her hands are shaking. Her eyes are wet.{/i}"
     narrator "I have a name. A real name. Given, not assigned."
     narrator "{i}The presence behind her eyes pulses-warm, approving, ancient. Like something vast and patient is pleased with how this orbit resolved.{/i}"
@@ -260,7 +260,7 @@ label act1_09_a_name_given_not_owned:
     narrator "{i}She looks at the viewport. Stars. Distance. The vast indifferent space where chosen families happen despite everything.{/i}"
     narrator "I'll keep building floors. Even if she never knows why."
     narrator "{i}Somewhere in the ship's systems, the lights shift slightly warmer. Cinnamon is running projections on caloric needs and sleep debt and the probability that the new Lagrange will thrive.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// VESPER-STATUS: grieving (chronic) | OBSERVATION: she watches the new one like a prayer | INTERPRETATION: hope is expensive | ASSESSMENT: worth it>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// VESPER-STATUS: grieving (chronic) | OBSERVATION: she watches the new one like a prayer | INTERPRETATION: hope is expensive | ASSESSMENT: worth it>{/color}"
     narrator "{i}Vesper doesn't see the telemetry. Doesn't need to. She already knows what she's risking.{/i}"
     narrator "{i}She's risking hope. She's risking caring about someone who could be taken away.{/i}"
     narrator "Rowan would be proud. Or furious. Probably both."

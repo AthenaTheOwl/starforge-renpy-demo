@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_17a_assumption_lab:
-    narrator "{{color=#808090}}{b}[[MICRO-SCENE - OCCURS POST-CH16 OR EARLY CH17]{/b}{{/color}}"
+    narrator "{color=#808090}{b}[[MICRO-SCENE - OCCURS POST-CH16 OR EARLY CH17]{/b}{/color}"
     pause 0.3
     narrator "{i}Mid-cycle. The common area is quiet-most of the crew scattered to their own tasks. Elia sprawls in one of the acceleration couches, tossing a maintenance tool in the air and catching it with irritating precision. Avyanna sits cross-legged on the deck, reviewing a stack of datapads Vesper assigned for legal literacy homework.{/i}"
     narrator "{i}Elisira occupies the galley entrance, supposedly making tea. Actually monitoring.{/i}"
@@ -48,7 +48,7 @@ label act1_17a_assumption_lab:
     elia "Wrong. It's enforced by social pressure. No one's going to space you for leaving a cup in the sink. But everyone acts like it's a law because the ship culture says so."
     narrator "{i}She picks up her own cup from earlier-still sitting on the counter-and deliberately places it in the sink. Unwashed.{/i}"
     elia "{i}[[to the air]]{/i} Cinnamon, am I breaking a ship rule?"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// RESPONSE: no rule violation detected | CULTURAL NORM: yes | ENFORCEABLE SANCTION: social disapproval only | NOTE: please clean dishes when convenient>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// RESPONSE: no rule violation detected | CULTURAL NORM: yes | ENFORCEABLE SANCTION: social disapproval only | NOTE: please clean dishes when convenient>{/color}"
     elia "{i}[[to Avyanna]]{/i} See? Norm, not law. Sky didn't fall."
 
     scene black with dissolve
@@ -81,7 +81,7 @@ label act1_17a_assumption_lab:
     elia "Wrong. It's telling you that someone {i}wants{/i} you to think only authorized people can open it."
     narrator "{i}She taps the locker. It's not locked. The door swings open easily, revealing standard supplies: medkits, ration packs, emergency beacons.{/i}"
     elia "{i}[[to the air]]{/i} Cinnamon, did I just violate a rule?"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// RESPONSE: no rule violation detected | LABEL FUNCTION: organizational reminder, not access restriction | ALL CREW MAY ACCESS EMERGENCY SUPPLIES>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// RESPONSE: no rule violation detected | LABEL FUNCTION: organizational reminder, not access restriction | ALL CREW MAY ACCESS EMERGENCY SUPPLIES>{/color}"
     elia "{i}[[to Avyanna]]{/i} Label's a lie. Or not a lie, exactly-a misdirection. It's there to keep people organized, not to actually restrict access."
     avyanna "{i}[[slow]]{/i} So the label creates the assumption that I'd be breaking a rule, even though I wouldn't be."
     elia "{i}[[grinning]]{/i} Exactly. And if you believed the assumption without testing it, you might not grab a medkit in an emergency because you thought you weren't \"authorized.\""
@@ -157,9 +157,9 @@ label act1_17a_assumption_lab:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee avyanna engaging in supervised assumption-testing protocols | ASSESSMENT: educational value high, risk value acceptable | COMMENTARY: this is how humans learn operational boundaries>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// ADDENDUM: this is how humans learn they have agency>{{/color}}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// CHAOS SCORE: 7/10 | ENDORSEMENT: would test assumptions again>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee avyanna engaging in supervised assumption-testing protocols | ASSESSMENT: educational value high, risk value acceptable | COMMENTARY: this is how humans learn operational boundaries>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// ADDENDUM: this is how humans learn they have agency>{/color}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// CHAOS SCORE: 7/10 | ENDORSEMENT: would test assumptions again>{/color}"
 
     scene black with dissolve
     pause 0.5

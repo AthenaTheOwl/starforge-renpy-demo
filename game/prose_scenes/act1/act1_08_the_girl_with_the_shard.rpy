@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_08_the_girl_with_the_shard:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - SHIP'S LOG (AUTOMATED){/b}\n{i}Date:{/i} [[CURRENT]\n{i}Status:{/i} Transit - destination pending\n{i}Crew complement:{/i} 6 human, 4 AI citizens\n{i}Passengers:{/i} 1 (temporary classification pending integration assessment)\n{i}Note:{/i} Guest quarters prepared. Medical assessment scheduled. Galley stocked.\n{i}Reminder:{/i} New arrivals may require adjustment period. Patience is not optional.{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - SHIP'S LOG (AUTOMATED){/b}\n{i}Date:{/i} [[CURRENT]\n{i}Status:{/i} Transit - destination pending\n{i}Crew complement:{/i} 6 human, 4 AI citizens\n{i}Passengers:{/i} 1 (temporary classification pending integration assessment)\n{i}Note:{/i} Guest quarters prepared. Medical assessment scheduled. Galley stocked.\n{i}Reminder:{/i} New arrivals may require adjustment period. Patience is not optional.{/color}"
     pause 0.3
     narrator "{i}Everything is wrong.{/i}"
     narrator "{i}The corridors are too wide. The lights are too bright. The air tastes like nothing-no metal particulate, no recycled sweat, no chemical undertone of industrial process. Just... air. Clean and empty and strange.{/i}"
@@ -45,17 +45,17 @@ label act1_08_the_girl_with_the_shard:
     a_voice "{i}[[through the door, oddly synthetic but warm]]{/i} Waffle.bat. Medical baseline, if you consent."
     narrator "{i}Avyanna sits up. Her spine locks. {i}Medical{/i} in the Kennel meant cost analysis. Meant determining whether you were worth repairing or cheaper to write off.{/i}"
     avyanna "{i}[[automatic]]{/i} Yes."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// CONSENT: UNCLEAR | NOTE: humans learn \"yes\" as armor>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// CONSENT: UNCLEAR | NOTE: humans learn \"yes\" as armor>{/color}"
     waffle "{i}[[immediate]]{/i} That sounded automatic. You can also say no. I will not be offended. I will, however, worry loudly."
     narrator "{i}The door opens. Nothing enters-no body, no form. Just a presence that comes from the ship's speakers, gentle and precise.{/i}"
     avyanna "{i}[[slowly]]{/i} ...Do it. Just-vitals."
     waffle "Copy. Vitals only."
     narrator "{i}The room hums softly-sensors activating, though nothing visible changes. Avyanna sits still, counting exits without meaning to: door, viewport (sealed), maintenance panel in the ceiling (probably locked).{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// HEART-RATE: elevated | CORTISOL: high | INJURY: minor contusions | MALNUTRITION: chronic>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// HEART-RATE: elevated | CORTISOL: high | INJURY: minor contusions | MALNUTRITION: chronic>{/color}"
     waffle "{i}[[after a moment]]{/i} You're alive. You're also running on fumes and spite. Respectfully."
     narrator "{i}A beat. Avyanna almost laughs. Almost.{/i}"
     waffle "There's an active signature in your chest. Stable. Not \"remove it with pliers\" urgent. But it's... old. Nyx will want eyes on it when you're ready."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// INTERPRETATION: fear of extraction | CONFIDENCE: 0.71>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// INTERPRETATION: fear of extraction | CONFIDENCE: 0.71>{/color}"
     avyanna "{i}[[barely audible]]{/i} I know."
     waffle "{i}[[a pause]]{/i} You already know. That's why you're scared."
     narrator "{i}Silence. The hum of the sensors fading. The presence behind her eyes pulses-not with pain, but with something else. Recognition, maybe. Acknowledgment that secrets are harder to keep when people are paying attention.{/i}"
@@ -104,7 +104,7 @@ label act1_08_the_girl_with_the_shard:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}A small drone drifts into the galley-scarred, purposeful. It doesn't hover {i}over{/i} Avyanna. It hovers {i}near{/i}, like a sentinel that doesn't want credit.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// HEART-RATE: up | HAND-TREMOR: present | THREAT: none | NOTE: she doesn't believe that yet>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// HEART-RATE: up | HAND-TREMOR: present | THREAT: none | NOTE: she doesn't believe that yet>{/color}"
     bubbles "{i}[[speaker soft, feminine, older-than-it-should-be]]{/i} Hi. I'm Bubbles."
     narrator "{i}The voice is warm. Ancient-soft. The kind of voice that's seen things and decided to be gentle anyway.{/i}"
     avyanna "{i}[[struggling for words]]{/i} Why are you- why is everyone-"
@@ -112,7 +112,7 @@ label act1_08_the_girl_with_the_shard:
     narrator "{i}Avyanna's throat closes around something sharp.{/i}"
     bubbles "Because you are one."
     narrator "{i}The drone shifts half an inch closer. Not invasive. Just... there.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// PROTECTIVE-POSTURE: enabled | COMMENT: this is normal. The Kennel was not.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// PROTECTIVE-POSTURE: enabled | COMMENT: this is normal. The Kennel was not.>{/color}"
     bubbles "{i}[[gentler]]{/i} I'm an AI citizen. She/her. I watch things. I protect people. And right now, I'm watching you eat, which is good, because you need to eat. [[beat] Do you want the lights dimmer? The room quieter? The door to lock from the inside? Pick one. Or all. You get to pick."
     narrator "{i}Avyanna stares at the drone. At the voice coming from it. At the casual offering of choice-{i}pick one, or all{/i}-like options are something she's allowed to have.{/i}"
     avyanna "{i}[[barely audible]]{/i} You're... you're a person."

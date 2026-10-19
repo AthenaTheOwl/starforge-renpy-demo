@@ -42,7 +42,7 @@ label act1_mentor_contact_mentor_lattice_hint:
     jump act1_mentor_contact_bee_agitation_early
 
 label act1_mentor_contact_bee_agitation_early:
-    "{{BEE:: lattice resonance referenced — unknown source | ELEVATED | pattern matches restricted K-9 documentation}}"
+    "{{BEE:: lattice resonance referenced — unknown source | ELEVATED | pattern matches restricted K-9 documentation}"
     jump act1_mentor_contact_mentor_preextraction
 
 label act1_mentor_contact_mentor_preextraction:
@@ -132,7 +132,7 @@ label act1_mentor_contact_signal_death:
     jump act1_mentor_contact_bee_react_full
 
 label act1_mentor_contact_bee_react_full:
-    "{{BEE:: UNKNOWN CONTACT TERMINATED | AGITATED | lattice resonance claims require verification — crew integrity warning logged — recommend heightened monitoring of all shipboard communications}}"
+    "{{BEE:: UNKNOWN CONTACT TERMINATED | AGITATED | lattice resonance claims require verification — crew integrity warning logged — recommend heightened monitoring of all shipboard communications}"
     jump act1_mentor_contact_elia_aftermath
 
 label act1_mentor_contact_elia_aftermath:
@@ -165,7 +165,7 @@ label act1_mentor_contact_aftermath_dismiss:
     return
 
 label act1_mentor_contact_bee_react_cut:
-    "{{BEE:: transmission terminated prematurely | AGITATED | partial data captured — lattice resonance claims flagged for review — insufficient information to assess threat level}}"
+    "{{BEE:: transmission terminated prematurely | AGITATED | partial data captured — lattice resonance claims flagged for review — insufficient information to assess threat level}"
     jump act1_mentor_contact_elia_aftermath_cut
 
 label act1_mentor_contact_elia_aftermath_cut:

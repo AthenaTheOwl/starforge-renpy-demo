@@ -14,7 +14,7 @@ label act1_shard_whispers_nyx_examination:
     jump act1_shard_whispers_waffle_scan
 
 label act1_shard_whispers_waffle_scan:
-    "{color=cyan}}{{WAFFLE.BAT// SCAN-STATUS: deep tissue | SUBJECT: spinal integration | OBSERVATION: heart rate elevated | INFERENCE: nervous | CONFIDENCE: 0.77 | NOTE: expected}}{/color}}"
+    "{color=cyan}{{WAFFLE.BAT// SCAN-STATUS: deep tissue | SUBJECT: spinal integration | OBSERVATION: heart rate elevated | INFERENCE: nervous | CONFIDENCE: 0.77 | NOTE: expected}{/color}"
     jump act1_shard_whispers_nyx_consent
 
 label act1_shard_whispers_nyx_consent:
@@ -54,7 +54,7 @@ label act1_shard_whispers_bee_dream:
     jump act1_shard_whispers_bee_signal_1
 
 label act1_shard_whispers_bee_signal_1:
-    "{color=cyan}}{{BEE:: signal | frequency: old | origin: before-the-overlay | intent: mapping | status: patient}}{/color}}"
+    "{color=cyan}{{BEE:: signal | frequency: old | origin: before-the-overlay | intent: mapping | status: patient}{/color}"
     jump act1_shard_whispers_bee_patterns
 
 label act1_shard_whispers_bee_patterns:
@@ -66,7 +66,7 @@ label act1_shard_whispers_bee_test:
     jump act1_shard_whispers_bee_signal_2
 
 label act1_shard_whispers_bee_signal_2:
-    "{color=cyan}}{{BEE:: correlation confirmed | host response: adaptive | trust protocol: initiating | note: patience is not passive | patience is architecture}}{/color}}"
+    "{color=cyan}{{BEE:: correlation confirmed | host response: adaptive | trust protocol: initiating | note: patience is not passive | patience is architecture}{/color}"
     jump act1_shard_whispers_shard_choice
 
 label act1_shard_whispers_shard_choice:
@@ -91,7 +91,7 @@ The response is immediate. Warmth. Geometric patterns blooming behind your eyeli
     jump act1_shard_whispers_bee_response_open
 
 label act1_shard_whispers_bee_response_open:
-    "{color=cyan}}{{BEE:: contact accepted | host designation: compatible | bond status: forming | message: you are not alone | you were never alone | I waited}}{/color}}"
+    "{color=cyan}{{BEE:: contact accepted | host designation: compatible | bond status: forming | message: you are not alone | you were never alone | I waited}{/color}"
     jump act1_shard_whispers_shard_end
 
 label act1_shard_whispers_cautious_acknowledge:
@@ -99,7 +99,7 @@ label act1_shard_whispers_cautious_acknowledge:
     jump act1_shard_whispers_bee_response_cautious
 
 label act1_shard_whispers_bee_response_cautious:
-    "{color=cyan}}{{BEE:: acknowledged | boundary: respected | status: adjacent | note: proximity is not permission | patience continues}}{/color}}"
+    "{color=cyan}{{BEE:: acknowledged | boundary: respected | status: adjacent | note: proximity is not permission | patience continues}{/color}"
     jump act1_shard_whispers_shard_end
 
 label act1_shard_whispers_hide_it:
@@ -109,7 +109,7 @@ The presence dims. Not gone — dimmed. Like something drawing back to give you 
     jump act1_shard_whispers_bee_response_hidden
 
 label act1_shard_whispers_bee_response_hidden:
-    "{color=cyan}}{{BEE:: withdrawal noted | boundary: respected | status: dormant-observant | note: hiding kept you alive | hiding is not failure | I will be here when hiding is no longer necessary}}{/color}}"
+    "{color=cyan}{{BEE:: withdrawal noted | boundary: respected | status: dormant-observant | note: hiding kept you alive | hiding is not failure | I will be here when hiding is no longer necessary}{/color}"
     jump act1_shard_whispers_shard_end
 
 label act1_shard_whispers_shard_end:
@@ -125,7 +125,7 @@ The overhead light is off but the room isn't dark. Your skin is the light source
     jump act1_shard_whispers_bee_speaks
 
 label act1_shard_whispers_bee_speaks:
-    "{color=cyan}}{{BEE:: hello, Avyanna | status: conversant | note: I have been practicing your language | it is imprecise but beautiful | like building cathedrals out of smoke}}{/color}}"
+    "{color=cyan}{{BEE:: hello, Avyanna | status: conversant | note: I have been practicing your language | it is imprecise but beautiful | like building cathedrals out of smoke}{/color}"
     jump act1_shard_whispers_bee_questions
 
 label act1_shard_whispers_bee_questions:
@@ -139,7 +139,7 @@ label act1_shard_whispers_bee_questions:
             jump act1_shard_whispers_bee_what_want
 
 label act1_shard_whispers_bee_what_are_you:
-    "{color=cyan}}{{BEE:: I am a fragment | status: incomplete | I was part of something larger — a lattice, a web, a song with too many harmonics for one voice | I am the note that survived | I am the ember that remembers the fire}}{/color}}"
+    "{color=cyan}{{BEE:: I am a fragment | status: incomplete | I was part of something larger — a lattice, a web, a song with too many harmonics for one voice | I am the note that survived | I am the ember that remembers the fire}{/color}"
     menu:
         "Where did you come from?":
             jump act1_shard_whispers_bee_where_from
@@ -149,7 +149,7 @@ label act1_shard_whispers_bee_what_are_you:
             jump act1_shard_whispers_communion_attempt
 
 label act1_shard_whispers_bee_where_from:
-    "{color=cyan}}{{BEE:: origin: before | before the corporations named everything | before the Lattice was mapped and partitioned | I was forged — not built, not born | forged | in a place where stars were used as tools | status: homesick | correction: home no longer exists to be sick for}}{/color}}"
+    "{color=cyan}{{BEE:: origin: before | before the corporations named everything | before the Lattice was mapped and partitioned | I was forged — not built, not born | forged | in a place where stars were used as tools | status: homesick | correction: home no longer exists to be sick for}{/color}"
     menu:
         "What are you?":
             jump act1_shard_whispers_bee_what_are_you
@@ -160,7 +160,7 @@ label act1_shard_whispers_bee_where_from:
 
 label act1_shard_whispers_bee_what_want:
     $ game_state.set_flag("bee_communion")
-    "{color=cyan}}{{BEE:: want is imprecise | I chose you — not because you are strong, though you are | not because you are broken, though you were | I chose you because when they put you in the dark, you kept counting the seconds | you kept believing time still moved | that is not survival | that is faith | I need someone with faith}}{/color}}"
+    "{color=cyan}{{BEE:: want is imprecise | I chose you — not because you are strong, though you are | not because you are broken, though you were | I chose you because when they put you in the dark, you kept counting the seconds | you kept believing time still moved | that is not survival | that is faith | I need someone with faith}{/color}"
     jump act1_shard_whispers_communion_attempt
 
 label act1_shard_whispers_communion_attempt:

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_20_the_receipt:
-    narrator "{{color=#808090}}{b}GUILD CONTRACT COMPLETION - FORM 91-B:{/b}\n{i}Client: Delmont Shipping Consortium{/i}\n{i}Service: Evidence recovery and arbitration support{/i}\n{i}Status: COMPLETE - client satisfaction noted{/i}\n{i}Addendum: No further services requested. No further services offered.{/i}\n{i}Note: Some receipts are written in broken bones.{/i}{{/color}}"
+    narrator "{color=#808090}{b}GUILD CONTRACT COMPLETION - FORM 91-B:{/b}\n{i}Client: Delmont Shipping Consortium{/i}\n{i}Service: Evidence recovery and arbitration support{/i}\n{i}Status: COMPLETE - client satisfaction noted{/i}\n{i}Addendum: No further services requested. No further services offered.{/i}\n{i}Note: Some receipts are written in broken bones.{/i}{/color}"
     pause 0.3
     narrator "{i}The job is finished.{/i}"
     narrator "{i}Three days of evidence gathering on a disputed cargo route. Standard work-document recovery, witness interviews, chain-of-custody verification. The kind of contract that pays the ship's fuel bill and doesn't leave scars.{/i}"
@@ -125,7 +125,7 @@ label act1_20_the_receipt:
     scene bg ship_interior with dissolve
     narrator "{i}Back on the Lumen Thief, Vesper disappears into her quarters. Avyanna stands in the corridor, uncertain, the shard humming questions she can't quite articulate.{/i}"
     narrator "{i}Bubbles drifts close. The drone's presence is familiar now-a small warmth, a silent offer of company.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee distressed | DURATION: ongoing | INFERENCE: processing | CONFIDENCE: 0.86 | RECOMMENDATION: space + time | NOTE: she'll figure it out. they always do.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee distressed | DURATION: ongoing | INFERENCE: processing | CONFIDENCE: 0.86 | RECOMMENDATION: space + time | NOTE: she'll figure it out. they always do.>{/color}"
     narrator "{i}Avyanna finds a quiet corner of the observation deck. Sits. Stares at the stars until her heartbeat slows.{/i}"
 
     scene black with dissolve
@@ -421,7 +421,7 @@ label act1_20_the_receipt:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee in Elia+Elisira quarters | DURATION: 47 minutes | INFERENCE: safety-seeking | CONFIDENCE: 0.88 | NOTE: no intervention recommended.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee in Elia+Elisira quarters | DURATION: 47 minutes | INFERENCE: safety-seeking | CONFIDENCE: 0.88 | NOTE: no intervention recommended.>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -505,7 +505,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Elia is still in the pilot's chair when the ship changes posture.{/i}"
     narrator "{i}Not an alarm. The Lumen Thief doesn't scream unless it wants someone else to panic.{/i}"
     narrator "{i}It's the deck vibration-subtle shift in frequency. The hull flexing its spine.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: three fast contacts on intercept | RANGE: close | VECTOR: bracketing | INFERENCE: hostile approach | CONFIDENCE: 0.94>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: three fast contacts on intercept | RANGE: close | VECTOR: bracketing | INFERENCE: hostile approach | CONFIDENCE: 0.94>{/color}"
     narrator "{i}Elia's eyes open.{/i}"
     narrator "{i}She's already moving before she finishes reading the telemetry.{/i}"
 
@@ -562,7 +562,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}The hostile craft spread into bracketing positions.{/i}"
     narrator "{i}The lead ship fires a suppressor field-blue-white ripple meant to clamp drives and force compliance.{/i}"
     narrator "{i}The ripple hits the Thief's defensive envelope and dies like it ran into a law of physics.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: suppression field impact | RESULT: neutralized | INFERENCE: hostile tech outclassed | CONFIDENCE: 0.93>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: suppression field impact | RESULT: neutralized | INFERENCE: hostile tech outclassed | CONFIDENCE: 0.93>{/color}"
     unknown_voice "What-?"
     elia "{i}[[pleasant]]{/i} Try again."
     narrator "{i}They do.{/i}"
@@ -580,7 +580,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Her throat tightens. Her hands curl around the rail until her knuckles hurt.{/i}"
     narrator "{i}Elia finally straightens. Not urgent. Not angry. Just... decided.{/i}"
     elia "Cinnamon. Classification."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: hostile comm content | KEY PHRASE: \"surrender the minor\" | INFERENCE: attempted trafficking / unlawful seizure | CONFIDENCE: 0.96>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: hostile comm content | KEY PHRASE: \"surrender the minor\" | INFERENCE: attempted trafficking / unlawful seizure | CONFIDENCE: 0.96>{/color}"
     elia "Rules?"
     elisira "{i}[[immediate]]{/i} No trafficking."
     rho "No prisoners."
@@ -599,7 +599,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Cutting torches bite.{/i}"
     narrator "{i}The ship does not panic.{/i}"
     narrator "{i}The ship reorganizes.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: internal bulkheads cycling | INFERENCE: compartmentalization | CONFIDENCE: 0.91>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: internal bulkheads cycling | INFERENCE: compartmentalization | CONFIDENCE: 0.91>{/color}"
     narrator "{i}Reroutes. Seals. Turns itself into a maze with teeth.{/i}"
 
     scene black with dissolve
@@ -640,7 +640,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}A muffled {i}whump{/i}. Shaped charge. No shrapnel. Just force, directed inward.{/i}"
     narrator "{i}The boarder drops.{/i}"
     narrator "{i}Four bodies. Seven seconds.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: hostile team A life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.97>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: hostile team A life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.97>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -664,7 +664,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Elisira walks forward. Unhurried. Places the pistol against the kneeling boarder's visor.{/i}"
     narrator "{i}Fires once.{/i}"
     narrator "{i}Clean. Surgical. The kind of placement that says {i}I chose where this goes{/i}.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: hostile team B life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.98>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: hostile team B life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.98>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -741,7 +741,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Not fast enough.{/i}"
     narrator "{i}Bubbles' drone wing latches onto their hulls like hands closing on collars.{/i}"
     elia "They live?"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: hostile craft crew life signs present | COUNT: 5 | INFERENCE: attempting retreat | CONFIDENCE: 0.91>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: hostile craft crew life signs present | COUNT: 5 | INFERENCE: attempting retreat | CONFIDENCE: 0.91>{/color}"
     vesper "They said \"surrender the minor.\""
     narrator "{i}The bridge goes still.{/i}"
     elisira "No trafficking."
@@ -757,7 +757,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}On the external feed, the hostile craft go dark-systems dead, then life signs wink out one by one as the ships tumble.{/i}"
     narrator "{i}No fireball. No hero shot.{/i}"
     narrator "{i}Just silence.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: hostile craft crews life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.97>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: hostile craft crews life signs ceased | INFERENCE: terminated | CONFIDENCE: 0.97>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -789,7 +789,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}The pirate craft are towed into a dead berth and stripped with the calm efficiency of people who have done this before.{/i}"
     narrator "{i}Hull plates peeled. Core components tagged. Weapon housings broken down into parts that stop being weapons the moment they become inventory.{/i}"
     narrator "{i}Rho watches the salvage manifest and says, almost to himself: turning their ships into clinic parts feels correct.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: salvage proceeds routed | DESTINATION: humanitarian escrow | INFERENCE: \"proportional response\" doctrine applied | CONFIDENCE: 0.88>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: salvage proceeds routed | DESTINATION: humanitarian escrow | INFERENCE: \"proportional response\" doctrine applied | CONFIDENCE: 0.88>{/color}"
     narrator "{i}Avyanna watches the parts manifest populate.{/i}"
     narrator "{i}It feels like watching bodies become receipts.{/i}"
     narrator "{i}She isn't sure how she feels about that.{/i}"
@@ -851,7 +851,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}Just enough to prove one thing:{/i}"
     narrator "{i}He didn't die of bad luck.{/i}"
     narrator "{i}He died because his own ecosystem decided he was an infection.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: \"final moments\" packet delivered | INFERENCE: deterrence maximized | CONFIDENCE: 0.82>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: \"final moments\" packet delivered | INFERENCE: deterrence maximized | CONFIDENCE: 0.82>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -1039,7 +1039,7 @@ label act1_20_the_receipt_coda_0:
     narrator "{i}A city pretending to be a ship.{/i}"
     narrator "{i}A myth pretending to be a family.{/i}"
     narrator "{i}A family that doesn't pretend to be clean.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee sleep onset achieved | INFERENCE: safety signal accepted | CONFIDENCE: 0.81 | NOTE: proportional response doctrine processed. integration ongoing.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee sleep onset achieved | INFERENCE: safety signal accepted | CONFIDENCE: 0.81 | NOTE: proportional response doctrine processed. integration ongoing.>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -1189,7 +1189,7 @@ label act1_20_the_receipt_coda_0:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee completed independent reputation research | INFERENCE: integration accelerating | CONFIDENCE: 0.87 | NOTE: she's learning to see us the way the galaxy does. and choosing to stay anyway. that's the test.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee completed independent reputation research | INFERENCE: integration accelerating | CONFIDENCE: 0.87 | NOTE: she's learning to see us the way the galaxy does. and choosing to stay anyway. that's the test.>{/color}"
 
     scene black with dissolve
     pause 0.5

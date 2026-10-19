@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_13a_starmap_hobby:
-    narrator "{{color=#808090}}{b}[[MICRO-SCENE - OCCURS POST-CH13, LIKELY SHIP'S EVENING]{/b}{{/color}}"
+    narrator "{color=#808090}{b}[[MICRO-SCENE - OCCURS POST-CH13, LIKELY SHIP'S EVENING]{/b}{/color}"
     pause 0.3
     narrator "{i}Evening cycle. The Lumen Thief's navigation alcove is dim except for the star display-holographic projections overlaid on real-time sensor feeds. Jalen sits at the console, updating route calculations. Avyanna hovers near the doorway, uncertain whether she's intruding.{/i}"
     jalen "{i}[[not looking up]]{/i} You can come in."
@@ -107,11 +107,11 @@ label act1_13a_starmap_hobby:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Later, when Avyanna leaves the alcove, Jalen writes a note in their personal log:{/i}"
-    narrator "{{color=#808090}}{i}Trainee reports perceptual anomalies correlated with heavy Primordial signatures. Consistent with Nyx's stated shard characteristics, but timeline unclear. Worth monitoring. Flagging for Nyx.{/i}{{/color}}"
+    narrator "{color=#808090}{i}Trainee reports perceptual anomalies correlated with heavy Primordial signatures. Consistent with Nyx's stated shard characteristics, but timeline unclear. Worth monitoring. Flagging for Nyx.{/i}{/color}"
     narrator "{i}And then, in smaller text beneath:{/i}"
-    narrator "{{color=#808090}}{i}She asked good questions. Wanted handles, not propaganda. Noticed when names were claims.{/i}{{/color}}"
+    narrator "{color=#808090}{i}She asked good questions. Wanted handles, not propaganda. Noticed when names were claims.{/i}{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}{i}Reminds me of someone. In a good way.{/i}{{/color}}"
+    narrator "{color=#808090}{i}Reminds me of someone. In a good way.{/i}{/color}"
 
     scene black with dissolve
     pause 0.5

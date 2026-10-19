@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_12_the_doctrine:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - CREW CULTURE DOCUMENTATION (INFORMAL):{/b}\n{i}Subject: \"Sparkle Doctrine\"{/i}\n{i}Source: Observed behavior, crew consensus, Cinnamon.exe commentary{/i}\n{i}Summary: Say what you mean. Mean what you say. Silence is where rot grows.{/i}\n{i}Definition (unofficial): \"sparkle\" = a point of light in the dark-the moment wrong becomes visible enough to act on.{/i}\n{i}Addendum: If you're angry, be angry out loud. We can work with angry. Quiet anger eats ships.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - CREW CULTURE DOCUMENTATION (INFORMAL):{/b}\n{i}Subject: \"Sparkle Doctrine\"{/i}\n{i}Source: Observed behavior, crew consensus, Cinnamon.exe commentary{/i}\n{i}Summary: Say what you mean. Mean what you say. Silence is where rot grows.{/i}\n{i}Definition (unofficial): \"sparkle\" = a point of light in the dark-the moment wrong becomes visible enough to act on.{/i}\n{i}Addendum: If you're angry, be angry out loud. We can work with angry. Quiet anger eats ships.{/i}{/color}"
     pause 0.3
     narrator "{i}Elia doesn't give speeches.{/i}"
     narrator "{i}Avyanna has been aboard for three weeks now, and she's noticed: the captain doesn't lecture. Doesn't explain. Doesn't hand down philosophy from on high like the foremen in the Kennel handed down quotas.{/i}"
@@ -161,7 +161,7 @@ label act1_12_the_doctrine:
     elia "{i}[[softer]]{/i} I know that's hard to understand. Where you came from, everything was on a ledger. Everyone had a price."
     avyanna "{i}[[nodding]]{/i} "
     elia "Here, some things aren't for sale. The AIs' personhood isn't for sale. Your safety isn't for sale. The crew's trust in each other isn't for sale. [[beat] Some principles cost contracts. We pay that price."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONTRACT-STATUS: withdrawn | VALUE: 12,000 credits | PRINCIPLE VALUE: incalculable | INFERENCE: correct trade | CONFIDENCE: 0.92>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONTRACT-STATUS: withdrawn | VALUE: 12,000 credits | PRINCIPLE VALUE: incalculable | INFERENCE: correct trade | CONFIDENCE: 0.92>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -182,7 +182,7 @@ label act1_12_the_doctrine:
     narrator "{i}The cockpit. 0300 hours. Stars streaming past the viewport like rain on a window.{/i}"
     narrator "{i}Jalen flies.{/i}"
     narrator "{i}Not because they need to-the ship could autopilot through this stretch of empty space. But flying is how Jalen thinks. Flying is how Jalen stays sane.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// PILOT-STATUS: Jalen | REASON FOR MANUAL: \"processing\" | OBSERVATION: they do this when the new ones arrive>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// PILOT-STATUS: Jalen | REASON FOR MANUAL: \"processing\" | OBSERVATION: they do this when the new ones arrive>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -235,7 +235,7 @@ label act1_12_the_doctrine:
     narrator "{i}A small adjustment to their flight path. Smoother now. Gentler.{/i}"
     narrator "I'm going to fly extra smooth tonight. For the new one. So she knows the ship is steady. So she knows someone's at the helm who won't let her fall."
     narrator "{i}The stars stream past. Jalen flies. And somewhere below, in a bunk that's becoming slowly less foreign, Avyanna Lagrange sleeps-learning, bit by bit, what it means to be held.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: Jalen flying manual again | DURATION: 3.2 hours | REASON: \"thinking about family\" | INFERENCE: healthy coping | CONFIDENCE: 0.81 | COMMENT: they're softer than they pretend. most of us are.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: Jalen flying manual again | DURATION: 3.2 hours | REASON: \"thinking about family\" | INFERENCE: healthy coping | CONFIDENCE: 0.81 | COMMENT: they're softer than they pretend. most of us are.>{/color}"
 
     scene black with dissolve
     pause 0.5

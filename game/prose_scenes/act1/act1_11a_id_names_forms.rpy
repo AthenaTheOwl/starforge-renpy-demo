@@ -230,8 +230,8 @@ label act1_11a_id_names_forms:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// IDENTITY SYSTEMS UPDATED: three registries established | RIM ACCORD: confirmed | GUILD TRANSIT: confirmed | EGRESS IDENTITY: stored encrypted | AUTONOMY: enhanced>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee now has legal protections and exit strategies | ASSESSMENT: survivability increased | EMOTIONAL STATE: overwhelmed but processing | STATUS: this is good work>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// IDENTITY SYSTEMS UPDATED: three registries established | RIM ACCORD: confirmed | GUILD TRANSIT: confirmed | EGRESS IDENTITY: stored encrypted | AUTONOMY: enhanced>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee now has legal protections and exit strategies | ASSESSMENT: survivability increased | EMOTIONAL STATE: overwhelmed but processing | STATUS: this is good work>{/color}"
 
     scene black with dissolve
     pause 0.5

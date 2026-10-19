@@ -2,10 +2,10 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_03_the_thing_in_the_rock:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - RESTRICTED SECTION MAINTENANCE SCHEDULE{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Section:{/i} Lower Works, Subsection 7-Gamma (DECOMMISSIONED)\n{i}Status:{/i} Quarterly cleaning cycle (minimal crew)\n{i}Authorization Level:{/i} Standard labor (supervised)\n{i}Note:{/i} Section sealed following geological instability event (see Incident Report 7-G-441, CLASSIFIED). Access for maintenance only. No extraction activity. Report anomalies to Shift Supervisor immediately.\n{i}Reminder:{/i} Curiosity is not a productivity metric.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - RESTRICTED SECTION MAINTENANCE SCHEDULE{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Section:{/i} Lower Works, Subsection 7-Gamma (DECOMMISSIONED)\n{i}Status:{/i} Quarterly cleaning cycle (minimal crew)\n{i}Authorization Level:{/i} Standard labor (supervised)\n{i}Note:{/i} Section sealed following geological instability event (see Incident Report 7-G-441, CLASSIFIED). Access for maintenance only. No extraction activity. Report anomalies to Shift Supervisor immediately.\n{i}Reminder:{/i} Curiosity is not a productivity metric.{/color}"
     pause 0.3
     narrator "{i}The assignment comes through her tag at second-shift break. A vibration against her neck, then the data:{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - SPECIAL ASSIGNMENT{/b}{{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - SPECIAL ASSIGNMENT{/b}{/color}"
     narrator "{i}Off-quota. That means it doesn't count toward her daily numbers. Eighty ticks for four hours-less than she'd make on the line, but not by much.{/i}"
     narrator "Lower Works. They're sending me to the Lower Works."
     narrator "{i}She hasn't been down there since they closed Section 7. Two years ago. Before-{/i}"
@@ -38,7 +38,7 @@ label act1_03_the_thing_in_the_rock:
     narrator "{i}The equipment bays are exactly what Coil described: abandoned spaces filled with machinery that hasn't run in years. Dust covers everything-thick, gray-gold, the same color as the aurum dust but somehow different. Older.{/i}"
     narrator "{i}She starts cleaning. Methodical. Careful. The way she does everything.{/i}"
     narrator "{i}The cleaning kit has a checklist clipped inside. Standard corporate procedure. She reads it as she works:{/i}"
-    narrator "{{color=#808090}}{i}1. Confirm barrier tape integrity (photograph if damaged).{/i}\n{i}2. Clear debris from marked walkways only.{/i}\n{i}3. Report unauthorized symbols to Shift Supervisor.{/i}\n{i}4. Do not engage with auditory phenomena.{/i}\n{i}5. If equipment activates spontaneously, evacuate immediately.{/i}{{/color}}"
+    narrator "{color=#808090}{i}1. Confirm barrier tape integrity (photograph if damaged).{/i}\n{i}2. Clear debris from marked walkways only.{/i}\n{i}3. Report unauthorized symbols to Shift Supervisor.{/i}\n{i}4. Do not engage with auditory phenomena.{/i}\n{i}5. If equipment activates spontaneously, evacuate immediately.{/i}{/color}"
     narrator "Do not engage with auditory phenomena. They put that in the checklist. Like it's normal."
     narrator "{i}The work is simple. Sweep debris. Wipe surfaces. Bag what can be removed, mark what can't. The motions are automatic. Her mind wanders.{/i}"
     narrator "Why send me? Why now? Two years this place has been sealed, and suddenly they need it cleaned."
@@ -147,7 +147,7 @@ label act1_03_the_thing_in_the_rock:
     narrator "They know. The scanner saw something. They're going to-"
     guard "{i}[[tapping the tablet, annoyed]]{/i} Calibration drift. Third time today. [[he waves her through] Go."
     narrator "{i}The tag vibrates against her neck. A message she's not supposed to see-a flicker in her visual cortex, there and gone:{/i}"
-    narrator "{{color=#808090}}{i}NEUROLOAD SPIKE / FLAGGED FOR REVIEW / AUTO-CLEARED: ENVIRONMENTAL INTERFERENCE (7-GAMMA){/i}{{/color}}"
+    narrator "{color=#808090}{i}NEUROLOAD SPIKE / FLAGGED FOR REVIEW / AUTO-CLEARED: ENVIRONMENTAL INTERFERENCE (7-GAMMA){/i}{/color}"
     narrator "{i}Auto-cleared. The system saw something. The system decided it was nothing.{/i}"
     narrator "It's not nothing. But the system doesn't know that. Not yet."
     narrator "{i}Her head pounds. Something behind her eyes pulses in response-almost like gratitude. Almost like it's pleased the system didn't notice.{/i}"
@@ -265,7 +265,7 @@ label act1_03_the_thing_in_the_rock:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - ANOMALY REPORT (INTERNAL){/b}\n{i}Site:{/i} K-9\n{i}Section:{/i} Lower Works, Subsection 7-Gamma\n{i}Date:{/i} [[REDACTED]\n{i}Reporting Officer:{/i} [[REDACTED]\n{i}Observation:{/i} Routine maintenance cleaning completed. No significant debris. No structural concerns. Barrier integrity maintained.\n{i}Anomalies Detected:{/i} None.\n{i}Recommendation:{/i} Continue quarterly maintenance schedule. No further action required.\n{i}Note:{/i} Worker assigned to cleaning detail (477) completed task within acceptable parameters. No deviations observed. Performance adequate.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - ANOMALY REPORT (INTERNAL){/b}\n{i}Site:{/i} K-9\n{i}Section:{/i} Lower Works, Subsection 7-Gamma\n{i}Date:{/i} [[REDACTED]\n{i}Reporting Officer:{/i} [[REDACTED]\n{i}Observation:{/i} Routine maintenance cleaning completed. No significant debris. No structural concerns. Barrier integrity maintained.\n{i}Anomalies Detected:{/i} None.\n{i}Recommendation:{/i} Continue quarterly maintenance schedule. No further action required.\n{i}Note:{/i} Worker assigned to cleaning detail (477) completed task within acceptable parameters. No deviations observed. Performance adequate.{/color}"
 
     scene black with dissolve
     pause 0.5

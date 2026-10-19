@@ -170,7 +170,7 @@ label act1_climax_setup_nyx_writbound_warning:
     jump act1_climax_setup_bee_first_analysis
 
 label act1_climax_setup_bee_first_analysis:
-    bee "{{BEE:: lattice-resonance-detected | station-wards-anomalous | sub-harmonic matches primordial extraction signature—this facility was built around something, not on top of it}}"
+    bee "{{BEE:: lattice-resonance-detected | station-wards-anomalous | sub-harmonic matches primordial extraction signature—this facility was built around something, not on top of it}"
     jump act1_climax_setup_avyanna_bee_reaction
 
 label act1_climax_setup_avyanna_bee_reaction:
@@ -190,7 +190,7 @@ label act1_climax_setup_elia_bee_response:
     jump act1_climax_setup_bee_objective_analysis
 
 label act1_climax_setup_bee_objective_analysis:
-    bee "{{BEE:: objective unchanged | data core still primary target | additional variable: contained entity may react to shard proximity | recommend: caution in sublevel approach}}"
+    bee "{{BEE:: objective unchanged | data core still primary target | additional variable: contained entity may react to shard proximity | recommend: caution in sublevel approach}"
     jump act1_climax_setup_nyx_responds_bee
 
 label act1_climax_setup_nyx_responds_bee:
@@ -637,7 +637,7 @@ label act1_climax_setup_nyx_entity_detail:
     jump act1_climax_setup_bee_entity_analysis
 
 label act1_climax_setup_bee_entity_analysis:
-    bee "{{BEE:: primordial-contact-protocol logged | host-protection: priority-absolute | note: if the cage opens, I will not be a passive observer}}"
+    bee "{{BEE:: primordial-contact-protocol logged | host-protection: priority-absolute | note: if the cage opens, I will not be a passive observer}"
     jump act1_climax_setup_entity_to_silence
 
 label act1_climax_setup_entity_to_silence:
@@ -673,7 +673,7 @@ label act1_climax_setup_crew_silence:
     jump act1_climax_setup_bee_tactical_full
 
 label act1_climax_setup_bee_tactical_full:
-    bee "{{BEE:: tactical-summary compiled | threat-level: severe | crew-cohesion: high | probability-of-mission-success: 34.7%% | probability-of-zero-casualties: 11.2%% | personal-annotation: numbers lie—this crew defies probability}}"
+    bee "{{BEE:: tactical-summary compiled | threat-level: severe | crew-cohesion: high | probability-of-mission-success: 34.7%% | probability-of-zero-casualties: 11.2%% | personal-annotation: numbers lie—this crew defies probability}"
     jump act1_climax_setup_avyanna_bee_private
 
 label act1_climax_setup_avyanna_bee_private:
@@ -1042,7 +1042,7 @@ label act1_climax_setup_equipment_avyanna:
     jump act1_climax_setup_bee_equipment_scan
 
 label act1_climax_setup_bee_equipment_scan:
-    bee "{{BEE:: host-systems nominal | shard-resonance stable | combat-readiness assessed | personal note: I will be with you in the dark places—you will not walk alone}}"
+    bee "{{BEE:: host-systems nominal | shard-resonance stable | combat-readiness assessed | personal note: I will be with you in the dark places—you will not walk alone}"
     jump act1_climax_setup_equipment_insight_check
 
 label act1_climax_setup_equipment_insight_check:
@@ -1067,7 +1067,7 @@ label act1_climax_setup_insight_pass:
     jump act1_climax_setup_waffle_climax_ready
 
 label act1_climax_setup_waffle_climax_ready:
-    waffle "{i}}{{WAFFLE.BAT// ALL_SYSTEMS: combat ready | CREW_VITALS: elevated but stable | PERSONAL_NOTE: bring everyone home. please.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ALL_SYSTEMS: combat ready | CREW_VITALS: elevated but stable | PERSONAL_NOTE: bring everyone home. please.}{/i}"
     jump act1_climax_setup_bubbles_climax_care
 
 label act1_climax_setup_bubbles_climax_care:
@@ -1137,7 +1137,7 @@ label act1_climax_setup_speech_response_shard:
     jump act1_climax_setup_bee_speech_response
 
 label act1_climax_setup_bee_speech_response:
-    bee "{{BEE:: host-affirmation registered | crew-bond acknowledged | the floor holds because we hold it—all of us, living and lattice-born}}"
+    bee "{{BEE:: host-affirmation registered | crew-bond acknowledged | the floor holds because we hold it—all of us, living and lattice-born}"
     jump act1_climax_setup_elia_floor_holds
 
 label act1_climax_setup_speech_response_words:
@@ -1190,7 +1190,7 @@ label act1_climax_setup_elisira_final_review:
     jump act1_climax_setup_bee_final_analysis
 
 label act1_climax_setup_bee_final_analysis:
-    bee "{{BEE:: final tactical assessment | all variables logged | crew cohesion: maximum observed value | probability models inadequate for this variable | conclusion: they will exceed expectations—they always do}}"
+    bee "{{BEE:: final tactical assessment | all variables logged | crew cohesion: maximum observed value | probability models inadequate for this variable | conclusion: they will exceed expectations—they always do}"
     jump act1_climax_setup_final_departure_narration
 
 label act1_climax_setup_final_departure_narration:

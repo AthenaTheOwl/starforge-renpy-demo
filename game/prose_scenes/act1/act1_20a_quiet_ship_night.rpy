@@ -137,7 +137,7 @@ label act1_20a_quiet_ship_night:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// NIGHT CYCLE LOG: trainee wandering behavior observed | INTERACTIONS: rho (galley), jalen (bridge), nyx (med bay) | DURATION: 73 minutes | ASSESSMENT: trainee seeking comfort/connection during insomnia | CREW RESPONSES: appropriate, supportive, no intervention required | STATUS: trainee learning to navigate ship environment autonomously>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// NIGHT CYCLE LOG: trainee wandering behavior observed | INTERACTIONS: rho (galley), jalen (bridge), nyx (med bay) | DURATION: 73 minutes | ASSESSMENT: trainee seeking comfort/connection during insomnia | CREW RESPONSES: appropriate, supportive, no intervention required | STATUS: trainee learning to navigate ship environment autonomously>{/color}"
     narrator "{i}<RHO PERSONAL LOG: \"Found her in the galley at 2300. Couldn't sleep. Neither could I. We sat together for a bit. No big conversation. Just company. That's what she needs sometimes. Not fixing. Just presence.\">{/i}"
     narrator "{i}<JALEN PERSONAL LOG: \"She came to the bridge during night shift. Watched stars. Asked if I get scared. Told her the truth-sometimes, but mostly I feel quiet. She needs to know it's okay to not be okay all the time. That eventually, quiet comes.\">{/i}"
     narrator "{i}<NYX PERSONAL LOG: \"Gave her a weighted stone. She's learning what grounding tools work for her. The worry stone helps. This one might help more. She's building a toolkit. That's the work. One tool at a time until she has enough to manage the loud.\">{/i}"

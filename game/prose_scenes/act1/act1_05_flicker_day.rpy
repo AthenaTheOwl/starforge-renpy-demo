@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_05_flicker_day:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - SHIFT BULLETIN{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Shift:{/i} Alpha\n{i}Weather Designation:{/i} AMBER (intermittent equipment variance expected)\n{i}Worker Advisory:{/i} Report all tool malfunctions to nearest supervisor. Do not attempt field repairs. Do not discuss equipment issues with visiting contractors.\n{i}Reminder:{/i} Quota adjustments during AMBER weather conditions are at management discretion.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - SHIFT BULLETIN{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Shift:{/i} Alpha\n{i}Weather Designation:{/i} AMBER (intermittent equipment variance expected)\n{i}Worker Advisory:{/i} Report all tool malfunctions to nearest supervisor. Do not attempt field repairs. Do not discuss equipment issues with visiting contractors.\n{i}Reminder:{/i} Quota adjustments during AMBER weather conditions are at management discretion.{/color}"
     pause 0.3
     narrator "{i}The grinders sound wrong today.{/i}"
     narrator "{i}Avyanna notices it before the siren, before the bulletin, before anyone says the word {i}flicker{/i}. A catch in the rhythm. A hesitation where there shouldn't be one. The machines are breathing wrong.{/i}"
@@ -188,7 +188,7 @@ label act1_05_flicker_day:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - AMBER PROTOCOL ADDENDUM{/b}\n{i}Effective immediately{/i}\nAMBER conditions may require workforce stabilization measures. Curfew enforcement authorized during night cycle. Unauthorized movement between dormitory and work areas will be penalized.\n{i}Reminder:{/i} Compliance is a choice. Choose wisely.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - AMBER PROTOCOL ADDENDUM{/b}\n{i}Effective immediately{/i}\nAMBER conditions may require workforce stabilization measures. Curfew enforcement authorized during night cycle. Unauthorized movement between dormitory and work areas will be penalized.\n{i}Reminder:{/i} Compliance is a choice. Choose wisely.{/color}"
 
     scene black with dissolve
     pause 0.5

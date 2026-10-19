@@ -12,20 +12,20 @@ label act1_15b_first_purchase_decision:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee has been stationary for 4.7 minutes | QUERY: do you require assistance>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee has been stationary for 4.7 minutes | QUERY: do you require assistance>{/color}"
     avyanna "{i}[[uncertain]]{/i} I don't know what to buy."
-    narrator "{{color=#43d4a8}}<BUBBLES// CLARIFICATION REQUIRED: you don't know what to buy because you lack information about available goods, or because you are uncertain of your preferences>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// CLARIFICATION REQUIRED: you don't know what to buy because you lack information about available goods, or because you are uncertain of your preferences>{/color}"
     avyanna "{i}[[frustrated]]{/i} Both. Neither. I just... I have money and I don't know what to do with it."
-    narrator "{{color=#43d4a8}}<BUBBLES// ACKNOWLEDGED: first autonomous purchase decision is difficult | SUGGESTION: start with needs, then proceed to wants | NEEDS = items required for survival/function | WANTS = items that increase comfort/pleasure but are not strictly necessary>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// ACKNOWLEDGED: first autonomous purchase decision is difficult | SUGGESTION: start with needs, then proceed to wants | NEEDS = items required for survival/function | WANTS = items that increase comfort/pleasure but are not strictly necessary>{/color}"
 
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Avyanna processes that. Needs first. She can do needs. Needs are objective.{/i}"
     avyanna "{i}[[to Bubbles]]{/i} What do I need?"
-    narrator "{{color=#43d4a8}}<BUBBLES// ASSESSMENT: basic hygiene supplies running low | CLOTHING: adequate but minimal variety | NUTRITION: ship provides meals but personal snack stores are recommended for autonomy | COMFORT ITEMS: worry stone acquired, other grounding tools may be beneficial>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// ASSESSMENT: basic hygiene supplies running low | CLOTHING: adequate but minimal variety | NUTRITION: ship provides meals but personal snack stores are recommended for autonomy | COMFORT ITEMS: worry stone acquired, other grounding tools may be beneficial>{/color}"
     narrator "{i}Bubbles projects a small list in the air.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// RECOMMENDED PURCHASES:{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// RECOMMENDED PURCHASES:{/color}"
     narrator "{i}- Hygiene supplies (soap, cleaning cloths, personal care items): ~15 credits{/i}"
     narrator "{i}- Additional clothing (second set for rotation): ~30 credits{/i}"
     narrator "{i}- Personal food storage (non-perishable snacks): ~20 credits{/i}"
@@ -38,7 +38,7 @@ label act1_15b_first_purchase_decision:
     narrator "{i}Avyanna reads the list. Seventy-five credits for needs. One hundred twenty-five credits left over. For wants.{/i}"
     narrator "{i}The concept of having money left over after needs feels impossible.{/i}"
     avyanna "{i}[[quiet]]{/i} What do I do with the rest?"
-    narrator "{{color=#43d4a8}}<BUBBLES// OPTIONS:{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OPTIONS:{/color}"
     narrator "{i}1. Save for future needs{/i}"
     narrator "{i}2. Purchase comfort/pleasure items{/i}"
     narrator "{i}3. Combination of both{/i}"
@@ -55,7 +55,7 @@ label act1_15b_first_purchase_decision:
     avyanna "{i}[[overwhelmed]]{/i} Just... soap."
     vendor "{i}[[nodding]]{/i} Bar or liquid? Scented or unscented? Antibacterial or moisturizing?"
     narrator "{i}Avyanna's brain shorts out. Too many options. Too many variables.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// ASSISTANCE: recommend unscented, moisturizing, bar form | REASONING: less likely to trigger scent-based trauma memories, easy to store, station-standard quality>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// ASSISTANCE: recommend unscented, moisturizing, bar form | REASONING: less likely to trigger scent-based trauma memories, easy to store, station-standard quality>{/color}"
     avyanna "{i}[[to vendor]]{/i} That one. The unscented moisturizing bar."
     vendor "{i}[[handing it to her]]{/i} Good choice. Anything else?"
 
@@ -68,9 +68,9 @@ label act1_15b_first_purchase_decision:
     narrator "{i}{b}Clothing{/b}{/i}"
     narrator "{i}The clothing stalls are worse. So many colors. So many styles. So many ways to be wrong.{/i}"
     narrator "{i}She gravitates toward gray. Safe. Familiar. The mine color. But then she remembers-she doesn't have to wear gray anymore. Gray isn't mandatory. Gray is just habit.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee selecting gray garments | QUERY: is this preference or default trauma response>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee selecting gray garments | QUERY: is this preference or default trauma response>{/color}"
     avyanna "{i}[[pausing]]{/i} I don't know."
-    narrator "{{color=#43d4a8}}<BUBBLES// SUGGESTION: test alternative | SELECT ONE ITEM IN DIFFERENT COLOR | COMPARE EMOTIONAL RESPONSE | DETERMINE IF GRAY IS PREFERENCE OR SAFETY BEHAVIOR>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// SUGGESTION: test alternative | SELECT ONE ITEM IN DIFFERENT COLOR | COMPARE EMOTIONAL RESPONSE | DETERMINE IF GRAY IS PREFERENCE OR SAFETY BEHAVIOR>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -97,7 +97,7 @@ label act1_15b_first_purchase_decision:
     narrator "{i}{b}Grounding Tools{/b}{/i}"
     narrator "{i}This is the hard one. This is wants, not needs. She already has the worry stone. She doesn't {i}need{/i} more tools.{/i}"
     narrator "{i}But Nyx gave her the weighted stone and it helped. Maybe other things would help too.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee hesitating at grounding tools vendor | REMINDER: comfort items are not frivolous | MENTAL HEALTH TOOLS ARE VALID PURCHASES | YOU ARE ALLOWED TO INVEST IN YOUR OWN WELL-BEING>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee hesitating at grounding tools vendor | REMINDER: comfort items are not frivolous | MENTAL HEALTH TOOLS ARE VALID PURCHASES | YOU ARE ALLOWED TO INVEST IN YOUR OWN WELL-BEING>{/color}"
     narrator "{i}Avyanna approaches the vendor. Looks at the options. Fidget rings. Textured squares. Small puzzles. Things designed to give restless hands something to do.{/i}"
     narrator "{i}She picks up a smooth metal ring. It spins. The motion is satisfying. Mindless. Something to do when her thoughts get too loud.{/i}"
     vendor "{i}[[knowledgeable]]{/i} That's a spinner ring. Good for anxiety. Fidget without being disruptive."
@@ -110,7 +110,7 @@ label act1_15b_first_purchase_decision:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}She pays. The ring is hers. She immediately starts spinning it on her finger. The motion is soothing.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee purchased non-essential comfort item autonomously | ASSESSMENT: developing ability to identify and meet own comfort needs | THIS IS PROGRESS>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee purchased non-essential comfort item autonomously | ASSESSMENT: developing ability to identify and meet own comfort needs | THIS IS PROGRESS>{/color}"
     narrator "{i}Total spent on needs: sixty-four credits. One hundred thirty-six credits remaining.{/i}"
     narrator "{i}Avyanna stands in the market with her purchases and more money than she expected to have left. The money is hers. She can save it. She can spend it. She can do whatever she wants with it.{/i}"
     narrator "{i}The freedom is terrifying and exhilarating in equal measure.{/i}"
@@ -123,9 +123,9 @@ label act1_15b_first_purchase_decision:
     narrator "{i}She stops at a stall selling plants. Real plants. Tiny ones, meant for small spaces. Hardy varieties that can survive ship environments.{/i}"
     narrator "{i}There's a small succulent. Dark green with purple edges. Sturdy. Low-maintenance. The vendor says it needs water once a week and tolerates low light.{/i}"
     narrator "{i}Avyanna stares at it.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// QUERY: interest in plant acquisition?>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// QUERY: interest in plant acquisition?>{/color}"
     avyanna "{i}[[quiet]]{/i} I've never had a plant before."
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: plants provide psychological benefits | CARING FOR LIVING THING DEVELOPS NURTURING CAPACITY | ALSO: AESTHETIC BENEFIT | ALSO: PLANTS PRODUCE OXYGEN (MINIMAL BUT NON-ZERO)>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: plants provide psychological benefits | CARING FOR LIVING THING DEVELOPS NURTURING CAPACITY | ALSO: AESTHETIC BENEFIT | ALSO: PLANTS PRODUCE OXYGEN (MINIMAL BUT NON-ZERO)>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -143,7 +143,7 @@ label act1_15b_first_purchase_decision:
     narrator "{i}She returns to the ship with Bubbles carrying her bags. The plant sits carefully in her hands. Fragile. Trusting. Dependent on her not to kill it through neglect or overcare.{/i}"
     narrator "{i}In her quarters, she sets the plant on the small desk. Finds a spot where it gets indirect light from the corridor. Not too much. Not too little.{/i}"
     narrator "{i}She sits on her bunk and looks at it. A living thing. In her space. Proof that she can care for something. That she has enough stability to commit to keeping another living thing alive.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee purchased needs (64 credits) and wants (20 credits) | SAVED: 116 credits | FINANCIAL AUTONOMY: demonstrated | EMOTIONAL REGULATION TOOLS: acquired | LIVING THING: acquired | ASSESSMENT: successful first autonomous purchase experience>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee purchased needs (64 credits) and wants (20 credits) | SAVED: 116 credits | FINANCIAL AUTONOMY: demonstrated | EMOTIONAL REGULATION TOOLS: acquired | LIVING THING: acquired | ASSESSMENT: successful first autonomous purchase experience>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -158,8 +158,8 @@ label act1_15b_first_purchase_decision:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// PURCHASE LOG: trainee spent 84 of 200 credits | CATEGORIES: hygiene, clothing, food, comfort items, living plant | FINANCIAL DECISIONS: appropriate and balanced | REMAINING FUNDS: saved for future use | ASSESSMENT: trainee developing economic autonomy and purchasing confidence>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// PERSONAL NOTE: she bought a plant | THIS IS SIGNIFICANT | PLANTS REQUIRE ONGOING CARE AND COMMITMENT | SHE IS BUILDING CAPACITY FOR SUSTAINED RESPONSIBILITY | ALSO THE PLANT IS VERY CUTE | I AM PLEASED>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// PURCHASE LOG: trainee spent 84 of 200 credits | CATEGORIES: hygiene, clothing, food, comfort items, living plant | FINANCIAL DECISIONS: appropriate and balanced | REMAINING FUNDS: saved for future use | ASSESSMENT: trainee developing economic autonomy and purchasing confidence>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// PERSONAL NOTE: she bought a plant | THIS IS SIGNIFICANT | PLANTS REQUIRE ONGOING CARE AND COMMITMENT | SHE IS BUILDING CAPACITY FOR SUSTAINED RESPONSIBILITY | ALSO THE PLANT IS VERY CUTE | I AM PLEASED>{/color}"
 
     scene black with dissolve
     pause 0.5

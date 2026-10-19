@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_01_cinder_hours:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - DAILY ACCOUNTABILITY REPORT{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Shift:{/i} Cinder (0400-1200)\n{i}Personnel Verified:{/i} 847/849\n{i}Discrepancy:{/i} 2 (see mortality log, Form 9-ECHO)\n{i}Productivity Index:{/i} 94.2%% (within acceptable parameters)\n{i}Note:{/i} Air filtration maintenance deferred (eighth consecutive quarter). Budget pending.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - DAILY ACCOUNTABILITY REPORT{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Shift:{/i} Cinder (0400-1200)\n{i}Personnel Verified:{/i} 847/849\n{i}Discrepancy:{/i} 2 (see mortality log, Form 9-ECHO)\n{i}Productivity Index:{/i} 94.2%% (within acceptable parameters)\n{i}Note:{/i} Air filtration maintenance deferred (eighth consecutive quarter). Budget pending.{/color}"
     pause 0.3
     narrator "{i}The siren comes first. Then the counting.{/i}"
     narrator "{i}Avyanna opens her eyes before the sound finishes. Her body knows the rhythm. Eight years of this rhythm. The siren is a knife through sleep, and her nerves flinch before it lands.{/i}"
@@ -52,7 +52,7 @@ label act1_01_cinder_hours:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Work assignment comes through the tag. A vibration against her neck, then the data feeds directly into her visual cortex-cheap augment, standard issue, designed for inventory.{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - SHIFT ASSIGNMENT{/b}{{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - SHIFT ASSIGNMENT{/b}{/color}"
     narrator "{i}She walks to Processing. The corridors are narrow. Workers call them by names the company doesn't use: the Throat is the main elevator spine. Spit Lane runs behind the commissary, where the condensation drips. The Warm Wall is a pipe junction where heat leaks-workers press their hands there between shifts, stealing warmth the company hasn't priced yet.{/i}"
     narrator "{i}The Throat is packed with Cinder shift workers descending. She takes the stairs instead. Cinder Steps, four levels down. Her knees ache by the third level. Her lungs feel heavy by the fourth. The dust is in her too. She doesn't think about it.{/i}"
     narrator "{i}The Processing Hall opens up around her. The sound hits first-constant, industrial, the grinding of ore into slurry, the whine of conveyor belts, the hum of machines that never stop. Then the heat. Then the smell: metal, chemical, sweat.{/i}"
@@ -153,7 +153,7 @@ label act1_01_cinder_hours:
     narrator "{i}End of shift. The siren screams again. The machines don't stop-second shift takes over-but Avyanna's body is released.{/i}"
     narrator "{i}Her muscles ache. Her lungs feel heavy. Her hands are gold-stained, and no amount of washing will get it all out.{/i}"
     narrator "{i}She walks to the hab stack. Slow. Conservation. Her tag vibrates against her neck.{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - SHIFT SUMMARY{/b}\n{i}Quota:{/i} 347/340 (102%%)\n{i}Base Earnings:{/i} 400 ticks\n{i}Tool Rental:{/i} -90 ticks\n{i}Air Premium:{/i} -60 ticks\n{i}Water Ration:{/i} -30 ticks\n{i}Food Ration:{/i} -45 ticks\n{i}Bunk Rental:{/i} -120 ticks\n{i}Net:{/i} +55 ticks\n{i}Balance Adjustment:{/i} -72 ticks (interest accrual, current rate: 0.015%% daily, compounding)\n{i}New Balance:{/i} 487,341 ticks (debt){{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - SHIFT SUMMARY{/b}\n{i}Quota:{/i} 347/340 (102%%)\n{i}Base Earnings:{/i} 400 ticks\n{i}Tool Rental:{/i} -90 ticks\n{i}Air Premium:{/i} -60 ticks\n{i}Water Ration:{/i} -30 ticks\n{i}Food Ration:{/i} -45 ticks\n{i}Bunk Rental:{/i} -120 ticks\n{i}Net:{/i} +55 ticks\n{i}Balance Adjustment:{/i} -72 ticks (interest accrual, current rate: 0.015%% daily, compounding)\n{i}New Balance:{/i} 487,341 ticks (debt){/color}"
     narrator "Fifty-five earned. Seventy-two interest. Net: negative seventeen."
     narrator "I worked eight hours. Met quota. Didn't break anything. Didn't get sick. Didn't die."
     narrator "Still further behind than when I woke up."
@@ -254,7 +254,7 @@ label act1_01_cinder_hours:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - MORTALITY LOG (FORM 9-ECHO){/b}\n{i}Site:{/i} K-9\n{i}Date:{/i} [[REDACTED]\n{i}Deceased:{/i} Worker 431 (cause: respiratory failure, gold-lung complications), Worker 508 (cause: equipment proximity incident, Slurry 7)\n{i}Debt Status:{/i} Transferred to next of kin (if applicable) per Contract Section 7.3(b)\n{i}Bunk Reassignment:{/i} Complete\n{i}Productivity Impact:{/i} Minimal. Shift coverage maintained within acceptable parameters.\n{i}Note:{/i} Both workers performed within expectations until incident date. No anomalies reported.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - MORTALITY LOG (FORM 9-ECHO){/b}\n{i}Site:{/i} K-9\n{i}Date:{/i} [[REDACTED]\n{i}Deceased:{/i} Worker 431 (cause: respiratory failure, gold-lung complications), Worker 508 (cause: equipment proximity incident, Slurry 7)\n{i}Debt Status:{/i} Transferred to next of kin (if applicable) per Contract Section 7.3(b)\n{i}Bunk Reassignment:{/i} Complete\n{i}Productivity Impact:{/i} Minimal. Shift coverage maintained within acceptable parameters.\n{i}Note:{/i} Both workers performed within expectations until incident date. No anomalies reported.{/color}"
 
     scene black with dissolve
     pause 0.5

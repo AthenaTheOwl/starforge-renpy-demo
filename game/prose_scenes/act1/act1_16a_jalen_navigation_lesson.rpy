@@ -170,7 +170,7 @@ label act1_16a_jalen_navigation_lesson:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee engaged in voluntary education during rest hours | SUBJECT: navigation basics | ASSESSMENT: knowledge-seeking behavior indicates psychological safety | STATUS: crew integration progressing>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee engaged in voluntary education during rest hours | SUBJECT: navigation basics | ASSESSMENT: knowledge-seeking behavior indicates psychological safety | STATUS: crew integration progressing>{/color}"
     narrator "{i}<JALEN PERSONAL LOG: \"She's afraid of being wrong. Makes her hesitant. But she corrected herself three times without prompting. That's good instinct. She just needs practice believing mistakes aren't catastrophes.\">{/i}"
 
     scene black with dissolve

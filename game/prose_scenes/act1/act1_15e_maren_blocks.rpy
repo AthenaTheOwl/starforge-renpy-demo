@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_15e_maren_blocks:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH15]{/b}\n{i}Trigger: Elisira teaches \"pattern\" like it's a language{/i}\n{i}Purpose: show Maren Sova's foundation without confirming her fate{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH15]{/b}\n{i}Trigger: Elisira teaches \"pattern\" like it's a language{/i}\n{i}Purpose: show Maren Sova's foundation without confirming her fate{/i}{/color}"
     pause 0.3
     narrator "{i}Elisira's lessons always look like paperwork until you realize they're knives.{/i}"
     narrator "{i}After the ghost net drill, Avyanna finds Elisira at the galley table with a small tin of colored blocks spread before her.{/i}"

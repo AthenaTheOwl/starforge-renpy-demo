@@ -222,11 +222,11 @@ label act1_bee_manifestation_crew_disperses:
     jump act1_bee_manifestation_bee_first_public_words
 
 label act1_bee_manifestation_bee_first_public_words:
-    bee "{{BEE:: crew-assessed | threat-level: variable | trust-level: insufficient}}"
+    bee "{{BEE:: crew-assessed | threat-level: variable | trust-level: insufficient}"
     jump act1_bee_manifestation_bee_addresses_elia
 
 label act1_bee_manifestation_bee_addresses_elia:
-    bee "{{BEE:: designation-Elia | query: you-chose-risk-over-safety | why? | status: curious}}"
+    bee "{{BEE:: designation-Elia | query: you-chose-risk-over-safety | why? | status: curious}"
     jump act1_bee_manifestation_elia_meets_bee
 
 label act1_bee_manifestation_elia_meets_bee:
@@ -235,7 +235,7 @@ label act1_bee_manifestation_elia_meets_bee:
 
 label act1_bee_manifestation_bee_responds_to_elia:
     $ game_state.set_flag("bee_revealed")
-    bee "{{BEE:: designation-Elia | assessment: acceptable-captain | detail: debt-recorded | status: watching}}"
+    bee "{{BEE:: designation-Elia | assessment: acceptable-captain | detail: debt-recorded | status: watching}"
     jump act1_bee_manifestation_final_moment
 
 label act1_bee_manifestation_final_moment:

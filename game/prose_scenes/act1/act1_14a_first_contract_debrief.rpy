@@ -224,7 +224,7 @@ label act1_14a_first_contract_debrief:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONTRACT LOG: 7823-G filed as complete | WITNESS REPORT: filed and verified | CREW DEBRIEF: completed per protocol | ASSESSMENT: trainee performed within expected parameters | OPERATIONAL NOTES: two process improvements identified and assigned>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONTRACT LOG: 7823-G filed as complete | WITNESS REPORT: filed and verified | CREW DEBRIEF: completed per protocol | ASSESSMENT: trainee performed within expected parameters | OPERATIONAL NOTES: two process improvements identified and assigned>{/color}"
     narrator "{i}<VESPER PERSONAL LOG: \"She caught the date error on Rho's manifest. Sharp eyes. Sharper than some Guild contractors I've worked with. She's scared, but she's learning to function through fear. That's the skillset that matters.\">{/i}"
 
     scene black with dissolve

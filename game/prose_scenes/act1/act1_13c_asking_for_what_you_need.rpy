@@ -260,7 +260,7 @@ label act1_13c_asking_for_what_you_need:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// TRAINING LOG: session one completed | DURATION: 42 minutes | AUTONOMY EXERCISES: three verbal requests recorded | ASSESSMENT: trainee learning to name limits before reaching them | PROGRESS: significant>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// TRAINING LOG: session one completed | DURATION: 42 minutes | AUTONOMY EXERCISES: three verbal requests recorded | ASSESSMENT: trainee learning to name limits before reaching them | PROGRESS: significant>{/color}"
     narrator "{i}<ELIA PERSONAL LOG: \"She tried to push past her limit and I stopped her. She looked at me like I'd just revealed magic. This is what we're fighting-the reflex that says endurance is virtue. Tomorrow we do it again. And again. Until she stops counting her needs as failures.\">{/i}"
 
     scene black with dissolve

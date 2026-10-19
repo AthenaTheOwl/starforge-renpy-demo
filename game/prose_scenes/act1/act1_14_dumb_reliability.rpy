@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_14_dumb_reliability:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - ENGINEERING TRAINING MODULE (FIELD COPY):{/b}\n{i}Subject: Dumb Reliability{/i}\n{i}Instructor: Jalen Kade{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Magic fails. Corridors collapse. Guns jam. The wrench works.{/i}\n{i}Rule 1: Know where the mechanical override lives.{/i}\n{i}Rule 2: Practice it before you need it.{/i}\n{i}Rule 3: If you can't fix it with your hands, at least know who can.{/i}\n{i}Addendum: If someone tells you \"nothing ever breaks,\" they are either lying or trying to sell you something.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - ENGINEERING TRAINING MODULE (FIELD COPY):{/b}\n{i}Subject: Dumb Reliability{/i}\n{i}Instructor: Jalen Kade{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Magic fails. Corridors collapse. Guns jam. The wrench works.{/i}\n{i}Rule 1: Know where the mechanical override lives.{/i}\n{i}Rule 2: Practice it before you need it.{/i}\n{i}Rule 3: If you can't fix it with your hands, at least know who can.{/i}\n{i}Addendum: If someone tells you \"nothing ever breaks,\" they are either lying or trying to sell you something.{/i}{/color}"
     pause 0.3
     narrator "{i}The maintenance corridors don't pretend to be kind.{/i}"
     narrator "{i}They are narrow and stripped. Conduit bundles hang like exposed nerves. The air tastes like hot dust and old lubricant and the faint chemical ghost of coolant that never fully leaves a ship once it's been there.{/i}"
@@ -152,7 +152,7 @@ label act1_14_dumb_reliability:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}A faint chime ripples through the corridor speakers. Not an alarm. A notice.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ALERT: static bloom (minor) | ACTION: switching select subsystems to analog fallback | NOTE: boring is safe>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ALERT: static bloom (minor) | ACTION: switching select subsystems to analog fallback | NOTE: boring is safe>{/color}"
     narrator "{i}The lights warm and cool in a tiny, seasick pulse. Somewhere deeper in the ship, a servo whines and then steadies.{/i}"
     jalen "See?"
     avyanna "That was... the Lattice?"
@@ -357,7 +357,7 @@ label act1_14_dumb_reliability:
     narrator "{i}The presence behind her eyes hums-quiet, patient. Not words. A tone that shifts when her fingers leave the wrench.{/i}"
     narrator "You like this."
     narrator "{i}No answer. But the warmth at the base of her skull steadies, like agreement that doesn't need language.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: trainee completed mechanical override drill | INFERENCE: grounding behavior increased | CONFIDENCE: 0.78 | NOTE: boring is safe. safe is good.>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: trainee completed mechanical override drill | INFERENCE: grounding behavior increased | CONFIDENCE: 0.78 | NOTE: boring is safe. safe is good.>{/color}"
 
     scene black with dissolve
     pause 0.5

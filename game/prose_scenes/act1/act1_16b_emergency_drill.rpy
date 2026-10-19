@@ -7,7 +7,7 @@ label act1_16b_emergency_drill:
     narrator "{i}Avyanna bolts upright in her bunk. Her heart is already racing. Alarm = danger = threat = run.{/i}"
     narrator "{i}But she's on the ship. Not in the mine. Different alarm. Different meaning.{/i}"
     narrator "{i}Probably.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// ATTENTION ALL CREW: emergency drill initiated | SCENARIO: fire in cargo bay | THIS IS A DRILL | REPEAT: THIS IS A DRILL | REPORT TO DESIGNATED STATIONS PER PROTOCOL>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// ATTENTION ALL CREW: emergency drill initiated | SCENARIO: fire in cargo bay | THIS IS A DRILL | REPEAT: THIS IS A DRILL | REPORT TO DESIGNATED STATIONS PER PROTOCOL>{/color}"
     narrator "{i}A drill. Not real. But her body doesn't care. Her hands are shaking as she pulls on clothes and stumbles into the corridor.{/i}"
 
     scene black with dissolve
@@ -16,7 +16,7 @@ label act1_16b_emergency_drill:
     narrator "{i}The corridor is full of crew moving fast but not panicking. Rho heads toward engineering. Elia toward the cargo bay. Vesper toward the bridge. Everyone knows where they're supposed to be.{/i}"
     narrator "{i}Avyanna doesn't.{/i}"
     narrator "{i}She stands in the corridor, frozen. Where is she supposed to go? What is her station? No one told her-or they told her and she forgot, or she wasn't supposed to know yet because she's too new-{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// AVYANNA LAGRANGE: report to galley | ROLE: muster point, head count, emergency supplies verification | NYRELLA SYRE IS YOUR DRILL SUPERVISOR>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// AVYANNA LAGRANGE: report to galley | ROLE: muster point, head count, emergency supplies verification | NYRELLA SYRE IS YOUR DRILL SUPERVISOR>{/color}"
     narrator "{i}Galley. She can find the galley. She's been there a dozen times.{/i}"
     narrator "{i}She runs.{/i}"
 
@@ -34,9 +34,9 @@ label act1_16b_emergency_drill:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}They finish the supply count. Everything's accounted for. Waffle confirms all crew locations.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// STATUS UPDATE: all crew at designated stations | FIRE RESPONSE TEAM (elia, rho): cargo bay | EVACUATION COORDINATOR (vesper): bridge | MEDICAL RESPONSE (nyx): galley | TRAINEE (avyanna): galley with medical | NAVIGATION (jalen): maintaining engine readiness>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// STATUS UPDATE: all crew at designated stations | FIRE RESPONSE TEAM (elia, rho): cargo bay | EVACUATION COORDINATOR (vesper): bridge | MEDICAL RESPONSE (nyx): galley | TRAINEE (avyanna): galley with medical | NAVIGATION (jalen): maintaining engine readiness>{/color}"
     narrator "{i}The alarm cuts off. The silence is almost worse.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// DRILL SCENARIO UPDATE: fire has not been contained | STRUCTURAL INTEGRITY COMPROMISED IN CARGO BAY SECTION | CREW MUST MAKE DECISION: fight fire or evacuate ship>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// DRILL SCENARIO UPDATE: fire has not been contained | STRUCTURAL INTEGRITY COMPROMISED IN CARGO BAY SECTION | CREW MUST MAKE DECISION: fight fire or evacuate ship>{/color}"
     vesper "{i}[[over ship comms]]{/i} All crew, report status."
 
     scene black with dissolve
@@ -53,7 +53,7 @@ label act1_16b_emergency_drill:
     scene bg ship_interior with dissolve
     narrator "{i}Nyx grabs the emergency med kit. Avyanna follows them to the escape pod bay. The pod is small. Cramped. Designed for survival, not comfort.{/i}"
     narrator "{i}They strap in. Waffle secures itself in a charging bracket. Around them: the sounds of other crew doing the same in other pods.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// POD STATUS: pod one (vesper, rho), pod two (nyx, avyanna, waffle), pod three (jalen, elia) | ALL PODS READY FOR LAUNCH | AWAITING FINAL EVACUATION COMMAND>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// POD STATUS: pod one (vesper, rho), pod two (nyx, avyanna, waffle), pod three (jalen, elia) | ALL PODS READY FOR LAUNCH | AWAITING FINAL EVACUATION COMMAND>{/color}"
     vesper "{i}[[over comms]]{/i} Final count. Everyone accounted for?"
     narrator "{i}Crew confirms. Everyone's in a pod. Everyone's ready to abandon ship if necessary.{/i}"
     vesper "{i}[[over comms]]{/i} Good. On my mark, launch sequence would initiate. Mark."
@@ -63,7 +63,7 @@ label act1_16b_emergency_drill:
     scene bg ship_interior with dissolve
     narrator "{i}Nothing happens. Because this is a drill. In a real emergency, they'd launch. The ship would be lost. The crew would survive in pods until rescue or until they ran out of air, whichever came first.{/i}"
     narrator "{i}But this is a drill. So they wait.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// DRILL COMPLETE | ALL CREW AT EVACUATION STATIONS IN: 4 minutes 17 seconds | TARGET TIME: under 5 minutes | ASSESSMENT: acceptable response time | CREW MAY DISEMBARK PODS>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// DRILL COMPLETE | ALL CREW AT EVACUATION STATIONS IN: 4 minutes 17 seconds | TARGET TIME: under 5 minutes | ASSESSMENT: acceptable response time | CREW MAY DISEMBARK PODS>{/color}"
     narrator "{i}The all-clear sounds. Different tone. Less urgent. The sound of \"you can stop running now.\"{/i}"
 
     scene black with dissolve
@@ -135,7 +135,7 @@ label act1_16b_emergency_drill:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// DRILL ASSESSMENT: crew response time adequate but requires improvement | SPECIFIC NOTES: avyanna (trainee) performed appropriately for first drill | RECOMMENDATION: additional drill cycles to improve familiarity and reduce response time | NEXT DRILL: scheduled 14 days>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// DRILL ASSESSMENT: crew response time adequate but requires improvement | SPECIFIC NOTES: avyanna (trainee) performed appropriately for first drill | RECOMMENDATION: additional drill cycles to improve familiarity and reduce response time | NEXT DRILL: scheduled 14 days>{/color}"
     narrator "{i}<RHO PERSONAL LOG: \"First drill is always brutal. She was shaking for an hour after. But she didn't freeze. She got to her station. She did what we needed. That's courage. That's what matters.\">{/i}"
     narrator "{i}<VESPER PERSONAL LOG: \"Four minutes seventeen seconds. Acceptable for a crew with a new trainee. Next drill we'll hit four minutes flat. After that, three forty-five. We iterate until perfection, because perfection is what keeps everyone alive when the emergency is real.\">{/i}"
     narrator "{i}<ELIA PERSONAL LOG: \"She asked if she was useless. I told her medical supply verification is critical. Because it is. She needs to know that every role matters. That there are no small jobs in an emergency. Everything is life or death. Everything counts.\">{/i}"

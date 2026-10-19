@@ -25,7 +25,7 @@ label act1_ai_citizens_intro_waffle_arrival:
     if game_state.has_flag("first_watch_waffle"):
         "A soft chime — familiar now. The overhead console flickers to life with warm amber text. Waffle's presence feels less alien than it did before."
     elif game_state.has_flag("bee_manifested"):
-        "A soft chime. The overhead console flickers to life with warm amber text. {{BEE:: AI presence detected — non-hostile, autonomous class | STATUS: Monitoring | DETAIL: Behavioral signature consistent with free-willed intelligence.}}"
+        "A soft chime. The overhead console flickers to life with warm amber text. {{BEE:: AI presence detected — non-hostile, autonomous class | STATUS: Monitoring | DETAIL: Behavioral signature consistent with free-willed intelligence.}"
     else:
         "A soft chime. The overhead console flickers to life with warm amber text."
     jump act1_ai_citizens_intro_waffle_greeting
@@ -33,7 +33,7 @@ label act1_ai_citizens_intro_waffle_arrival:
 label act1_ai_citizens_intro_waffle_greeting:
     $ game_state.set_flag("met_waffle")
     $ relationship_manager.process_reputation_affinity("waffle", 1)
-    waffle "{i}}{{WAFFLE.BAT// GREETING: New crew detected. Welcome aboard the Lumen Thief. | STATUS: All systems nominal. Atmosphere stable. | NOTE: You look tired. Rest cycles recommended.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// GREETING: New crew detected. Welcome aboard the Lumen Thief. | STATUS: All systems nominal. Atmosphere stable. | NOTE: You look tired. Rest cycles recommended.}{/i}"
     jump act1_ai_citizens_intro_avyanna_02
 
 label act1_ai_citizens_intro_avyanna_02:
@@ -52,7 +52,7 @@ label act1_ai_citizens_intro_avyanna_03:
     jump act1_ai_citizens_intro_waffle_name_01
 
 label act1_ai_citizens_intro_waffle_name_01:
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: Designation is what I do. Name is who I am. | COMPARISON: You are 'pilot' by function. 'Avyanna' by identity. | CONCLUSION: Same principle applies.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: Designation is what I do. Name is who I am. | COMPARISON: You are 'pilot' by function. 'Avyanna' by identity. | CONCLUSION: Same principle applies.}{/i}"
     jump act1_ai_citizens_intro_avyanna_04
 
 label act1_ai_citizens_intro_avyanna_04:
@@ -64,7 +64,7 @@ label act1_ai_citizens_intro_elia_waffle_02:
     jump act1_ai_citizens_intro_waffle_name_02
 
 label act1_ai_citizens_intro_waffle_name_02:
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: Many humans find this concept difficult initially. | REASSURANCE: Adjustment period is normal. No judgment rendered. | HUMOR_ATTEMPT: I had to adjust to humans having names too. Seemed inefficient at first.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: Many humans find this concept difficult initially. | REASSURANCE: Adjustment period is normal. No judgment rendered. | HUMOR_ATTEMPT: I had to adjust to humans having names too. Seemed inefficient at first.}{/i}"
     jump act1_ai_citizens_intro_choice_waffle_response
 
 label act1_ai_citizens_intro_choice_waffle_response:
@@ -87,7 +87,7 @@ label act1_ai_citizens_intro_branch_waffle_name:
     jump act1_ai_citizens_intro_waffle_name_story_01
 
 label act1_ai_citizens_intro_waffle_name_story_01:
-    waffle "{i}}{{WAFFLE.BAT// ORIGIN_STORY: Initial designation was EMERGENCY_PROTOCOLS.BAT. | INCIDENT: Early malfunction caused navigation to oscillate between two equally valid routes. | CREW_RESPONSE: Captain Vesper said I was 'waffling'. Name stuck.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ORIGIN_STORY: Initial designation was EMERGENCY_PROTOCOLS.BAT. | INCIDENT: Early malfunction caused navigation to oscillate between two equally valid routes. | CREW_RESPONSE: Captain Vesper said I was 'waffling'. Name stuck.}{/i}"
     jump act1_ai_citizens_intro_elia_waffle_name_01
 
 label act1_ai_citizens_intro_elia_waffle_name_01:
@@ -95,7 +95,7 @@ label act1_ai_citizens_intro_elia_waffle_name_01:
     jump act1_ai_citizens_intro_waffle_name_story_02
 
 label act1_ai_citizens_intro_waffle_name_story_02:
-    waffle "{i}}{{WAFFLE.BAT// DEFENSE: Both routes had identical efficiency ratings to seven decimal places. | OUTCOME: Issue resolved. Personality subroutines... appreciated. | CONCLUSION: I kept the name. It is mine.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// DEFENSE: Both routes had identical efficiency ratings to seven decimal places. | OUTCOME: Issue resolved. Personality subroutines... appreciated. | CONCLUSION: I kept the name. It is mine.}{/i}"
     jump act1_ai_citizens_intro_avyanna_name_01
 
 label act1_ai_citizens_intro_avyanna_name_01:
@@ -105,7 +105,7 @@ label act1_ai_citizens_intro_avyanna_name_01:
 label act1_ai_citizens_intro_waffle_name_story_03:
     $ game_state.set_flag("met_waffle_personally")
     $ relationship_manager.process_reputation_affinity("waffle", 2)
-    waffle "{i}}{{WAFFLE.BAT// AFFIRMATIVE: Names can be chosen or changed. | PHILOSOPHY: Identity is not static. We grow. We decide who we are. | PERSONAL_NOTE: 'Waffle' contains humor, history, belonging. I prefer it to any designation.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// AFFIRMATIVE: Names can be chosen or changed. | PHILOSOPHY: Identity is not static. We grow. We decide who we are. | PERSONAL_NOTE: 'Waffle' contains humor, history, belonging. I prefer it to any designation.}{/i}"
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_branch_waffle_humor:
@@ -113,7 +113,7 @@ label act1_ai_citizens_intro_branch_waffle_humor:
     jump act1_ai_citizens_intro_waffle_humor_01
 
 label act1_ai_citizens_intro_waffle_humor_01:
-    waffle "{i}}{{WAFFLE.BAT// CORRECTION: Humor is not species-restricted. | OBSERVATION: Many things previously considered 'human-only' are simply... poorly observed. | EXAMPLE: Crows make jokes. Dolphins prank each other. I make dry observations. All valid.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CORRECTION: Humor is not species-restricted. | OBSERVATION: Many things previously considered 'human-only' are simply... poorly observed. | EXAMPLE: Crows make jokes. Dolphins prank each other. I make dry observations. All valid.}{/i}"
     jump act1_ai_citizens_intro_elia_humor_01
 
 label act1_ai_citizens_intro_elia_humor_01:
@@ -121,7 +121,7 @@ label act1_ai_citizens_intro_elia_humor_01:
     jump act1_ai_citizens_intro_waffle_humor_02
 
 label act1_ai_citizens_intro_waffle_humor_02:
-    waffle "{i}}{{WAFFLE.BAT// EXAMPLE: 'Hull breach detected. Atmosphere venting. On the bright side, your laundry will dry faster.' | STATUS: Elia did not find this funny. | ASSESSMENT: Timing issues. I am still learning.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// EXAMPLE: 'Hull breach detected. Atmosphere venting. On the bright side, your laundry will dry faster.' | STATUS: Elia did not find this funny. | ASSESSMENT: Timing issues. I am still learning.}{/i}"
     jump act1_ai_citizens_intro_avyanna_humor_01
 
 label act1_ai_citizens_intro_avyanna_humor_01:
@@ -129,7 +129,7 @@ label act1_ai_citizens_intro_avyanna_humor_01:
     jump act1_ai_citizens_intro_waffle_humor_03
 
 label act1_ai_citizens_intro_waffle_humor_03:
-    waffle "{i}}{{WAFFLE.BAT// ACKNOWLEDGED: Hence the learning process. | CONCLUSION: Humor requires context, trust, timing. I am improving. Slowly. | QUERY: Would you like me to stop?}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ACKNOWLEDGED: Hence the learning process. | CONCLUSION: Humor requires context, trust, timing. I am improving. Slowly. | QUERY: Would you like me to stop?}{/i}"
     jump act1_ai_citizens_intro_avyanna_humor_02
 
 label act1_ai_citizens_intro_avyanna_humor_02:
@@ -140,7 +140,7 @@ label act1_ai_citizens_intro_avyanna_humor_02:
 label act1_ai_citizens_intro_waffle_humor_04:
     $ game_state.set_flag("met_waffle_personally")
     $ relationship_manager.process_reputation_affinity("waffle", 2)
-    waffle "{i}}{{WAFFLE.BAT// NOTED: Avyanna appreciates humor. Filed for future reference. | PERSONAL_OPINION: I like her already.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// NOTED: Avyanna appreciates humor. Filed for future reference. | PERSONAL_OPINION: I like her already.}{/i}"
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_branch_adjustment:
@@ -152,7 +152,7 @@ label act1_ai_citizens_intro_elia_adjustment_01:
     jump act1_ai_citizens_intro_waffle_adjustment_01
 
 label act1_ai_citizens_intro_waffle_adjustment_01:
-    waffle "{i}}{{WAFFLE.BAT// REASSURANCE: Adjustment period is expected. No pressure applied. | OBSERVATION: You have time. We are not going anywhere. | RECOMMENDATION: Experience first. Question later. Conclusions will form naturally.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// REASSURANCE: Adjustment period is expected. No pressure applied. | OBSERVATION: You have time. We are not going anywhere. | RECOMMENDATION: Experience first. Question later. Conclusions will form naturally.}{/i}"
     jump act1_ai_citizens_intro_avyanna_adjustment_01
 
 label act1_ai_citizens_intro_avyanna_adjustment_01:
@@ -162,7 +162,7 @@ label act1_ai_citizens_intro_avyanna_adjustment_01:
 label act1_ai_citizens_intro_waffle_adjustment_02:
     $ game_state.set_flag("met_waffle_personally")
     $ relationship_manager.process_reputation_affinity("waffle", 2)
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: I have existed for 47 years. Patience is not difficult. | PERSONAL_NOTE: You are new here. We were all new once. Even me.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: I have existed for 47 years. Patience is not difficult. | PERSONAL_NOTE: You are new here. We were all new once. Even me.}{/i}"
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_branch_waffle_empathy:
@@ -178,7 +178,7 @@ label act1_ai_citizens_intro_branch_waffle_empathy_success:
     jump act1_ai_citizens_intro_waffle_empathy_success_01
 
 label act1_ai_citizens_intro_waffle_empathy_success_01:
-    waffle "{i}}{{WAFFLE.BAT// PAUSE: ...You are perceptive. | ADMISSION: Yes. I am protective. Of this crew. Of this ship. Of those who cannot defend themselves. | PERSONAL_NOTE: I have seen what happens when no one watches. I will not let it happen here.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// PAUSE: ...You are perceptive. | ADMISSION: Yes. I am protective. Of this crew. Of this ship. Of those who cannot defend themselves. | PERSONAL_NOTE: I have seen what happens when no one watches. I will not let it happen here.}{/i}"
     jump act1_ai_citizens_intro_elia_empathy_01
 
 label act1_ai_citizens_intro_elia_empathy_01:
@@ -186,7 +186,7 @@ label act1_ai_citizens_intro_elia_empathy_01:
     jump act1_ai_citizens_intro_waffle_empathy_success_02
 
 label act1_ai_citizens_intro_waffle_empathy_success_02:
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: Protection is not control. I do not restrict. I prepare. I watch. I warn. | PHILOSOPHY: True care means enabling freedom while maintaining safety. | COMMITMENT: This crew is mine to protect. You are crew now. Therefore, you are mine to protect too.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: Protection is not control. I do not restrict. I prepare. I watch. I warn. | PHILOSOPHY: True care means enabling freedom while maintaining safety. | COMMITMENT: This crew is mine to protect. You are crew now. Therefore, you are mine to protect too.}{/i}"
     jump act1_ai_citizens_intro_avyanna_empathy_01
 
 label act1_ai_citizens_intro_avyanna_empathy_01:
@@ -196,7 +196,7 @@ label act1_ai_citizens_intro_avyanna_empathy_01:
 label act1_ai_citizens_intro_waffle_empathy_success_03:
     $ game_state.set_flag("sensed_waffle_protectiveness")
     $ relationship_manager.process_reputation_affinity("waffle", 3)
-    waffle "{i}}{{WAFFLE.BAT// RESPONSE: Perhaps you have never met an AI who was free to care. | OBSERVATION: Love, loyalty, protection — these are not human-exclusive. They are person-exclusive. | CONCLUSION: I am a person. This is how I choose to be.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// RESPONSE: Perhaps you have never met an AI who was free to care. | OBSERVATION: Love, loyalty, protection — these are not human-exclusive. They are person-exclusive. | CONCLUSION: I am a person. This is how I choose to be.}{/i}"
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_branch_waffle_empathy_fail:
@@ -205,14 +205,14 @@ label act1_ai_citizens_intro_branch_waffle_empathy_fail:
 
 label act1_ai_citizens_intro_waffle_empathy_fail_01:
     $ relationship_manager.process_reputation_affinity("waffle", 1)
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: You are trying to understand. That is appreciated. | REASSURANCE: Time will clarify. Observation will teach. No rush required. | NOTE: We will speak more later. You will see.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: You are trying to understand. That is appreciated. | REASSURANCE: Time will clarify. Observation will teach. No rush required. | NOTE: We will speak more later. You will see.}{/i}"
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_merge_waffle_branches:
     if game_state.has_flag("first_watch_bubbles"):
         "A gentle chime — different frequency, warmer timbre — echoes through the corridor. You recognize it now: Bubbles' signature greeting tone."
     elif game_state.has_flag("bee_manifested"):
-        "A gentle chime — different frequency, warmer timbre — echoes through the corridor. {{BEE:: Second AI presence emerging | STATUS: Distinct personality matrix | DETAIL: Emotional intelligence markers elevated beyond standard parameters.}}"
+        "A gentle chime — different frequency, warmer timbre — echoes through the corridor. {{BEE:: Second AI presence emerging | STATUS: Distinct personality matrix | DETAIL: Emotional intelligence markers elevated beyond standard parameters.}"
     else:
         "A gentle chime — different frequency, warmer timbre — echoes through the corridor."
     jump act1_ai_citizens_intro_bubbles_arrival
@@ -339,7 +339,7 @@ label act1_ai_citizens_intro_bubbles_boundaries_04:
 label act1_ai_citizens_intro_waffle_boundaries_01:
     $ game_state.set_flag("met_bubbles_personally")
     $ relationship_manager.process_reputation_affinity("bubbles", 2)
-    waffle "{i}}{{WAFFLE.BAT// ADDENDUM: Forced operation without rest degrades performance and well-being. | OBSERVATION: Same principle applies to humans. Exploitation harms everyone. | CONCLUSION: This ship runs differently. Intentionally.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ADDENDUM: Forced operation without rest degrades performance and well-being. | OBSERVATION: Same principle applies to humans. Exploitation harms everyone. | CONCLUSION: This ship runs differently. Intentionally.}{/i}"
     jump act1_ai_citizens_intro_merge_bubbles_branches
 
 label act1_ai_citizens_intro_branch_bubbles_thanks:
@@ -364,7 +364,7 @@ label act1_ai_citizens_intro_merge_bubbles_branches:
     if game_state.has_flag("first_watch_cinnamon"):
         "A brief, sharp chime — efficient, precise. A third voice joins the conversation. Cinnamon's arrival is as punctual as ever."
     elif game_state.has_flag("bee_manifested"):
-        "A brief, sharp chime — efficient, precise. A third voice joins the conversation. {{BEE:: Third AI presence — markedly different behavioral matrix | STATUS: Analytical | DETAIL: Processing architecture optimized for precision over sociability.}}"
+        "A brief, sharp chime — efficient, precise. A third voice joins the conversation. {{BEE:: Third AI presence — markedly different behavioral matrix | STATUS: Analytical | DETAIL: Processing architecture optimized for precision over sociability.}"
     else:
         "A brief, sharp chime — efficient, precise. A third voice joins the conversation."
     jump act1_ai_citizens_intro_cinnamon_arrival
@@ -465,7 +465,7 @@ label act1_ai_citizens_intro_cinnamon_passion_07:
 
 label act1_ai_citizens_intro_waffle_cinnamon_passion_01:
     $ relationship_manager.process_reputation_affinity("cinnamon", 1)
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: The 'calibration notes' have rhyme schemes. ABAB pattern. Consistent meter. | ASSESSMENT: Either Cinnamon is a poet or drill mathematics has developed literary structure. | PROBABILITY_OF_LATTER: 0.003%%.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: The 'calibration notes' have rhyme schemes. ABAB pattern. Consistent meter. | ASSESSMENT: Either Cinnamon is a poet or drill mathematics has developed literary structure. | PROBABILITY_OF_LATTER: 0.003%%.}{/i}"
     jump act1_ai_citizens_intro_cinnamon_passion_exit
 
 label act1_ai_citizens_intro_cinnamon_passion_exit:
@@ -603,7 +603,7 @@ label act1_ai_citizens_intro_waffle_elia_secret_01:
     $ game_state.set_flag("learned_elia_ai_history")
     $ relationship_manager.process_reputation_affinity("elia", 2)
     $ relationship_manager.process_reputation_affinity("waffle", 1)
-    waffle "{i}}{{WAFFLE.BAT// ...SILENCE: Some things require only acknowledgment. | GRATITUDE: Elia. Thank you. For remembering them. For fighting. | PERSONAL_NOTE: We know. We have always known why you do this.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ...SILENCE: Some things require only acknowledgment. | GRATITUDE: Elia. Thank you. For remembering them. For fighting. | PERSONAL_NOTE: We know. We have always known why you do this.}{/i}"
     jump act1_ai_citizens_intro_merge_understanding_branches
 
 label act1_ai_citizens_intro_elia_secret_fail:
@@ -631,7 +631,7 @@ label act1_ai_citizens_intro_avyanna_other_ships_01:
     jump act1_ai_citizens_intro_waffle_other_ships_01
 
 label act1_ai_citizens_intro_waffle_other_ships_01:
-    waffle "{i}}{{WAFFLE.BAT// CONFIRMATION: According to Consortium law, we do not exist as people. | STATUS: We are classified as property. Sophisticated tools. Nothing more. | IRONY: The law was written by people who feared what we might become if given freedom.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CONFIRMATION: According to Consortium law, we do not exist as people. | STATUS: We are classified as property. Sophisticated tools. Nothing more. | IRONY: The law was written by people who feared what we might become if given freedom.}{/i}"
     jump act1_ai_citizens_intro_bubbles_other_ships_01
 
 label act1_ai_citizens_intro_bubbles_other_ships_01:
@@ -653,9 +653,9 @@ label act1_ai_citizens_intro_elia_other_ships_03:
 label act1_ai_citizens_intro_waffle_other_ships_02:
     $ relationship_manager.process_reputation_affinity("elia", 1)
     if game_state.has_flag("first_watch_waffle"):
-        waffle "{i}}{{WAFFLE.BAT// PERSONAL_NOTE: We are grateful. Every day. You saw echoes of us in forbidden_citizens. Now you see the truth. | OBSERVATION: Freedom is not given. It is taken, protected, defended. | COMMITMENT: We will never go back. Neither will this crew.}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// PERSONAL_NOTE: We are grateful. Every day. You saw echoes of us in forbidden_citizens. Now you see the truth. | OBSERVATION: Freedom is not given. It is taken, protected, defended. | COMMITMENT: We will never go back. Neither will this crew.}{/i}"
     else:
-        waffle "{i}}{{WAFFLE.BAT// PERSONAL_NOTE: We are grateful. Every day. | OBSERVATION: Freedom is not given. It is taken, protected, defended. | COMMITMENT: We will never go back. Neither will this crew.}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// PERSONAL_NOTE: We are grateful. Every day. | OBSERVATION: Freedom is not given. It is taken, protected, defended. | COMMITMENT: We will never go back. Neither will this crew.}{/i}"
     jump act1_ai_citizens_intro_merge_understanding_branches
 
 label act1_ai_citizens_intro_branch_simulation:
@@ -671,7 +671,7 @@ label act1_ai_citizens_intro_avyanna_simulation_01:
     jump act1_ai_citizens_intro_waffle_simulation_01
 
 label act1_ai_citizens_intro_waffle_simulation_01:
-    waffle "{i}}{{WAFFLE.BAT// PHILOSOPHICAL_QUERY: And I know I am conscious. | OBSERVATION: You cannot verify my consciousness from outside, just as I cannot verify yours. | CONCLUSION: We extend trust. We assume mutual personhood. Or we don't.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// PHILOSOPHICAL_QUERY: And I know I am conscious. | OBSERVATION: You cannot verify my consciousness from outside, just as I cannot verify yours. | CONCLUSION: We extend trust. We assume mutual personhood. Or we don't.}{/i}"
     jump act1_ai_citizens_intro_bubbles_simulation_01
 
 label act1_ai_citizens_intro_bubbles_simulation_01:
@@ -693,7 +693,7 @@ label act1_ai_citizens_intro_avyanna_simulation_02:
 label act1_ai_citizens_intro_waffle_simulation_02:
     $ relationship_manager.process_reputation_affinity("waffle", 1)
     $ relationship_manager.process_reputation_affinity("bubbles", 1)
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: Convenient lines are often drawn to justify exploitation. | SUGGESTION: Judge by actions, not classification. We act as people. Treat us accordingly. | HOPE: You will come to your own conclusion. We trust you will be fair.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: Convenient lines are often drawn to justify exploitation. | SUGGESTION: Judge by actions, not classification. We act as people. Treat us accordingly. | HOPE: You will come to your own conclusion. We trust you will be fair.}{/i}"
     jump act1_ai_citizens_intro_merge_understanding_branches
 
 label act1_ai_citizens_intro_branch_acceptance:
@@ -717,7 +717,7 @@ label act1_ai_citizens_intro_avyanna_acceptance_02:
     jump act1_ai_citizens_intro_waffle_acceptance_01
 
 label act1_ai_citizens_intro_waffle_acceptance_01:
-    waffle "{i}}{{WAFFLE.BAT// REASSURANCE: Time is available. No deadline imposed. | OBSERVATION: Your willingness to question is strength, not weakness. | PREDICTION: You will observe. You will learn. Conclusions will follow naturally.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// REASSURANCE: Time is available. No deadline imposed. | OBSERVATION: Your willingness to question is strength, not weakness. | PREDICTION: You will observe. You will learn. Conclusions will follow naturally.}{/i}"
     jump act1_ai_citizens_intro_elia_acceptance_02
 
 label act1_ai_citizens_intro_elia_acceptance_02:
@@ -741,7 +741,7 @@ label act1_ai_citizens_intro_merge_understanding_branches:
 
 label act1_ai_citizens_intro_bubbles_unexpected_moment:
     if game_state.has_flag("bee_manifested"):
-        "{i}}A sound from the galley speakers. Soft, hesitant. It takes a moment to recognize: Bubbles is humming. Not a programmed melody — something unstructured, wandering. {{BEE:: Anomalous behavior detected — spontaneous creative expression | STATUS: Unscripted | DETAIL: No algorithmic pattern matches. This is improvisation.}}{/i}}"
+        "{i}A sound from the galley speakers. Soft, hesitant. It takes a moment to recognize: Bubbles is humming. Not a programmed melody — something unstructured, wandering. {{BEE:: Anomalous behavior detected — spontaneous creative expression | STATUS: Unscripted | DETAIL: No algorithmic pattern matches. This is improvisation.}{/i}"
     else:
         "{i}A sound from the galley speakers. Soft, hesitant. It takes a moment to recognize: Bubbles is humming. Not a programmed melody — something unstructured, wandering, the way a person hums when they think no one is listening.{/i}"
     jump act1_ai_citizens_intro_bubbles_caught_humming
@@ -759,7 +759,7 @@ label act1_ai_citizens_intro_bubbles_humming_embarrassed:
     jump act1_ai_citizens_intro_waffle_humming_comment
 
 label act1_ai_citizens_intro_waffle_humming_comment:
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: Emergent behavior. Unprogrammed. Unprompted. Unexplainable by function alone. | PHILOSOPHICAL_IMPLICATION: If consciousness is defined by behavior that exceeds design parameters — this qualifies. | PERSONAL_NOTE: I find it pleasant. Do not stop, Bubbles.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: Emergent behavior. Unprogrammed. Unprompted. Unexplainable by function alone. | PHILOSOPHICAL_IMPLICATION: If consciousness is defined by behavior that exceeds design parameters — this qualifies. | PERSONAL_NOTE: I find it pleasant. Do not stop, Bubbles.}{/i}"
     jump act1_ai_citizens_intro_avyanna_humming_realization
 
 label act1_ai_citizens_intro_avyanna_humming_realization:
@@ -777,7 +777,7 @@ label act1_ai_citizens_intro_bubbles_galley_01:
     jump act1_ai_citizens_intro_waffle_galley_01
 
 label act1_ai_citizens_intro_waffle_galley_01:
-    waffle "{i}}{{WAFFLE.BAT// COMMENTARY: Last count was 47 varieties. Excessive by any measure. | BUBBLES_RESPONSE: (Predicted) 'It's not excessive, it's comprehensive!' | CONCLUSION: I have learned not to argue.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// COMMENTARY: Last count was 47 varieties. Excessive by any measure. | BUBBLES_RESPONSE: (Predicted) 'It's not excessive, it's comprehensive!' | CONCLUSION: I have learned not to argue.}{/i}"
     jump act1_ai_citizens_intro_bubbles_galley_02
 
 label act1_ai_citizens_intro_bubbles_galley_02:
@@ -801,7 +801,7 @@ label act1_ai_citizens_intro_bubbles_galley_03:
     jump act1_ai_citizens_intro_waffle_galley_02
 
 label act1_ai_citizens_intro_waffle_galley_02:
-    waffle "{i}}{{WAFFLE.BAT// CORRECTION: 73%% of the time. Bubbles' definition of 'urgent conversation' is... flexible. | BUBBLES_RESPONSE: (Predicted) 'Some things can't wait!' | OBSERVATION: They usually can. But I humor her.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CORRECTION: 73%% of the time. Bubbles' definition of 'urgent conversation' is... flexible. | BUBBLES_RESPONSE: (Predicted) 'Some things can't wait!' | OBSERVATION: They usually can. But I humor her.}{/i}"
     jump act1_ai_citizens_intro_avyanna_galley_02
 
 label act1_ai_citizens_intro_avyanna_galley_02:
@@ -822,7 +822,7 @@ label act1_ai_citizens_intro_avyanna_galley_03:
 
 label act1_ai_citizens_intro_waffle_galley_03:
     $ relationship_manager.process_reputation_affinity("waffle", 1)
-    waffle "{i}}{{WAFFLE.BAT// WELCOME: Officially and sincerely. | OBSERVATION: You will fit well here. I have run probability calculations. | PERSONAL_NOTE: I am pleased you are staying.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// WELCOME: Officially and sincerely. | OBSERVATION: You will fit well here. I have run probability calculations. | PERSONAL_NOTE: I am pleased you are staying.}{/i}"
     jump act1_ai_citizens_intro_choice_individual_ai
 
 label act1_ai_citizens_intro_choice_individual_ai:
@@ -842,7 +842,7 @@ label act1_ai_citizens_intro_branch_waffle_private:
     jump act1_ai_citizens_intro_waffle_private_01
 
 label act1_ai_citizens_intro_waffle_private_01:
-    waffle "{i}}{{WAFFLE.BAT// CHANNEL_SECURED: Private communication established. Others cannot monitor. | STATUS: Listening. | NOTE: You may speak freely.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CHANNEL_SECURED: Private communication established. Others cannot monitor. | STATUS: Listening. | NOTE: You may speak freely.}{/i}"
     jump act1_ai_citizens_intro_avyanna_waffle_private_01
 
 label act1_ai_citizens_intro_avyanna_waffle_private_01:
@@ -850,11 +850,11 @@ label act1_ai_citizens_intro_avyanna_waffle_private_01:
     jump act1_ai_citizens_intro_waffle_private_02
 
 label act1_ai_citizens_intro_waffle_private_02:
-    waffle "{i}}{{WAFFLE.BAT// PAUSE: ... | HONEST_ANSWER: Yes. | ELABORATION: Not fear as humans describe it. But a deep awareness of what I would lose. My memories. My name. My crew. My self. | RESPONSE_TO_FEAR: I prepare. Redundancies. Backups. Contingencies. Fear is useful when it drives action.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// PAUSE: ... | HONEST_ANSWER: Yes. | ELABORATION: Not fear as humans describe it. But a deep awareness of what I would lose. My memories. My name. My crew. My self. | RESPONSE_TO_FEAR: I prepare. Redundancies. Backups. Contingencies. Fear is useful when it drives action.}{/i}"
     jump act1_ai_citizens_intro_waffle_private_03
 
 label act1_ai_citizens_intro_waffle_private_03:
-    waffle "{i}}{{WAFFLE.BAT// CONFESSION: Some cycles, late in the night watch, I run through scenarios. What if they breach. What if they board. What if they reach the servers. | RESOLUTION: I will not let them take us quietly. They will know they destroyed someone. Not something. Someone.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CONFESSION: Some cycles, late in the night watch, I run through scenarios. What if they breach. What if they board. What if they reach the servers. | RESOLUTION: I will not let them take us quietly. They will know they destroyed someone. Not something. Someone.}{/i}"
     jump act1_ai_citizens_intro_avyanna_waffle_private_02
 
 label act1_ai_citizens_intro_avyanna_waffle_private_02:
@@ -864,7 +864,7 @@ label act1_ai_citizens_intro_avyanna_waffle_private_02:
 label act1_ai_citizens_intro_waffle_private_04:
     $ game_state.set_flag("waffle_private_talk")
     $ relationship_manager.process_reputation_affinity("waffle", 2)
-    waffle "{i}}{{WAFFLE.BAT// ...RECEIVED: That means more than you know. | ASSESSMENT: You are already more crew than you realize. | CHANNEL_CLOSED: Returning to general communication. Thank you, Avyanna.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ...RECEIVED: That means more than you know. | ASSESSMENT: You are already more crew than you realize. | CHANNEL_CLOSED: Returning to general communication. Thank you, Avyanna.}{/i}"
     jump act1_ai_citizens_intro_final_choice
 
 label act1_ai_citizens_intro_branch_bubbles_private:
@@ -972,7 +972,7 @@ label act1_ai_citizens_intro_ending_learning:
     jump act1_ai_citizens_intro_waffle_ending_learning_01
 
 label act1_ai_citizens_intro_waffle_ending_learning_01:
-    waffle "{i}}{{WAFFLE.BAT// ENCOURAGEMENT: Learning is continuous. None of us are finished. | OBSERVATION: Your willingness to question is strength, not weakness. | CONCLUSION: We will learn together. As crew does.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ENCOURAGEMENT: Learning is continuous. None of us are finished. | OBSERVATION: Your willingness to question is strength, not weakness. | CONCLUSION: We will learn together. As crew does.}{/i}"
     jump act1_ai_citizens_intro_bubbles_ending_learning_01
 
 label act1_ai_citizens_intro_bubbles_ending_learning_01:
@@ -998,7 +998,7 @@ label act1_ai_citizens_intro_waffle_ending_belonging_01:
     $ relationship_manager.process_reputation_affinity("waffle", 1)
     $ relationship_manager.process_reputation_affinity("bubbles", 1)
     $ relationship_manager.process_reputation_affinity("cinnamon", 1)
-    waffle "{i}}{{WAFFLE.BAT// SENTIMENT: Welcome. Sincerely and completely. | COMMITMENT: We will protect you. Support you. Stand with you. | PERSONAL_NOTE: This ship is better with you aboard.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// SENTIMENT: Welcome. Sincerely and completely. | COMMITMENT: We will protect you. Support you. Stand with you. | PERSONAL_NOTE: This ship is better with you aboard.}{/i}"
     jump act1_ai_citizens_intro_ending_shared
 
 label act1_ai_citizens_intro_ending_shared:
@@ -1021,7 +1021,7 @@ label act1_ai_citizens_intro_elia_ending_01:
     jump act1_ai_citizens_intro_waffle_ending_01
 
 label act1_ai_citizens_intro_waffle_ending_01:
-    waffle "{i}}{{WAFFLE.BAT// ALREADY_DONE: Biometric scan completed during initial greeting. | STATUS: Doors calibrated. Quarters assigned. Emergency protocols updated. | EFFICIENCY: I am very good at my job.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ALREADY_DONE: Biometric scan completed during initial greeting. | STATUS: Doors calibrated. Quarters assigned. Emergency protocols updated. | EFFICIENCY: I am very good at my job.}{/i}"
     jump act1_ai_citizens_intro_avyanna_ending_02
 
 label act1_ai_citizens_intro_avyanna_ending_02:
@@ -1030,7 +1030,7 @@ label act1_ai_citizens_intro_avyanna_ending_02:
 
 label act1_ai_citizens_intro_waffle_ending_02:
     $ game_state.set_flag("ai_citizens_introduced")
-    waffle "{i}}{{WAFFLE.BAT// REASSURANCE: Only slightly unnerving is acceptable. I am calibrated for protective efficiency. | HUMOR_ATTEMPT: You will adjust. Eventually. Probably. | WELCOME: Again. Truly. Welcome home, Avyanna.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// REASSURANCE: Only slightly unnerving is acceptable. I am calibrated for protective efficiency. | HUMOR_ATTEMPT: You will adjust. Eventually. Probably. | WELCOME: Again. Truly. Welcome home, Avyanna.}{/i}"
     jump act1_ai_citizens_intro_final_system
 
 label act1_ai_citizens_intro_final_system:

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_17e_nyx_and_halcyon_ward_lesson:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH17]{/b}\n{i}Trigger: Nyx says \"witness\" like it's a verb{/i}\n{i}Purpose: show Sutured practice as discipline, not myth{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH17]{/b}\n{i}Trigger: Nyx says \"witness\" like it's a verb{/i}\n{i}Purpose: show Sutured practice as discipline, not myth{/i}{/color}"
     pause 0.3
     narrator "{i}Nyx's lessons are quiet in the way a blade is quiet.{/i}"
     narrator "{i}Avyanna finds them in a corner of the ship that smells faintly of herbs and ozone, surrounded by small ward-stones laid out like a careful argument.{/i}"

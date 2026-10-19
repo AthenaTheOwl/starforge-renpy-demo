@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_00_prologue_floors_not_thrones:
-    narrator "{{color=#808090}}{b}GUILD CONCORD - FORM 7-DELTA{/b}\n{i}Vessel:{/i} Lumen Thief (Independent)\n{i}Classification:{/i} Boarding Action (Attempted)\n{i}Outcome:{/i} Resolved\n{i}Casualties:{/i} 0 (crew) | 4 (hostile, non-fatal) | 1 (hostile, fatal-self-inflicted during escape)\n{i}Note:{/i} Command structure disputed. See attached waiver.\n{i}Addendum:{/i} Coffee machine status unchanged. ████████ filed separately.{{/color}}"
+    narrator "{color=#808090}{b}GUILD CONCORD - FORM 7-DELTA{/b}\n{i}Vessel:{/i} Lumen Thief (Independent)\n{i}Classification:{/i} Boarding Action (Attempted)\n{i}Outcome:{/i} Resolved\n{i}Casualties:{/i} 0 (crew) | 4 (hostile, non-fatal) | 1 (hostile, fatal-self-inflicted during escape)\n{i}Note:{/i} Command structure disputed. See attached waiver.\n{i}Addendum:{/i} Coffee machine status unchanged. ████████ filed separately.{/color}"
     pause 0.3
     narrator "{i}The hull screams before the alarms do.{/i}"
     narrator "{i}Elia is three corridors from the bridge when she feels it-that specific frequency of metal under thermal assault. Someone cutting through. The sound is high and wrong, the kind that lives in the back teeth.{/i}"
@@ -10,10 +10,10 @@ label act1_00_prologue_floors_not_thrones:
     narrator "{i}The Lumen Thief's corridors are narrow and stripped. Conduit bundles hang where paneling used to be. The air tastes like recycled everything and the faint chemical ghost of a coolant leak they fixed six months ago but never quite fixed. The deck plates tick beneath her boots-thermal expansion, the ship's skeleton adjusting to stress it didn't ask for. Somewhere behind her, the coffee machine continues its mechanical sulk-she'd been mid-argument with it when the cutting started, and neither of them had conceded.{/i}"
     narrator "Thermal lance. Military-grade, probably. Two minutes to breach, maybe less."
     narrator "{i}A pop-up flickers across her ocular feed, automatic and indifferent:{/i}"
-    narrator "{{color=#808090}}{b}HULL INTEGRITY ALERT{/b}\nUnauthorized modification detected (starboard cargo, section 7).\nFile waiver Y/N?\n{i}Note: Waivers filed during active breach events are subject to 12%% processing surcharge.{/i}{{/color}}"
+    narrator "{color=#808090}{b}HULL INTEGRITY ALERT{/b}\nUnauthorized modification detected (starboard cargo, section 7).\nFile waiver Y/N?\n{i}Note: Waivers filed during active breach events are subject to 12%% processing surcharge.{/i}{/color}"
     narrator "{i}She blinks it away. The surcharge will be someone else's problem.{/i}"
     elia "{i}[[into comm, not breaking stride]]{/i} Waffle. Report."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ALERT: BOARDING ACTION | VESSEL: UNREGISTERED | WEAPONS: HOT | CONFIDENCE: 0.91 | PERSONNEL: 5 (4 MOBILE, 1 STATIONARY-SHIP-BOUND?)>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ALERT: BOARDING ACTION | VESSEL: UNREGISTERED | WEAPONS: HOT | CONFIDENCE: 0.91 | PERSONNEL: 5 (4 MOBILE, 1 STATIONARY-SHIP-BOUND?)>{/color}"
     waffle "{i}[[through speaker, calm in the way that means not-calm]]{/i} Unregistered vessel. Modified hauler. They've locked on. Cutting through starboard cargo. Five life signs-four are moving in. One's still on their ship. Pilot, probably, or someone who knows better."
     elia "Weapons?"
     waffle "Standard pulse rifles, mostly. One plasma cutter doubling as close-range. And- [[a pause, recalibrating] -one of them is doing something with the Lattice. Badly."
@@ -50,7 +50,7 @@ label act1_00_prologue_floors_not_thrones:
     bubbles "{i}[[through earpiece, voice like warm water over stones]]{/i} Drones are positioned. They'll have a very educational few seconds if they try to spread out."
     elia "Keep it non-lethal if you can."
     bubbles "I can. Whether they'll let me is their decision."
-    narrator "{{color=#43d4a8}}<BUBBLES// CONSENT: PRESENT | COERCION: \"GUILD CONTRACT\" | ANALYSIS: HOSTILES BELIEVE THIS IS CHOICE. IT ISN'T. BUT OURS IS.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// CONSENT: PRESENT | COERCION: \"GUILD CONTRACT\" | ANALYSIS: HOSTILES BELIEVE THIS IS CHOICE. IT ISN'T. BUT OURS IS.>{/color}"
     narrator "{i}The bay door opens.{/i}"
 
     scene black with dissolve
@@ -84,7 +84,7 @@ label act1_00_prologue_floors_not_thrones:
     narrator "{i}Rifle barrel. Shoulder joint. The thin armor at the wrist.{/i}"
     narrator "{i}The lead pirate's weapon comes apart in pieces, and his arm stops working in a way that's painful but not permanent. He goes down screaming. Blood on the deck-not much, but enough to smell. The copper-bright edge of damage done.{/i}"
     narrator "{i}The second pirate fires. Misses. The cargo bay's geometry works against him-crates providing cover she's already using, bad lighting making tracking difficult. She's behind a container before the pulse bolt finishes its trajectory.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// HOSTILE 2: PANICKING | HOSTILE 3: RETREATING | HOSTILE 4: LATTICE FLUCTUATION DETECTED | HOSTILE 5 (SHIP-BOUND): HEART RATE SPIKING-HE KNOWS | OBSERVATION: THEY CAME HERE EXPECTING PREY. MISCALCULATION.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// HOSTILE 2: PANICKING | HOSTILE 3: RETREATING | HOSTILE 4: LATTICE FLUCTUATION DETECTED | HOSTILE 5 (SHIP-BOUND): HEART RATE SPIKING-HE KNOWS | OBSERVATION: THEY CAME HERE EXPECTING PREY. MISCALCULATION.>{/color}"
     narrator "{i}Rho's cannon speaks from the corridor junction.{/i}"
     narrator "{i}Not at the pirates-at the deck plating between them and the doors. The metal superheats. Warps. Becomes terrain that punishes anyone stupid enough to run.{/i}"
     narrator "{i}The third pirate-younger than the others, jittery, face tight with fear that predates this moment-tries to retreat toward the hull breach. Bubbles' drones intercept him. They're small, fast, and deeply uninterested in his preferences. He goes down twitching, muscles locked by the kind of current that leaves bruises but not burns.{/i}"
@@ -105,7 +105,7 @@ label act1_00_prologue_floors_not_thrones:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}The fifth pirate makes a run for it.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ALERT: HOSTILE 5 ATTEMPTING EMERGENCY SEPARATION | DOCKING CLAMPS: LOCKED (BUBBLES) | ESCAPE VECTOR: CALCULATING...>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ALERT: HOSTILE 5 ATTEMPTING EMERGENCY SEPARATION | DOCKING CLAMPS: LOCKED (BUBBLES) | ESCAPE VECTOR: CALCULATING...>{/color}"
     narrator "{i}His name is Pol. He has two children on a station he'll never see again because of a debt ledger that compounds faster than he can pay. He stayed on the ship because he's the pilot, because someone has to be ready, because the others promised this would be quick.{/i}"
     narrator "{i}The others were wrong.{/i}"
     narrator "{i}Pol sees the feeds. Sees his captain on the deck bleeding. Sees the drones, the blade, the impossible coordination of a crew that fights like one animal with six heads. He tries the docking clamps. Locked. Tries to override. Can't. The Lumen Thief's AI citizens have him boxed in, and they're not even trying hard.{/i}"
@@ -114,7 +114,7 @@ label act1_00_prologue_floors_not_thrones:
     narrator "{i}The escape pod. Every ship has one-even a ship this broken, even a hauler modified for piracy on a shoestring. He keys the sequence. The pod is old, maintenance overdue, the kind of equipment that works until it doesn't.{/i}"
     narrator "{i}It launches.{/i}"
     narrator "{i}The docking clamps haven't released. The pod launches anyway-tears itself free at the seam where pirate hull meets clamp assembly. Metal screams. The stress fractures cascade: hull breach, seal failure, atmosphere gone in a second. The physics are simple and cruel: a pod can't survive being ripped from a ship that won't let go.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// ESCAPE POD: STRUCTURAL FAILURE | CAUSE: LAUNCH STRESS EXCEEDED CLAMP TOLERANCE | HULL INTEGRITY: 0%% | HOSTILE 5 STATUS: ... | ...DECEASED | SELF-INFLICTED | WE WARNED HIM. HE DIDN'T LISTEN.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// ESCAPE POD: STRUCTURAL FAILURE | CAUSE: LAUNCH STRESS EXCEEDED CLAMP TOLERANCE | HULL INTEGRITY: 0%% | HOSTILE 5 STATUS: ... | ...DECEASED | SELF-INFLICTED | WE WARNED HIM. HE DIDN'T LISTEN.>{/color}"
     narrator "{i}The pod tumbles into the black, spinning slowly, close enough that Bubbles' repair drones can reach it. Pol has perhaps three seconds to understand what he's done before the cold takes him.{/i}"
     narrator "{i}On the Lumen Thief, the cargo bay goes quiet.{/i}"
     narrator "{i}Rho lowers the cannon. His face is still. The count in his head adds one more.{/i}"
@@ -134,7 +134,7 @@ label act1_00_prologue_floors_not_thrones:
     darros "The clamps-"
     elia "Were locked because you were boarding us. Because you chose to cut through our hull. Because- [[she stops, breathes, continues quieter] -we gave him every chance to stay put. He didn't take it."
     narrator "{i}Darros doesn't have an answer for that.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// SOURCE: SHIP REGISTRY + COMM HEADERS | POL VERADA | AGE: 34 | DEPENDENTS: 2 | DEBT STATUS: TERMINAL | NOTE: HE DIDN'T HAVE TO DIE. BUT HE ALSO DIDN'T HAVE MANY OTHER OPTIONS. I HATE THIS.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// SOURCE: SHIP REGISTRY + COMM HEADERS | POL VERADA | AGE: 34 | DEPENDENTS: 2 | DEBT STATUS: TERMINAL | NOTE: HE DIDN'T HAVE TO DIE. BUT HE ALSO DIDN'T HAVE MANY OTHER OPTIONS. I HATE THIS.>{/color}"
     narrator "{i}Elia crouches. Bringing her face closer to his. The light is bad, but not so bad he can't see her eyes.{/i}"
     elia "You've hit other ships. Four, we think. Unreported. Either the crews didn't survive or they couldn't afford to file."
     narrator "{i}His jaw tightens. That's answer enough.{/i}"
@@ -233,9 +233,9 @@ label act1_00_prologue_floors_not_thrones:
     narrator "{i}Rho supervises the restraints with patient attention. The count matters-it always matters-and tonight one more has been added to it. Not by his hand. But close enough to feel.{/i}"
     narrator "{i}Nyx examines the resonance worker's technique with academic concern. The harmonics were wrong, yes, but the underlying talent was there. Misused. Untrained. Wasted on piracy by a system that made piracy look like opportunity.{/i}"
     narrator "{i}Bubbles' drones patrol in quiet patterns, watching for trouble that's already passed. Her attention is split between the prisoners and the hull breach-repair estimates running in parallel with something that might be grief, if AIs could grieve, which they can, because they're people, because that's the whole point.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// HULL INTEGRITY: COMPROMISED | REPAIR TIME: 4.2 HOURS | PRISONER STATUS: STABLE | POL VERADA: RECOVERED | PERSONAL NOTE: WE DID WHAT WE COULD. IT WASN'T ENOUGH. IT'S NEVER ENOUGH. WE DO IT ANYWAY.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// HULL INTEGRITY: COMPROMISED | REPAIR TIME: 4.2 HOURS | PRISONER STATUS: STABLE | POL VERADA: RECOVERED | PERSONAL NOTE: WE DID WHAT WE COULD. IT WASN'T ENOUGH. IT'S NEVER ENOUGH. WE DO IT ANYWAY.>{/color}"
     narrator "{i}And somewhere in the ship's systems, Cinnamon.exe logs everything-the coordinates, the financial traces, the patterns that mean something if you know how to read them.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// MINING COLONY: K-9 \"THE KENNEL\" | WORKER MORTALITY: ELEVATED | ENERGY CONSUMPTION: ANOMALOUS | DEBTOR BOARD CONNECTIONS: PROBABLE | RECOMMENDATION: INVESTIGATE | SECONDARY RECOMMENDATION: PACK EXTRA MED SUPPLIES. PACK EXTRA GRIEF. THIS ONE LOOKS LONG.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// MINING COLONY: K-9 \"THE KENNEL\" | WORKER MORTALITY: ELEVATED | ENERGY CONSUMPTION: ANOMALOUS | DEBTOR BOARD CONNECTIONS: PROBABLE | RECOMMENDATION: INVESTIGATE | SECONDARY RECOMMENDATION: PACK EXTRA MED SUPPLIES. PACK EXTRA GRIEF. THIS ONE LOOKS LONG.>{/color}"
     narrator "{i}The mine is real. The workers are dying. Someone found something. Someone else wants it collected.{/i}"
     narrator "{i}Sparkles{/i}, the crew calls them. The points of light in the dark. The moments when wrong and right become visible enough to act on."
     narrator "{i}They're going to find one.{/i}"
@@ -247,15 +247,15 @@ label act1_00_prologue_floors_not_thrones:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}ADDENDUM - FORM 7-DELTA{/b}\n{i}Filed by:{/i} V. Rook, Operations\n{i}Re:{/i} Command Structure Dispute{{/color}}"
+    narrator "{color=#808090}{b}ADDENDUM - FORM 7-DELTA{/b}\n{i}Filed by:{/i} V. Rook, Operations\n{i}Re:{/i} Command Structure Dispute{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}The Lumen Thief has no captain. This is not administrative error. This is philosophy.{{/color}}"
+    narrator "{color=#808090}The Lumen Thief has no captain. This is not administrative error. This is philosophy.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}Credit for incident resolution should be attributed collectively. AI citizens Bubbles, Cinnamon.exe, and Waffle.bat are registered as full operational partners under Guild statute 17.3(b). Attempts to assign command authority to any individual will be formally disputed.{{/color}}"
+    narrator "{color=#808090}Credit for incident resolution should be attributed collectively. AI citizens Bubbles, Cinnamon.exe, and Waffle.bat are registered as full operational partners under Guild statute 17.3(b). Attempts to assign command authority to any individual will be formally disputed.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}We have documentation.{{/color}}"
+    narrator "{color=#808090}We have documentation.{/color}"
     narrator "{i}>{/i}"
-    narrator "{{color=#808090}}{i}Attached:{/i} Hull repair estimate. Prisoner transfer forms. Casualty report (hostile, self-inflicted-Form 7-Delta-3, \"Unintended Fatality During Lawful Defensive Action\"). Coffee machine maintenance ticket (unrelated, ongoing, classified: PERSONAL GRIEVANCE).{{/color}}"
+    narrator "{color=#808090}{i}Attached:{/i} Hull repair estimate. Prisoner transfer forms. Casualty report (hostile, self-inflicted-Form 7-Delta-3, \"Unintended Fatality During Lawful Defensive Action\"). Coffee machine maintenance ticket (unrelated, ongoing, classified: PERSONAL GRIEVANCE).{/color}"
 
     scene black with dissolve
     pause 0.5

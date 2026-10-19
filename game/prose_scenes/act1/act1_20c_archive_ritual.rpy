@@ -35,9 +35,9 @@ label act1_20c_archive_ritual:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Cinnamon's terminal wakes without being prompted, like she heard the word erased and took it personally.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: new evidence bundle present | ACTION: generate archive hashes | NOTE: I enjoy permanence>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: new evidence bundle present | ACTION: generate archive hashes | NOTE: I enjoy permanence>{/color}"
     avyanna "You enjoy permanence."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// RESPONSE: yes | ADDENDUM: hostile systems rely on your belief that nothing persists>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// RESPONSE: yes | ADDENDUM: hostile systems rely on your belief that nothing persists>{/color}"
     narrator "{i}Avyanna swallows.{/i}"
     vesper "Cinnamon, print chain-of-custody forms. Seven copies."
     avyanna "Seven."
@@ -168,7 +168,7 @@ label act1_20c_archive_ritual:
     narrator "{i}Bubbles drifts in last.{/i}"
     narrator "{i}She doesn't speak at first.{/i}"
     narrator "{i}She watches Avyanna stamp and stack and index.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee performing archival labor | INFERENCE: belonging increasing via contribution | CONFIDENCE: 0.84>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee performing archival labor | INFERENCE: belonging increasing via contribution | CONFIDENCE: 0.84>{/color}"
     avyanna "{i}[[quiet, to Bubbles]]{/i} Is this... crew work."
     bubbles "Yes."
     avyanna "Even though it's just... paper."
@@ -218,11 +218,11 @@ label act1_20c_archive_ritual:
     narrator "If this existed when I was eight, would it have saved anyone."
     narrator "{i}Her throat tightens.{/i}"
     narrator "{i}She reaches for her notebook and writes another claim.{/i}"
-    narrator "{{color=#808090}}{b}CLAIM:{/b} I am allowed to survive.{{/color}}"
+    narrator "{color=#808090}{b}CLAIM:{/b} I am allowed to survive.{/color}"
     narrator "{i}She stares at it.{/i}"
     narrator "Allowed by whom."
     narrator "{i}She writes the next line carefully.{/i}"
-    narrator "{{color=#808090}}{b}ENFORCED BY:{/b} us.{{/color}}"
+    narrator "{color=#808090}{b}ENFORCED BY:{/b} us.{/color}"
     narrator "{i}It looks childish.{/i}"
     narrator "{i}It looks like the truth anyway.{/i}"
 
@@ -230,7 +230,7 @@ label act1_20c_archive_ritual:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}A notification pings on her terminal.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// MESSAGE: archive replication complete | COPIES: 7 | LOCATION: distributed | NOTE: erasure now expensive>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// MESSAGE: archive replication complete | COPIES: 7 | LOCATION: distributed | NOTE: erasure now expensive>{/color}"
     avyanna "{i}[[muttering]]{/i} Good."
     narrator "{i}She sits back.{/i}"
     narrator "{i}The quiet in her room is different now.{/i}"
@@ -315,7 +315,7 @@ label act1_20c_archive_ritual:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Cinnamon's text scrolls on the terminal above the galley counter.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// STATUS: evidence archive stable | NOTE: hostile systems will attempt narrative repair | SUGGESTION: remain observant>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// STATUS: evidence archive stable | NOTE: hostile systems will attempt narrative repair | SUGGESTION: remain observant>{/color}"
     avyanna "Narrative repair."
     elia "{i}[[cheerful]]{/i} That means they're going to lie louder."
     rho "And send invoices for the privilege."
@@ -324,7 +324,7 @@ label act1_20c_archive_ritual:
     narrator "{i}Vesper isn't here.{/i}"
     narrator "{i}But the phrase feels like a rail anyway.{/i}"
     bubbles "Yes."
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee repeating doctrine without prompting | INFERENCE: internalization | CONFIDENCE: 0.83>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee repeating doctrine without prompting | INFERENCE: internalization | CONFIDENCE: 0.83>{/color}"
     narrator "{i}Avyanna finishes her toast.{/i}"
     narrator "{i}She doesn't thank anyone five times.{/i}"
     narrator "{i}She doesn't apologize for taking up a chair.{/i}"
@@ -333,7 +333,7 @@ label act1_20c_archive_ritual:
     narrator "{i}She pauses with her hands in warm water, watching soap bubbles rise and pop.{/i}"
     narrator "Small things can be safe too."
     narrator "{i}She dries her hands and, without looking at anyone for permission, writes one line in her notebook:{/i}"
-    narrator "{{color=#808090}}{b}OBSERVATION:{/b} breakfast arrived without an invoice.{{/color}}"
+    narrator "{color=#808090}{b}OBSERVATION:{/b} breakfast arrived without an invoice.{/color}"
     narrator "{i}Then she puts the notebook away and goes back to the table.{/i}"
     narrator "{i}No one tells her she's taking too long.{/i}"
     narrator "{i}No one asks what she's paying.{/i}"

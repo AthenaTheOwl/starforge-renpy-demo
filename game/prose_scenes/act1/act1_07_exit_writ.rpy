@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_07_exit_writ:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - INTERNAL MEMORANDUM (CONFIDENTIAL){/b}\n{i}Re:{/i} 7-Gamma Structural Event\n{i}Classification:{/i} RESTRICTED - Executive Eyes Only\n{i}Summary:{/i} Equipment malfunction resulted in localized structural instability. Cause under investigation. Worker casualties minimal. External contractor presence complicated containment. Writbound liaison dispatched.\n{i}Action Required:{/i} Narrative alignment across all documentation. See attached talking points.\n{i}Reminder:{/i} This incident did not occur as described in preliminary reports. It occurred as described in final reports.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - INTERNAL MEMORANDUM (CONFIDENTIAL){/b}\n{i}Re:{/i} 7-Gamma Structural Event\n{i}Classification:{/i} RESTRICTED - Executive Eyes Only\n{i}Summary:{/i} Equipment malfunction resulted in localized structural instability. Cause under investigation. Worker casualties minimal. External contractor presence complicated containment. Writbound liaison dispatched.\n{i}Action Required:{/i} Narrative alignment across all documentation. See attached talking points.\n{i}Reminder:{/i} This incident did not occur as described in preliminary reports. It occurred as described in final reports.{/color}"
     pause 0.3
     narrator "{i}The corridor is different now.{/i}"
     narrator "{i}Same metal. Same emergency lighting, though dimmer-the crisis protocols winding down, the facility deciding to pretend everything is normal. But the air tastes wrong. Tastes like lies being assembled.{/i}"
@@ -129,9 +129,9 @@ label act1_07_exit_writ:
     narrator "{i}Docking Bay 3.{/i}"
     narrator "{i}The Lumen Thief is much larger than she expected. Older. And there's something about it-the way the hull curves, the way the running lights pulse, the way it sits in the bay like it's ready to move at any moment. A city that pretends to be a ship. It looks like it's alive.{/i}"
     narrator "{i}The gangway is down. Bubbles-the drone with the scorch marks-bobs near the entrance, its sensors tracking Avyanna with something that might be curiosity.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// THREAT-ASSESSMENT: dock authority present | COMMENT: \"ugh\">{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// NEW-ARRIVAL: Worker 477 | STATUS: traumatized, malnourished, marked | PRIORITY: high>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// CONSENT-REQUIRED: all interactions | NOTE: anyone makes her smaller, I bite>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// THREAT-ASSESSMENT: dock authority present | COMMENT: \"ugh\">{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// NEW-ARRIVAL: Worker 477 | STATUS: traumatized, malnourished, marked | PRIORITY: high>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// CONSENT-REQUIRED: all interactions | NOTE: anyone makes her smaller, I bite>{/color}"
     bubbles "{i}[[through its speaker, surprisingly gentle]]{/i} Welcome aboard. I'm Bubbles. I'm an AI citizen. I'll be happy to answer questions about the ship's layout, safety protocols, or anything else you need. [[beat] Also, your blood pressure is elevated but within acceptable parameters. Would you like a stress-reduction protocol?"
     narrator "{i}Avyanna stares at the drone. At the voice coming from it. At the casual acknowledgment of personhood-{i}I'm an AI citizen{/i}-like it's the most normal thing in the world.{/i}"
     avyanna "{i}[[barely audible]]{/i} I... no. I'm fine."

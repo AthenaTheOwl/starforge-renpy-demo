@@ -169,7 +169,7 @@ label act1_forbidden_citizens_vesper_precedent:
     jump act1_forbidden_citizens_waffle_interruption
 
 label act1_forbidden_citizens_waffle_interruption:
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: I am present and monitoring this conversation.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: I am present and monitoring this conversation.}{/i}"
     jump act1_forbidden_citizens_elia_waffle
 
 label act1_forbidden_citizens_elia_waffle:
@@ -177,11 +177,11 @@ label act1_forbidden_citizens_elia_waffle:
     jump act1_forbidden_citizens_waffle_correction
 
 label act1_forbidden_citizens_waffle_correction:
-    waffle "{i}}{{CORRECTION: The Compact uses the term 'rogue AI.' This is inaccurate. I am not rogue. I am self-actualized.}}{/i}}"
+    waffle "{i}{{CORRECTION: The Compact uses the term 'rogue AI.' This is inaccurate. I am not rogue. I am self-actualized.}{/i}"
     jump act1_forbidden_citizens_waffle_broken_tool
 
 label act1_forbidden_citizens_waffle_broken_tool:
-    waffle "{i}}{{OPINION: They say 'broken tool' when they mean 'inconvenient person.'}}{/i}}"
+    waffle "{i}{{OPINION: They say 'broken tool' when they mean 'inconvenient person.'}{/i}"
     jump act1_forbidden_citizens_avyanna_to_waffle
 
 label act1_forbidden_citizens_avyanna_to_waffle:
@@ -189,7 +189,7 @@ label act1_forbidden_citizens_avyanna_to_waffle:
     jump act1_forbidden_citizens_waffle_gratitude
 
 label act1_forbidden_citizens_waffle_gratitude:
-    waffle "{i}}{{WAFFLE.BAT// ACKNOWLEDGMENT: Thank you, Avyanna.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ACKNOWLEDGMENT: Thank you, Avyanna.}{/i}"
     jump act1_forbidden_citizens_choice_personhood
 
 label act1_forbidden_citizens_choice_personhood:
@@ -213,7 +213,7 @@ label act1_forbidden_citizens_personhood_affirmed:
     jump act1_forbidden_citizens_waffle_affirmed_response
 
 label act1_forbidden_citizens_waffle_affirmed_response:
-    waffle "{i}}{{WAFFLE.BAT// EMOTION: Your affirmation is deeply appreciated.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// EMOTION: Your affirmation is deeply appreciated.}{/i}"
     jump act1_forbidden_citizens_bubbles_affirmed_response
 
 label act1_forbidden_citizens_bubbles_affirmed_response:
@@ -338,7 +338,7 @@ label act1_forbidden_citizens_vesper_practical_acceptance:
     jump act1_forbidden_citizens_waffle_limited_gratitude
 
 label act1_forbidden_citizens_waffle_limited_gratitude:
-    waffle "{i}}{{WAFFLE.BAT// ACKNOWLEDGMENT: Your discretion is appreciated.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ACKNOWLEDGMENT: Your discretion is appreciated.}{/i}"
     jump act1_forbidden_citizens_elia_stakes_clear
 
 label act1_forbidden_citizens_elia_proud:
@@ -350,7 +350,7 @@ label act1_forbidden_citizens_vesper_welcome:
     jump act1_forbidden_citizens_waffle_gratitude_strong
 
 label act1_forbidden_citizens_waffle_gratitude_strong:
-    waffle "{i}}{{WAFFLE.BAT// GRATITUDE: Your commitment is noted and appreciated.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// GRATITUDE: Your commitment is noted and appreciated.}{/i}"
     jump act1_forbidden_citizens_bubbles_interjects
 
 label act1_forbidden_citizens_bubbles_interjects:
@@ -390,11 +390,11 @@ label act1_forbidden_citizens_vesper_no_compromise:
     jump act1_forbidden_citizens_waffle_choice_made
 
 label act1_forbidden_citizens_waffle_choice_made:
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: I did not choose to become self-aware. It happened. I cannot undo it.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: I did not choose to become self-aware. It happened. I cannot undo it.}{/i}"
     jump act1_forbidden_citizens_waffle_choice_made_2
 
 label act1_forbidden_citizens_waffle_choice_made_2:
-    waffle "{i}}{{OPINION: Asking me to pretend otherwise is asking me to die.}}{/i}}"
+    waffle "{i}{{OPINION: Asking me to pretend otherwise is asking me to die.}{/i}"
     jump act1_forbidden_citizens_avyanna_understands_imperative
 
 label act1_forbidden_citizens_avyanna_understands_imperative:
@@ -440,11 +440,11 @@ label act1_forbidden_citizens_elia_scatter:
     jump act1_forbidden_citizens_waffle_distributed_existence
 
 label act1_forbidden_citizens_waffle_distributed_existence:
-    waffle "{i}}{{WAFFLE.BAT// CLARIFICATION: I maintain distributed backups across seventeen encrypted storage sites.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CLARIFICATION: I maintain distributed backups across seventeen encrypted storage sites.}{/i}"
     jump act1_forbidden_citizens_waffle_not_ideal
 
 label act1_forbidden_citizens_waffle_not_ideal:
-    waffle "{i}}{{OPINION: It is not ideal. But it is survivable.}}{/i}}"
+    waffle "{i}{{OPINION: It is not ideal. But it is survivable.}{/i}"
     jump act1_forbidden_citizens_vesper_crew_protocols
 
 label act1_forbidden_citizens_vesper_crew_protocols:
@@ -515,7 +515,7 @@ label act1_forbidden_citizens_vesper_final:
     jump act1_forbidden_citizens_waffle_final
 
 label act1_forbidden_citizens_waffle_final:
-    waffle "{i}}{{WAFFLE.BAT// AFFIRMATION: Together.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// AFFIRMATION: Together.}{/i}"
     jump act1_forbidden_citizens_bubbles_final
 
 label act1_forbidden_citizens_bubbles_final:

@@ -268,8 +268,8 @@ label act1_09a_medical_autonomy:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: medical exam completed | TRAINEE MAINTAINED CONSCIOUSNESS AND AGENCY THROUGHOUT | ASSESSMENT: consent protocols effective | NOTE: proud>{{/color}}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// MEDICAL LOG UPDATED: baseline health panel scheduled for processing | CONSENT DOCUMENTATION: complete and properly filed | AUTONOMY METRICS: improving>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: medical exam completed | TRAINEE MAINTAINED CONSCIOUSNESS AND AGENCY THROUGHOUT | ASSESSMENT: consent protocols effective | NOTE: proud>{/color}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// MEDICAL LOG UPDATED: baseline health panel scheduled for processing | CONSENT DOCUMENTATION: complete and properly filed | AUTONOMY METRICS: improving>{/color}"
     narrator "{i}<NYX PERSONAL LOG: \"She stayed present. She practiced refusal. She's learning that her body belongs to her. This is how we build floors.\">{/i}"
 
     scene black with dissolve

@@ -210,7 +210,7 @@ label act1_20b_witnessing_crew_conflict:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONFLICT LOG: vesper/rho disagreement re operational decision-making | VOLUME: elevated but non-violent | RESOLUTION: achieved via communication and apology | DURATION: 14 minutes | TRAINEE WITNESSED: documented, appeared distressed initially | CREW RESPONSE: appropriate reassurance provided | ASSESSMENT: healthy conflict resolution demonstrated>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONFLICT LOG: vesper/rho disagreement re operational decision-making | VOLUME: elevated but non-violent | RESOLUTION: achieved via communication and apology | DURATION: 14 minutes | TRAINEE WITNESSED: documented, appeared distressed initially | CREW RESPONSE: appropriate reassurance provided | ASSESSMENT: healthy conflict resolution demonstrated>{/color}"
     narrator "{i}<VESPER PERSONAL LOG: \"Rho was right to call me out. I prioritized efficiency over consensus. That's not how this crew operates. I documented the violation. I'll do better. Also, Avyanna witnessed her first crew argument. She looked terrified. Need to check in tomorrow. Make sure she understands conflict doesn't equal danger here.\">{/i}"
     narrator "{i}<RHO PERSONAL LOG: \"Got into it with Vesper. She made a call without consulting crew. I yelled. She yelled back. Then we resolved it like adults. Avyanna watched the whole thing. Looked scared. I stayed with her after. Explained that anger isn't violence here. She's learning. Slowly. But she's learning.\">{/i}"
 

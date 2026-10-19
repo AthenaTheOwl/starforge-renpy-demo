@@ -78,7 +78,7 @@ label act1_corporate_conspiracy_new_evidence_03:
     jump act1_corporate_conspiracy_bee_analysis
 
 label act1_corporate_conspiracy_bee_analysis:
-    "{{BEE:: Corporate data cross-reference complete | STATUS: Pattern confirmed | DETAIL: Aurum Extraction, Debtor Holdings, and Compact Medical Research Division 7 share 14 board members. Shell corporation nesting depth: 6 layers. Financial trail terminates at a classified Consortium defense account. This is not corporate greed — this is state-sponsored weapons research using Primordial artifacts as substrate.}}"
+    "{{BEE:: Corporate data cross-reference complete | STATUS: Pattern confirmed | DETAIL: Aurum Extraction, Debtor Holdings, and Compact Medical Research Division 7 share 14 board members. Shell corporation nesting depth: 6 layers. Financial trail terminates at a classified Consortium defense account. This is not corporate greed — this is state-sponsored weapons research using Primordial artifacts as substrate.}"
     jump act1_corporate_conspiracy_jalen_bee_react
 
 label act1_corporate_conspiracy_jalen_bee_react:

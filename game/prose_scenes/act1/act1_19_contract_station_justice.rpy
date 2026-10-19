@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_19_contract_station_justice:
-    narrator "{{color=#808090}}{b}GUILD ARBITRATION NOTICE - FORM 77-K (EXPEDITED):{/b}\n{i}Re: Disputed Cargo Manifest, Registry 4412-HELM{/i}\n{i}Arbiter Assigned: Pending (Lumen Thief crew, observer capacity){/i}\n{i}Summary: Both parties claim ownership. Neither party has clean hands.{/i}\n{i}Note: The truth is a receipt. Everything else is negotiation.{/i}{{/color}}"
+    narrator "{color=#808090}{b}GUILD ARBITRATION NOTICE - FORM 77-K (EXPEDITED):{/b}\n{i}Re: Disputed Cargo Manifest, Registry 4412-HELM{/i}\n{i}Arbiter Assigned: Pending (Lumen Thief crew, observer capacity){/i}\n{i}Summary: Both parties claim ownership. Neither party has clean hands.{/i}\n{i}Note: The truth is a receipt. Everything else is negotiation.{/i}{/color}"
     pause 0.3
     narrator "{i}Helder Weir Station smells like recycled air and old grievances.{/i}"
     narrator "{i}Avyanna stands in the observation gallery overlooking the arbitration floor-a circular chamber with tiered seating, holographic evidence displays, and a raised platform where a Guild arbiter sits like a judge in a court that never quite stopped being a market.{/i}"
@@ -214,7 +214,7 @@ label act1_19_contract_station_justice:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee remained focused through 7-hour arbitration | INFERENCE: evidence metabolism improving | CONFIDENCE: 0.79 | NOTE: she's learning to wait for the right moment. that's the hard part.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee remained focused through 7-hour arbitration | INFERENCE: evidence metabolism improving | CONFIDENCE: 0.79 | NOTE: she's learning to wait for the right moment. that's the hard part.>{/color}"
 
     scene black with dissolve
     pause 0.5

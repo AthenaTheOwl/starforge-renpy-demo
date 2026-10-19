@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_18a_cultural_context:
-    narrator "{{color=#808090}}{b}[[MICRO-SCENE - OCCURS POST-CH18, LIKELY DURING RETURN TRANSIT]{/b}{{/color}}"
+    narrator "{color=#808090}{b}[[MICRO-SCENE - OCCURS POST-CH18, LIKELY DURING RETURN TRANSIT]{/b}{/color}"
     pause 0.3
     narrator "{i}The galley is quiet in the way the ship gets quiet when it thinks the humans need room to breathe.{/i}"
     narrator "{i}Avyanna sits at the table with a cup of tea that tastes like it was made by someone who's never met a plant in person.{/i}"
@@ -84,8 +84,8 @@ label act1_18a_cultural_context:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee engaged in cultural-context framework | INFERENCE: reduced binary-judgment reflex | CONFIDENCE: 0.74>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee used phrase \"I don't know enough to judge\" | INFERENCE: agency increasing | CONFIDENCE: 0.78>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee engaged in cultural-context framework | INFERENCE: reduced binary-judgment reflex | CONFIDENCE: 0.74>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee used phrase \"I don't know enough to judge\" | INFERENCE: agency increasing | CONFIDENCE: 0.78>{/color}"
 
     scene black with dissolve
     pause 0.5

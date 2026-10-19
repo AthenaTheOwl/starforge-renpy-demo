@@ -72,7 +72,7 @@ label act1_19a_contract_negotiation_witness:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: client attempted to expand contract scope to include unauthorized intelligence gathering | VESPER DECLINED | RATIONALE: maintains Guild standing and legal protections | RECORDING: preserved for crew records>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: client attempted to expand contract scope to include unauthorized intelligence gathering | VESPER DECLINED | RATIONALE: maintains Guild standing and legal protections | RECORDING: preserved for crew records>{/color}"
     narrator "{i}Vesper taps her datapad.{/i}"
     vesper "{i}[[businesslike]]{/i} Let's return to the original contract. Financial records proving contractual violations by Helios Extraction. Sixty thousand credits. Two-week timeline. Evidence retrieval only, no alteration, no secondary use."
     vesper "{i}[[precise]]{/i} Do you accept these terms as stated, with no additional requests?"
@@ -105,7 +105,7 @@ label act1_19a_contract_negotiation_witness:
     client "{i}[[calm]]{/i} I'm satisfied. Where do I sign?"
     vesper "{i}[[tapping the screen]]{/i} Here. Biometric signature. Timestamp. Guild-certified binding contract."
     narrator "{i}The client signs. The contract seals. Cinnamon chimes softly-recording complete.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONTRACT REGISTERED: 7851-K | CLIENT: [[encrypted per Guild privacy protocols] | TERMS: evidence retrieval, Helios Extraction financial records, 60k credits, 14-day timeline | STATUS: active>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONTRACT REGISTERED: 7851-K | CLIENT: [[encrypted per Guild privacy protocols] | TERMS: evidence retrieval, Helios Extraction financial records, 60k credits, 14-day timeline | STATUS: active>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -130,7 +130,7 @@ label act1_19a_contract_negotiation_witness:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// ADDENDUM: client behavior flagged for monitoring | IF CLIENT ATTEMPTS FURTHER SCOPE EXPANSION, CONTRACT TERMINATION RECOMMENDED | VESPER'S BOUNDARY-SETTING: APPROPRIATE AND DOCUMENTED>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// ADDENDUM: client behavior flagged for monitoring | IF CLIENT ATTEMPTS FURTHER SCOPE EXPANSION, CONTRACT TERMINATION RECOMMENDED | VESPER'S BOUNDARY-SETTING: APPROPRIATE AND DOCUMENTED>{/color}"
     avyanna "{i}[[hesitant]]{/i} What if they'd offered more money? A lot more?"
     vesper "{i}[[flat]]{/i} Doesn't matter. I'm not for sale. My boundaries aren't negotiable. The moment I compromise once, every future client knows I can be bought. My reputation becomes \"will bend rules for the right price.\" That's not a reputation worth having."
     vesper "{i}[[meeting her eyes]]{/i} Integrity is the only currency that matters in this work. Money comes and goes. Reputation is permanent."
@@ -158,9 +158,9 @@ label act1_19a_contract_negotiation_witness:
     scene bg ship_interior with dissolve
     narrator "{i}Back on the ship, Avyanna finds Bubbles in the cargo bay.{/i}"
     avyanna "{i}[[to Bubbles]]{/i} I watched a contract negotiation today."
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: noted | QUERY: what did you learn>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: noted | QUERY: what did you learn>{/color}"
     avyanna "{i}[[sitting on a crate]]{/i} That saying no is... powerful. That boundaries are worth more than money. That contracts protect both sides, not just one."
-    narrator "{{color=#43d4a8}}<BUBBLES// ASSESSMENT: correct observations | ADDENDUM: vesper is excellent at boundary-setting | YOU ARE LEARNING FROM GOOD MODELS | THIS IS IMPORTANT>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// ASSESSMENT: correct observations | ADDENDUM: vesper is excellent at boundary-setting | YOU ARE LEARNING FROM GOOD MODELS | THIS IS IMPORTANT>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -175,7 +175,7 @@ label act1_19a_contract_negotiation_witness:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// NEGOTIATION LOG: contract 7851-K accepted with clear boundaries | CLIENT TESTING DOCUMENTED | VESPER'S REFUSAL OF SCOPE EXPANSION: appropriate and professionally executed | TRAINEE OBSERVATION ROLE: effective | ASSESSMENT: teaching moment successful>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// NEGOTIATION LOG: contract 7851-K accepted with clear boundaries | CLIENT TESTING DOCUMENTED | VESPER'S REFUSAL OF SCOPE EXPANSION: appropriate and professionally executed | TRAINEE OBSERVATION ROLE: effective | ASSESSMENT: teaching moment successful>{/color}"
     narrator "{i}<VESPER PERSONAL LOG: \"Client tried to expand scope. I shut it down. Avyanna watched the whole thing. She needs to see that no is a complete sentence. That money isn't worth compromising your floor. She's learning.\">{/i}"
 
     scene black with dissolve

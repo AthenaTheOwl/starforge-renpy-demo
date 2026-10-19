@@ -125,7 +125,7 @@ label act1_17c_reading_technical_manual:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee engaged in voluntary education for extended period | SUBJECT: navigation theory | DURATION: 4.2 hours | ENGAGEMENT LEVEL: high | QUESTIONS ASKED: seven (all appropriate) | ASSESSMENT: intrinsic motivation developing | INTELLECTUAL CURIOSITY: present and growing>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee engaged in voluntary education for extended period | SUBJECT: navigation theory | DURATION: 4.2 hours | ENGAGEMENT LEVEL: high | QUESTIONS ASKED: seven (all appropriate) | ASSESSMENT: intrinsic motivation developing | INTELLECTUAL CURIOSITY: present and growing>{/color}"
     narrator "{i}<JALEN PERSONAL LOG: \"She's reading Kess's navigation guide. Got through eight chapters in one sitting. Asked smart questions. Actually wants to understand, not just memorize. That's rare. That's valuable. She's going to be a good navigator if she keeps this up.\">{/i}"
     narrator "{i}<RHO PERSONAL LOG: \"Found her in the common room reading technical manuals. On her own. For fun. That's growth. That's someone who's learning that knowledge is pleasure, not punishment. She's becoming a scholar. In the best way.\">{/i}"
     narrator "{i}<VESPER PERSONAL LOG: \"Avyanna is reading navigation theory voluntarily. Jalen reports she's making excellent progress. Intellectual curiosity is perhaps our most valuable crew asset. She's developing it. That matters for long-term crew integration and capability building.\">{/i}"

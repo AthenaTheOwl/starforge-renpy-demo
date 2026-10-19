@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_13f_avyanna_yes_reflex:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH13c]{/b}\n{i}Trigger: Elia demands an answer that isn't obedience{/i}\n{i}Purpose: prove \"yes\" as training, not nature{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH13c]{/b}\n{i}Trigger: Elia demands an answer that isn't obedience{/i}\n{i}Purpose: prove \"yes\" as training, not nature{/i}{/color}"
     pause 0.3
     narrator "{i}Elia's lesson doesn't end when the spar ends.{/i}"
     narrator "{i}It follows Avyanna down the corridor like an afterimage.{/i}"

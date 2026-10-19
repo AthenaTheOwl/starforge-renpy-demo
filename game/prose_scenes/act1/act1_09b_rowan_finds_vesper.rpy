@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_09b_rowan_finds_vesper:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - PRIVATE NOTE (VESPER):{/b}\n{i}Topic: where the name came from{/i}\n{i}Reminder: love can be a discipline{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - PRIVATE NOTE (VESPER):{/b}\n{i}Topic: where the name came from{/i}\n{i}Reminder: love can be a discipline{/i}{/color}"
     pause 0.3
     narrator "{i}The rook sits on Vesper's desk like it's waiting for a verdict.{/i}"
     narrator "{i}Dark wood. Worn edges. The kind of object that looks small until you realize someone carried it for years.{/i}"

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_11b_senna_small_good_thing:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH11]{/b}\n{i}Trigger: quiet that doesn't punish{/i}\n{i}Purpose: Senna Cross's first rule, reclaimed as Avyanna's{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH11]{/b}\n{i}Trigger: quiet that doesn't punish{/i}\n{i}Purpose: Senna Cross's first rule, reclaimed as Avyanna's{/i}{/color}"
     pause 0.3
     narrator "{i}Night cycle on the Lumen Thief is not dark.{/i}"
     narrator "{i}It is dimmed to a livable softness.{/i}"

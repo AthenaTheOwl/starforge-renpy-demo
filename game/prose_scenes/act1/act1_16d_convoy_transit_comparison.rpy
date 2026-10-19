@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_16d_convoy_transit_comparison:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - TRANSIT NOTE (INTERNAL):{/b}\n{i}Topic: myth is procedure other people can't afford{/i}\n{i}Reminder: calm is a capability{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - TRANSIT NOTE (INTERNAL):{/b}\n{i}Topic: myth is procedure other people can't afford{/i}\n{i}Reminder: calm is a capability{/i}{/color}"
     pause 0.3
     narrator "{i}They fall in with a convoy because the corridor is shifting and sometimes \"normal\" is safer than \"alone.\"{/i}"
     narrator "{i}Two ships ahead. One behind.{/i}"
@@ -18,8 +18,8 @@ label act1_16d_convoy_transit_comparison:
     narrator "{i}Jalen in the pilot cradle. Elisira standing behind them with a slate. Rho in the doorway with coffee that smells like stubbornness. Vesper at the rail with a datapad full of jurisdiction traps. Elia pretending to be bored near weapons control.{/i}"
     narrator "{i}Avyanna at the last open station, strapped in, pretending her ribs aren't humming with the corridor's wrongness.{/i}"
     narrator "Convoy means witnesses. Witnesses mean lists."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: convoy formation recognized | NOTE: increased traffic reduces ambiguity but increases attention | INFERENCE: risk trade | CONFIDENCE: 0.78>{{/color}}"
-    narrator "{{color=#43d4a8}}<BUBBLES// REMINDER: do not interpret convoy proximity as safety>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: convoy formation recognized | NOTE: increased traffic reduces ambiguity but increases attention | INFERENCE: risk trade | CONFIDENCE: 0.78>{/color}"
+    narrator "{color=#43d4a8}<BUBBLES// REMINDER: do not interpret convoy proximity as safety>{/color}"
     elia "{i}[[cheerful]]{/i} Thank you, Bubbles. Very comforting."
     bubbles "{i}[[over speaker, earnest]]{/i} You are welcome."
 
@@ -68,8 +68,8 @@ label act1_16d_convoy_transit_comparison:
     elia "{i}[[bright]]{/i} Ooh. That's a seam."
     jalen "{i}[[quiet]]{/i} Drift left two degrees. Hold. Hold."
     narrator "{i}The Lumen Thief slides like it enjoys obeying someone who knows why they're asking.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: shear gradient increasing | ACTION: reduce nonessential power draw 9%% | INFERENCE: lower thermal noise signature | CONFIDENCE: 0.82>{{/color}}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// COMMENTARY: corridor thinks it's funny>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: shear gradient increasing | ACTION: reduce nonessential power draw 9%% | INFERENCE: lower thermal noise signature | CONFIDENCE: 0.82>{/color}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// COMMENTARY: corridor thinks it's funny>{/color}"
     narrator "{i}Avyanna swallows.{/i}"
     narrator "{i}She tracks Vesper's hands. The way they stay on the rail. The way her posture stays open even when everything in the universe is trying to make her shrink.{/i}"
     narrator "This is what control looks like. Not yelling. Not threats. Just choices held steady."
@@ -180,7 +180,7 @@ label act1_16d_convoy_transit_comparison:
     narrator "{i}Watches the convoy hold itself together on a borrowed lesson.{/i}"
     narrator "They'll tell people."
     narrator "Not \"we survived.\" They'll tell people about the ship that corrected an insured captain mid-seam without raising its voice."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: external comms silence persists | INFERENCE: rumor retention likelihood high | CONFIDENCE: 0.77>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: external comms silence persists | INFERENCE: rumor retention likelihood high | CONFIDENCE: 0.77>{/color}"
     elia "{i}[[soft, satisfied]]{/i} See."
     avyanna "What."
     elia "Myths are just other people's fear, organized."

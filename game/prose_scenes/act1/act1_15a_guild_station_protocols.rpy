@@ -17,7 +17,7 @@ label act1_15a_guild_station_protocols:
     narrator "{i}She nods toward a corner where two armored figures are having a conversation that looks civil but has the body language of mutual threat.{/i}"
     vesper "Those two probably tried to kill each other last week. Here, they drink coffee and negotiate contracts. Because Guild neutrality is enforced with permanent bans, frozen accounts, and very enthusiastic security drones."
     narrator "{i}Waffle chirps.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// CORRECTION: i am not enthusiastic | I AM THOROUGH | ALSO I HAVE NEVER PARTICIPATED IN GUILD ENFORCEMENT | I AM SHIP CREW NOT STATION SECURITY>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// CORRECTION: i am not enthusiastic | I AM THOROUGH | ALSO I HAVE NEVER PARTICIPATED IN GUILD ENFORCEMENT | I AM SHIP CREW NOT STATION SECURITY>{/color}"
     vesper "{i}[[dry]]{/i} Apologies. Waffle is thorough, not enthusiastic."
 
     scene black with dissolve
@@ -41,7 +41,7 @@ label act1_15a_guild_station_protocols:
     avyanna "{i}[[tense]]{/i} But Aurum security-"
     vesper "{i}[[flat]]{/i} Would be banned from approaching you on Guild neutral ground. If they tried, station security would intervene before we had to."
     narrator "{i}Waffle chirps again.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ADDENDUM: if station security is slow i am authorized to intervene | STUN SETTINGS ONLY | GUILD RULES ARE CLEAR RE: PROPORTIONAL RESPONSE>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ADDENDUM: if station security is slow i am authorized to intervene | STUN SETTINGS ONLY | GUILD RULES ARE CLEAR RE: PROPORTIONAL RESPONSE>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -68,7 +68,7 @@ label act1_15a_guild_station_protocols:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Waffle descends to eye level, projecting a small hologram.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// EDUCATIONAL MOMENT: reputation systems are mutual accountability | CLIENTS RATE CONTRACTORS | CONTRACTORS RATE CLIENTS | BAD CLIENTS GET FLAGGED | EXAMPLE: client who demands contract violations = flagged as high-risk>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// EDUCATIONAL MOMENT: reputation systems are mutual accountability | CLIENTS RATE CONTRACTORS | CONTRACTORS RATE CLIENTS | BAD CLIENTS GET FLAGGED | EXAMPLE: client who demands contract violations = flagged as high-risk>{/color}"
     vesper "{i}[[nodding]]{/i} Which is why we turn down contracts from bad clients. Not worth the risk to our reputation or safety."
     avyanna "{i}[[slow]]{/i} So the Guild protects contractors, not just clients."
     vesper "{i}[[approving]]{/i} Exactly. The Guild is a mutual aid structure. Everyone participates. Everyone benefits. Everyone is held accountable."
@@ -82,9 +82,9 @@ label act1_15a_guild_station_protocols:
     avyanna "{i}[[careful]]{/i} What counts as a violation?"
     vesper "{i}[[precise]]{/i} Unwanted touch. Unwanted following. Verbal harassment. Coercion of any kind. Refusal to accept \"no.\""
     vesper "If someone makes you uncomfortable, you say \"you're violating Guild neutrality protocols\" and you report them to station security. They'll intervene."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ADDENDUM: if you are unsure whether behavior is violation i can assess and advise | ALSO I CAN RECORD EVIDENCE | ALSO I CAN DEPLOY EXTREMELY LOUD ALARM>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ADDENDUM: if you are unsure whether behavior is violation i can assess and advise | ALSO I CAN RECORD EVIDENCE | ALSO I CAN DEPLOY EXTREMELY LOUD ALARM>{/color}"
     avyanna "{i}[[almost smiling]]{/i} You'd alarm for me?"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// AFFIRMATIVE: you are crew | CREW PROTECTION IS PRIMARY FUNCTION | ALSO I ENJOY ALARMING | IT IS VERY SATISFYING>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// AFFIRMATIVE: you are crew | CREW PROTECTION IS PRIMARY FUNCTION | ALSO I ENJOY ALARMING | IT IS VERY SATISFYING>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -126,7 +126,7 @@ label act1_15a_guild_station_protocols:
     narrator "{i}Avyanna processes that. The opposite of extraction logic. The opposite of the mine.{/i}"
     avyanna "{i}[[hesitant]]{/i} What happens if someone abuses it? Takes more than they need?"
     vesper "{i}[[precise]]{/i} Station AI monitors resource use. If someone's consumption is disproportionate, they're flagged and asked to explain. If it's legitimate need, they get support. If it's hoarding or exploitation, they're fined or banned."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// CLARIFICATION: AI monitors patterns not individuals | PRIVACY PRESERVED | COLLECTIVE RESOURCE HEALTH TRACKED | INTERVENTION ONLY WHEN HARM DETECTED>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// CLARIFICATION: AI monitors patterns not individuals | PRIVACY PRESERVED | COLLECTIVE RESOURCE HEALTH TRACKED | INTERVENTION ONLY WHEN HARM DETECTED>{/color}"
     vesper "{i}[[adding]]{/i} The system assumes good faith unless proven otherwise. That's the foundation. Trust with accountability."
 
     scene black with dissolve
@@ -155,9 +155,9 @@ label act1_15a_guild_station_protocols:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Waffle hovers beside Avyanna.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// PERSONAL NOTE: i am also resource | IF YOU ARE LOST OR SCARED OR UNSURE I WILL ASSIST | ALSO I GIVE EXCELLENT DIRECTIONS | ALSO I KNOW WHERE ALL THE GOOD FOOD VENDORS ARE>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// PERSONAL NOTE: i am also resource | IF YOU ARE LOST OR SCARED OR UNSURE I WILL ASSIST | ALSO I GIVE EXCELLENT DIRECTIONS | ALSO I KNOW WHERE ALL THE GOOD FOOD VENDORS ARE>{/color}"
     avyanna "{i}[[almost smiling]]{/i} Thank you, Waffle."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ACKNOWLEDGED: you are crew | CREW SUPPORT IS NOT GRATITUDE-BASED | IT IS STRUCTURAL>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ACKNOWLEDGED: you are crew | CREW SUPPORT IS NOT GRATITUDE-BASED | IT IS STRUCTURAL>{/color}"
     narrator "{i}But the drone's lights pulse warm anyway. Affection, even if it won't name it as such.{/i}"
 
     scene black with dissolve
@@ -194,8 +194,8 @@ label act1_15a_guild_station_protocols:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// STATION VISIT LOG: Guild Station Kael-7 | DURATION: 3.2 hours | TRAINEE BEHAVIOR: appropriate and observant | PROTOCOLS LEARNED: neutrality enforcement, reputation systems, boundary protection, resource sharing | ASSESSMENT: integration progressing>{{/color}}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: trainee asked good questions | TRAINEE ACCEPTED BOUNDARIES EDUCATION WITHOUT RESISTANCE | TRAINEE IDENTIFIED SHIP AS HOME | ASSESSMENT: crew bonding effective>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// STATION VISIT LOG: Guild Station Kael-7 | DURATION: 3.2 hours | TRAINEE BEHAVIOR: appropriate and observant | PROTOCOLS LEARNED: neutrality enforcement, reputation systems, boundary protection, resource sharing | ASSESSMENT: integration progressing>{/color}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: trainee asked good questions | TRAINEE ACCEPTED BOUNDARIES EDUCATION WITHOUT RESISTANCE | TRAINEE IDENTIFIED SHIP AS HOME | ASSESSMENT: crew bonding effective>{/color}"
     narrator "{i}<VESPER PERSONAL LOG: \"She walked through Guild space like she expected someone to grab her at any moment. But she kept walking. Asked the right questions. Recognized that safety is verb, not noun. She's learning.\">{/i}"
 
     scene black with dissolve

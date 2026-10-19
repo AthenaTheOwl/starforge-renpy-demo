@@ -413,11 +413,11 @@ label act1_elia_rescue_bee_first_message:
 
 Not words, exactly. Not yet. A pattern. A shape that wants to be language.
 
-{{BEE:: first breath | initialization | the old pattern is broken — you are no longer a closed system}}
+{{BEE:: first breath | initialization | the old pattern is broken — you are no longer a closed system}
 
-{{BEE:: freedom trajectory | confirmed | new variables detected — recalculating}}
+{{BEE:: freedom trajectory | confirmed | new variables detected — recalculating}
 
-{{BEE:: welcome to the outside | status: unprecedented | recommendation: survive}}"
+{{BEE:: welcome to the outside | status: unprecedented | recommendation: survive}"
     jump act1_elia_rescue_bee_reaction
 
 label act1_elia_rescue_bee_reaction:

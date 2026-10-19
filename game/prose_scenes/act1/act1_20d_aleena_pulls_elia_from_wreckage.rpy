@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_20d_aleena_pulls_elia_from_wreckage:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH20]{/b}\n{i}Trigger: Avyanna watches Elia move through the ship like it belongs to her{/i}\n{i}Purpose: Aleena as origin of \"you coming?\" as invitation, not leash{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH20]{/b}\n{i}Trigger: Avyanna watches Elia move through the ship like it belongs to her{/i}\n{i}Purpose: Aleena as origin of \"you coming?\" as invitation, not leash{/i}{/color}"
     pause 0.3
     narrator "{i}After \"The Receipt,\" the ship feels too bright.{/i}"
     narrator "{i}Not because the lights changed.{/i}"

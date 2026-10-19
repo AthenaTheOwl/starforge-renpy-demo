@@ -195,7 +195,7 @@ label act1_13b_coffee_ritual:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: trainee participated in crew morning ritual | DURATION: 30 minutes | SOCIAL ENGAGEMENT: appropriate | AUTONOMY EXERCISED: preference expressed without fear | ASSESSMENT: integration progressing>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: trainee participated in crew morning ritual | DURATION: 30 minutes | SOCIAL ENGAGEMENT: appropriate | AUTONOMY EXERCISED: preference expressed without fear | ASSESSMENT: integration progressing>{/color}"
     narrator "{i}<RHO PERSONAL LOG: \"She asked if she could come back tomorrow. Like she needed permission to exist in a space. Fucking mine. Fucking extraction economy. Tomorrow I'm making better tea.\">{/i}"
 
     scene black with dissolve

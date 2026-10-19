@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_16e_senna_math_is_power:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH16]{/b}\n{i}Trigger: numbers as a weapon against contracts{/i}\n{i}Purpose: Senna's version of \"show me the math\"{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH16]{/b}\n{i}Trigger: numbers as a weapon against contracts{/i}\n{i}Purpose: Senna's version of \"show me the math\"{/i}{/color}"
     pause 0.3
     narrator "{i}Rho and Cinnamon taught her compound interest like it was a knife safety lesson.{/i}"
     narrator "{i}Not scary.{/i}"

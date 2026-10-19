@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_18_primordial_garden:
-    narrator "{{color=#808090}}{b}SUTURED HOUSE VISITOR LOG - GARDEN-7 (RESTRICTED):{/b}\n{i}Vessel: Lumen Thief, Registry 7742-KAEL{/i}\n{i}Purpose: Training access (provisional){/i}\n{i}Duration: 36 hours standard{/i}\n{i}Escort: Nyx Halden (House affiliate, lapsed){/i}\n{i}Note: The trainee carries something old. The garden will respond.{/i}\n{i}Addendum: This is not a gift. This is a test.{/i}{{/color}}"
+    narrator "{color=#808090}{b}SUTURED HOUSE VISITOR LOG - GARDEN-7 (RESTRICTED):{/b}\n{i}Vessel: Lumen Thief, Registry 7742-KAEL{/i}\n{i}Purpose: Training access (provisional){/i}\n{i}Duration: 36 hours standard{/i}\n{i}Escort: Nyx Halden (House affiliate, lapsed){/i}\n{i}Note: The trainee carries something old. The garden will respond.{/i}\n{i}Addendum: This is not a gift. This is a test.{/i}{/color}"
     pause 0.3
     narrator "{i}The station doesn't look like much from the outside.{/i}"
     narrator "{i}A converted asteroid, hollowed and pressurized, spinning slowly in a static-adjacent zone where most ships wouldn't dare to anchor. The hull is old-pre-Compact construction, maybe older. No visible weapons. No obvious defenses.{/i}"
@@ -247,7 +247,7 @@ label act1_18_primordial_garden:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee returned from Garden-7 with altered perception patterns | INFERENCE: training effective | CONFIDENCE: 0.86 | NOTE: flagging for Nyx re: accelerated perceptual development. may require adjusted curriculum.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee returned from Garden-7 with altered perception patterns | INFERENCE: training effective | CONFIDENCE: 0.86 | NOTE: flagging for Nyx re: accelerated perceptual development. may require adjusted curriculum.>{/color}"
 
     scene black with dissolve
     pause 0.5

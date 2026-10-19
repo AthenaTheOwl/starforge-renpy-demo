@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_13_shipboard_physics:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - TRAINING PROTOCOL (AMENDED):{/b}\n{i}Subject: Shipboard Physics{/i}\n{i}Summary: Gravity is honest. So are we.{/i}\n{i}Rule 1: Learn how to fall without breaking.{/i}\n{i}Rule 2: Learn how to prove what happened.{/i}\n{i}Rule 3: Learn the difference between power and strain.{/i}\n{i}Addendum: Floors first. Peaks later. If ever.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - TRAINING PROTOCOL (AMENDED):{/b}\n{i}Subject: Shipboard Physics{/i}\n{i}Summary: Gravity is honest. So are we.{/i}\n{i}Rule 1: Learn how to fall without breaking.{/i}\n{i}Rule 2: Learn how to prove what happened.{/i}\n{i}Rule 3: Learn the difference between power and strain.{/i}\n{i}Addendum: Floors first. Peaks later. If ever.{/i}{/color}"
     pause 0.3
     narrator "{i}The cargo bay is the ship's largest lie.{/i}"
     narrator "{i}It looks like a place for crates and contraband and emergency repairs.{/i}"
@@ -124,7 +124,7 @@ label act1_13_shipboard_physics:
     elia "Wrong."
     avyanna "{i}[[breathing through it]]{/i} I-"
     elia "Again."
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: pain response elevated | INFERENCE: old injury fear-loop | CONFIDENCE: 0.73>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: pain response elevated | INFERENCE: old injury fear-loop | CONFIDENCE: 0.73>{/color}"
     narrator "{i}Avyanna stares at the angle-brackets on the wall display. The ship, watching. Not like the Kennel's cameras-hungry, punitive. This feels... clinical. Protective. Weirdly proud.{/i}"
     elia "{i}[[dry]]{/i} Don't take advice from the gremlin unless it's about not dying."
     waffle "{i}[[over the bay speakers, offended sincerity]]{/i} I can do both."
@@ -239,7 +239,7 @@ label act1_13_shipboard_physics:
     narrator "{i}Avyanna forces a nod. The mine taught her praise meant someone had noticed you, and noticing was never safe.{/i}"
     avyanna "I'm just... careful."
     vesper "Careful is an ethic. Keep it."
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: documentation compliance improving | INFERENCE: safety-through-structure behavior | CONFIDENCE: 0.84 | COMMENT: receipts as hugs. humans are strange.>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: documentation compliance improving | INFERENCE: safety-through-structure behavior | CONFIDENCE: 0.84 | COMMENT: receipts as hugs. humans are strange.>{/color}"
     narrator "{i}Avyanna doesn't ask what a \"hug\" is supposed to feel like from a spreadsheet, but she feels something in her sternum ease anyway-like a debt ledger being edited without permission.{/i}"
     vesper "{i}[[standing]]{/i} Good. Bag it. Seal it. Log it. Then eat something with salt. You're shaking."
     avyanna "{i}[[looking down]]{/i} I'm not-"
@@ -328,7 +328,7 @@ label act1_13_shipboard_physics:
     scene bg ship_interior with dissolve
     narrator "{i}The cargo bay again. This time, Elia is gone. The mats are still there, rolled neatly like someone respects their own tools.{/i}"
     narrator "{i}A wall panel glows. Waffle's telemetry pulses in clean lines, as if the ship is clearing its throat.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// TRAINING-PLAN: active | PRIORITY: \"floors\" | ERROR: Avyanna attempts to skip rest blocks | SOLUTION: I will prevent this>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// TRAINING-PLAN: active | PRIORITY: \"floors\" | ERROR: Avyanna attempts to skip rest blocks | SOLUTION: I will prevent this>{/color}"
     avyanna "{i}[[stopping in front of the panel]]{/i} You can... prevent it?"
     waffle "Yes. I can lock doors. I can dim lights. I can summon Bubbles' drones to hover disapprovingly. I prefer diplomacy."
     avyanna "{i}[[suspicious]]{/i} Why."
@@ -360,7 +360,7 @@ label act1_13_shipboard_physics:
     narrator "Training is structure."
     narrator "Structure is safety."
     narrator "{i}The cargo bay lights dim a fraction. Cinnamon, pleased at compliance. Or maybe just pleased that Avyanna is still breathing.{/i}"
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// OBSERVATION: new one accepted rest block without negotiation | ASSESSMENT: progress | COMMENT: physics remains undefeated>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// OBSERVATION: new one accepted rest block without negotiation | ASSESSMENT: progress | COMMENT: physics remains undefeated>{/color}"
     narrator "{i}Avyanna leans her head back against the wall, feeling the ship's vibration in her skull. Outside, stars stream past like indifferent witnesses.{/i}"
     narrator "{i}Inside, something quieter happens: a system recalibrates. Not engines. Not routes.{/i}"
     narrator "{i}A sixteen-year-old girl learns, one controlled fall at a time, that the floor can hold her.{/i}"

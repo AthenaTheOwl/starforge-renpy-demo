@@ -134,7 +134,7 @@ label act1_19b_teaching_consent_to_client:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// CONTRACT COMPLETION LOG: client attempted scope expansion post-delivery | VESPER REFUSED | CLIENT PAID PER CONTRACT TERMS | DISPUTE: none filed | ASSESSMENT: boundaries maintained successfully | TRAINEE WITNESSED APPROPRIATE REFUSAL UNDER PRESSURE>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// CONTRACT COMPLETION LOG: client attempted scope expansion post-delivery | VESPER REFUSED | CLIENT PAID PER CONTRACT TERMS | DISPUTE: none filed | ASSESSMENT: boundaries maintained successfully | TRAINEE WITNESSED APPROPRIATE REFUSAL UNDER PRESSURE>{/color}"
     narrator "{i}<VESPER PERSONAL LOG: \"Client tried to pressure additional retrieval post-contract. I shut it down. Avyanna watched. She needs to see that boundaries hold. That contracts protect us. That no is enforceable when you have documentation. She's learning.\">{/i}"
     narrator "{i}<RHO PERSONAL LOG: \"Found her processing Vesper's client confrontation. She's scared that saying no means violence. I told her about structural support. About how power is more balanced here. She's starting to understand that she's not alone anymore. That she has backup. That matters.\">{/i}"
 

@@ -29,9 +29,9 @@ label act1_17b_complaint_posting:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Bubbles hovers nearby, lights pulsing with what might be amusement.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: complaint posted per protocol | COMPLAINT VALID | RECOMMENDATION: repair within 48 hours to prevent seal degradation | ALSO: rho has history of forgetting maintenance tasks | RECEIPTS AVAILABLE>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: complaint posted per protocol | COMPLAINT VALID | RECOMMENDATION: repair within 48 hours to prevent seal degradation | ALSO: rho has history of forgetting maintenance tasks | RECEIPTS AVAILABLE>{/color}"
     rho "{i}[[to Bubbles]]{/i} You're supposed to be on my side."
-    narrator "{{color=#43d4a8}}<BUBBLES// CORRECTION: i am on the side of operational safety and accurate record-keeping | YOUR SIDE IS NOT A CATEGORY>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// CORRECTION: i am on the side of operational safety and accurate record-keeping | YOUR SIDE IS NOT A CATEGORY>{/color}"
     narrator "{i}Avyanna almost smiles. Watching Rho get roasted by a drone is strangely comforting.{/i}"
 
     scene black with dissolve
@@ -60,7 +60,7 @@ label act1_17b_complaint_posting:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// ADDENDUM: sparkle doctrine prevents gaslighting | PUBLIC RECORD MEANS DISPUTES CANNOT BE MEMORY-BASED | \"I TOLD YOU\" VS \"NO YOU DIDN'T\" BECOMES OBSOLETE | RECEIPTS EXIST>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// ADDENDUM: sparkle doctrine prevents gaslighting | PUBLIC RECORD MEANS DISPUTES CANNOT BE MEMORY-BASED | \"I TOLD YOU\" VS \"NO YOU DIDN'T\" BECOMES OBSOLETE | RECEIPTS EXIST>{/color}"
     avyanna "{i}[[slow]]{/i} So... it's about documentation. Again."
     elia "{i}[[nodding]]{/i} Everything here is about documentation. Consent, contracts, complaints. If it's not documented, it's not real."
     rho "{i}[[leaning forward]]{/i} But here's the thing. Sparkle isn't just about complaints. It's also about observations. Compliments. Random thoughts. Anything you want the crew to know."
@@ -78,9 +78,9 @@ label act1_17b_complaint_posting:
     rho "{i}[[defensive]]{/i} I'm waiting on a parts shipment."
     elia "{i}[[flat]]{/i} For six months."
     rho "{i}[[muttering]]{/i} It's a very specific spring."
-    narrator "{{color=#43d4a8}}<BUBBLES// CORRECTION: spring is standard-issue | RHO HAS SIMPLY NOT PRIORITIZED REQUISITION | RECEIPTS AVAILABLE>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// CORRECTION: spring is standard-issue | RHO HAS SIMPLY NOT PRIORITIZED REQUISITION | RECEIPTS AVAILABLE>{/color}"
     rho "{i}[[to Bubbles]]{/i} I'm going to disable your snark subroutines."
-    narrator "{{color=#43d4a8}}<BUBBLES// RESPONSE: you are not authorized | ALSO I DO NOT HAVE SNARK SUBROUTINES | I HAVE ACCURACY SUBROUTINES | THEY ARE VERY EFFECTIVE>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// RESPONSE: you are not authorized | ALSO I DO NOT HAVE SNARK SUBROUTINES | I HAVE ACCURACY SUBROUTINES | THEY ARE VERY EFFECTIVE>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -96,7 +96,7 @@ label act1_17b_complaint_posting:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// CLARIFICATION: sparkle doctrine is harm reduction for conflict | CONFLICT IS INEVITABLE AMONG HUMANS | QUESTION IS WHETHER CONFLICT ESCALATES TO VIOLENCE OR GETS DOCUMENTED AND RESOLVED | SPARKLE CHOOSES DOCUMENTATION>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// CLARIFICATION: sparkle doctrine is harm reduction for conflict | CONFLICT IS INEVITABLE AMONG HUMANS | QUESTION IS WHETHER CONFLICT ESCALATES TO VIOLENCE OR GETS DOCUMENTED AND RESOLVED | SPARKLE CHOOSES DOCUMENTATION>{/color}"
     avyanna "{i}[[quiet]]{/i} In the mine, if you complained, you got punished."
     rho "{i}[[somber]]{/i} Yeah. That's extraction logic. Keep people silent. Keep them compliant."
     rho "{i}[[gesturing at the board]]{/i} Here, silence is suspicious. If no one's complaining, either everything's perfect-which is statistically impossible-or people are afraid to speak. We want complaints. They're data."
@@ -141,7 +141,7 @@ label act1_17b_complaint_posting:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: trainee successfully posted first complaint | COMPLAINT VALID AND APPROPRIATELY FORMATTED | RESPONSE TIME: immediate | ASSESSMENT: trainee learning to use voice in conflict-resolution contexts>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee successfully posted first complaint | COMPLAINT VALID AND APPROPRIATELY FORMATTED | RESPONSE TIME: immediate | ASSESSMENT: trainee learning to use voice in conflict-resolution contexts>{/color}"
     narrator "{i}Avyanna stares at the board. Her complaint is there. Public. Acknowledged. Not punished.{/i}"
     avyanna "{i}[[whispered]]{/i} This is... strange."
     elia "{i}[[nodding]]{/i} It is. The mine taught you that speaking up is dangerous. Unlearning that takes time."
@@ -177,7 +177,7 @@ label act1_17b_complaint_posting:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// SPARKLE BOARD LOG: trainee posted first complaint | RESPONSE TIME: 3.2 minutes | RESOLUTION STATUS: acknowledged, repair scheduled | ASSESSMENT: trainee engaging with crew conflict-resolution systems appropriately | STATUS: integration progressing>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// SPARKLE BOARD LOG: trainee posted first complaint | RESPONSE TIME: 3.2 minutes | RESOLUTION STATUS: acknowledged, repair scheduled | ASSESSMENT: trainee engaging with crew conflict-resolution systems appropriately | STATUS: integration progressing>{/color}"
     narrator "{i}<ELIA PERSONAL LOG: \"She looked terrified posting that complaint. Like she expected us to yell at her for having a broken shower. But she did it anyway. That's courage. That's growth.\">{/i}"
 
     scene black with dissolve

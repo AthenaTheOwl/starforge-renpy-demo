@@ -168,7 +168,7 @@ label act1_12a_crew_meal_dynamics:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<CINNAMON.EXE// MEAL LOG: full crew attendance | DURATION: 47 minutes | CONVERSATION TOPICS: contracts, logistics, maintenance, interpersonal coordination | TRAINEE PARTICIPATION: minimal verbal, high observational | ASSESSMENT: trainee learning crew dynamics through immersion | STATUS: integration appropriate>{{/color}}"
+    narrator "{color=#43d4a8}<CINNAMON.EXE// MEAL LOG: full crew attendance | DURATION: 47 minutes | CONVERSATION TOPICS: contracts, logistics, maintenance, interpersonal coordination | TRAINEE PARTICIPATION: minimal verbal, high observational | ASSESSMENT: trainee learning crew dynamics through immersion | STATUS: integration appropriate>{/color}"
     narrator "{i}<RHO PERSONAL LOG: \"She liked the stew. Small victory. Also, she didn't bolt from the table the moment she finished eating. She sat. Listened. Existed with us. That's progress. Tomorrow I'll make something even better. Maybe bribe Vesper for decent spice budget.\">{/i}"
     narrator "{i}<ELIA PERSONAL LOG: \"She asked if dinner was mandatory. That question tells me everything about the mine. 'Is this punishment if I don't participate?' We're teaching her that routines can be comfort, not control. She'll get there.\">{/i}"
 

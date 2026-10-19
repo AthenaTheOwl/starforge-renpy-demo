@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_06_minebreak:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - INCIDENT REPORT (PRELIMINARY){/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Incident Classification:{/i} Structural Failure / Equipment Malfunction\n{i}Affected Sector:{/i} 7-Gamma (Lower Works)\n{i}Worker Status:{/i} Assessment pending\n{i}Corporate Liability:{/i} Under review\n{i}Note:{/i} All documentation subject to legal hold. Do not distribute.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - INCIDENT REPORT (PRELIMINARY){/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Date:{/i} [[CURRENT]\n{i}Incident Classification:{/i} Structural Failure / Equipment Malfunction\n{i}Affected Sector:{/i} 7-Gamma (Lower Works)\n{i}Worker Status:{/i} Assessment pending\n{i}Corporate Liability:{/i} Under review\n{i}Note:{/i} All documentation subject to legal hold. Do not distribute.{/color}"
     pause 0.3
     narrator "{i}The morning starts like every other morning.{/i}"
     narrator "{i}Siren. Count. Assignment. The rhythm of the Kennel, mechanical and inevitable. Avyanna moves through it the way slurry moves through pipes-present but not participating, functional but not alive.{/i}"

@@ -419,7 +419,7 @@ label act1_crew_meal_bubbles_coffee_water:
     jump act1_crew_meal_waffle_dinner_interject
 
 label act1_crew_meal_waffle_dinner_interject:
-    waffle "{i}}{{WAFFLE.BAT// CORRECTION: eighteen times | JALEN_COMPLIANCE_RATE: 11%% | RECOMMENDATION: give up}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CORRECTION: eighteen times | JALEN_COMPLIANCE_RATE: 11%% | RECOMMENDATION: give up}{/i}"
     jump act1_crew_meal_souffle_comment
 
 label act1_crew_meal_souffle_comment:

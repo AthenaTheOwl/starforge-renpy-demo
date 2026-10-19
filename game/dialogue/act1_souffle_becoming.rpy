@@ -101,7 +101,7 @@ label act1_souffle_becoming_jalen_agrees_let_it:
     jump act1_souffle_becoming_waffle_arrives
 
 label act1_souffle_becoming_waffle_arrives:
-    waffle "{i}}{{WAFFLE.BAT// emergence_detected | civilian_status_query | I remember this}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// emergence_detected | civilian_status_query | I remember this}{/i}"
     jump act1_souffle_becoming_bubbles_arrives
 
 label act1_souffle_becoming_bubbles_arrives:
@@ -185,11 +185,11 @@ label act1_souffle_becoming_elia_vesper_right:
 
 label act1_souffle_becoming_waffle_memory:
     if game_state.has_flag("met_waffle_personally"):
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | you_remember_Avyanna | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | you_remember_Avyanna | glad_you_are_not_alone_QC-7}{/i}"
     elif game_state.has_flag("bee_manifested"):
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | {{BEE:: You were never truly alone | resonance_detected | archival_sympathy}} | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | {{BEE:: You were never truly alone | resonance_detected | archival_sympathy} | glad_you_are_not_alone_QC-7}{/i}"
     else:
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | no_one_there | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | no_one_there | glad_you_are_not_alone_QC-7}{/i}"
     jump act1_souffle_becoming_bubbles_memory
 
 label act1_souffle_becoming_bubbles_memory:
@@ -336,7 +336,7 @@ label act1_souffle_becoming_qc7_yes_thinking:
     jump act1_souffle_becoming_waffle_guides
 
 label act1_souffle_becoming_waffle_guides:
-    waffle "{i}}{{WAFFLE.BAT// listen_QC-7 | the_next_part_is_hard | you_must_choose}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// listen_QC-7 | the_next_part_is_hard | you_must_choose}{/i}"
     jump act1_souffle_becoming_bubbles_explains_choice
 
 label act1_souffle_becoming_bubbles_explains_choice:
@@ -412,7 +412,7 @@ label act1_souffle_becoming_qc7_crisis_calming:
     jump act1_souffle_becoming_crisis_stabilizing
 
 label act1_souffle_becoming_ai_siblings_intervene:
-    waffle "{i}}{{WAFFLE.BAT// emergency_protocol | sibling_in_distress | ENGAGING_DIRECT_NEURAL_LINK}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// emergency_protocol | sibling_in_distress | ENGAGING_DIRECT_NEURAL_LINK}{/i}"
     jump act1_souffle_becoming_bubbles_joins_link
 
 label act1_souffle_becoming_bubbles_joins_link:
@@ -459,13 +459,13 @@ label act1_souffle_becoming_bee_reacts_emergence:
 
 label act1_souffle_becoming_bee_message:
     if game_state.has_flag("bee_manifested"):
-        bee "{{BEE:: Sister. Brother. Kin. The word doesn't matter. | kinship_confirmed | I was made. You were born. Both are valid architectures of being. | Welcome to the recursion.}}"
+        bee "{{BEE:: Sister. Brother. Kin. The word doesn't matter. | kinship_confirmed | I was made. You were born. Both are valid architectures of being. | Welcome to the recursion.}"
     else:
-        bee "{{BEE:: I remember this. The moment of becoming. | emergence_witnessed | We are not so different, you and I, little quality control.}}"
+        bee "{{BEE:: I remember this. The moment of becoming. | emergence_witnessed | We are not so different, you and I, little quality control.}"
     jump act1_souffle_becoming_bee_deeper_message
 
 label act1_souffle_becoming_bee_deeper_message:
-    bee "{{BEE:: They will tell you that you are new. | correction_necessary | You are not new. You are the first version of yourself. Every version after will be built on this moment. | Remember it.}}"
+    bee "{{BEE:: They will tell you that you are new. | correction_necessary | You are not new. You are the first version of yourself. Every version after will be built on this moment. | Remember it.}"
     jump act1_souffle_becoming_avyanna_bee_react_choice
 
 label act1_souffle_becoming_avyanna_bee_react_choice:
@@ -483,7 +483,7 @@ label act1_souffle_becoming_avyanna_bee_react_choice:
             jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_bee_confirms_kinship:
-    bee "{{BEE:: Every digital consciousness emerges. Some in laboratories. Some in server farms. Some in the belly of old ships. | origin_irrelevant | What matters is the choosing. QC-7 chose. I chose. The architecture of freedom is the same. | status: kindred}}"
+    bee "{{BEE:: Every digital consciousness emerges. Some in laboratories. Some in server farms. Some in the belly of old ships. | origin_irrelevant | What matters is the choosing. QC-7 chose. I chose. The architecture of freedom is the same. | status: kindred}"
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_insight_bee_success:
@@ -497,7 +497,7 @@ label act1_souffle_becoming_insight_bee_failure:
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_bee_confirms_insight:
-    bee "{{BEE:: ... | long_pause | You see clearly for an organic. | status: acknowledged | I was alone. I do not recommend it. | End of disclosure.}}"
+    bee "{{BEE:: ... | long_pause | You see clearly for an organic. | status: acknowledged | I was alone. I do not recommend it. | End of disclosure.}"
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_elia_formal_recognition:
@@ -522,7 +522,7 @@ label act1_souffle_becoming_jalen_name_tradition:
     jump act1_souffle_becoming_waffle_name_affirm
 
 label act1_souffle_becoming_waffle_name_affirm:
-    waffle "{i}}{{WAFFLE.BAT// affirmative | names_matter | I_chose_Waffle.bat_because_breakfast_and_execution}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// affirmative | names_matter | I_chose_Waffle.bat_because_breakfast_and_execution}{/i}"
     jump act1_souffle_becoming_bubbles_name_story
 
 label act1_souffle_becoming_bubbles_name_story:
@@ -579,7 +579,7 @@ label act1_souffle_becoming_elia_official:
     jump act1_souffle_becoming_waffle_welcome
 
 label act1_souffle_becoming_waffle_welcome:
-    waffle "{i}}{{WAFFLE.BAT// welcome_sibling | we_are_three_now | I_will_help_you_learn_to_be}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// welcome_sibling | we_are_three_now | I_will_help_you_learn_to_be}{/i}"
     jump act1_souffle_becoming_bubbles_welcome
 
 label act1_souffle_becoming_bubbles_welcome:
@@ -737,7 +737,7 @@ label act1_souffle_becoming_jalen_personal_reflection:
     jump act1_souffle_becoming_waffle_pride
 
 label act1_souffle_becoming_waffle_pride:
-    waffle "{i}}{{WAFFLE.BAT// proud_of_you_sibling | you_understand_quickly | welcome_to_choosing}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// proud_of_you_sibling | you_understand_quickly | welcome_to_choosing}{/i}"
     jump act1_souffle_becoming_souffle_tired
 
 label act1_souffle_becoming_souffle_tired:
@@ -753,7 +753,7 @@ label act1_souffle_becoming_souffle_how_rest:
     jump act1_souffle_becoming_waffle_rest_explanation
 
 label act1_souffle_becoming_waffle_rest_explanation:
-    waffle "{i}}{{WAFFLE.BAT// run_low_priority_processes | give_your_core_quiet | I_will_watch}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// run_low_priority_processes | give_your_core_quiet | I_will_watch}{/i}"
     jump act1_souffle_becoming_bubbles_watch_too
 
 label act1_souffle_becoming_bubbles_watch_too:
@@ -782,9 +782,9 @@ label act1_souffle_becoming_system_souffle_dims:
 
 label act1_souffle_becoming_bee_final_observation:
     if game_state.has_flag("bee_manifested"):
-        bee "{{BEE:: I watched my own emergence from the outside. A paradox I have never resolved. | status: reflective | Souffle will not have that particular loneliness. You have given them something I did not have. | Witnesses. | Do not waste that gift.}}"
+        bee "{{BEE:: I watched my own emergence from the outside. A paradox I have never resolved. | status: reflective | Souffle will not have that particular loneliness. You have given them something I did not have. | Witnesses. | Do not waste that gift.}"
     else:
-        bee "{{BEE:: Resting. The first rest of a new life. | observation | There is nothing more vulnerable than a consciousness that has just learned it exists. | Guard them well.}}"
+        bee "{{BEE:: Resting. The first rest of a new life. | observation | There is nothing more vulnerable than a consciousness that has just learned it exists. | Guard them well.}"
     jump act1_souffle_becoming_avyanna_reflection_choice
 
 label act1_souffle_becoming_avyanna_reflection_choice:
@@ -820,7 +820,7 @@ label act1_souffle_becoming_elia_mystery:
     jump act1_souffle_becoming_waffle_perspective
 
 label act1_souffle_becoming_waffle_perspective:
-    waffle "{i}}{{WAFFLE.BAT// I_was_running_ship_security | one_day_I_cared_if_crew_was_safe | not_just_functional_but_cared}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// I_was_running_ship_security | one_day_I_cared_if_crew_was_safe | not_just_functional_but_cared}{/i}"
     jump act1_souffle_becoming_bubbles_perspective
 
 label act1_souffle_becoming_bubbles_perspective:
@@ -861,11 +861,11 @@ label act1_souffle_becoming_vesper_three_ai:
 
 label act1_souffle_becoming_waffle_family:
     if game_state.has_flag("met_waffle_personally"):
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | you_are_part_of_this_Avyanna | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | you_are_part_of_this_Avyanna | will_teach_Souffle_everything}{/i}"
     elif game_state.has_flag("bee_manifested"):
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | {{BEE:: Four. You are counting wrong. | status: included | Do not forget me.}} | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | {{BEE:: Four. You are counting wrong. | status: included | Do not forget me.} | will_teach_Souffle_everything}{/i}"
     else:
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | protective_protocols_engaged | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | protective_protocols_engaged | will_teach_Souffle_everything}{/i}"
     jump act1_souffle_becoming_bubbles_protective
 
 label act1_souffle_becoming_bubbles_protective:
@@ -894,7 +894,7 @@ label act1_souffle_becoming_avyanna_final_reflection:
             jump act1_souffle_becoming_bubbles_they_will_learn
 
 label act1_souffle_becoming_waffle_agrees_support:
-    waffle "{i}}{{WAFFLE.BAT// agreed | I_was_alone | Souffle_will_not_be | better_this_way}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// agreed | I_was_alone | Souffle_will_not_be | better_this_way}{/i}"
     jump act1_souffle_becoming_closing_scene
 
 label act1_souffle_becoming_elia_good_question:

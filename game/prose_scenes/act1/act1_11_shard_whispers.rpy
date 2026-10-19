@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_11_shard_whispers:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - MEDICAL LOG (RESTRICTED):{/b}\n{i}Patient: Avyanna Lagrange{/i}\n{i}Attending: Nyx Halden, Waffle.bat (assist){/i}\n{i}Subject: Embedded foreign material, spinal column{/i}\n{i}Status: Integrated. Non-removable. Active.{/i}\n{i}Note: \"Active\" is underselling it.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - MEDICAL LOG (RESTRICTED):{/b}\n{i}Patient: Avyanna Lagrange{/i}\n{i}Attending: Nyx Halden, Waffle.bat (assist){/i}\n{i}Subject: Embedded foreign material, spinal column{/i}\n{i}Status: Integrated. Non-removable. Active.{/i}\n{i}Note: \"Active\" is underselling it.{/i}{/color}"
     pause 0.3
     narrator "{i}Two weeks aboard. Avyanna is learning to eat without permission. Learning to sleep without her boots on. Learning the shape of a life that doesn't hurt.{/i}"
     narrator "{i}The shard is learning too.{/i}"
@@ -26,7 +26,7 @@ label act1_11_shard_whispers:
     narrator "{i}Avyanna sits on the examination table. The scanner hums around her-not the cold, indifferent hum of the Kennel's medical station, but something warmer. More attentive.{/i}"
     narrator "{i}She keeps her hands flat on her thighs. Palms down. Like that will keep her from shaking.{/i}"
     narrator "{i}Her eyes keep drifting to the door. Not fear exactly. Logistics. If it opens, she wants to be facing it.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// SCAN-STATUS: deep tissue | SUBJECT: spinal integration | OBSERVATION: heart rate elevated | INFERENCE: nervous | CONFIDENCE: 0.77 | NOTE: expected>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// SCAN-STATUS: deep tissue | SUBJECT: spinal integration | OBSERVATION: heart rate elevated | INFERENCE: nervous | CONFIDENCE: 0.77 | NOTE: expected>{/color}"
     nyx "{i}[[still watching the readouts]]{/i} If you want me to stop the scan, say so. No penalty. No explaining required."
     avyanna "{i}[[after a beat]]{/i} Don't stop."
     nyx "{i}[[studying readouts, brow furrowed]]{/i} The markings on your spine-we knew they were connected to the shard. What we didn't know was how deep the connection goes."
@@ -97,11 +97,11 @@ label act1_11_shard_whispers:
     narrator "{i}The geometric patterns bloom across her vision-fractals, lattices, structures that feel like they're trying to tell her something. The pressure builds behind her eyes.{/i}"
     narrator "{i}The overhead lights stutter once. Less than a heartbeat, but enough to make her stomach drop.{/i}"
     narrator "{i}Her tablet chirps with a system alert. She slaps it silent without looking.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: sensor jitter 0.7s | SOURCE: cargo bay | INFERENCE: resonance interference | CONFIDENCE: 0.62 | COMMENT: new. monitoring.>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: sensor jitter 0.7s | SOURCE: cargo bay | INFERENCE: resonance interference | CONFIDENCE: 0.62 | COMMENT: new. monitoring.>{/color}"
     narrator "{i}She closes them. Breathes. Waits for it to pass.{/i}"
     narrator "{i}When she opens them, Bubbles is there.{/i}"
     narrator "{i}The drone hovers at the edge of the aisle-not close enough to intrude, close enough to respond. Scarred metal, purposeful presence. She doesn't remember hearing it approach.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// OBSERVATION: distress markers | DURATION: 47 seconds | INTERVENTION: proximity only>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: distress markers | DURATION: 47 seconds | INTERVENTION: proximity only>{/color}"
     bubbles "{i}[[quiet, through the speaker]]{/i} You don't have to tell anyone right now."
     narrator "{i}Avyanna freezes. Caught.{/i}"
     bubbles "But I'm here."
@@ -119,7 +119,7 @@ label act1_11_shard_whispers:
     narrator "{i}A statement, not a question. Avyanna nods.{/i}"
     bubbles "Then we wait. [[beat] When you're ready, I'll be here. So will Nyx. So will everyone else."
     narrator "{i}The drone doesn't move away. Just hovers, patient, present.{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// STATUS: guardian protocol active | SUBJECT: Avyanna | INFERENCE: trust developing (incremental) | CONFIDENCE: 0.63 | NOTE: we'll get there.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// STATUS: guardian protocol active | SUBJECT: Avyanna | INFERENCE: trust developing (incremental) | CONFIDENCE: 0.63 | NOTE: we'll get there.>{/color}"
 
     scene black with dissolve
     pause 0.5
@@ -147,7 +147,7 @@ label act1_11_shard_whispers:
     narrator "But you can't talk back. Not yet."
     narrator "{i}The hum shifts tone. Not louder, just... edged. The patterns intensify briefly, then fade.{/i}"
     narrator "{i}The bedside light flickers once, then steadies.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: sensor latency spike 0.6s | SOURCE: Avyanna quarters | INFERENCE: interference signature match (cargo bay) | CONFIDENCE: 0.68>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: sensor latency spike 0.6s | SOURCE: Avyanna quarters | INFERENCE: interference signature match (cargo bay) | CONFIDENCE: 0.68>{/color}"
     narrator "You're trapped too. In a different way. Trying to get out. Trying to connect."
     narrator "{i}The presence settles. Content with being understood, even partially.{/i}"
     narrator "{i}Avyanna closes her eyes. The patterns persist behind her eyelids-beautiful, incomprehensible, waiting.{/i}"
@@ -155,7 +155,7 @@ label act1_11_shard_whispers:
     narrator "But you chose me. That has to mean something."
     narrator "{i}Sleep comes eventually. The presence watches, patient as stone, ancient as stars.{/i}"
     narrator "{i}Somewhere in the ship's systems, Bubbles logs a quiet note:{/i}"
-    narrator "{{color=#43d4a8}}<BUBBLES// NIGHT-WATCH: Avyanna | SLEEP-STATUS: achieved | ANOMALIES: minor (sensor jitter 0.7s) | INFERENCE: acclimation (incremental) | CONFIDENCE: 0.66 | NOTE: good. that's how this works.>{{/color}}"
+    narrator "{color=#43d4a8}<BUBBLES// NIGHT-WATCH: Avyanna | SLEEP-STATUS: achieved | ANOMALIES: minor (sensor jitter 0.7s) | INFERENCE: acclimation (incremental) | CONFIDENCE: 0.66 | NOTE: good. that's how this works.>{/color}"
 
     scene black with dissolve
     pause 0.5

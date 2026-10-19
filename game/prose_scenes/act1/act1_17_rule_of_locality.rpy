@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_17_rule_of_locality:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - LATTICE FUNDAMENTALS (RESTRICTED):{/b}\n{i}Subject: Primordial Mechanics{/i}\n{i}Instructor: Nyx Halden{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Power is not the problem. Scale is the problem.{/i}\n{i}Rule 1: You must be present, or have an established anchor.{/i}\n{i}Rule 2: Throughput is limited. This is a feature, not a bug.{/i}\n{i}Rule 3: The conservation law is not what they told you.{/i}\n{i}Addendum: The shard in you isn't normal. Remember that.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - LATTICE FUNDAMENTALS (RESTRICTED):{/b}\n{i}Subject: Primordial Mechanics{/i}\n{i}Instructor: Nyx Halden{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Power is not the problem. Scale is the problem.{/i}\n{i}Rule 1: You must be present, or have an established anchor.{/i}\n{i}Rule 2: Throughput is limited. This is a feature, not a bug.{/i}\n{i}Rule 3: The conservation law is not what they told you.{/i}\n{i}Addendum: The shard in you isn't normal. Remember that.{/i}{/color}"
     pause 0.3
     narrator "{i}The meditation chamber is the quietest room on the ship.{/i}"
     narrator "{i}Avyanna has been here before-passing through, curious, never lingering. Now she sits cross-legged on a cushion that smells faintly of old incense, watching Nyx arrange candles in patterns that make her eyes want to slide away.{/i}"
@@ -223,7 +223,7 @@ label act1_17_rule_of_locality:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: trainee processing heavy information load | DURATION: 3+ hours | INFERENCE: worldview reconstruction in progress | CONFIDENCE: 0.88 | NOTE: recommend light duty rotation tomorrow. cognitive load metrics elevated.>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: trainee processing heavy information load | DURATION: 3+ hours | INFERENCE: worldview reconstruction in progress | CONFIDENCE: 0.88 | NOTE: recommend light duty rotation tomorrow. cognitive load metrics elevated.>{/color}"
 
     scene black with dissolve
     pause 0.5
