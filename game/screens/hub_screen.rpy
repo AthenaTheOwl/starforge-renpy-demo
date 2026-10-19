@@ -1,6 +1,6 @@
 ## hub_screen.rpy — Chapter hub for optional dialogue selection
 ##
-## Shows available optional dialogues with NEW badges, lock icons, and advance button.
+## Shows available optional dialogues with NEW badges, LOCKED badges, and advance button.
 
 screen hub_screen(chapter_num, available_scenes):
     modal True
@@ -43,7 +43,7 @@ screen hub_screen(chapter_num, available_scenes):
 
                     if not _d_played:
                         if _d_available:
-                            textbutton "{color=#d4a843}[NEW]{/color} [_d_name]":
+                            textbutton "{color=#d4a843}[[NEW]{/color} [_d_name]":
                                 action Return("play:" + d_id)
                                 xsize 700
                                 text_size 24
@@ -53,7 +53,7 @@ screen hub_screen(chapter_num, available_scenes):
                                 hover_background Solid("#303060")
                                 padding (20, 12, 20, 12)
                         else:
-                            textbutton "{color=#555555}{icon=lock} [_d_name]{/color}":
+                            textbutton "{color=#555555}[[LOCKED] [_d_name]{/color}":
                                 action NullAction()
                                 xsize 700
                                 text_size 24

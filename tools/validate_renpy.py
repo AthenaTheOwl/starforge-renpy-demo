@@ -6,11 +6,120 @@ Checks:
 2. All character variables used in say statements are defined
 3. No orphan labels (unreachable from entry points)
 4. Label naming conventions
+5. Screen text uses only known text tags and substitutions of defined names
 """
 
+import ast
+import builtins
 import os
 import re
 import sys
+
+
+# Ren'Py 8.5 built-in text tags (renpy/text/extras.py). The game registers no
+# config.custom_text_tags, so any other {tag} in screen text raises at runtime.
+RENPY_TEXT_TAGS = {
+    "", "a", "alpha", "alt", "art", "axis", "b", "color", "cps", "done", "fast",
+    "feature", "font", "i", "image", "instance", "k", "noalt", "nw",
+    "outlinecolor", "p", "plain", "rb", "rt", "s", "shader", "size", "space",
+    "u", "vspace", "w",
+}
+# Store names Ren'Py provides that screen text may interpolate.
+RENPY_STORE_NAMES = {"persistent", "config", "store", "renpy", "gui", "preferences", "_", "__"}
+SCREEN_TEXT_LINE = re.compile(r'^\s*(?:text|textbutton|label|tooltip)\b')
+STRING_LITERAL = re.compile(r'"((?:[^"\\]|\\.)*)"')
+IDENT = r"[A-Za-z_]\w*"
+DEFINED_NAME_PATTERNS = [
+    re.compile(rf"^\s*(?:define|default)\s+({IDENT})"),
+    re.compile(rf"\b({IDENT})\s*[-+*/%]?=(?!=)"),
+    re.compile(rf"\b(?:def|class)\s+({IDENT})"),
+    re.compile(rf"\bimport\s+({IDENT})"),
+    re.compile(rf"\bas\s+({IDENT})"),
+]
+PARAM_LIST = re.compile(rf"^\s*(?:screen|label|def)\s+{IDENT}\s*\(([^)]*)\)")
+FOR_TARGETS = re.compile(r"\bfor\s+([\w\s,()]+?)\s+in\b")
+
+
+def collect_defined_names(line, names):
+    """Add every name the line could bind (over-inclusive on purpose)."""
+    for pattern in DEFINED_NAME_PATTERNS:
+        names.update(pattern.findall(line))
+    for group in PARAM_LIST.findall(line) + FOR_TARGETS.findall(line):
+        names.update(re.findall(IDENT, group))
+
+
+def iter_text_tags(text):
+    """Yield the name of each text tag in a Ren'Py string, honoring {{ escapes."""
+    pos = 0
+    while pos < len(text):
+        if text.startswith("{{", pos):
+            pos += 2
+            continue
+        if text[pos] == "{":
+            end = text.find("}", pos)
+            if end == -1:
+                return
+            yield text[pos + 1:end].lstrip("/").split("=", 1)[0].strip()
+            pos = end + 1
+            continue
+        pos += 1
+
+
+def iter_substitutions(text):
+    """Yield the expression of each [substitution] in a Ren'Py string, honoring [[ escapes."""
+    pos = 0
+    while pos < len(text):
+        if text.startswith("[[", pos):
+            pos += 2
+            continue
+        if text[pos] != "[":
+            pos += 1
+            continue
+        depth = 0
+        quote = None
+        start = pos + 1
+        pos = start
+        expr_end = None
+        while pos < len(text):
+            c = text[pos]
+            if quote:
+                if c == "\\":
+                    pos += 1
+                elif c == quote:
+                    quote = None
+            elif c in "'\"":
+                quote = c
+            elif c in "([":
+                depth += 1
+            elif c in ")]" and depth:
+                depth -= 1
+            elif c == "]":
+                break
+            elif not depth and expr_end is None and (c == ":" or (c == "!" and text[pos + 1:pos + 2] != "=")):
+                expr_end = pos
+            pos += 1
+        yield text[start:expr_end if expr_end is not None else pos]
+        pos += 1
+
+
+def check_screen_text(screen_strings, defined_names):
+    """Return error messages for screen strings that Ren'Py cannot render."""
+    known = defined_names | RENPY_STORE_NAMES | set(dir(builtins))
+    problems = []
+    for relpath, line_num, text in screen_strings:
+        for tag in iter_text_tags(text):
+            if not tag.startswith("#") and tag not in RENPY_TEXT_TAGS:
+                problems.append(f"Unknown text tag '{{{tag}}}' in screen text at {relpath}:{line_num}")
+        for expr in iter_substitutions(text):
+            try:
+                tree = ast.parse(expr.strip(), mode="eval")
+            except SyntaxError:
+                problems.append(f"Substitution '[{expr}]' is not a Python expression at {relpath}:{line_num} (escape a literal bracket as '[[')")
+                continue
+            for node in ast.walk(tree):
+                if isinstance(node, ast.Name) and node.id not in known:
+                    problems.append(f"Substitution '[{expr}]' uses undefined name '{node.id}' at {relpath}:{line_num} (escape a literal bracket as '[[')")
+    return problems
 
 
 def scan_rpy_files(game_dir):
@@ -20,6 +129,8 @@ def scan_rpy_files(game_dir):
     calls = {}  # {target: [(file, line_num), ...]}
     speakers = set()
     defined_chars = set()
+    defined_names = set()
+    screen_strings = []  # [(file, line_num, text), ...] for displayed screen text
 
     for root, dirs, files in os.walk(game_dir):
         for fname in files:
@@ -28,9 +139,18 @@ def scan_rpy_files(game_dir):
             filepath = os.path.join(root, fname)
             relpath = os.path.relpath(filepath, game_dir)
 
+            in_screen = False
             with open(filepath, "r", encoding="utf-8") as f:
                 for line_num, line in enumerate(f, 1):
                     stripped = line.strip()
+                    collect_defined_names(line, defined_names)
+
+                    # Track top-level screen blocks and the text they display
+                    if stripped and not line[0].isspace() and not stripped.startswith("#"):
+                        in_screen = bool(re.match(r"screen\s", stripped))
+                    if in_screen and SCREEN_TEXT_LINE.match(line):
+                        for text in STRING_LITERAL.findall(line):
+                            screen_strings.append((relpath, line_num, text))
 
                     # Collect labels
                     label_match = re.match(r'^label\s+(\S+?)(?:\(.*\))?:', stripped)
@@ -71,14 +191,14 @@ def scan_rpy_files(game_dir):
                                           "modal", "action", "at", "tooltip"):
                             speakers.add(speaker)
 
-    return labels, jumps, calls, speakers, defined_chars
+    return labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings
 
 
 def validate(game_dir):
     """Run all validation checks."""
     print(f"Validating Ren'Py project: {game_dir}\n")
 
-    labels, jumps, calls, speakers, defined_chars = scan_rpy_files(game_dir)
+    labels, jumps, calls, speakers, defined_chars, defined_names, screen_strings = scan_rpy_files(game_dir)
 
     errors = 0
     warnings = 0
@@ -126,13 +246,20 @@ def validate(game_dir):
         print(f"  WARNING: Speaker variable '{speaker}' used but not defined with Character()")
         warnings += 1
 
-    # 4. Summary stats
+    # 4. Check screen text that Ren'Py renders at runtime (lint does not)
+    print("\n--- Screen Text Validation ---")
+    for problem in check_screen_text(screen_strings, defined_names):
+        print(f"  ERROR: {problem}")
+        errors += 1
+
+    # 5. Summary stats
     print(f"\n--- Summary ---")
     print(f"  Labels found:    {len(labels)}")
     print(f"  Jump targets:    {len(jumps)}")
     print(f"  Call targets:    {len(calls)}")
     print(f"  Speakers used:   {len(speakers)}")
     print(f"  Characters defined: {len(defined_chars)}")
+    print(f"  Screen text strings: {len(screen_strings)}")
     print(f"")
     print(f"  Errors:   {errors}")
     print(f"  Warnings: {warnings}")
