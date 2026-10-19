@@ -27,6 +27,8 @@ checks.
    are present.
 3. Static Ren'Py validation reports zero errors.
 4. Playtest path/dead-letter audit passes before Act 1 route-complete claims.
+   Missing routed labels and broken encounter references fail it; dead-letter
+   marker hits and queue items are listed as warnings and do not.
 5. Ren'Py lint passes on a local machine with Ren'Py 8.5.x installed and emits
    no captured diagnostics under `--fail-on-renpy-lint-diagnostics`.
 6. Manual smoke covers launch, one choice, one state/check branch, save/load,

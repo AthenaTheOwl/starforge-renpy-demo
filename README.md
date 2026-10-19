@@ -12,7 +12,7 @@ Active development lives in a private workshop. This public copy is the curated 
 
 ## Try it
 
-No engine needed for this part. The playtest audit walks every label, counts the routes, and checks no scene drops into a dead letter:
+No engine needed for this part. The playtest audit collects every label, checks that routed scene and combat labels exist, and greps for explicit dead-letter/queue markers:
 
 ```powershell
 python tools\playtest_audit.py
