@@ -36,8 +36,9 @@ playtest audit passed
 
 Zero dead-letter hits means the source contains no explicit queue markers.
 Known label targets are checked separately. Neither count replaces a player
-walking the route. The encounter line is the difficulty spread, smallest fight
-to largest.
+walking the route. The encounter lines are the spread across all 14 encounter
+definitions, not across fights a player meets: so far only the tutorial fight
+is wired into the Act 1 route with encounter data.
 
 ## Run it locally
 
