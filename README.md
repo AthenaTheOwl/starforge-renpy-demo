@@ -41,7 +41,7 @@ to largest.
 Install or download Ren'Py 8.5.x and open this folder as a Ren'Py project. To lint it from the local workshop SDK used during cleanup:
 
 ```powershell
-E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe . lint
+C:\path\to\renpy-8.5.2-sdk\renpy.exe . lint
 ```
 
 ## Browser build (needs the Ren'Py web toolchain)
@@ -69,7 +69,7 @@ python tools\check_release.py
 For the full native release gate on a machine with Ren'Py installed:
 
 ```powershell
-python tools\check_release.py --clean --fail-on-generated --fail-on-renpy-lint-diagnostics --require-renpy --renpy E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe
+python tools\check_release.py --clean --fail-on-generated --fail-on-renpy-lint-diagnostics --require-renpy --renpy C:\path\to\renpy-8.5.2-sdk\renpy.exe
 ```
 
 `tools/check_release.py` is the one entry point that runs the whole gate in order: cleanup, static source validation, path/dead-letter audit, then Ren'Py's own engine lint. `--clean` strips known Ren'Py generated artifacts before and after the native lint run, and `--fail-on-renpy-lint-diagnostics` treats any captured lint diagnostic as release-blocking. See `docs/deterministic-orchestration.md` for the proof gates.
