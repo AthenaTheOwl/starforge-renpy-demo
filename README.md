@@ -38,7 +38,7 @@ to largest.
 
 ## Run it locally
 
-Install or download Ren'Py 8.5.x and open this folder as a Ren'Py project. To lint it from the local workshop SDK used during cleanup:
+Install or download Ren'Py 8.5.x and open this folder as a Ren'Py project. To lint it with a local Ren'Py SDK (adjust the path to your install):
 
 ```powershell
 C:\path\to\renpy-8.5.2-sdk\renpy.exe . lint
