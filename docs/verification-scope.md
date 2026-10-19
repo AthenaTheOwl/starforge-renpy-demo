@@ -14,8 +14,3 @@ The source, dialogue and encounter balance were unchanged.
 Lint checks script validity. It does not exercise every menu, combat outcome,
 save/load transition or visual layout. Human playthrough and a web export
 remain separate proof obligations.
-
-A useful AI Product Team task is a bounded regression proposal: select one
-existing route, name its expected terminal state, then run it in the engine.
-Keep the evaluator outside the agent's claim of success. Stop after one route
-and report untested branches explicitly; a static route count is no substitute.
