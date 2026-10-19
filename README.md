@@ -31,7 +31,10 @@ Ren'Py playtest audit
 playtest audit passed
 ```
 
-Zero dead-letter hits means every branch lands somewhere a player can reach. The encounter line at the bottom is the difficulty spread, smallest fight to largest.
+Zero dead-letter hits means the source contains no explicit queue markers.
+Known label targets are checked separately. Neither count replaces a player
+walking the route. The encounter line is the difficulty spread, smallest fight
+to largest.
 
 ## Run it locally
 
@@ -98,6 +101,9 @@ Part of the Starforge cluster — one prose source, several playable shapes:
 - [starforge-rpg-prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) — Act 1 Godot RPG prototype copy
 - [starforge-twine-demo](https://github.com/AthenaTheOwl/starforge-twine-demo) — single-HTML Twine/SugarCube demo
 - [starforge-choicescript-demo](https://github.com/AthenaTheOwl/starforge-choicescript-demo) — stat-forward ChoiceScript demo
+
+[Current verification scope](docs/verification-scope.md) records the October 18,
+2026 native lint result and the remaining playthrough obligations.
 
 ## License
 
