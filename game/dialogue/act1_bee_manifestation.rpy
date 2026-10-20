@@ -21,7 +21,7 @@ label act1_bee_manifestation_bee_first_contact:
     jump act1_bee_manifestation_bee_recognition
 
 label act1_bee_manifestation_bee_recognition:
-    bee "{color=cyan}***host-aware***{/color} {i}[The words aren't yours, but they arrive in your mind like they've always been there.]{/i}"
+    bee "{color=cyan}***host-aware***{/color} {i}[[The words aren't yours, but they arrive in your mind like they've always been there.]{/i}"
     jump act1_bee_manifestation_avyanna_reaction
 
 label act1_bee_manifestation_avyanna_reaction:
@@ -29,28 +29,28 @@ label act1_bee_manifestation_avyanna_reaction:
     jump act1_bee_manifestation_bee_explanation_1
 
 label act1_bee_manifestation_bee_explanation_1:
-    bee "{color=cyan}***fragment-primordial***{/color} {i}[Impressions flood: ancient, not born but broken off from something vast, older than the corporations, older than the mines, older than human words.]{/i}"
+    bee "{color=cyan}***fragment-primordial***{/color} {i}[[Impressions flood: ancient, not born but broken off from something vast, older than the corporations, older than the mines, older than human words.]{/i}"
     jump act1_bee_manifestation_bee_explanation_2
 
 label act1_bee_manifestation_bee_explanation_2:
-    bee "{color=cyan}***not-synthetic*** | {color=cyan}***not-debt***{/color} {i}[A warmth that isn't comfort—recognition. It waited. Chose. Bonded.]{/i}"
+    bee "{color=cyan}***not-synthetic*** | {color=cyan}***not-debt***{/color} {i}[[A warmth that isn't comfort—recognition. It waited. Chose. Bonded.]{/i}"
     jump act1_bee_manifestation_bee_question
 
 label act1_bee_manifestation_bee_question:
-    bee "{color=cyan}***query: consent-to-partnership?***{/color} {i}[The heat pauses. Waiting. Not demanding. Asking.]{/i}"
+    bee "{color=cyan}***query: consent-to-partnership?***{/color} {i}[[The heat pauses. Waiting. Not demanding. Asking.]{/i}"
     jump act1_bee_manifestation_player_choice
 
 label act1_bee_manifestation_player_choice:
     "{i}The presence waits. Not impatient. Not threatening. Just... there. The choice is yours.{/i}"
     menu:
-        "[Embrace] Yes. We're partners. Show me what you are.":
+        "[[Embrace] Yes. We're partners. Show me what you are.":
             $ game_state.set_flag("bee_accepted")
             $ game_state.set_flag("rep_lattice_affinity", game_state.get_flag("rep_lattice_affinity", 0) + 2)
             jump act1_bee_manifestation_embrace_response
-        "[Cautious] I need to understand you first. Slowly.":
+        "[[Cautious] I need to understand you first. Slowly.":
             $ game_state.set_flag("bee_cautious")
             jump act1_bee_manifestation_cautious_response
-        "[Resist] I don't want this. Get out.":
+        "[[Resist] I don't want this. Get out.":
             $ game_state.set_flag("bee_resisted")
             $ game_state.set_flag("rep_lattice_affinity", game_state.get_flag("rep_lattice_affinity", 0) + -1)
             jump act1_bee_manifestation_resist_response
@@ -64,7 +64,7 @@ label act1_bee_manifestation_embrace_vision:
     jump act1_bee_manifestation_embrace_understanding
 
 label act1_bee_manifestation_embrace_understanding:
-    bee "{color=cyan}***partner-designation: Avyanna*** | {color=cyan}***fragment-designation: [waiting-for-name]***{/color} {i}[It shows you what it is: a piece of something older than extraction, offering partnership without cost.]{/i}"
+    bee "{color=cyan}***partner-designation: Avyanna*** | {color=cyan}***fragment-designation: [[waiting-for-name]***{/color} {i}[[It shows you what it is: a piece of something older than extraction, offering partnership without cost.]{/i}"
     jump act1_bee_manifestation_embrace_name
 
 label act1_bee_manifestation_embrace_name:
@@ -72,7 +72,7 @@ label act1_bee_manifestation_embrace_name:
     jump act1_bee_manifestation_bee_accepts_name
 
 label act1_bee_manifestation_bee_accepts_name:
-    bee "{color=cyan}***designation-accepted: Bee*** | {color=cyan}***partnership-sealed***{/color} {i}[Warmth floods through you. Not possession. Recognition. You are not alone.]{/i}"
+    bee "{color=cyan}***designation-accepted: Bee*** | {color=cyan}***partnership-sealed***{/color} {i}[[Warmth floods through you. Not possession. Recognition. You are not alone.]{/i}"
     jump act1_bee_manifestation_lattice_surge_alarm
 
 label act1_bee_manifestation_cautious_response:
@@ -80,15 +80,15 @@ label act1_bee_manifestation_cautious_response:
     jump act1_bee_manifestation_cautious_explanation
 
 label act1_bee_manifestation_cautious_explanation:
-    bee "{color=cyan}***information: we-share-nervous-system*** | {color=cyan}***information: removal-impossible-without-death***{/color} {i}[Not a threat. Just truth.]{/i}"
+    bee "{color=cyan}***information: we-share-nervous-system*** | {color=cyan}***information: removal-impossible-without-death***{/color} {i}[[Not a threat. Just truth.]{/i}"
     jump act1_bee_manifestation_cautious_comfort
 
 label act1_bee_manifestation_cautious_comfort:
-    bee "{color=cyan}***assurance: no-extraction*** | {color=cyan}***assurance: no-debt***{/color} {i}[It withdraws slightly—still present, but quieter. Respectful of your boundary.]{/i}"
+    bee "{color=cyan}***assurance: no-extraction*** | {color=cyan}***assurance: no-debt***{/color} {i}[[It withdraws slightly—still present, but quieter. Respectful of your boundary.]{/i}"
     jump act1_bee_manifestation_cautious_promise
 
 label act1_bee_manifestation_cautious_promise:
-    bee "{color=cyan}***protocol: slow-reveal*** | {color=cyan}***protocol: consent-required***{/color} {i}[The heat settles to a steady warmth. Patient. You have time.]{/i}"
+    bee "{color=cyan}***protocol: slow-reveal*** | {color=cyan}***protocol: consent-required***{/color} {i}[[The heat settles to a steady warmth. Patient. You have time.]{/i}"
     jump act1_bee_manifestation_lattice_surge_alarm
 
 label act1_bee_manifestation_resist_response:
@@ -96,15 +96,15 @@ label act1_bee_manifestation_resist_response:
     jump act1_bee_manifestation_resist_explanation
 
 label act1_bee_manifestation_resist_explanation:
-    bee "{color=cyan}***information: bonded-at-cellular-level*** | {color=cyan}***information: separation-equals-death***{/color} {i}[Not cruelty. Regret. It can't leave without killing you both.]{/i}"
+    bee "{color=cyan}***information: bonded-at-cellular-level*** | {color=cyan}***information: separation-equals-death***{/color} {i}[[Not cruelty. Regret. It can't leave without killing you both.]{/i}"
     jump act1_bee_manifestation_resist_compromise
 
 label act1_bee_manifestation_resist_compromise:
-    bee "{color=cyan}***offer: minimal-presence*** | {color=cyan}***offer: dormancy-until-needed***{/color} {i}[The heat withdraws—still there, but distant. Like a hand held up: I won't force this.]{/i}"
+    bee "{color=cyan}***offer: minimal-presence*** | {color=cyan}***offer: dormancy-until-needed***{/color} {i}[[The heat withdraws—still there, but distant. Like a hand held up: I won't force this.]{/i}"
     jump act1_bee_manifestation_resist_promise
 
 label act1_bee_manifestation_resist_promise:
-    bee "{color=cyan}***waiting*** | {color=cyan}***when-you-are-ready***{/color} {i}[The presence fades to background noise. You're alone again—but not quite. It's still there. Waiting.]{/i}"
+    bee "{color=cyan}***waiting*** | {color=cyan}***when-you-are-ready***{/color} {i}[[The presence fades to background noise. You're alone again—but not quite. It's still there. Waiting.]{/i}"
     jump act1_bee_manifestation_lattice_surge_alarm
 
 label act1_bee_manifestation_lattice_surge_alarm:
@@ -158,12 +158,12 @@ label act1_bee_manifestation_elia_overrules:
 label act1_bee_manifestation_manifestation_choice:
     "{i}The entity hovers. Waiting. Your hands still glow. You can feel it at the edge of your will—this thing that was private is now public. The crew stares. The moment balances on a knife's edge.{/i}"
     menu:
-        "[Surrender] Let it happen. Stop holding back.":
+        "[[Surrender] Let it happen. Stop holding back.":
             $ game_state.set_flag("rep_lattice_affinity", game_state.get_flag("rep_lattice_affinity", 0) + 1)
             jump act1_bee_manifestation_surrender_to_process
-        "[Fight it] Push the energy down. Force it back inside.":
+        "[[Fight it] Push the energy down. Force it back inside.":
             jump act1_bee_manifestation_fight_manifestation
-        "[Reach for Bee] Extend your hand toward the presence.":
+        "[[Reach for Bee] Extend your hand toward the presence.":
             $ game_state.set_flag("rep_lattice_affinity", game_state.get_flag("rep_lattice_affinity", 0) + 2)
             $ game_state.set_flag("rep_crew_trust", game_state.get_flag("rep_crew_trust", 0) + 1)
             jump act1_bee_manifestation_reach_for_bee

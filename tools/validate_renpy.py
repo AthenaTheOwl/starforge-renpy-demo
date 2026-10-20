@@ -9,6 +9,7 @@ Checks:
 5. Screen text uses only known text tags and substitutions of defined names
 6. Script text has no over-escaped text tags, unmatched closing braces or
    over-escaped brackets
+7. Script text substitutions are Python expressions of defined names
 """
 
 import ast
@@ -104,6 +105,21 @@ def iter_substitutions(text):
         pos += 1
 
 
+def substitution_problems(relpath, line_num, text, known):
+    """Return error messages for [substitutions] Ren'Py would fail to evaluate."""
+    problems = []
+    for expr in iter_substitutions(text):
+        try:
+            tree = ast.parse(expr.strip(), mode="eval")
+        except SyntaxError:
+            problems.append(f"Substitution '[{expr}]' is not a Python expression at {relpath}:{line_num} (escape a literal bracket as '[[')")
+            continue
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Name) and node.id not in known:
+                problems.append(f"Substitution '[{expr}]' uses undefined name '{node.id}' at {relpath}:{line_num} (escape a literal bracket as '[[')")
+    return problems
+
+
 def check_screen_text(screen_strings, defined_names):
     """Return error messages for screen strings that Ren'Py cannot render."""
     known = defined_names | RENPY_STORE_NAMES | set(dir(builtins))
@@ -112,15 +128,23 @@ def check_screen_text(screen_strings, defined_names):
         for tag in iter_text_tags(text):
             if not tag.startswith("#") and tag not in RENPY_TEXT_TAGS:
                 problems.append(f"Unknown text tag '{{{tag}}}' in screen text at {relpath}:{line_num}")
-        for expr in iter_substitutions(text):
-            try:
-                tree = ast.parse(expr.strip(), mode="eval")
-            except SyntaxError:
-                problems.append(f"Substitution '[{expr}]' is not a Python expression at {relpath}:{line_num} (escape a literal bracket as '[[')")
-                continue
-            for node in ast.walk(tree):
-                if isinstance(node, ast.Name) and node.id not in known:
-                    problems.append(f"Substitution '[{expr}]' uses undefined name '{node.id}' at {relpath}:{line_num} (escape a literal bracket as '[[')")
+        problems.extend(substitution_problems(relpath, line_num, text, known))
+    return problems
+
+
+def check_script_substitutions(script_strings, defined_names, skip=()):
+    """Return error messages for say and menu text whose [substitutions] Ren'Py cannot evaluate.
+
+    With config.interpolate_exprs on (the 8.5 default), a bracket that holds
+    no defined Python expression raises when the line or choice is shown.
+    `skip` holds (relpath, line_num) pairs already checked as screen text.
+    """
+    known = defined_names | RENPY_STORE_NAMES | set(dir(builtins))
+    skip = set(skip)
+    problems = []
+    for relpath, line_num, text in script_strings:
+        if (relpath, line_num) not in skip:
+            problems.extend(substitution_problems(relpath, line_num, text, known))
     return problems
 
 
@@ -357,7 +381,14 @@ def validate(game_dir):
         print(f"  ERROR: {problem}")
         errors += 1
 
-    # 6. Summary stats
+    # 6. Check [substitutions] in say and menu text (lint does not evaluate them)
+    print("\n--- Script Substitution Validation ---")
+    screen_lines = {(relpath, line_num) for relpath, line_num, _ in screen_strings}
+    for problem in check_script_substitutions(script_strings, defined_names, screen_lines):
+        print(f"  ERROR: {problem}")
+        errors += 1
+
+    # 7. Summary stats
     print(f"\n--- Summary ---")
     print(f"  Labels found:    {len(labels)}")
     print(f"  Jump targets:    {len(jumps)}")

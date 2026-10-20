@@ -70,7 +70,7 @@ label act1_forbidden_citizens_choice_early_reaction:
         "Are we safe? Can they find us?":
             $ game_state.set_flag("ai_concern_safety")
             jump act1_forbidden_citizens_concern_safety
-        "[Empathy check DC 12] Read Elia's fear beneath the calm":
+        "[[Empathy check DC 12] Read Elia's fear beneath the calm":
             $ _sc_result = skill_check("empathy", 12, "avyanna")
             jump act1_forbidden_citizens_empathy_check
 

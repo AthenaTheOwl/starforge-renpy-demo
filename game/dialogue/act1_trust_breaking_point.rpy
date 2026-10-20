@@ -46,16 +46,16 @@ label act1_trust_breaking_point_elia_stung:
     jump act1_trust_breaking_point_vesper_presses
 
 label act1_trust_breaking_point_vesper_presses:
-    vesper "It is. You're deciding for all of us. Without asking. Without explaining the math. {i}[Beat.]{/i} That's not the floor. That's a throne."
+    vesper "It is. You're deciding for all of us. Without asking. Without explaining the math. {i}[[Beat.]{/i} That's not the floor. That's a throne."
     jump act1_trust_breaking_point_player_choice
 
 label act1_trust_breaking_point_player_choice:
     "{i}The tension is a live wire. Rho's hands are fists. Vesper's eyes are flat. Elia's blade hand twitches. This could break badly.{/i}"
     menu:
-        "[Intervene] They need to hear each other. Step in.":
+        "[[Intervene] They need to hear each other. Step in.":
             $ game_state.set_flag("trust_intervention_attempted")
             jump act1_trust_breaking_point_intervene_check
-        "[Let It Play Out] This is crew business. Stay quiet.":
+        "[[Let It Play Out] This is crew business. Stay quiet.":
             $ game_state.set_flag("trust_crisis_witnessed")
             jump act1_trust_breaking_point_play_out_resolution
 
@@ -76,7 +76,7 @@ label act1_trust_breaking_point_intervene_elia_reaction:
     jump act1_trust_breaking_point_intervene_vesper_reaction
 
 label act1_trust_breaking_point_intervene_vesper_reaction:
-    avyanna "Vesper's scared you'll get hurt. Elia's scared of breaking the contract and losing crew trust. You're both right. You're both scared. {i}[Beat.]{/i} So say that instead."
+    avyanna "Vesper's scared you'll get hurt. Elia's scared of breaking the contract and losing crew trust. You're both right. You're both scared. {i}[[Beat.]{/i} So say that instead."
     jump act1_trust_breaking_point_intervene_silence
 
 label act1_trust_breaking_point_intervene_silence:
@@ -88,7 +88,7 @@ label act1_trust_breaking_point_intervene_elia_concedes:
     jump act1_trust_breaking_point_intervene_vesper_concedes
 
 label act1_trust_breaking_point_intervene_vesper_concedes:
-    vesper "{i}After a beat.{/i} And I should have said I was afraid instead of making it about procedure. {i}[She looks at you.]{/i} How did you—"
+    vesper "{i}After a beat.{/i} And I should have said I was afraid instead of making it about procedure. {i}[[She looks at you.]{/i} How did you—"
     jump act1_trust_breaking_point_intervene_avyanna_response
 
 label act1_trust_breaking_point_intervene_avyanna_response:
@@ -128,7 +128,7 @@ label act1_trust_breaking_point_play_out_pause:
     jump act1_trust_breaking_point_play_out_rho_assessment
 
 label act1_trust_breaking_point_play_out_rho_assessment:
-    rho "You're both right. You're both scared. And you're both acting like this is about the contract when it's about trust. {i}[Beat.]{/i} So either say that, or take a break and come back when you can."
+    rho "You're both right. You're both scared. And you're both acting like this is about the contract when it's about trust. {i}[[Beat.]{/i} So either say that, or take a break and come back when you can."
     jump act1_trust_breaking_point_play_out_break
 
 label act1_trust_breaking_point_play_out_break:
@@ -150,7 +150,7 @@ label act1_trust_breaking_point_cinnamon_crisis_pragmatic:
 label act1_trust_breaking_point_resolution_outcome:
     "{i}Later, the crew will reconvene. They'll finish the conversation. But something shifted here—for better or worse.{/i}"
     menu:
-        "[Continue]":
+        "[[Continue]":
             $ game_state.set_flag("trust_crisis_resolved")
             $ game_state.set_flag("rep_crew_trust", game_state.get_flag("rep_crew_trust", 0) + 1)
             return

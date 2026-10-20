@@ -156,7 +156,7 @@ label act1_deep_vesper_killed_reaction:
     menu:
         "What happened?":
             jump act1_deep_vesper_what_happened
-        "[Empathy DC 14] You blame yourself.":
+        "[[Empathy DC 14] You blame yourself.":
             $ _sc_result = skill_check("empathy", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_vesper_empathy_success
@@ -166,7 +166,7 @@ label act1_deep_vesper_killed_reaction:
             jump act1_deep_vesper_silence_space
 
 label act1_deep_vesper_empathy_check:
-    "[Rolling Empathy check...]"
+    "[[Rolling Empathy check...]"
     jump act1_deep_vesper_empathy_success
 
 label act1_deep_vesper_empathy_success:
@@ -268,7 +268,7 @@ label act1_deep_vesper_night_aftermath_response:
             jump act1_deep_vesper_take_her_hand
         "Thirty-seven meters. You've carried that number a long time.":
             jump act1_deep_vesper_carried_number
-        "[Insight DC 16] The math works — he was telling you something.":
+        "[[Insight DC 16] The math works — he was telling you something.":
             $ _sc_result = skill_check("insight", 16, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_vesper_insight_math_success
@@ -288,7 +288,7 @@ label act1_deep_vesper_carried_number:
     jump act1_deep_vesper_split_consequence
 
 label act1_deep_vesper_insight_check_math:
-    "[Rolling Insight check...]"
+    "[[Rolling Insight check...]"
     jump act1_deep_vesper_insight_math_success
 
 label act1_deep_vesper_insight_math_success:
@@ -386,7 +386,7 @@ label act1_deep_vesper_coping_response:
     menu:
         "What brought you back?":
             jump act1_deep_vesper_what_brought_back
-        "[Empathy DC 12] You're still doing it. Right now.":
+        "[[Empathy DC 12] You're still doing it. Right now.":
             $ _sc_result = skill_check("empathy", 12, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_vesper_still_doing_it_success
@@ -404,7 +404,7 @@ I said yes. And I meant it. So I had to start being alive myself, to keep that p
     jump act1_deep_vesper_debt_response
 
 label act1_deep_vesper_empathy_check_2:
-    "[Rolling Empathy check...]"
+    "[[Rolling Empathy check...]"
     jump act1_deep_vesper_still_doing_it_success
 
 label act1_deep_vesper_still_doing_it_success:
@@ -567,7 +567,7 @@ label act1_deep_vesper_vesper_fear_response:
             jump act1_deep_vesper_not_rowan
         "Then help me be smarter than he was. Keep me honest.":
             jump act1_deep_vesper_keep_me_honest
-        "[Insight DC 14] You're not afraid of losing me. You're afraid of caring again.":
+        "[[Insight DC 14] You're not afraid of losing me. You're afraid of caring again.":
             $ _sc_result = skill_check("insight", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_vesper_insight_caring_success
@@ -589,7 +589,7 @@ You mean that. You actually mean that. Rowan never asked for that. He just trust
     jump act1_deep_vesper_vulnerability_moment
 
 label act1_deep_vesper_insight_check_caring:
-    "[Rolling Insight check...]"
+    "[[Rolling Insight check...]"
     jump act1_deep_vesper_insight_caring_success
 
 label act1_deep_vesper_insight_caring_success:

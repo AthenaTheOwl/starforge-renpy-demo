@@ -20,7 +20,7 @@ label act1_elia_rescue_elia_first_words:
             jump act1_elia_rescue_elia_explains_quick
         "\"Why should I trust you?\"":
             jump act1_elia_rescue_elia_trust
-        "[Say nothing. Just nod.]":
+        "[[Say nothing. Just nod.]":
             jump act1_elia_rescue_elia_approves_silence
 
 label act1_elia_rescue_elia_explains_quick:
@@ -47,7 +47,7 @@ label act1_elia_rescue_quick_followup_2:
     menu:
         "\"You've done this before.\"":
             jump act1_elia_rescue_quick_followup_3
-        "[Match her pace. Don't slow her down.]":
+        "[[Match her pace. Don't slow her down.]":
             jump act1_elia_rescue_quick_followup_silent
 
 label act1_elia_rescue_quick_followup_3:
@@ -101,9 +101,9 @@ label act1_elia_rescue_silence_followup:
 label act1_elia_rescue_silence_followup_2:
     elia "Over her shoulder, without breaking stride: \"If you can fight, stay at my flank. If you can't, stay behind me and keep low. Tap my shoulder twice if you see something I don't.\""
     menu:
-        "[Move to her flank.]":
+        "[[Move to her flank.]":
             jump act1_elia_rescue_silence_followup_3
-        "[Fall in behind her. Keep low.]":
+        "[[Fall in behind her. Keep low.]":
             jump act1_elia_rescue_silence_followup_4
 
 label act1_elia_rescue_silence_followup_3:
@@ -154,7 +154,7 @@ label act1_elia_rescue_knowledge_followup:
     menu:
         "\"Eight months is a long time to watch.\"":
             jump act1_elia_rescue_knowledge_followup_2
-        "[Let it go. Focus on surviving the next four minutes.]":
+        "[[Let it go. Focus on surviving the next four minutes.]":
             jump act1_elia_rescue_move_out
 
 label act1_elia_rescue_knowledge_followup_2:
@@ -198,7 +198,7 @@ label act1_elia_rescue_corridor_reaction:
     menu:
         "\"What is that blade?\"":
             jump act1_elia_rescue_mourning_question
-        "[Step through the gap. Keep moving.]":
+        "[[Step through the gap. Keep moving.]":
             jump act1_elia_rescue_ceiling_collapse
 
 label act1_elia_rescue_mourning_question:
@@ -260,9 +260,9 @@ label act1_elia_rescue_security_elia_response:
 
 She glances at you sideways. A question in the look."
     menu:
-        "[Watch silently. Let Elia handle it.]":
+        "[[Watch silently. Let Elia handle it.]":
             jump act1_elia_rescue_security_elia_handles
-        "[Create a distraction — knock over a pipe, draw their attention.]":
+        "[[Create a distraction — knock over a pipe, draw their attention.]":
             jump act1_elia_rescue_security_distraction
         "\"Sergeant. The east wing is gone. Your command structure is gone. Who are you holding this line for?\"":
             $ _sc_result = skill_check("persuasion", 10, "avyanna")
@@ -348,7 +348,7 @@ Elisira's gaze shifts to you. It's not like Elia's assessment—less blade, more
     menu:
         "\"Elisira, right? Elia mentioned your team in the east wing.\"":
             jump act1_elia_rescue_elisira_east_wing
-        "[Nod. Hold her gaze.]":
+        "[[Nod. Hold her gaze.]":
             jump act1_elia_rescue_elisira_nod
         "\"Thank you. For covering the exit.\"":
             jump act1_elia_rescue_elisira_thanks
@@ -387,9 +387,9 @@ label act1_elia_rescue_liftoff:
 label act1_elia_rescue_liftoff_look_back:
     avyanna "{i}You spent eleven months in that building. Eleven months of extraction cycles and fluorescent lighting and the taste of copper in the back of your throat every morning.{/i}"
     menu:
-        "[Look back. Watch it burn.]":
+        "[[Look back. Watch it burn.]":
             jump act1_elia_rescue_look_back_yes
-        "[Don't look back. Face forward.]":
+        "[[Don't look back. Face forward.]":
             jump act1_elia_rescue_look_back_no
 
 label act1_elia_rescue_look_back_yes:

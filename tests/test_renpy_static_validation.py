@@ -75,6 +75,24 @@ def test_text_escape_check_flags_brackets_renpy_shows_as_written() -> None:
     assert "x.rpy:2" in problems[1]
 
 
+def test_script_substitution_check_flags_brackets_renpy_cannot_evaluate() -> None:
+    sys.path.insert(0, str(ROOT / "tools"))
+    import validate_renpy
+
+    strings = [
+        ("combat/x.rpy", 1, "Strike the nearest enemy [Attack vs DC 12]"),
+        ("dialogue/x.rpy", 2, "[Tech] Examine the interface."),
+        ("combat/x.rpy", 3, "Strike [[Attack vs DC 12] for [_result['damage']] damage"),
+        ("screens/x.rpy", 4, "[NEW]"),
+    ]
+
+    problems = validate_renpy.check_script_substitutions(strings, {"_result"}, {("screens/x.rpy", 4)})
+
+    assert len(problems) == 2, problems
+    assert "'[Attack vs DC 12]' is not a Python expression" in problems[0] and "combat/x.rpy:1" in problems[0]
+    assert "undefined name 'Tech'" in problems[1] and "dialogue/x.rpy:2" in problems[1]
+
+
 def test_script_string_scan_skips_python_and_tracks_multiline_strings() -> None:
     sys.path.insert(0, str(ROOT / "tools"))
     import validate_renpy

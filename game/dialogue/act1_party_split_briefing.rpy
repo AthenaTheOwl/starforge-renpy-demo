@@ -113,7 +113,7 @@ label act1_party_split_briefing_elia_takes_control:
 label act1_party_split_briefing_player_tactics_check:
     "{i}Elia looks to you. The crew follows her gaze. This is where your input matters.{/i}"
     menu:
-        "[Diplomacy] Propose a coordinated timing strategy—assault draws response exactly when infiltration needs the gap widened.":
+        "[[Diplomacy] Propose a coordinated timing strategy—assault draws response exactly when infiltration needs the gap widened.":
             $ _sc_result = skill_check("Diplomacy", 14, "avyanna")
             return
         "Vesper's right—stealth first, force only as backup.":
@@ -180,7 +180,7 @@ label act1_party_split_briefing_jalen_options_detail:
 
 label act1_party_split_briefing_player_tech_choice:
     menu:
-        "[Tech] Can you run the sensor loop AND the drone piggyback simultaneously?":
+        "[[Tech] Can you run the sensor loop AND the drone piggyback simultaneously?":
             $ _sc_result = skill_check("tech", 12, "avyanna")
             return
         "Sensor loop. Ghost the infiltration team.":
@@ -258,7 +258,7 @@ label act1_party_split_briefing_elisira_assessments_avyanna:
 label act1_party_split_briefing_player_insight_check:
     "{i}You study the facility layout, the crew profiles, the ward signatures. Something about the defensive pattern nags at you.{/i}"
     menu:
-        "[Insight] Study the ward pattern more closely—something doesn't add up.":
+        "[[Insight] Study the ward pattern more closely—something doesn't add up.":
             $ _sc_result = skill_check("insight", 12, "avyanna")
             return
         "Stick with Elisira's assessment. She knows what she's doing.":
@@ -646,6 +646,6 @@ label act1_party_split_briefing_elia_move_out:
 label act1_party_split_briefing_end_scene:
     "{i}The crew disperses to final preparations. The weight of the moment hangs in the air. This is it. The climax. The fight that changes everything.{/i}"
     menu:
-        "[Continue]":
+        "[[Continue]":
             $ game_state.set_flag("act1_team_briefing_complete")
             return

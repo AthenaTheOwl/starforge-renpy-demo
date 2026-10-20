@@ -20,7 +20,7 @@ label act1_bonding_nyx_avyanna_response_acknowledgment:
 label act1_bonding_nyx_nyx_observation:
     nyx "Grief. Old and unprocessed. It saturates the space. {i}A pause, head tilting slightly.{/i} You're sensitive to it. The thing in your chest makes you a receiver for resonances most people can't detect. {i}Meeting your eyes directly.{/i} That's dangerous. But also valuable."
     menu:
-        "[Empathy] Try to understand what she's feeling here.":
+        "[[Empathy] Try to understand what she's feeling here.":
             $ _sc_result = skill_check("empathy", 10, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_bonding_nyx_empathy_success

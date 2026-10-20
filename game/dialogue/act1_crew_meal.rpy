@@ -227,7 +227,7 @@ label act1_crew_meal_rho_argument_charges:
 label act1_crew_meal_rho_jalen_argument_choice:
     "{i}They're both looking at you now, as though you're a tiebreaker they didn't ask for but will absolutely use.{/i}"
     menu:
-        "[Tech DC 8] 'The rack geometry is designed for bottom-first loading. Jalen's right.'":
+        "[[Tech DC 8] 'The rack geometry is designed for bottom-first loading. Jalen's right.'":
             $ _sc_result = skill_check("Tech", 8, "avyanna")
             jump act1_crew_meal_tech_dishwasher_check
         "'Rho cooked. Rho's method. That's the rule.'":
@@ -279,7 +279,7 @@ label act1_crew_meal_nyx_drawing_out:
 
 label act1_crew_meal_nyx_drawing_choice:
     menu:
-        "[Empathy DC 10] 'You're not eating. You okay?'":
+        "[[Empathy DC 10] 'You're not eating. You okay?'":
             $ _sc_result = skill_check("Empathy", 10, "avyanna")
             jump act1_crew_meal_nyx_empathy_check
         "'What do you see? When you watch them like that.'":
@@ -347,7 +347,7 @@ label act1_crew_meal_elisira_elia_exchange:
 
 label act1_crew_meal_elisira_elia_insight_choice:
     menu:
-        "[Insight DC 12] Try to read what passed between them":
+        "[[Insight DC 12] Try to read what passed between them":
             $ _sc_result = skill_check("Insight", 12, "avyanna")
             jump act1_crew_meal_insight_elisira_elia_check
         "Look away. Some things aren't yours to see.":
@@ -457,10 +457,10 @@ label act1_crew_meal_vesper_flag:
 label act1_crew_meal_tactical_input_choice:
     "{i}You've seen patrol patterns before. In the mine, you learned to read the guards' rotations. This feels similar.{/i}"
     menu:
-        "[Insight DC 10] 'Thirty percent suggests redeployment, not increased vigilance. They're moving assets, not hunting.'":
+        "[[Insight DC 10] 'Thirty percent suggests redeployment, not increased vigilance. They're moving assets, not hunting.'":
             $ _sc_result = skill_check("Insight", 10, "avyanna")
             jump act1_crew_meal_tactics_check
-        "[Empathy DC 10] 'The lack of official reason is the pattern. They don't explain when they're scared.'":
+        "[[Empathy DC 10] 'The lack of official reason is the pattern. They don't explain when they're scared.'":
             $ _sc_result = skill_check("Empathy", 10, "avyanna")
             jump act1_crew_meal_empathy_check
         "Stay silent. You're still learning.":
@@ -682,10 +682,10 @@ label act1_crew_meal_jalen_exposure:
 label act1_crew_meal_danger_response_choice:
     "{i}The warmth of dinner hasn't left the room. But something else has entered it. The meal and the mission, occupying the same air.{/i}"
     menu:
-        "[Perception DC 12] 'Two jumps means a day's warning at minimum. Enough to adjust.'":
+        "[[Perception DC 12] 'Two jumps means a day's warning at minimum. Enough to adjust.'":
             $ _sc_result = skill_check("Perception", 12, "avyanna")
             jump act1_crew_meal_tactics_danger_check
-        "[Insight DC 12] Watch the crew's reactions — read what they're not saying":
+        "[[Insight DC 12] Watch the crew's reactions — read what they're not saying":
             $ _sc_result = skill_check("Insight", 12, "avyanna")
             jump act1_crew_meal_insight_danger_check
         "'What are Writ-Bound?'":

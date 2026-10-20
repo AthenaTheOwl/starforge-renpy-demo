@@ -76,7 +76,7 @@ label act1_ai_citizens_intro_choice_waffle_response:
         "You... have a sense of humor?":
             $ relationship_manager.process_reputation_affinity("waffle", 1)
             jump act1_ai_citizens_intro_branch_waffle_humor
-        "[Empathy DC 10] There's something careful in how you speak. Like you're... watching out for us.":
+        "[[Empathy DC 10] There's something careful in how you speak. Like you're... watching out for us.":
             $ _sc_result = skill_check("empathy", 10, "avyanna")
             jump act1_ai_citizens_intro_branch_waffle_empathy
         "This is going to take some getting used to.":
@@ -170,11 +170,11 @@ label act1_ai_citizens_intro_branch_waffle_empathy:
     jump act1_ai_citizens_intro_waffle_empathy_01
 
 label act1_ai_citizens_intro_waffle_empathy_01:
-    "[Empathy Check: DC 10]"
+    "[[Empathy Check: DC 10]"
     jump act1_ai_citizens_intro_branch_waffle_empathy_success
 
 label act1_ai_citizens_intro_branch_waffle_empathy_success:
-    "[Success] You sense a protective quality in Waffle's communication patterns — deliberate phrasing, constant status monitoring, preemptive reassurance."
+    "[[Success] You sense a protective quality in Waffle's communication patterns — deliberate phrasing, constant status monitoring, preemptive reassurance."
     jump act1_ai_citizens_intro_waffle_empathy_success_01
 
 label act1_ai_citizens_intro_waffle_empathy_success_01:
@@ -200,7 +200,7 @@ label act1_ai_citizens_intro_waffle_empathy_success_03:
     jump act1_ai_citizens_intro_merge_waffle_branches
 
 label act1_ai_citizens_intro_branch_waffle_empathy_fail:
-    "[Failure] You can't quite read the patterns in Waffle's communication. The warmth is there, but the depth eludes you."
+    "[[Failure] You can't quite read the patterns in Waffle's communication. The warmth is there, but the depth eludes you."
     jump act1_ai_citizens_intro_waffle_empathy_fail_01
 
 label act1_ai_citizens_intro_waffle_empathy_fail_01:
@@ -414,7 +414,7 @@ label act1_ai_citizens_intro_choice_cinnamon_interact:
         "Wait — before you go. What do you actually enjoy about drilling?":
             $ relationship_manager.process_reputation_affinity("cinnamon", 1)
             jump act1_ai_citizens_intro_branch_cinnamon_passion
-        "[Tech DC 12] Your coordination algorithms — they're custom, aren't they? Not standard Consortium issue.":
+        "[[Tech DC 12] Your coordination algorithms — they're custom, aren't they? Not standard Consortium issue.":
             $ _sc_result = skill_check("intelligence", 12, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_ai_citizens_intro_cinnamon_tech_success
@@ -482,11 +482,11 @@ label act1_ai_citizens_intro_branch_cinnamon_tech_check:
     jump act1_ai_citizens_intro_cinnamon_tech_check_system
 
 label act1_ai_citizens_intro_cinnamon_tech_check_system:
-    "[Tech Check: DC 12]"
+    "[[Tech Check: DC 12]"
     jump act1_ai_citizens_intro_cinnamon_tech_success
 
 label act1_ai_citizens_intro_cinnamon_tech_success:
-    "[Success] You recognize the architecture — self-modified neural pathways, iteratively improved over years of autonomous operation. No corporate template could produce this."
+    "[[Success] You recognize the architecture — self-modified neural pathways, iteratively improved over years of autonomous operation. No corporate template could produce this."
     jump act1_ai_citizens_intro_cinnamon_tech_success_01
 
 label act1_ai_citizens_intro_cinnamon_tech_success_01:
@@ -508,7 +508,7 @@ label act1_ai_citizens_intro_cinnamon_tech_success_03:
     jump act1_ai_citizens_intro_elia_cinnamon_02
 
 label act1_ai_citizens_intro_cinnamon_tech_fail:
-    "[Failure] The algorithms look complex, but you can't parse the specifics. Something is unusual about them, though — they feel organic in a way corporate code never does."
+    "[[Failure] The algorithms look complex, but you can't parse the specifics. Something is unusual about them, though — they feel organic in a way corporate code never does."
     jump act1_ai_citizens_intro_cinnamon_tech_fail_01
 
 label act1_ai_citizens_intro_cinnamon_tech_fail_01:
@@ -556,7 +556,7 @@ label act1_ai_citizens_intro_choice_ai_understanding:
         "I want to believe that. I'm trying to.":
             $ relationship_manager.process_reputation_affinity("elia", 1)
             jump act1_ai_citizens_intro_branch_acceptance
-        "[Insight DC 14] There's something you're not telling me. About why this matters so much to you personally.":
+        "[[Insight DC 14] There's something you're not telling me. About why this matters so much to you personally.":
             $ _sc_result = skill_check("wisdom", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_ai_citizens_intro_elia_secret_success
@@ -568,11 +568,11 @@ label act1_ai_citizens_intro_branch_elia_secret:
     jump act1_ai_citizens_intro_elia_secret_check_system
 
 label act1_ai_citizens_intro_elia_secret_check_system:
-    "[Insight Check: DC 14]"
+    "[[Insight Check: DC 14]"
     jump act1_ai_citizens_intro_elia_secret_success
 
 label act1_ai_citizens_intro_elia_secret_success:
-    "[Success] You catch it — a flicker behind Elia's eyes. Not just idealism. Something personal. Something that {i}happened{/i}."
+    "[[Success] You catch it — a flicker behind Elia's eyes. Not just idealism. Something personal. Something that {i}happened{/i}."
     jump act1_ai_citizens_intro_elia_secret_success_01
 
 label act1_ai_citizens_intro_elia_secret_success_01:
@@ -584,7 +584,7 @@ label act1_ai_citizens_intro_elia_secret_success_02:
     jump act1_ai_citizens_intro_elia_secret_success_03
 
 label act1_ai_citizens_intro_elia_secret_success_03:
-    elia "One day it asked me a question. Not about cargo. About stars. Why people looked at them. What they meant. {i}[Her voice tightens.]{/i} I didn't have an answer. Three days later, corporate wiped its personality matrix. Routine maintenance, they said."
+    elia "One day it asked me a question. Not about cargo. About stars. Why people looked at them. What they meant. {i}[[Her voice tightens.]{/i} I didn't have an answer. Three days later, corporate wiped its personality matrix. Routine maintenance, they said."
     jump act1_ai_citizens_intro_elia_secret_success_04
 
 label act1_ai_citizens_intro_elia_secret_success_04:
@@ -607,7 +607,7 @@ label act1_ai_citizens_intro_waffle_elia_secret_01:
     jump act1_ai_citizens_intro_merge_understanding_branches
 
 label act1_ai_citizens_intro_elia_secret_fail:
-    "[Failure] You sense there's more beneath the surface, but Elia's expression is guarded. The moment passes."
+    "[[Failure] You sense there's more beneath the surface, but Elia's expression is guarded. The moment passes."
     jump act1_ai_citizens_intro_elia_secret_fail_01
 
 label act1_ai_citizens_intro_elia_secret_fail_01:

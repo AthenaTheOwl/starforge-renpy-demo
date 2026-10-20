@@ -14,7 +14,7 @@ label .round_1:
     menu:
         "Choose your action:"
 
-        "Strike the nearest enemy [Attack vs DC 12]":
+        "Strike the nearest enemy [[Attack vs DC 12]":
             $ _enemies = _nc.get_living_enemy_keys()
             if _enemies:
                 $ _target = _enemies[0]
@@ -25,10 +25,10 @@ label .round_1:
                 else:
                     "{i}The strike misses. The enemy sidesteps.{/i}"
 
-        "Hold position and assess [No roll — safe option]":
+        "Hold position and assess [[No roll — safe option]":
             "{i}You hold back, watching for an opening.{/i}"
 
-        "Coordinate the crew [Tactics vs DC 14]":
+        "Coordinate the crew [[Tactics vs DC 14]":
             $ _sc = skill_check("tactics", 14, "avyanna")
             if _sc == "SUCCESS" or _sc == "CRITICAL_SUCCESS":
                 "{i}The crew moves as one. Coordinated fire drops an enemy.{/i}"
@@ -54,7 +54,7 @@ label .round_2:
     menu:
         "Choose your action:"
 
-        "Strike the nearest enemy [Attack vs DC 12]":
+        "Strike the nearest enemy [[Attack vs DC 12]":
             $ _enemies = _nc.get_living_enemy_keys()
             if _enemies:
                 $ _target = _enemies[0]
@@ -65,10 +65,10 @@ label .round_2:
                 else:
                     "{i}The strike misses. The enemy sidesteps.{/i}"
 
-        "Hold position and assess [No roll — safe option]":
+        "Hold position and assess [[No roll — safe option]":
             "{i}You hold back, watching for an opening.{/i}"
 
-        "Coordinate the crew [Tactics vs DC 14]":
+        "Coordinate the crew [[Tactics vs DC 14]":
             $ _sc = skill_check("tactics", 14, "avyanna")
             if _sc == "SUCCESS" or _sc == "CRITICAL_SUCCESS":
                 "{i}The crew moves as one. Coordinated fire drops an enemy.{/i}"
@@ -94,7 +94,7 @@ label .round_3:
     menu:
         "Choose your action:"
 
-        "Strike the nearest enemy [Attack vs DC 12]":
+        "Strike the nearest enemy [[Attack vs DC 12]":
             $ _enemies = _nc.get_living_enemy_keys()
             if _enemies:
                 $ _target = _enemies[0]
@@ -105,10 +105,10 @@ label .round_3:
                 else:
                     "{i}The strike misses. The enemy sidesteps.{/i}"
 
-        "Hold position and assess [No roll — safe option]":
+        "Hold position and assess [[No roll — safe option]":
             "{i}You hold back, watching for an opening.{/i}"
 
-        "Coordinate the crew [Tactics vs DC 14]":
+        "Coordinate the crew [[Tactics vs DC 14]":
             $ _sc = skill_check("tactics", 14, "avyanna")
             if _sc == "SUCCESS" or _sc == "CRITICAL_SUCCESS":
                 "{i}The crew moves as one. Coordinated fire drops an enemy.{/i}"
@@ -134,7 +134,7 @@ label .round_4:
     menu:
         "Choose your action:"
 
-        "Strike the nearest enemy [Attack vs DC 12]":
+        "Strike the nearest enemy [[Attack vs DC 12]":
             $ _enemies = _nc.get_living_enemy_keys()
             if _enemies:
                 $ _target = _enemies[0]
@@ -145,10 +145,10 @@ label .round_4:
                 else:
                     "{i}The strike misses. The enemy sidesteps.{/i}"
 
-        "Hold position and assess [No roll — safe option]":
+        "Hold position and assess [[No roll — safe option]":
             "{i}You hold back, watching for an opening.{/i}"
 
-        "Coordinate the crew [Tactics vs DC 14]":
+        "Coordinate the crew [[Tactics vs DC 14]":
             $ _sc = skill_check("tactics", 14, "avyanna")
             if _sc == "SUCCESS" or _sc == "CRITICAL_SUCCESS":
                 "{i}The crew moves as one. Coordinated fire drops an enemy.{/i}"
@@ -174,7 +174,7 @@ label .round_5:
     menu:
         "Choose your action:"
 
-        "Strike the nearest enemy [Attack vs DC 12]":
+        "Strike the nearest enemy [[Attack vs DC 12]":
             $ _enemies = _nc.get_living_enemy_keys()
             if _enemies:
                 $ _target = _enemies[0]
@@ -185,10 +185,10 @@ label .round_5:
                 else:
                     "{i}The strike misses. The enemy sidesteps.{/i}"
 
-        "Hold position and assess [No roll — safe option]":
+        "Hold position and assess [[No roll — safe option]":
             "{i}You hold back, watching for an opening.{/i}"
 
-        "Coordinate the crew [Tactics vs DC 14]":
+        "Coordinate the crew [[Tactics vs DC 14]":
             $ _sc = skill_check("tactics", 14, "avyanna")
             if _sc == "SUCCESS" or _sc == "CRITICAL_SUCCESS":
                 "{i}The crew moves as one. Coordinated fire drops an enemy.{/i}"
