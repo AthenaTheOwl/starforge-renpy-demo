@@ -1,3 +1,4 @@
+import ast
 import re
 from pathlib import Path
 
@@ -59,3 +60,54 @@ def test_bond_flags_use_the_same_name_for_setter_and_reader() -> None:
 
     assert sorted(flag for flag in written | read if flag.startswith("bonded_with_")) == []
     assert sorted(flag for flag in read if flag.endswith("_bonded") and flag not in written) == ["elia_bonded"]
+
+
+def load_chapter_flow() -> tuple[dict, dict]:
+    """Read CHAPTER_SEQUENCE and DIALOGUE_REQUIREMENTS from chapter_flow.rpy."""
+    source = (GAME / "chapters" / "chapter_flow.rpy").read_text(encoding="utf-8-sig")
+    values = {}
+    for name in ("CHAPTER_SEQUENCE", "DIALOGUE_REQUIREMENTS"):
+        start = source.index(f"    {name} = {{")
+        end = source.index("\n    }\n", start) + len("\n    }\n")
+        values[name] = ast.literal_eval(source[start:end].split("=", 1)[1].strip())
+    return values["CHAPTER_SEQUENCE"], values["DIALOGUE_REQUIREMENTS"]
+
+
+def flags_set_by_label() -> dict[str, set[str]]:
+    """Map each label to the flags set anywhere in the file that defines it."""
+    by_label: dict[str, set[str]] = {}
+    for path in sorted(GAME.rglob("*.rpy")):
+        text = path.read_text(encoding="utf-8")
+        flags = set(FLAG_WRITE.findall(text))
+        for label in re.findall(r"^label ([\w.]+)", text, re.M):
+            by_label[label] = flags
+    return by_label
+
+
+def test_routed_scene_gates_are_set_by_an_earlier_routed_scene() -> None:
+    # play_chapter skips a story scene whose gate is unmet, with no message,
+    # and the hub shows an optional one as [LOCKED]. So every gate must be
+    # settable by a scene the route has already played.
+    chapters, requirements = load_chapter_flow()
+    setters = flags_set_by_label()
+    available: set[str] = set()
+    unreachable = []
+
+    def reachable(scene: str) -> bool:
+        missing = set(requirements.get(scene, {}).get("flags", [])) - available
+        if missing:
+            unreachable.append(f"{scene} needs {sorted(missing)}")
+        return not missing
+
+    for number in sorted(chapters):
+        chapter = chapters[number]
+        for scene in chapter["story_scenes"]:
+            if reachable(scene):
+                available |= setters[scene]
+        optional = [scene for scene in chapter["optional_scenes"] if reachable(scene)]
+        for scene in optional:
+            available |= setters[scene]
+        if chapter["combat"]:
+            available |= setters["combat_" + chapter["combat"]]
+
+    assert unreachable == []

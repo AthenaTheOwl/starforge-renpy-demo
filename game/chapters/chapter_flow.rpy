@@ -257,7 +257,6 @@ init python:
         # Act 1 — story progression gates
         "act1_10_first_watch": {"flags": ["has_lagrange_name"]},
         "act1_11_shard_whispers": {"flags": ["completed_first_watch"]},
-        "act1_12_the_doctrine": {"flags": ["ai_citizens_introduced"]},
         "act1_17e_nyx_and_halcyon_ward_lesson": {"flags": ["shard_symptoms_revealed"]},
         "act1_18c_grove_propagation_lesson": {"flags": ["bee_revealed"]},
 
