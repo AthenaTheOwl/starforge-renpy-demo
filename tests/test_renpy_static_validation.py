@@ -1,3 +1,4 @@
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -113,3 +114,36 @@ def test_script_string_scan_skips_python_and_tracks_multiline_strings() -> None:
     )
 
     assert list(validate_renpy.iter_script_strings(source)) == [(3, "one}}"), (4, "two\n\nthree"), (12, "four")]
+
+
+def test_screen_style_properties_do_not_quote_substitutions() -> None:
+    # Ren'Py substitutes [name] only in displayed text, so a property such as
+    # color "[_color]" receives the literal string and raises when shown.
+    quoted = re.compile(r'^\s*[a-z_]*(?:color|background)\s+"\[[A-Za-z_]')
+    hits = [
+        f"{path.relative_to(ROOT)}:{num}"
+        for path in sorted((ROOT / "game").rglob("*.rpy"))
+        for num, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1)
+        if quoted.match(line)
+    ]
+
+    assert hits == []
+
+
+def test_called_screens_can_return() -> None:
+    # call screen waits until the screen runs Return(); a screen without one
+    # leaves the player stuck (combat calls dice_roll_screen after each attack).
+    sources = {
+        path: path.read_text(encoding="utf-8") for path in sorted((ROOT / "game").rglob("*.rpy"))
+    }
+    called = {name for text in sources.values() for name in re.findall(r"\bcall screen (\w+)", text)}
+    stuck = []
+    for name in sorted(called):
+        for text in sources.values():
+            match = re.search(rf"^screen {name}\b.*?(?=^\S|\Z)", text, re.M | re.S)
+            if match:
+                if "Return(" not in match.group(0):
+                    stuck.append(name)
+                break
+
+    assert stuck == []
