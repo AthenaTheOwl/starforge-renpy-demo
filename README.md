@@ -1,12 +1,12 @@
 # starforge-renpy-demo
 
-2,414 labels, 264 menus, and 14 fights — the biggest of which, the mine breach, hits with 508 HP and 188 attack. That's Act 1 of a serialized novel turned into something you can actually click through.
+2,414 labels, 264 menus, and 14 encounter definitions — the biggest of which, the mine breach, is specced at 508 HP and 188 attack. That's Act 1 of a serialized novel turned into something you can actually click through.
 
 ## What it does
 
 [Starforge Canticles](https://www.royalroad.com/fiction/149065/starforge-canticles) is a speculative-fiction serial I publish chapter-by-chapter on Royal Road. This repo is one adaptation path for it: Act 1 rebuilt as a Ren'Py narrative game — branching scenes, dialogue, skill checks, relationship state, and combat vignettes, all in a text-forward engine.
 
-The prose came first. The game is the prose wired up so it can fork: 65 routed story scenes and 4 routed combat scenes, 14 named encounters tuned from a husk echo you can swat (70 HP) up to the mine breach that will end a careless run (508 HP). Same source as the [Twine demo](https://github.com/AthenaTheOwl/starforge-twine-demo) and the [Godot prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) — same Act 1, different playable shape each time.
+The prose came first. The game is the prose wired up so it can fork: 65 routed story scenes and 4 routed combat scenes, plus 14 named encounter definitions tuned from a husk echo (70 HP) up to the mine breach (508 HP). Neither of those two is routed yet; the fights a player meets in this cut are the four routed combat scenes. Same source as the [Twine demo](https://github.com/AthenaTheOwl/starforge-twine-demo) and the [Godot prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) — same Act 1, different playable shape each time.
 
 Active development lives in a private workshop. This public copy is the curated cut: Act 1 source is in, the SDK and runtime junk are out, and the cleanup boundary is enforced by a script, not a promise. Unreleased later-act material — endings included — stays sealed.
 
