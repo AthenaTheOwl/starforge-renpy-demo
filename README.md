@@ -1,18 +1,18 @@
 # starforge-renpy-demo
 
-2,414 labels, 264 menus, and 14 fights — the biggest of which, the mine breach, hits with 508 HP and 188 attack. That's Act 1 of a serialized novel turned into something you can actually click through.
+2,414 labels, 264 menus, and 14 encounter definitions — the biggest of which, the mine breach, is specced at 508 HP and 188 attack. That's Act 1 of a serialized novel turned into something you can actually click through.
 
 ## What it does
 
 [Starforge Canticles](https://www.royalroad.com/fiction/149065/starforge-canticles) is a speculative-fiction serial I publish chapter-by-chapter on Royal Road. This repo is one adaptation path for it: Act 1 rebuilt as a Ren'Py narrative game — branching scenes, dialogue, skill checks, relationship state, and combat vignettes, all in a text-forward engine.
 
-The prose came first. The game is the prose wired up so it can fork: 65 routed story scenes and 4 routed combat scenes, 14 named encounters tuned from a husk echo you can swat (70 HP) up to the mine breach that will end a careless run (508 HP). Same source as the [Twine demo](https://github.com/AthenaTheOwl/starforge-twine-demo) and the [Godot prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) — same Act 1, different playable shape each time.
+The prose came first. The game is the prose wired up so it can fork: 65 routed story scenes and 4 routed combat scenes, plus 14 named encounter definitions tuned from a husk echo (70 HP) up to the mine breach (508 HP). Neither of those two is routed yet; the fights a player meets in this cut are the four routed combat scenes. Same source as the [Twine demo](https://github.com/AthenaTheOwl/starforge-twine-demo) and the [Godot prototype](https://github.com/AthenaTheOwl/starforge-rpg-prototype) — same Act 1, different playable shape each time.
 
 Active development lives in a private workshop. This public copy is the curated cut: Act 1 source is in, the SDK and runtime junk are out, and the cleanup boundary is enforced by a script, not a promise. Unreleased later-act material — endings included — stays sealed.
 
 ## Try it
 
-No engine needed for this part. The playtest audit walks every label, counts the routes, and checks no scene drops into a dead letter:
+No engine needed for this part. The playtest audit collects every label, checks that routed scene and combat labels exist, and greps for explicit dead-letter/queue markers:
 
 ```powershell
 python tools\playtest_audit.py
@@ -28,20 +28,24 @@ Ren'Py playtest audit
 - dead-letter marker hits: 0
 - lowest encounter threat: act1_husk_echo hp=70 atk=16
 - highest encounter threat: act1_mine_breach hp=508 atk=188
+
+Dead-letter / balance queue:
+- routed combat act1_glitter_vein: attack option has no data/encounters/act1_glitter_vein.json, so it rolls against no enemies
 playtest audit passed
 ```
 
 Zero dead-letter hits means the source contains no explicit queue markers.
 Known label targets are checked separately. Neither count replaces a player
-walking the route. The encounter line is the difficulty spread, smallest fight
-to largest.
+walking the route. The encounter lines are the spread across all 14 encounter
+definitions, not across fights a player meets: so far only the tutorial fight
+is wired into the Act 1 route with encounter data.
 
 ## Run it locally
 
-Install or download Ren'Py 8.5.x and open this folder as a Ren'Py project. To lint it from the local workshop SDK used during cleanup:
+Install or download Ren'Py 8.5.x and open this folder as a Ren'Py project. To lint it with a local Ren'Py SDK (adjust the path to your install):
 
 ```powershell
-E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe . lint
+C:\path\to\renpy-8.5.2-sdk\renpy.exe . lint
 ```
 
 ## Browser build (needs the Ren'Py web toolchain)
@@ -69,7 +73,7 @@ python tools\check_release.py
 For the full native release gate on a machine with Ren'Py installed:
 
 ```powershell
-python tools\check_release.py --clean --fail-on-generated --fail-on-renpy-lint-diagnostics --require-renpy --renpy E:\claude_code\starforge-game\renpy-8.5.2-sdk\renpy.exe
+python tools\check_release.py --clean --fail-on-generated --fail-on-renpy-lint-diagnostics --require-renpy --renpy C:\path\to\renpy-8.5.2-sdk\renpy.exe
 ```
 
 `tools/check_release.py` is the one entry point that runs the whole gate in order: cleanup, static source validation, path/dead-letter audit, then Ren'Py's own engine lint. `--clean` strips known Ren'Py generated artifacts before and after the native lint run, and `--fail-on-renpy-lint-diagnostics` treats any captured lint diagnostic as release-blocking. See `docs/deterministic-orchestration.md` for the proof gates.

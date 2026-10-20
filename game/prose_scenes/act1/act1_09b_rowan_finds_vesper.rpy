@@ -2,12 +2,12 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_09b_rowan_finds_vesper:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - PRIVATE NOTE (VESPER):{/b}\n{i}Topic: where the name came from{/i}\n{i}Reminder: love can be a discipline{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - PRIVATE NOTE (VESPER):{/b}\n{i}Topic: where the name came from{/i}\n{i}Reminder: love can be a discipline{/i}{/color}"
     pause 0.3
     narrator "{i}The rook sits on Vesper's desk like it's waiting for a verdict.{/i}"
     narrator "{i}Dark wood. Worn edges. The kind of object that looks small until you realize someone carried it for years.{/i}"
     narrator "{i}Avyanna notices it because she notices everything that might be a rule.{/i}"
-    avyanna "{i}[[quiet]]{/i} What's that."
+    avyanna "{i}[[quiet]{/i} What's that."
     narrator "{i}Vesper doesn't look up from the identity paperwork.{/i}"
     vesper "A rook."
     avyanna "I know. Why."
@@ -61,7 +61,7 @@ label act1_09b_rowan_finds_vesper:
     narrator "{i}Silence.{/i}"
     narrator "{i}The broker turns, incredulous.{/i}"
     broker "Who are you."
-    rowan "{i}[[mild]]{/i} Someone who reads."
+    rowan "{i}[[mild]{/i} Someone who reads."
     narrator "{i}Rowan's gaze flicks to Vesper for half a second.{/i}"
     narrator "{i}Not pity.{/i}"
     narrator "{i}Recognition.{/i}"
@@ -119,7 +119,7 @@ label act1_09b_rowan_finds_vesper:
     narrator "{i}Vesper stares at the rook.{/i}"
     narrator "Refusal without punishment. That's not a thing."
     narrator "{i}Rowan waits anyway, like she means it.{/i}"
-    vesper "{i}[[quiet]]{/i} What do you want from me."
+    vesper "{i}[[quiet]{/i} What do you want from me."
     rowan "Nothing you can't give freely."
     rowan "I want you to stop letting people use your competence like it belongs to them."
     narrator "{i}Vesper's chest hurts with something sharp and unfamiliar.{/i}"
@@ -147,7 +147,7 @@ label act1_09b_rowan_finds_vesper:
     scene bg ship_interior with dissolve
     narrator "{i}Back in the present, Vesper's pen moves again.{/i}"
     narrator "{i}The rook sits under her palm like a held line.{/i}"
-    avyanna "{i}[[careful]]{/i} Do you miss her."
+    avyanna "{i}[[careful]{/i} Do you miss her."
     narrator "{i}Vesper's throat works.{/i}"
     vesper "Yes."
     narrator "{i}A beat.{/i}"

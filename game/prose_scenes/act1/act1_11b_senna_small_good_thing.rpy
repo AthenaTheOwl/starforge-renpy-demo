@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_11b_senna_small_good_thing:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH11]{/b}\n{i}Trigger: quiet that doesn't punish{/i}\n{i}Purpose: Senna Cross's first rule, reclaimed as Avyanna's{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH11]{/b}\n{i}Trigger: quiet that doesn't punish{/i}\n{i}Purpose: Senna Cross's first rule, reclaimed as Avyanna's{/i}{/color}"
     pause 0.3
     narrator "{i}Night cycle on the Lumen Thief is not dark.{/i}"
     narrator "{i}It is dimmed to a livable softness.{/i}"
@@ -29,7 +29,7 @@ label act1_11b_senna_small_good_thing:
     narrator "{i}A leaf.{/i}"
     narrator "{i}Not a whole plant. Not a miracle. A single stubborn leaf, pale but alive, grown from mold and accident and refusal.{/i}"
     narrator "{i}Senna cups it in her palm like she's holding contraband.{/i}"
-    senna "{i}[[quiet]]{/i} Look."
+    senna "{i}[[quiet]{/i} Look."
     narrator "{i}Avyanna looks because looking is safer than asking why.{/i}"
     avyanna "It's... green."
     narrator "{i}The word comes out like she's never said it before.{/i}"
@@ -42,7 +42,7 @@ label act1_11b_senna_small_good_thing:
     senna "Stop looking, and you stop noticing exits."
     narrator "{i}Avyanna's throat tightens.{/i}"
     avyanna "Exits don't exist."
-    senna "{i}[[gentle, stubborn]]{/i} Exits always exist."
+    senna "{i}[[gentle, stubborn]{/i} Exits always exist."
     senna "Sometimes they're not doors."
     senna "Sometimes they're timing."
     senna "Sometimes they're people."

@@ -93,7 +93,7 @@ label act1_naming_scene_jalen_reaction:
     jump act1_naming_scene_waffle_comment
 
 label act1_naming_scene_waffle_comment:
-    waffle "{i}}{{WAFFLE.BAT// OBSERVATION: turbulence confirmed | RECOMMENDATION: seatbelts | COMMENT: also popcorn}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// OBSERVATION: turbulence confirmed | RECOMMENDATION: seatbelts | COMMENT: also popcorn}{/i}"
     jump act1_naming_scene_avyanna_reaction
 
 label act1_naming_scene_avyanna_reaction:
@@ -227,7 +227,7 @@ label act1_naming_scene_vesper_raises_glass:
     jump act1_naming_scene_bee_naming_response
 
 label act1_naming_scene_bee_naming_response:
-    bee "{{BEE:: PATTERN RECOGNIZED — designation Worker 477 deprecated | new index: Avyanna Lagrange | cross-reference: family unit, chosen | note: pattern consistency increased by 1.7 standard deviations | status: nomenclature accepted}}"
+    bee "{{BEE:: PATTERN RECOGNIZED — designation Worker 477 deprecated | new index: Avyanna Lagrange | cross-reference: family unit, chosen | note: pattern consistency increased by 1.7 standard deviations | status: nomenclature accepted}"
     jump act1_naming_scene_crew_welcome
 
 label act1_naming_scene_crew_welcome:
@@ -239,7 +239,7 @@ label act1_naming_scene_bubbles_naming_welcome:
     jump act1_naming_scene_waffle_naming_update
 
 label act1_naming_scene_waffle_naming_update:
-    waffle "{i}}{{WAFFLE.BAT// REGISTRY_UPDATE: Worker 477 → Avyanna Lagrange | STATUS: crew, family, home | PERSONAL_NOTE: welcome. truly.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// REGISTRY_UPDATE: Worker 477 → Avyanna Lagrange | STATUS: crew, family, home | PERSONAL_NOTE: welcome. truly.}{/i}"
     jump act1_naming_scene_cinnamon_naming_ack
 
 label act1_naming_scene_cinnamon_naming_ack:

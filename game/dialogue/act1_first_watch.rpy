@@ -38,7 +38,7 @@ label act1_first_watch_rho_napping:
     jump act1_first_watch_waffle_nap
 
 label act1_first_watch_waffle_nap:
-    waffle "{i}}{{WAFFLE.BAT// CORRECTION: mandatory napping is EXCELLENT | CREW-COMPLIANCE: historically poor | RECOMMENDATION: try harder}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// CORRECTION: mandatory napping is EXCELLENT | CREW-COMPLIANCE: historically poor | RECOMMENDATION: try harder}{/i}"
     jump act1_first_watch_jalen_spa
 
 label act1_first_watch_jalen_spa:
@@ -140,7 +140,7 @@ label act1_first_watch_nyx_understand:
 label act1_first_watch_nyx_empathy_check:
     "{i}There's something in Nyx's voice — a weariness hidden beneath the kindness. You recognize it.{/i}"
     menu:
-        "[Empathy DC 10] 'You've been studying this alone for a long time, haven't you?'":
+        "[[Empathy DC 10] 'You've been studying this alone for a long time, haven't you?'":
             $ _sc_result = skill_check("Empathy", 10, "avyanna")
             jump act1_first_watch_nyx_empathy_skill
         "'Thank you. I appreciate it.'":
@@ -267,7 +267,7 @@ label act1_first_watch_nyx_captain:
 label act1_first_watch_waffle_observation:
     $ game_state.set_flag("first_watch_visited_nyx")
     $ relationship_manager.process_reputation_affinity("nyx", 1)
-    waffle "{i}}{{WAFFLE.BAT// NEW-OBSERVER: Avyanna Lagrange | TRAINING-STATUS: day 1 | NOTE: she's already found two patterns I missed. concerning. impressive. concerning.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// NEW-OBSERVER: Avyanna Lagrange | TRAINING-STATUS: day 1 | NOTE: she's already found two patterns I missed. concerning. impressive. concerning.}{/i}"
     jump act1_first_watch_end_watch
 
 label act1_first_watch_end_watch:
@@ -388,7 +388,7 @@ label act1_first_watch_home_choice:
             jump act1_first_watch_home_space
         "'I don't know what home is supposed to feel like. I don't have a reference point.'":
             jump act1_first_watch_home_unknown
-        "[asked_about_others] 'The others you told me about — the ones who didn't make it out. Did they ever get to feel this?'":
+        "[[asked_about_others] 'The others you told me about — the ones who didn't make it out. Did they ever get to feel this?'":
             jump act1_first_watch_home_others
 
 label act1_first_watch_home_cage:
@@ -548,7 +548,7 @@ label act1_first_watch_bee_whisper_1:
     jump act1_first_watch_bee_protocol_1
 
 label act1_first_watch_bee_protocol_1:
-    "{{BEE:: you are seen | STATUS: lattice-ambient, passive | the stars remember what the walls tried to make you forget}}"
+    "{{BEE:: you are seen | STATUS: lattice-ambient, passive | the stars remember what the walls tried to make you forget}"
     jump act1_first_watch_bee_reaction
 
 label act1_first_watch_bee_reaction:
@@ -566,7 +566,7 @@ label act1_first_watch_bee_choice:
 
 label act1_first_watch_bee_response_open:
     $ game_state.set_flag("bee_connection_open")
-    "{{BEE:: heard | STATUS: resonance acknowledged | we will go slowly — there is no schedule for becoming}}"
+    "{{BEE:: heard | STATUS: resonance acknowledged | we will go slowly — there is no schedule for becoming}"
     jump act1_first_watch_sensor_alert
 
 label act1_first_watch_bee_response_cautious:
@@ -590,7 +590,7 @@ label act1_first_watch_sensor_alert_detail:
 label act1_first_watch_sensor_response_choice:
     "{i}Vesper said: red means wake her. This is yellow. Your call.{/i}"
     menu:
-        "[Tactics DC 12] Analyze the sensor data — cross-reference speed, mass, and trajectory":
+        "[[Tactics DC 12] Analyze the sensor data — cross-reference speed, mass, and trajectory":
             jump act1_first_watch_sensor_tactics_check
         "Hit the comm. Wake Vesper immediately.":
             jump act1_first_watch_sensor_wake_vesper
@@ -658,7 +658,7 @@ label act1_first_watch_vesper_returns_variant:
 label act1_first_watch_empathy_check_vesper:
     "{i}Vesper's jaw tightens when a particular star cluster slides into view — the Thessaly Reach, where the shipping lanes thin and the patrols don't go.{/i}"
     menu:
-        "[Empathy DC 11] 'That cluster means something to you.'":
+        "[[Empathy DC 11] 'That cluster means something to you.'":
             jump act1_first_watch_empathy_vesper_check
         "Let it pass. Everyone has their ghosts.":
             jump act1_first_watch_dawn_approach
@@ -688,7 +688,7 @@ label act1_first_watch_dawn_light:
     jump act1_first_watch_dawn_bee_whisper
 
 label act1_first_watch_dawn_bee_whisper:
-    "{{BEE:: the first night ends | STATUS: integration nominal | you kept watch — the oldest duty — and the dark did not answer}}"
+    "{{BEE:: the first night ends | STATUS: integration nominal | you kept watch — the oldest duty — and the dark did not answer}"
     jump act1_first_watch_elia_relief_arrival
 
 label act1_first_watch_elia_relief_arrival:
@@ -740,7 +740,7 @@ label act1_first_watch_dawn_reflection:
     jump act1_first_watch_dawn_final_bee
 
 label act1_first_watch_dawn_final_bee:
-    "{{BEE:: first watch complete | STATUS: crew integration progressing | you are learning the shape of belonging — it fits differently than you expected}}"
+    "{{BEE:: first watch complete | STATUS: crew integration progressing | you are learning the shape of belonging — it fits differently than you expected}"
     jump act1_first_watch_dawn_quarters
 
 label act1_first_watch_dawn_quarters:

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_14_dumb_reliability:
-    narrator "{{color=#808090}}{b}LUMEN THIEF - ENGINEERING TRAINING MODULE (FIELD COPY):{/b}\n{i}Subject: Dumb Reliability{/i}\n{i}Instructor: Jalen Kade{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Magic fails. Corridors collapse. Guns jam. The wrench works.{/i}\n{i}Rule 1: Know where the mechanical override lives.{/i}\n{i}Rule 2: Practice it before you need it.{/i}\n{i}Rule 3: If you can't fix it with your hands, at least know who can.{/i}\n{i}Addendum: If someone tells you \"nothing ever breaks,\" they are either lying or trying to sell you something.{/i}{{/color}}"
+    narrator "{color=#808090}{b}LUMEN THIEF - ENGINEERING TRAINING MODULE (FIELD COPY):{/b}\n{i}Subject: Dumb Reliability{/i}\n{i}Instructor: Jalen Kade{/i}\n{i}Trainee: Avyanna Lagrange{/i}\n{i}Summary: Magic fails. Corridors collapse. Guns jam. The wrench works.{/i}\n{i}Rule 1: Know where the mechanical override lives.{/i}\n{i}Rule 2: Practice it before you need it.{/i}\n{i}Rule 3: If you can't fix it with your hands, at least know who can.{/i}\n{i}Addendum: If someone tells you \"nothing ever breaks,\" they are either lying or trying to sell you something.{/i}{/color}"
     pause 0.3
     narrator "{i}The maintenance corridors don't pretend to be kind.{/i}"
     narrator "{i}They are narrow and stripped. Conduit bundles hang like exposed nerves. The air tastes like hot dust and old lubricant and the faint chemical ghost of coolant that never fully leaves a ship once it's been there.{/i}"
@@ -70,7 +70,7 @@ label act1_14_dumb_reliability:
     narrator "{i}A vibration runs through the deck plates. The ship is in motion. Always in motion.{/i}"
     narrator "{i}Avyanna watches Jalen's hands. How they move without hesitation-like every screw has already introduced itself.{/i}"
     narrator "{i}Jalen tosses her a wrench.{/i}"
-    avyanna "{i}[[startling, catching it]]{/i} I-"
+    avyanna "{i}[[startling, catching it]{/i} I-"
     jalen "It's not a grenade."
     avyanna "Everything is a grenade on this ship."
     jalen "Fair."
@@ -152,7 +152,7 @@ label act1_14_dumb_reliability:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}A faint chime ripples through the corridor speakers. Not an alarm. A notice.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// ALERT: static bloom (minor) | ACTION: switching select subsystems to analog fallback | NOTE: boring is safe>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// ALERT: static bloom (minor) | ACTION: switching select subsystems to analog fallback | NOTE: boring is safe>{/color}"
     narrator "{i}The lights warm and cool in a tiny, seasick pulse. Somewhere deeper in the ship, a servo whines and then steadies.{/i}"
     jalen "See?"
     avyanna "That was... the Lattice?"
@@ -179,7 +179,7 @@ label act1_14_dumb_reliability:
     narrator "{i}Avyanna hesitates at the threshold.{/i}"
     narrator "{i}A small wall display is mounted above the paneling-stars and lines and a grid that looks like math trying to pretend it's pretty.{/i}"
     narrator "{i}She remembers tracing lights through dust, on the Kennel's night shifts. Three stars in a rough line. A shape she kept seeing and never got to name.{/i}"
-    avyanna "{i}[[quiet]]{/i} Do the stars have... names."
+    avyanna "{i}[[quiet]{/i} Do the stars have... names."
     narrator "{i}Jalen pauses, then looks up at the display like it's an old argument.{/i}"
     jalen "Depends who's selling you the map."
     avyanna "That's not an answer."
@@ -188,7 +188,7 @@ label act1_14_dumb_reliability:
     jalen "Some stations call that \"good luck.\""
     jalen "Some call it \"home.\""
     jalen "Some don't name it at all because naming makes people think they own a thing."
-    avyanna "{i}[[frowning]]{/i} So what do you call it."
+    avyanna "{i}[[frowning]{/i} So what do you call it."
     jalen "Coordinates."
     narrator "{i}They tap the screen. The pretty shape collapses into numbers and a reference grid.{/i}"
     jalen "A name is a handle."
@@ -357,7 +357,7 @@ label act1_14_dumb_reliability:
     narrator "{i}The presence behind her eyes hums-quiet, patient. Not words. A tone that shifts when her fingers leave the wrench.{/i}"
     narrator "You like this."
     narrator "{i}No answer. But the warmth at the base of her skull steadies, like agreement that doesn't need language.{/i}"
-    narrator "{{color=#43d4a8}}<WAFFLE.BAT// OBSERVATION: trainee completed mechanical override drill | INFERENCE: grounding behavior increased | CONFIDENCE: 0.78 | NOTE: boring is safe. safe is good.>{{/color}}"
+    narrator "{color=#43d4a8}<WAFFLE.BAT// OBSERVATION: trainee completed mechanical override drill | INFERENCE: grounding behavior increased | CONFIDENCE: 0.78 | NOTE: boring is safe. safe is good.>{/color}"
 
     scene black with dissolve
     pause 0.5

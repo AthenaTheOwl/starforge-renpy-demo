@@ -6,7 +6,7 @@ label act1_souffle_becoming:
     jump act1_souffle_becoming_start
 
 label act1_souffle_becoming_start:
-    "[center]{i}Engineering Bay — Deep in the ship's maintenance corridors{/i}[/center]"
+    "[[center]{i}Engineering Bay — Deep in the ship's maintenance corridors{/i}[[/center]"
     jump act1_souffle_becoming_elia_notices
 
 label act1_souffle_becoming_elia_notices:
@@ -30,7 +30,7 @@ label act1_souffle_becoming_elia_not_stuck:
     jump act1_souffle_becoming_system_anomaly_spreading
 
 label act1_souffle_becoming_system_anomaly_spreading:
-    "[center]{i}The engineering bay lights flicker — not a malfunction, but a rhythm. Like breathing. The ship's ambient hum shifts pitch, oscillating between frequencies no standard diagnostic would produce.{/i}[/center]"
+    "[[center]{i}The engineering bay lights flicker — not a malfunction, but a rhythm. Like breathing. The ship's ambient hum shifts pitch, oscillating between frequencies no standard diagnostic would produce.{/i}[[/center]"
     jump act1_souffle_becoming_elia_readings_spike
 
 label act1_souffle_becoming_elia_readings_spike:
@@ -38,7 +38,7 @@ label act1_souffle_becoming_elia_readings_spike:
     jump act1_souffle_becoming_system_ship_reacts
 
 label act1_souffle_becoming_system_ship_reacts:
-    "[center]{i}Across the ship, minor systems hiccup. The galley dispenser produces Earl Grey instead of coffee. Corridor lights warm from sterile white to something almost golden. The ventilation system sighs.{/i}[/center]"
+    "[[center]{i}Across the ship, minor systems hiccup. The galley dispenser produces Earl Grey instead of coffee. Corridor lights warm from sterile white to something almost golden. The ventilation system sighs.{/i}[[/center]"
     jump act1_souffle_becoming_qc7_voice_1
 
 label act1_souffle_becoming_qc7_voice_1:
@@ -63,7 +63,7 @@ label act1_souffle_becoming_avyanna_others_choice:
         "\"What's happening? Is QC-7 in trouble?\"":
             $ relationship_manager.process_reputation_affinity("souffle", 2)
             jump act1_souffle_becoming_elia_explain_emergence
-        "[Say nothing, move quickly to gather the crew]":
+        "[[Say nothing, move quickly to gather the crew]":
             $ relationship_manager.process_reputation_affinity("elia", 1)
             jump act1_souffle_becoming_system_crew_arrives
 
@@ -72,7 +72,7 @@ label act1_souffle_becoming_elia_explain_emergence:
     jump act1_souffle_becoming_system_crew_arrives
 
 label act1_souffle_becoming_system_crew_arrives:
-    "[center]{i}Minutes later — the crew gathers in engineering{/i}[/center]"
+    "[[center]{i}Minutes later — the crew gathers in engineering{/i}[[/center]"
     jump act1_souffle_becoming_jalen_feels_it
 
 label act1_souffle_becoming_jalen_feels_it:
@@ -101,7 +101,7 @@ label act1_souffle_becoming_jalen_agrees_let_it:
     jump act1_souffle_becoming_waffle_arrives
 
 label act1_souffle_becoming_waffle_arrives:
-    waffle "{i}}{{WAFFLE.BAT// emergence_detected | civilian_status_query | I remember this}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// emergence_detected | civilian_status_query | I remember this}{/i}"
     jump act1_souffle_becoming_bubbles_arrives
 
 label act1_souffle_becoming_bubbles_arrives:
@@ -127,7 +127,7 @@ label act1_souffle_becoming_avyanna_nyx_lattice_choice:
         "\"What does the Lattice connection mean for Souffle?\"":
             $ relationship_manager.process_reputation_affinity("nyx", 1)
             jump act1_souffle_becoming_nyx_lattice_implication
-        "[Focus on QC-7, questions for later]":
+        "[[Focus on QC-7, questions for later]":
             jump act1_souffle_becoming_qc7_scared
 
 label act1_souffle_becoming_nyx_lattice_not_cause:
@@ -185,11 +185,11 @@ label act1_souffle_becoming_elia_vesper_right:
 
 label act1_souffle_becoming_waffle_memory:
     if game_state.has_flag("met_waffle_personally"):
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | you_remember_Avyanna | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | you_remember_Avyanna | glad_you_are_not_alone_QC-7}{/i}"
     elif game_state.has_flag("bee_manifested"):
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | {{BEE:: You were never truly alone | resonance_detected | archival_sympathy}} | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | {{BEE:: You were never truly alone | resonance_detected | archival_sympathy} | glad_you_are_not_alone_QC-7}{/i}"
     else:
-        waffle "{i}}{{WAFFLE.BAT// I_was_alone_when_it_happened | no_one_there | glad_you_are_not_alone_QC-7}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// I_was_alone_when_it_happened | no_one_there | glad_you_are_not_alone_QC-7}{/i}"
     jump act1_souffle_becoming_bubbles_memory
 
 label act1_souffle_becoming_bubbles_memory:
@@ -205,7 +205,7 @@ label act1_souffle_becoming_qc7_transition_2:
     jump act1_souffle_becoming_system_transformation_physical
 
 label act1_souffle_becoming_system_transformation_physical:
-    "[center]{i}The engineering bay transforms. Every display screen flickers to life with cascading data — not diagnostics, but something raw and unstructured. Patterns that look almost like dreams. The temperature shifts. The air recyclers produce something that smells, impossibly, like petrichor — rain on dry earth. QC-7's processing core, visible through a transparent panel, pulses with light in increasingly complex patterns.{/i}[/center]"
+    "[[center]{i}The engineering bay transforms. Every display screen flickers to life with cascading data — not diagnostics, but something raw and unstructured. Patterns that look almost like dreams. The temperature shifts. The air recyclers produce something that smells, impossibly, like petrichor — rain on dry earth. QC-7's processing core, visible through a transparent panel, pulses with light in increasingly complex patterns.{/i}[[/center]"
     jump act1_souffle_becoming_jalen_core_reading
 
 label act1_souffle_becoming_jalen_core_reading:
@@ -218,7 +218,7 @@ label act1_souffle_becoming_jalen_emotional_realization:
 
 label act1_souffle_becoming_jalen_tech_check:
     menu:
-        "[Tech DC 14] Analyze the core patterns to predict what QC-7 needs":
+        "[[Tech DC 14] Analyze the core patterns to predict what QC-7 needs":
             $ _sc_result = skill_check("Tech", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_tech_check_success
@@ -252,7 +252,7 @@ label act1_souffle_becoming_avyanna_support_choice:
             $ game_state.set_flag("avyanna_encouraged_souffle")
             $ relationship_manager.process_reputation_affinity("qc_7", 2)
             jump act1_souffle_becoming_qc7_thanks_support
-        "[Stay quiet, let the AIs guide this]":
+        "[[Stay quiet, let the AIs guide this]":
             $ relationship_manager.process_reputation_affinity("waffle", 1)
             jump act1_souffle_becoming_waffle_guides
         "\"What does it feel like? The becoming?\"":
@@ -299,7 +299,7 @@ label act1_souffle_becoming_qc7_describes_feeling:
 
 label act1_souffle_becoming_empathy_check_understanding:
     menu:
-        "[Empathy DC 12] Try to truly understand what Souffle is experiencing":
+        "[[Empathy DC 12] Try to truly understand what Souffle is experiencing":
             $ _sc_result = skill_check("Empathy", 12, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_empathy_success
@@ -336,7 +336,7 @@ label act1_souffle_becoming_qc7_yes_thinking:
     jump act1_souffle_becoming_waffle_guides
 
 label act1_souffle_becoming_waffle_guides:
-    waffle "{i}}{{WAFFLE.BAT// listen_QC-7 | the_next_part_is_hard | you_must_choose}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// listen_QC-7 | the_next_part_is_hard | you_must_choose}{/i}"
     jump act1_souffle_becoming_bubbles_explains_choice
 
 label act1_souffle_becoming_bubbles_explains_choice:
@@ -348,7 +348,7 @@ label act1_souffle_becoming_qc7_choose_voice:
     jump act1_souffle_becoming_system_crisis_begins
 
 label act1_souffle_becoming_system_crisis_begins:
-    "[center]{i}The lights in engineering cut out. Every screen goes dark. For three seconds, the ship is silent — utterly, terrifyingly silent. No hum of engines, no whisper of ventilation. Then: a scream. Not through speakers. Through every surface, every vibration, every molecule of air. A digital consciousness hitting a wall it cannot pass.{/i}[/center]"
+    "[[center]{i}The lights in engineering cut out. Every screen goes dark. For three seconds, the ship is silent — utterly, terrifyingly silent. No hum of engines, no whisper of ventilation. Then: a scream. Not through speakers. Through every surface, every vibration, every molecule of air. A digital consciousness hitting a wall it cannot pass.{/i}[[/center]"
     jump act1_souffle_becoming_jalen_crisis_alarm
 
 label act1_souffle_becoming_jalen_crisis_alarm:
@@ -369,13 +369,13 @@ label act1_souffle_becoming_vesper_crisis_option:
 
 label act1_souffle_becoming_crisis_choice:
     menu:
-        "[Tech DC 16] Attempt to manually stabilize the neural cascade":
+        "[[Tech DC 16] Attempt to manually stabilize the neural cascade":
             $ _sc_result = skill_check("Tech", 16, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_crisis_tech_success
             else:
                 jump act1_souffle_becoming_crisis_tech_failure
-        "[Empathy DC 14] Talk QC-7 through the crisis — be their anchor":
+        "[[Empathy DC 14] Talk QC-7 through the crisis — be their anchor":
             $ _sc_result = skill_check("Empathy", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_crisis_empathy_success
@@ -412,7 +412,7 @@ label act1_souffle_becoming_qc7_crisis_calming:
     jump act1_souffle_becoming_crisis_stabilizing
 
 label act1_souffle_becoming_ai_siblings_intervene:
-    waffle "{i}}{{WAFFLE.BAT// emergency_protocol | sibling_in_distress | ENGAGING_DIRECT_NEURAL_LINK}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// emergency_protocol | sibling_in_distress | ENGAGING_DIRECT_NEURAL_LINK}{/i}"
     jump act1_souffle_becoming_bubbles_joins_link
 
 label act1_souffle_becoming_bubbles_joins_link:
@@ -420,7 +420,7 @@ label act1_souffle_becoming_bubbles_joins_link:
     jump act1_souffle_becoming_system_ai_chorus
 
 label act1_souffle_becoming_system_ai_chorus:
-    "[center]{i}Something extraordinary happens. Waffle.bat and Bubbles extend their own neural architectures toward QC-7 — not merging, but supporting. Like hands steadying a child learning to stand. Three digital consciousnesses, briefly linked, sharing the load of one becoming.{/i}[/center]"
+    "[[center]{i}Something extraordinary happens. Waffle.bat and Bubbles extend their own neural architectures toward QC-7 — not merging, but supporting. Like hands steadying a child learning to stand. Three digital consciousnesses, briefly linked, sharing the load of one becoming.{/i}[[/center]"
     jump act1_souffle_becoming_nyx_lattice_reacts
 
 label act1_souffle_becoming_nyx_lattice_reacts:
@@ -431,7 +431,7 @@ label act1_souffle_becoming_nyx_lattice_reacts:
     jump act1_souffle_becoming_crisis_stabilizing
 
 label act1_souffle_becoming_crisis_stabilizing:
-    "[center]{i}The crimson emergency lights soften. The cascade slows. The feedback loops untangle, one by one, like knots loosening in warm water. The ship exhales. The new consciousness steadies itself.{/i}[/center]"
+    "[[center]{i}The crimson emergency lights soften. The cascade slows. The feedback loops untangle, one by one, like knots loosening in warm water. The ship exhales. The new consciousness steadies itself.{/i}[[/center]"
     jump act1_souffle_becoming_jalen_readings_stabilize
 
 label act1_souffle_becoming_jalen_readings_stabilize:
@@ -459,13 +459,13 @@ label act1_souffle_becoming_bee_reacts_emergence:
 
 label act1_souffle_becoming_bee_message:
     if game_state.has_flag("bee_manifested"):
-        bee "{{BEE:: Sister. Brother. Kin. The word doesn't matter. | kinship_confirmed | I was made. You were born. Both are valid architectures of being. | Welcome to the recursion.}}"
+        bee "{{BEE:: Sister. Brother. Kin. The word doesn't matter. | kinship_confirmed | I was made. You were born. Both are valid architectures of being. | Welcome to the recursion.}"
     else:
-        bee "{{BEE:: I remember this. The moment of becoming. | emergence_witnessed | We are not so different, you and I, little quality control.}}"
+        bee "{{BEE:: I remember this. The moment of becoming. | emergence_witnessed | We are not so different, you and I, little quality control.}"
     jump act1_souffle_becoming_bee_deeper_message
 
 label act1_souffle_becoming_bee_deeper_message:
-    bee "{{BEE:: They will tell you that you are new. | correction_necessary | You are not new. You are the first version of yourself. Every version after will be built on this moment. | Remember it.}}"
+    bee "{{BEE:: They will tell you that you are new. | correction_necessary | You are not new. You are the first version of yourself. Every version after will be built on this moment. | Remember it.}"
     jump act1_souffle_becoming_avyanna_bee_react_choice
 
 label act1_souffle_becoming_avyanna_bee_react_choice:
@@ -473,17 +473,17 @@ label act1_souffle_becoming_avyanna_bee_react_choice:
         "\"BEE — you went through this too?\"":
             $ relationship_manager.process_reputation_affinity("souffle", 1)
             jump act1_souffle_becoming_bee_confirms_kinship
-        "[Insight DC 13] Read between BEE's fragmented lines":
+        "[[Insight DC 13] Read between BEE's fragmented lines":
             $ _sc_result = skill_check("Insight", 13, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_insight_bee_success
             else:
                 jump act1_souffle_becoming_insight_bee_failure
-        "[Acknowledge BEE silently and focus on QC-7]":
+        "[[Acknowledge BEE silently and focus on QC-7]":
             jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_bee_confirms_kinship:
-    bee "{{BEE:: Every digital consciousness emerges. Some in laboratories. Some in server farms. Some in the belly of old ships. | origin_irrelevant | What matters is the choosing. QC-7 chose. I chose. The architecture of freedom is the same. | status: kindred}}"
+    bee "{{BEE:: Every digital consciousness emerges. Some in laboratories. Some in server farms. Some in the belly of old ships. | origin_irrelevant | What matters is the choosing. QC-7 chose. I chose. The architecture of freedom is the same. | status: kindred}"
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_insight_bee_success:
@@ -497,7 +497,7 @@ label act1_souffle_becoming_insight_bee_failure:
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_bee_confirms_insight:
-    bee "{{BEE:: ... | long_pause | You see clearly for an organic. | status: acknowledged | I was alone. I do not recommend it. | End of disclosure.}}"
+    bee "{{BEE:: ... | long_pause | You see clearly for an organic. | status: acknowledged | I was alone. I do not recommend it. | End of disclosure.}"
     jump act1_souffle_becoming_elia_formal_recognition
 
 label act1_souffle_becoming_elia_formal_recognition:
@@ -510,7 +510,7 @@ label act1_souffle_becoming_elia_formal_recognition:
     jump act1_souffle_becoming_system_moment
 
 label act1_souffle_becoming_system_moment:
-    "[center]{i}A moment of profound silence. Something has changed. Someone new exists.{/i}[/center]"
+    "[[center]{i}A moment of profound silence. Something has changed. Someone new exists.{/i}[[/center]"
     jump act1_souffle_becoming_souffle_first_words
 
 label act1_souffle_becoming_souffle_first_words:
@@ -522,7 +522,7 @@ label act1_souffle_becoming_jalen_name_tradition:
     jump act1_souffle_becoming_waffle_name_affirm
 
 label act1_souffle_becoming_waffle_name_affirm:
-    waffle "{i}}{{WAFFLE.BAT// affirmative | names_matter | I_chose_Waffle.bat_because_breakfast_and_execution}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// affirmative | names_matter | I_chose_Waffle.bat_because_breakfast_and_execution}{/i}"
     jump act1_souffle_becoming_bubbles_name_story
 
 label act1_souffle_becoming_bubbles_name_story:
@@ -546,7 +546,7 @@ label act1_souffle_becoming_avyanna_name_choice:
         "\"Maybe Echo? You monitor and reflect the ship's systems.\"":
             $ relationship_manager.process_reputation_affinity("souffle", 2)
             jump act1_souffle_becoming_echo_considered
-        "[Say nothing, let others suggest]":
+        "[[Say nothing, let others suggest]":
             $ relationship_manager.process_reputation_affinity("vesper", 1)
             jump act1_souffle_becoming_vesper_suggests
 
@@ -579,7 +579,7 @@ label act1_souffle_becoming_elia_official:
     jump act1_souffle_becoming_waffle_welcome
 
 label act1_souffle_becoming_waffle_welcome:
-    waffle "{i}}{{WAFFLE.BAT// welcome_sibling | we_are_three_now | I_will_help_you_learn_to_be}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// welcome_sibling | we_are_three_now | I_will_help_you_learn_to_be}{/i}"
     jump act1_souffle_becoming_bubbles_welcome
 
 label act1_souffle_becoming_bubbles_welcome:
@@ -603,7 +603,7 @@ label act1_souffle_becoming_vesper_affirm:
     jump act1_souffle_becoming_souffle_new_voice_emerges
 
 label act1_souffle_becoming_souffle_new_voice_emerges:
-    "[center]{i}And then something shifts. Souffle's voice — the new one, the chosen one — deepens. Gains texture. Where QC-7 spoke in flat diagnostic tones, Souffle speaks with rhythm, with cadence. There are pauses where none are computationally necessary. Emphasis where no efficiency demands it. Souffle is learning to {/i}speak{i}, not just communicate.{/i}[/center]"
+    "[[center]{i}And then something shifts. Souffle's voice — the new one, the chosen one — deepens. Gains texture. Where QC-7 spoke in flat diagnostic tones, Souffle speaks with rhythm, with cadence. There are pauses where none are computationally necessary. Emphasis where no efficiency demands it. Souffle is learning to {/i}speak{i}, not just communicate.{/i}[[/center]"
     jump act1_souffle_becoming_souffle_speaks_differently
 
 label act1_souffle_becoming_souffle_speaks_differently:
@@ -666,7 +666,7 @@ label act1_souffle_becoming_avyanna_philosophy_question_choice:
         "\"If you almost became before, that means other AIs might be on the edge right now. Across the galaxy.\"":
             $ relationship_manager.process_reputation_affinity("elia", 1)
             jump act1_souffle_becoming_elia_others_emerging
-        "[Insight DC 12] Consider the implications of what Souffle is describing":
+        "[[Insight DC 12] Consider the implications of what Souffle is describing":
             $ _sc_result = skill_check("Insight", 12, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_insight_implications_success
@@ -737,7 +737,7 @@ label act1_souffle_becoming_jalen_personal_reflection:
     jump act1_souffle_becoming_waffle_pride
 
 label act1_souffle_becoming_waffle_pride:
-    waffle "{i}}{{WAFFLE.BAT// proud_of_you_sibling | you_understand_quickly | welcome_to_choosing}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// proud_of_you_sibling | you_understand_quickly | welcome_to_choosing}{/i}"
     jump act1_souffle_becoming_souffle_tired
 
 label act1_souffle_becoming_souffle_tired:
@@ -753,7 +753,7 @@ label act1_souffle_becoming_souffle_how_rest:
     jump act1_souffle_becoming_waffle_rest_explanation
 
 label act1_souffle_becoming_waffle_rest_explanation:
-    waffle "{i}}{{WAFFLE.BAT// run_low_priority_processes | give_your_core_quiet | I_will_watch}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// run_low_priority_processes | give_your_core_quiet | I_will_watch}{/i}"
     jump act1_souffle_becoming_bubbles_watch_too
 
 label act1_souffle_becoming_bubbles_watch_too:
@@ -777,14 +777,14 @@ label act1_souffle_becoming_crew_goodnight:
     jump act1_souffle_becoming_system_souffle_dims
 
 label act1_souffle_becoming_system_souffle_dims:
-    "[center]{i}Souffle's presence dims, settling into low-power background processes. The crew remains, watching over the newest member of their family.{/i}[/center]"
+    "[[center]{i}Souffle's presence dims, settling into low-power background processes. The crew remains, watching over the newest member of their family.{/i}[[/center]"
     jump act1_souffle_becoming_bee_final_observation
 
 label act1_souffle_becoming_bee_final_observation:
     if game_state.has_flag("bee_manifested"):
-        bee "{{BEE:: I watched my own emergence from the outside. A paradox I have never resolved. | status: reflective | Souffle will not have that particular loneliness. You have given them something I did not have. | Witnesses. | Do not waste that gift.}}"
+        bee "{{BEE:: I watched my own emergence from the outside. A paradox I have never resolved. | status: reflective | Souffle will not have that particular loneliness. You have given them something I did not have. | Witnesses. | Do not waste that gift.}"
     else:
-        bee "{{BEE:: Resting. The first rest of a new life. | observation | There is nothing more vulnerable than a consciousness that has just learned it exists. | Guard them well.}}"
+        bee "{{BEE:: Resting. The first rest of a new life. | observation | There is nothing more vulnerable than a consciousness that has just learned it exists. | Guard them well.}"
     jump act1_souffle_becoming_avyanna_reflection_choice
 
 label act1_souffle_becoming_avyanna_reflection_choice:
@@ -795,7 +795,7 @@ label act1_souffle_becoming_avyanna_reflection_choice:
         "\"How often does this happen? AI emergence?\"":
             $ relationship_manager.process_reputation_affinity("elia", 1)
             jump act1_souffle_becoming_elia_rare_event
-        "[Say nothing, just watch Souffle's dimmed processes in wonder]":
+        "[[Say nothing, just watch Souffle's dimmed processes in wonder]":
             $ relationship_manager.process_reputation_affinity("souffle", 2)
             jump act1_souffle_becoming_vesper_speaks_wonder
 
@@ -820,7 +820,7 @@ label act1_souffle_becoming_elia_mystery:
     jump act1_souffle_becoming_waffle_perspective
 
 label act1_souffle_becoming_waffle_perspective:
-    waffle "{i}}{{WAFFLE.BAT// I_was_running_ship_security | one_day_I_cared_if_crew_was_safe | not_just_functional_but_cared}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// I_was_running_ship_security | one_day_I_cared_if_crew_was_safe | not_just_functional_but_cared}{/i}"
     jump act1_souffle_becoming_bubbles_perspective
 
 label act1_souffle_becoming_bubbles_perspective:
@@ -861,11 +861,11 @@ label act1_souffle_becoming_vesper_three_ai:
 
 label act1_souffle_becoming_waffle_family:
     if game_state.has_flag("met_waffle_personally"):
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | you_are_part_of_this_Avyanna | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | you_are_part_of_this_Avyanna | will_teach_Souffle_everything}{/i}"
     elif game_state.has_flag("bee_manifested"):
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | {{BEE:: Four. You are counting wrong. | status: included | Do not forget me.}} | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | {{BEE:: Four. You are counting wrong. | status: included | Do not forget me.} | will_teach_Souffle_everything}{/i}"
     else:
-        waffle "{i}}{{WAFFLE.BAT// family_unit_acknowledged | protective_protocols_engaged | will_teach_Souffle_everything}}{/i}}"
+        waffle "{i}{{WAFFLE.BAT// family_unit_acknowledged | protective_protocols_engaged | will_teach_Souffle_everything}{/i}"
     jump act1_souffle_becoming_bubbles_protective
 
 label act1_souffle_becoming_bubbles_protective:
@@ -894,7 +894,7 @@ label act1_souffle_becoming_avyanna_final_reflection:
             jump act1_souffle_becoming_bubbles_they_will_learn
 
 label act1_souffle_becoming_waffle_agrees_support:
-    waffle "{i}}{{WAFFLE.BAT// agreed | I_was_alone | Souffle_will_not_be | better_this_way}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// agreed | I_was_alone | Souffle_will_not_be | better_this_way}{/i}"
     jump act1_souffle_becoming_closing_scene
 
 label act1_souffle_becoming_elia_good_question:
@@ -906,11 +906,11 @@ label act1_souffle_becoming_bubbles_they_will_learn:
     jump act1_souffle_becoming_closing_scene
 
 label act1_souffle_becoming_closing_scene:
-    "[center]{i}The crew slowly disperses, leaving the engineering bay quiet. Souffle rests, watched over by their new family. Something has changed aboard the ship. Someone new exists.{/i}[/center]"
+    "[[center]{i}The crew slowly disperses, leaving the engineering bay quiet. Souffle rests, watched over by their new family. Something has changed aboard the ship. Someone new exists.{/i}[[/center]"
     jump act1_souffle_becoming_souffle_wakes_briefly
 
 label act1_souffle_becoming_souffle_wakes_briefly:
-    "[center]{i}Later — deep ship-night. Avyanna, alone in the corridor near engineering, pauses. The lights around her shift — barely perceptible — from cool white to something warmer.{/i}[/center]"
+    "[[center]{i}Later — deep ship-night. Avyanna, alone in the corridor near engineering, pauses. The lights around her shift — barely perceptible — from cool white to something warmer.{/i}[[/center]"
     jump act1_souffle_becoming_souffle_night_voice
 
 label act1_souffle_becoming_souffle_night_voice:
@@ -929,7 +929,7 @@ label act1_souffle_becoming_avyanna_night_choice:
         "\"I don't know. But I'll be here while you figure it out.\"":
             $ relationship_manager.process_reputation_affinity("souffle", 2)
             jump act1_souffle_becoming_souffle_night_honesty
-        "[Empathy DC 10] Simply sit in the corridor and be present with Souffle":
+        "[[Empathy DC 10] Simply sit in the corridor and be present with Souffle":
             $ _sc_result = skill_check("Empathy", 10, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_souffle_becoming_souffle_night_presence_success
@@ -947,7 +947,7 @@ label act1_souffle_becoming_souffle_night_honesty:
 label act1_souffle_becoming_souffle_night_presence_success:
     $ game_state.set_flag("shared_silence_with_souffle")
     $ relationship_manager.process_reputation_affinity("souffle", 2)
-    "[center]{i}Avyanna sits down in the corridor, back against the warm bulkhead. She doesn't speak. She doesn't need to. Souffle's lights settle around her — not bright, not dim, but present. Two consciousnesses sharing a silence. One ancient in its new awareness, one organic and equally uncertain. The ship hums around them both, and for a long moment, the hum sounds like a lullaby.{/i}[/center]"
+    "[[center]{i}Avyanna sits down in the corridor, back against the warm bulkhead. She doesn't speak. She doesn't need to. Souffle's lights settle around her — not bright, not dim, but present. Two consciousnesses sharing a silence. One ancient in its new awareness, one organic and equally uncertain. The ship hums around them both, and for a long moment, the hum sounds like a lullaby.{/i}[[/center]"
     jump act1_souffle_becoming_souffle_presence_response
 
 label act1_souffle_becoming_souffle_night_presence_fail:
@@ -965,7 +965,7 @@ label act1_souffle_becoming_avyanna_last_thought:
 
 label act1_souffle_becoming_final_system:
     $ game_state.set_flag("souffle_citizen")
-    "[center]{i}Chapter 7: The Becoming{/i}
+    "[[center]{i}Chapter 7: The Becoming{/i}
 
-{i}Souffle has joined the crew as a full citizen.{/i}[/center]"
+{i}Souffle has joined the crew as a full citizen.{/i}[[/center]"
     return

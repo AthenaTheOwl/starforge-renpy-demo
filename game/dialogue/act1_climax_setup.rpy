@@ -14,11 +14,11 @@ label act1_climax_setup_narration_war_room:
     jump act1_climax_setup_elia_opens
 
 label act1_climax_setup_elia_opens:
-    elia "Floor check. Everyone's here. Good. {i}[She activates the display.]{/i} This is the target. Aurum Extraction forward station. Four levels, heavy security, civilian workers mixed with corporate enforcement."
+    elia "Floor check. Everyone's here. Good. {i}[[She activates the display.]{/i} This is the target. Aurum Extraction forward station. Four levels, heavy security, civilian workers mixed with corporate enforcement."
     jump act1_climax_setup_elia_opens_2
 
 label act1_climax_setup_elia_opens_2:
-    elia "No rehearsal. No second pass. We get one window and we use it or we lose Avyanna's legal protection permanently. {i}[She meets each pair of eyes in turn.]{/i} So I need everyone sharp. Questions held until intel review is done."
+    elia "No rehearsal. No second pass. We get one window and we use it or we lose Avyanna's legal protection permanently. {i}[[She meets each pair of eyes in turn.]{/i} So I need everyone sharp. Questions held until intel review is done."
     jump act1_climax_setup_vesper_posture
 
 label act1_climax_setup_vesper_posture:
@@ -50,7 +50,7 @@ label act1_climax_setup_elia_begins_briefing:
     jump act1_climax_setup_jalen_intel_start
 
 label act1_climax_setup_jalen_intel_start:
-    jalen "{i}[Tapping screens, pulling data into the holographic display.]{/i} Aurum Extraction Station K-12. Officially registered as a mineral processing outpost. Unofficially—"
+    jalen "{i}[[Tapping screens, pulling data into the holographic display.]{/i} Aurum Extraction Station K-12. Officially registered as a mineral processing outpost. Unofficially—"
     jump act1_climax_setup_jalen_intel_2
 
 label act1_climax_setup_jalen_intel_2:
@@ -58,15 +58,15 @@ label act1_climax_setup_jalen_intel_2:
     jump act1_climax_setup_jalen_intel_3
 
 label act1_climax_setup_jalen_intel_3:
-    jalen "{i}[He zooms the schematic.]{/i} Four levels. Sublevel is maintenance and utilities—low security, mostly automated. Ground floor is civilian operations and processing. Second floor is corporate offices and the comm array. Top floor—"
+    jalen "{i}[[He zooms the schematic.]{/i} Four levels. Sublevel is maintenance and utilities—low security, mostly automated. Ground floor is civilian operations and processing. Second floor is corporate offices and the comm array. Top floor—"
     jump act1_climax_setup_jalen_intel_4
 
 label act1_climax_setup_jalen_intel_4:
-    jalen "{i}[His voice drops.]{/i} Top floor is the data core. That's where the extraction records live. Hardened servers, physical airgap, no remote access. To get the data, someone has to be in the room."
+    jalen "{i}[[His voice drops.]{/i} Top floor is the data core. That's where the extraction records live. Hardened servers, physical airgap, no remote access. To get the data, someone has to be in the room."
     jump act1_climax_setup_jalen_timeline
 
 label act1_climax_setup_jalen_timeline:
-    jalen "We have a six-hour window. After that, the transfer convoy arrives and it's out of reach. {i}[He looks grim.]{/i} This is our only shot."
+    jalen "We have a six-hour window. After that, the transfer convoy arrives and it's out of reach. {i}[[He looks grim.]{/i} This is our only shot."
     jump act1_climax_setup_jalen_tech_detail
 
 label act1_climax_setup_jalen_tech_detail:
@@ -74,7 +74,7 @@ label act1_climax_setup_jalen_tech_detail:
     jump act1_climax_setup_jalen_layout_detail
 
 label act1_climax_setup_jalen_layout_detail:
-    jalen "Elevator system is centrally controlled—once they lock it down, you're taking stairs or making your own paths. Emergency bulkheads on every floor can seal in under three seconds. {i}[He pauses.]{/i} If they seal the data core, we need shaped charges or a very creative Lattice operator to get through."
+    jalen "Elevator system is centrally controlled—once they lock it down, you're taking stairs or making your own paths. Emergency bulkheads on every floor can seal in under three seconds. {i}[[He pauses.]{/i} If they seal the data core, we need shaped charges or a very creative Lattice operator to get through."
     jump act1_climax_setup_elisira_intel_add
 
 label act1_climax_setup_elisira_intel_add:
@@ -86,7 +86,7 @@ label act1_climax_setup_elisira_comms_1:
     jump act1_climax_setup_elisira_comms_2
 
 label act1_climax_setup_elisira_comms_2:
-    elisira "They know someone's coming. Not us specifically—but they've raised security posture. Double shifts, additional automated defenses on sublevels two and three. {i}[Beat.]{/i} And they've requested something called a 'Lattice containment package.'"
+    elisira "They know someone's coming. Not us specifically—but they've raised security posture. Double shifts, additional automated defenses on sublevels two and three. {i}[[Beat.]{/i} And they've requested something called a 'Lattice containment package.'"
     jump act1_climax_setup_nyx_reacts_containment
 
 label act1_climax_setup_nyx_reacts_containment:
@@ -98,11 +98,11 @@ label act1_climax_setup_elisira_comms_3:
     jump act1_climax_setup_elisira_comms_4
 
 label act1_climax_setup_elisira_comms_4:
-    elisira "One more thing. The station commander's name is Harlan Dreeve. Former Compact military, discharged for 'excessive initiative.' {i}[The faintest curl of contempt.]{/i} He'll fight smart. He won't surrender."
+    elisira "One more thing. The station commander's name is Harlan Dreeve. Former Compact military, discharged for 'excessive initiative.' {i}[[The faintest curl of contempt.]{/i} He'll fight smart. He won't surrender."
     jump act1_climax_setup_elisira_inside_knowledge
 
 label act1_climax_setup_elisira_inside_knowledge:
-    elisira "I've been inside corporate operations. Their doctrine is containment first, elimination second. They'll try to lock you in before they try to kill you. {i}[She looks at Elia.]{/i} The bulkheads are the real weapon. Not the guards."
+    elisira "I've been inside corporate operations. Their doctrine is containment first, elimination second. They'll try to lock you in before they try to kill you. {i}[[She looks at Elia.]{/i} The bulkheads are the real weapon. Not the guards."
     jump act1_climax_setup_elia_thanks_intel
 
 label act1_climax_setup_elia_thanks_intel:
@@ -110,7 +110,7 @@ label act1_climax_setup_elia_thanks_intel:
     jump act1_climax_setup_rho_assessment
 
 label act1_climax_setup_rho_assessment:
-    rho "Security is military-grade. Automated turrets, reinforced bulkheads, probably a few surprises we haven't mapped. {i}[His grin is sharp.]{/i} Standard nightmare scenario."
+    rho "Security is military-grade. Automated turrets, reinforced bulkheads, probably a few surprises we haven't mapped. {i}[[His grin is sharp.]{/i} Standard nightmare scenario."
     jump act1_climax_setup_rho_assessment_2
 
 label act1_climax_setup_rho_assessment_2:
@@ -118,11 +118,11 @@ label act1_climax_setup_rho_assessment_2:
     jump act1_climax_setup_rho_assessment_3
 
 label act1_climax_setup_rho_assessment_3:
-    rho "Second floor: heavy infantry. Military-grade hardware, tactical training, probably wired reflexes on the squad leads. These ones know how to fight in corridors. {i}[He leans forward.]{/i} They'll use the bulkheads to channel us into kill zones."
+    rho "Second floor: heavy infantry. Military-grade hardware, tactical training, probably wired reflexes on the squad leads. These ones know how to fight in corridors. {i}[[He leans forward.]{/i} They'll use the bulkheads to channel us into kill zones."
     jump act1_climax_setup_rho_assessment_4
 
 label act1_climax_setup_rho_assessment_4:
-    rho "Top floor data core: unknown. Could be light, could be a fortress. Jalen's data doesn't cover internal defenses on that level. {i}[He looks at the schematic.]{/i} I don't like unknowns."
+    rho "Top floor data core: unknown. Could be light, could be a fortress. Jalen's data doesn't cover internal defenses on that level. {i}[[He looks at the schematic.]{/i} I don't like unknowns."
     jump act1_climax_setup_rho_assessment_turrets
 
 label act1_climax_setup_rho_assessment_turrets:
@@ -130,7 +130,7 @@ label act1_climax_setup_rho_assessment_turrets:
     jump act1_climax_setup_rho_assessment_final
 
 label act1_climax_setup_rho_assessment_final:
-    rho "{i}[Settling back.]{/i} Total estimated hostiles: forty to sixty. We're seven. That's roughly eight to one. {i}[The grin widens.]{/i} I've had worse odds. But not by much."
+    rho "{i}[[Settling back.]{/i} Total estimated hostiles: forty to sixty. We're seven. That's roughly eight to one. {i}[[The grin widens.]{/i} I've had worse odds. But not by much."
     jump act1_climax_setup_vesper_intel
 
 label act1_climax_setup_vesper_intel:
@@ -138,11 +138,11 @@ label act1_climax_setup_vesper_intel:
     jump act1_climax_setup_vesper_sniper_assessment
 
 label act1_climax_setup_vesper_sniper_assessment:
-    vesper "Sight lines inside the station are short—fifteen meters maximum on most corridors. That limits my effectiveness indoors. {i}[She touches the rifle case.]{/i} I'm most useful at the extraction point or in any open areas. Inside the core, I switch to close-quarters protocols."
+    vesper "Sight lines inside the station are short—fifteen meters maximum on most corridors. That limits my effectiveness indoors. {i}[[She touches the rifle case.]{/i} I'm most useful at the extraction point or in any open areas. Inside the core, I switch to close-quarters protocols."
     jump act1_climax_setup_vesper_civilian_concern
 
 label act1_climax_setup_vesper_civilian_concern:
-    vesper "{i}Quieter.{/i} Civilian workers. Jalen said there are processing staff on the ground floor. Non-combatants. {i}[She looks at Elia.]{/i} Rules of engagement need to be clear. We're not them."
+    vesper "{i}Quieter.{/i} Civilian workers. Jalen said there are processing staff on the ground floor. Non-combatants. {i}[[She looks at Elia.]{/i} Rules of engagement need to be clear. We're not them."
     jump act1_climax_setup_elia_roe
 
 label act1_climax_setup_elia_roe:
@@ -158,19 +158,19 @@ label act1_climax_setup_nyx_concern:
     jump act1_climax_setup_nyx_lattice_detail
 
 label act1_climax_setup_nyx_lattice_detail:
-    nyx "The wards are layered. Outer shell is standard—I can peel it in under a minute. But there's something underneath. Deeper. {i}[She frowns.]{/i} The signature doesn't read like corporate tech. It reads like Lattice architecture. Old Lattice."
+    nyx "The wards are layered. Outer shell is standard—I can peel it in under a minute. But there's something underneath. Deeper. {i}[[She frowns.]{/i} The signature doesn't read like corporate tech. It reads like Lattice architecture. Old Lattice."
     jump act1_climax_setup_nyx_lattice_detail_2
 
 label act1_climax_setup_nyx_lattice_detail_2:
-    nyx "If they've built Writbound containment into the station's ward structure, I'm not just fighting their security—I'm fighting the building itself. {i}[She meets your eyes.]{/i} And Avyanna, your shard will react. Count on it."
+    nyx "If they've built Writbound containment into the station's ward structure, I'm not just fighting their security—I'm fighting the building itself. {i}[[She meets your eyes.]{/i} And Avyanna, your shard will react. Count on it."
     jump act1_climax_setup_nyx_writbound_warning
 
 label act1_climax_setup_nyx_writbound_warning:
-    nyx "Writbound operatives are not soldiers. They're channelers—Lattice practitioners who've bonded with containment entities. Think of a Synthetic ward that can think, adapt, and hunt. {i}[Her jaw tightens.]{/i} I've fought one before. I won. Barely."
+    nyx "Writbound operatives are not soldiers. They're channelers—Lattice practitioners who've bonded with containment entities. Think of a Synthetic ward that can think, adapt, and hunt. {i}[[Her jaw tightens.]{/i} I've fought one before. I won. Barely."
     jump act1_climax_setup_bee_first_analysis
 
 label act1_climax_setup_bee_first_analysis:
-    bee "{{BEE:: lattice-resonance-detected | station-wards-anomalous | sub-harmonic matches primordial extraction signature—this facility was built around something, not on top of it}}"
+    bee "{{BEE:: lattice-resonance-detected | station-wards-anomalous | sub-harmonic matches primordial extraction signature—this facility was built around something, not on top of it}"
     jump act1_climax_setup_avyanna_bee_reaction
 
 label act1_climax_setup_avyanna_bee_reaction:
@@ -190,15 +190,15 @@ label act1_climax_setup_elia_bee_response:
     jump act1_climax_setup_bee_objective_analysis
 
 label act1_climax_setup_bee_objective_analysis:
-    bee "{{BEE:: objective unchanged | data core still primary target | additional variable: contained entity may react to shard proximity | recommend: caution in sublevel approach}}"
+    bee "{{BEE:: objective unchanged | data core still primary target | additional variable: contained entity may react to shard proximity | recommend: caution in sublevel approach}"
     jump act1_climax_setup_nyx_responds_bee
 
 label act1_climax_setup_nyx_responds_bee:
-    nyx "{i}To Avyanna, low.{/i} Your ghost has good instincts. If there's something caged under that station, my ward disruption might wake it up. {i}[She doesn't look afraid. She looks fascinated.]{/i} We should plan for that."
+    nyx "{i}To Avyanna, low.{/i} Your ghost has good instincts. If there's something caged under that station, my ward disruption might wake it up. {i}[[She doesn't look afraid. She looks fascinated.]{/i} We should plan for that."
     jump act1_climax_setup_elia_threat_summary
 
 label act1_climax_setup_elia_threat_summary:
-    elia "So. Forty to sixty hostiles. Military-grade security. Automated defenses. A station commander who won't quit. Possible Writbound operatives. Lattice wards that fight back. And something caged underneath it all. {i}[She exhales.]{/i} Anyone want to walk?"
+    elia "So. Forty to sixty hostiles. Military-grade security. Automated defenses. A station commander who won't quit. Possible Writbound operatives. Lattice wards that fight back. And something caged underneath it all. {i}[[She exhales.]{/i} Anyone want to walk?"
     jump act1_climax_setup_elia_threat_pause
 
 label act1_climax_setup_elia_threat_pause:
@@ -221,9 +221,9 @@ label act1_climax_setup_vesper_stays:
 
 label act1_climax_setup_nyx_stays:
     if game_state.has_flag("nyx_bonded"):
-        nyx "Old Lattice architecture and a crew worth protecting? {i}[Her smile reaches her eyes—rare and genuine.]{/i} I'm exactly where I should be."
+        nyx "Old Lattice architecture and a crew worth protecting? {i}[[Her smile reaches her eyes—rare and genuine.]{/i} I'm exactly where I should be."
     else:
-        nyx "Old Lattice architecture? This might be the most interesting thing I've done in years. {i}[Her smile is sharp and genuine.]{/i} I'm in."
+        nyx "Old Lattice architecture? This might be the most interesting thing I've done in years. {i}[[Her smile is sharp and genuine.]{/i} I'm in."
     jump act1_climax_setup_jalen_stays
 
 label act1_climax_setup_jalen_stays:
@@ -245,19 +245,19 @@ label act1_climax_setup_elia_acknowledges_crew:
     jump act1_climax_setup_strategy_approach_choice
 
 label act1_climax_setup_strategy_approach_choice:
-    elia "Two ways to hit this. We go quiet—infiltration, disable security in sequence, reach the data core before they know we're inside. Or we go loud—simultaneous breach, overwhelming force, speed over subtlety. {i}[She looks at you.]{/i} Avyanna. You've seen how we work. What's your read?"
+    elia "Two ways to hit this. We go quiet—infiltration, disable security in sequence, reach the data core before they know we're inside. Or we go loud—simultaneous breach, overwhelming force, speed over subtlety. {i}[[She looks at you.]{/i} Avyanna. You've seen how we work. What's your read?"
     jump act1_climax_setup_approach_player_choice
 
 label act1_climax_setup_approach_player_choice:
     "{i}The crew watches you. This isn't delegation—it's trust. Elia is testing whether you can read the board and call the play.{/i}"
     menu:
-        "[Stealth Approach] Infiltration. Disable their eyes before they see us coming.":
+        "[[Stealth Approach] Infiltration. Disable their eyes before they see us coming.":
             $ game_state.set_flag("approach_stealth")
             jump act1_climax_setup_stealth_choice_check
-        "[Assault Approach] Overwhelming force. Hit them so hard they can't organize a response.":
+        "[[Assault Approach] Overwhelming force. Hit them so hard they can't organize a response.":
             $ game_state.set_flag("approach_assault")
             jump act1_climax_setup_assault_choice_check
-        "[Hybrid Approach] Both. Stealth team disables security while assault team waits at the breach point. Synchronized.":
+        "[[Hybrid Approach] Both. Stealth team disables security while assault team waits at the breach point. Synchronized.":
             $ game_state.set_flag("approach_hybrid")
             jump act1_climax_setup_hybrid_choice_check
 
@@ -284,7 +284,7 @@ label act1_climax_setup_jalen_stealth_good:
 label act1_climax_setup_elisira_stealth_good:
     $ relationship_manager.process_reputation_affinity("vesper", 1)
     $ relationship_manager.process_reputation_affinity("elisira", 1)
-    elisira "{i}Appraising.{/i} Silent approach favors precision eliminations. Suppressed weapons, close work. {i}[She touches the pistol at her hip.]{/i} This is what I'm built for."
+    elisira "{i}Appraising.{/i} Silent approach favors precision eliminations. Suppressed weapons, close work. {i}[[She touches the pistol at her hip.]{/i} This is what I'm built for."
     jump act1_climax_setup_elia_approves_stealth
 
 label act1_climax_setup_elia_approves_stealth:
@@ -292,11 +292,11 @@ label act1_climax_setup_elia_approves_stealth:
     jump act1_climax_setup_stealth_nyx_concern
 
 label act1_climax_setup_stealth_nyx_concern:
-    nyx "One problem. My ward disruption isn't quiet. The moment I start peeling their Lattice defenses, every Synthetic sensor in the station knows. {i}[She thinks.]{/i} Unless I work from inside the ward structure itself. Slower, but silent."
+    nyx "One problem. My ward disruption isn't quiet. The moment I start peeling their Lattice defenses, every Synthetic sensor in the station knows. {i}[[She thinks.]{/i} Unless I work from inside the ward structure itself. Slower, but silent."
     jump act1_climax_setup_stealth_rho_concern
 
 label act1_climax_setup_stealth_rho_concern:
-    rho "{i}Frowning.{/i} Stealth means I can't bring the rotary cannon. Corridors, suppressed weapons, careful footwork. {i}[Beat.]{/i} I can do it. I just want everyone to know I'm doing it under protest."
+    rho "{i}Frowning.{/i} Stealth means I can't bring the rotary cannon. Corridors, suppressed weapons, careful footwork. {i}[[Beat.]{/i} I can do it. I just want everyone to know I'm doing it under protest."
     jump act1_climax_setup_approach_decided
 
 label act1_climax_setup_stealth_choice_failure:
@@ -304,11 +304,11 @@ label act1_climax_setup_stealth_choice_failure:
     jump act1_climax_setup_vesper_corrects_stealth
 
 label act1_climax_setup_vesper_corrects_stealth:
-    vesper "{i}Leaning forward, tapping the display.{/i} That corridor has overlapping camera arcs. We'd need to loop them simultaneously, not in sequence. {i}[She adjusts the route.]{/i} But the core idea is sound. Let me clean it up."
+    vesper "{i}Leaning forward, tapping the display.{/i} That corridor has overlapping camera arcs. We'd need to loop them simultaneously, not in sequence. {i}[[She adjusts the route.]{/i} But the core idea is sound. Let me clean it up."
     jump act1_climax_setup_stealth_corrected
 
 label act1_climax_setup_stealth_corrected:
-    elia "The instinct is right—stealth approach. Vesper and Jalen will refine the routing. {i}[She looks at you.]{/i} Good eye for the entry point. The execution needs work, but that's what a crew is for."
+    elia "The instinct is right—stealth approach. Vesper and Jalen will refine the routing. {i}[[She looks at you.]{/i} Good eye for the entry point. The execution needs work, but that's what a crew is for."
     jump act1_climax_setup_stealth_nyx_concern
 
 label act1_climax_setup_assault_choice_check:
@@ -328,7 +328,7 @@ label act1_climax_setup_rho_assault_good:
     jump act1_climax_setup_elia_assault_good
 
 label act1_climax_setup_elia_assault_good:
-    elia "Speed and violence of action. If we hit hard enough, their command structure collapses before Dreeve can organize a response. {i}[She traces the assault route.]{/i} Thirty seconds from breach to second floor. Ninety seconds to the data core."
+    elia "Speed and violence of action. If we hit hard enough, their command structure collapses before Dreeve can organize a response. {i}[[She traces the assault route.]{/i} Thirty seconds from breach to second floor. Ninety seconds to the data core."
     jump act1_climax_setup_vesper_assault_concern
 
 label act1_climax_setup_vesper_assault_concern:
@@ -342,7 +342,7 @@ label act1_climax_setup_jalen_assault_solution:
     jump act1_climax_setup_elia_approves_assault
 
 label act1_climax_setup_elia_approves_assault:
-    elia "{i}Decisive.{/i} Do it. Assault approach, pre-breach civilian evacuation. The trade-off is they'll know we're coming sixty seconds early. {i}[She looks at Rho.]{/i} Can we still achieve surprise?"
+    elia "{i}Decisive.{/i} Do it. Assault approach, pre-breach civilian evacuation. The trade-off is they'll know we're coming sixty seconds early. {i}[[She looks at Rho.]{/i} Can we still achieve surprise?"
     jump act1_climax_setup_rho_assault_answer
 
 label act1_climax_setup_rho_assault_answer:
@@ -354,11 +354,11 @@ label act1_climax_setup_assault_choice_failure:
     jump act1_climax_setup_rho_corrects_assault
 
 label act1_climax_setup_rho_corrects_assault:
-    rho "{i}Not unkind, but direct.{/i} Those two corridors create a crossfire problem—our own people get caught in the overlap. {i}[He adjusts the display.]{/i} Stagger the breach by four seconds. Team one enters here, team two sweeps in from the service corridor after the first volley clears."
+    rho "{i}Not unkind, but direct.{/i} Those two corridors create a crossfire problem—our own people get caught in the overlap. {i}[[He adjusts the display.]{/i} Stagger the breach by four seconds. Team one enters here, team two sweeps in from the service corridor after the first volley clears."
     jump act1_climax_setup_assault_corrected
 
 label act1_climax_setup_assault_corrected:
-    elia "Right idea, needs calibration. Rho's adjustment fixes the crossfire issue. {i}[She nods at you.]{/i} The aggression is correct. Sometimes speed is the safest option."
+    elia "Right idea, needs calibration. Rho's adjustment fixes the crossfire issue. {i}[[She nods at you.]{/i} The aggression is correct. Sometimes speed is the safest option."
     jump act1_climax_setup_vesper_assault_concern
 
 label act1_climax_setup_hybrid_choice_check:
@@ -374,7 +374,7 @@ label act1_climax_setup_hybrid_choice_success:
     jump act1_climax_setup_elia_hybrid_impressed
 
 label act1_climax_setup_elia_hybrid_impressed:
-    elia "{i}Both eyebrows raised.{/i} That's... ambitious. And elegant. Stealth team cripples their eyes, assault team hits while they're blind. {i}[She traces the timing on the display.]{/i} The synchronization has to be perfect. Five seconds off and the stealth team is exposed with no support."
+    elia "{i}Both eyebrows raised.{/i} That's... ambitious. And elegant. Stealth team cripples their eyes, assault team hits while they're blind. {i}[[She traces the timing on the display.]{/i} The synchronization has to be perfect. Five seconds off and the stealth team is exposed with no support."
     jump act1_climax_setup_vesper_hybrid
 
 label act1_climax_setup_vesper_hybrid:
@@ -384,7 +384,7 @@ label act1_climax_setup_vesper_hybrid:
 label act1_climax_setup_elisira_hybrid:
     $ relationship_manager.process_reputation_affinity("elia", 2)
     $ relationship_manager.process_reputation_affinity("elisira", 1)
-    elisira "{i}For the first time, something like respect in her voice.{/i} This is how the Compact's best units operate. Paired operations. {i}[She looks at you.]{/i} You've either studied their doctrine or you have very good instincts."
+    elisira "{i}For the first time, something like respect in her voice.{/i} This is how the Compact's best units operate. Paired operations. {i}[[She looks at you.]{/i} You've either studied their doctrine or you have very good instincts."
     jump act1_climax_setup_approach_decided
 
 label act1_climax_setup_hybrid_choice_failure:
@@ -392,19 +392,19 @@ label act1_climax_setup_hybrid_choice_failure:
     jump act1_climax_setup_elisira_corrects_hybrid
 
 label act1_climax_setup_elisira_corrects_hybrid:
-    elisira "{i}Stepping to the display.{/i} The idea is correct. The timing isn't. {i}[Her fingers adjust the sequence with surgical precision.]{/i} Stealth team enters here. Assault team repositions to secondary breach point—closer approach, tighter window. Synchronization at T-minus-zero."
+    elisira "{i}Stepping to the display.{/i} The idea is correct. The timing isn't. {i}[[Her fingers adjust the sequence with surgical precision.]{/i} Stealth team enters here. Assault team repositions to secondary breach point—closer approach, tighter window. Synchronization at T-minus-zero."
     jump act1_climax_setup_hybrid_corrected
 
 label act1_climax_setup_hybrid_corrected:
-    elia "Hybrid approach. Elisira's timing fixes. This is the hardest option to execute, but it gives us the most flexibility. {i}[She looks at you.]{/i} Bold thinking. That's what we need."
+    elia "Hybrid approach. Elisira's timing fixes. This is the hardest option to execute, but it gives us the most flexibility. {i}[[She looks at you.]{/i} Bold thinking. That's what we need."
     jump act1_climax_setup_approach_decided
 
 label act1_climax_setup_approach_decided:
-    elia "Approach is set. Now the hard part. {i}[She dims the display, leaving only the station outline.]{/i} We split into two teams. This isn't optional—one team takes the data core, one team holds extraction. If the hold team fails, nobody gets out."
+    elia "Approach is set. Now the hard part. {i}[[She dims the display, leaving only the station outline.]{/i} We split into two teams. This isn't optional—one team takes the data core, one team holds extraction. If the hold team fails, nobody gets out."
     jump act1_climax_setup_elisira_plan
 
 label act1_climax_setup_elisira_plan:
-    elisira "{i}Single syllable, command weight.{/i} Split. {i}[She gestures to the display.]{/i} Four go in—fast, loud, direct assault on the data core. Three hold extraction point and provide fire support."
+    elisira "{i}Single syllable, command weight.{/i} Split. {i}[[She gestures to the display.]{/i} Four go in—fast, loud, direct assault on the data core. Three hold extraction point and provide fire support."
     jump act1_climax_setup_elisira_split_logic
 
 label act1_climax_setup_elisira_split_logic:
@@ -412,11 +412,11 @@ label act1_climax_setup_elisira_split_logic:
     jump act1_climax_setup_crew_weighs_in_intro
 
 label act1_climax_setup_crew_weighs_in_intro:
-    elia "Before we assign, I want everyone's input. Speak to your strengths and your limits. No ego. {i}[She looks around the table.]{/i} Vesper. Start."
+    elia "Before we assign, I want everyone's input. Speak to your strengths and your limits. No ego. {i}[[She looks around the table.]{/i} Vesper. Start."
     jump act1_climax_setup_vesper_weighs_in
 
 label act1_climax_setup_vesper_weighs_in:
-    vesper "Indoor corridors limit my effective range. I'm strongest at extraction—long sight lines, elevated position, counter-sniper work. {i}[She pauses.]{/i} That said, if you need me inside, I can switch to close-quarters. I'm not useless at ten meters. Just... suboptimal."
+    vesper "Indoor corridors limit my effective range. I'm strongest at extraction—long sight lines, elevated position, counter-sniper work. {i}[[She pauses.]{/i} That said, if you need me inside, I can switch to close-quarters. I'm not useless at ten meters. Just... suboptimal."
     jump act1_climax_setup_vesper_weighs_in_2
 
 label act1_climax_setup_vesper_weighs_in_2:
@@ -432,7 +432,7 @@ label act1_climax_setup_rho_weighs_in_2:
     jump act1_climax_setup_rho_weighs_in_3
 
 label act1_climax_setup_rho_weighs_in_3:
-    rho "{i}Lower. Honest.{/i} And if we're talking limits—I can't protect everyone at once. In Meridian, I tried to cover two exits. Lost people at both. {i}[He meets Elia's eyes.]{/i} Don't split my attention. Give me one job and I'll do it."
+    rho "{i}Lower. Honest.{/i} And if we're talking limits—I can't protect everyone at once. In Meridian, I tried to cover two exits. Lost people at both. {i}[[He meets Elia's eyes.]{/i} Don't split my attention. Give me one job and I'll do it."
     jump act1_climax_setup_nyx_weighs_in
 
 label act1_climax_setup_nyx_weighs_in:
@@ -444,7 +444,7 @@ label act1_climax_setup_nyx_weighs_in_2:
     jump act1_climax_setup_nyx_weighs_in_3
 
 label act1_climax_setup_nyx_weighs_in_3:
-    nyx "Warning: once I engage their wards, I'm committed. I can't split my focus between offense and defense. Whoever's near me needs to keep hostiles off my back while I work. {i}[She looks at Rho.]{/i} That means you."
+    nyx "Warning: once I engage their wards, I'm committed. I can't split my focus between offense and defense. Whoever's near me needs to keep hostiles off my back while I work. {i}[[She looks at Rho.]{/i} That means you."
     jump act1_climax_setup_jalen_weighs_in
 
 label act1_climax_setup_jalen_weighs_in:
@@ -460,7 +460,7 @@ label act1_climax_setup_jalen_weighs_in_3:
     jump act1_climax_setup_elisira_weighs_in
 
 label act1_climax_setup_elisira_weighs_in:
-    elisira "I know how corporate security thinks. I know Dreeve's likely deployment pattern. I know where his blind spots are because they're the same blind spots I exploited when I was inside the system. {i}[Flat.]{/i} Assault team."
+    elisira "I know how corporate security thinks. I know Dreeve's likely deployment pattern. I know where his blind spots are because they're the same blind spots I exploited when I was inside the system. {i}[[Flat.]{/i} Assault team."
     jump act1_climax_setup_elisira_weighs_in_2
 
 label act1_climax_setup_elisira_weighs_in_2:
@@ -472,23 +472,23 @@ label act1_climax_setup_elisira_weighs_in_3:
     jump act1_climax_setup_elia_weighs_in
 
 label act1_climax_setup_elia_weighs_in:
-    elia "I go where the crew needs me. Assault team wants a corridor fighter—that's me. Hold team wants an anchor who won't break—that's also me. {i}[She looks at you.]{/i} This is your call, Avyanna."
+    elia "I go where the crew needs me. Assault team wants a corridor fighter—that's me. Hold team wants an anchor who won't break—that's also me. {i}[[She looks at you.]{/i} This is your call, Avyanna."
     jump act1_climax_setup_elia_split_question
 
 label act1_climax_setup_elia_split_question:
-    elia "{i}Looking at you.{/i} Avyanna. You've been training with all of us. You know our strengths. {i}[Beat.]{/i} Who goes in, and who holds the line?"
+    elia "{i}Looking at you.{/i} Avyanna. You've been training with all of us. You know our strengths. {i}[[Beat.]{/i} Who goes in, and who holds the line?"
     jump act1_climax_setup_player_choice
 
 label act1_climax_setup_player_choice:
     "{i}All eyes on you. The weight of the decision is real. Who you send in determines tactics. Who holds the line determines if anyone gets out.{/i}"
     menu:
-        "[Assault: Elia, Elisira, Rho, Nyx | Hold: Vesper, Jalen, Avyanna]":
+        "[[Assault: Elia, Elisira, Rho, Nyx | Hold: Vesper, Jalen, Avyanna]":
             $ game_state.set_flag("assault_team_close_quarters")
             jump act1_climax_setup_assault_team_1
-        "[Assault: Elia, Vesper, Nyx, Avyanna | Hold: Elisira, Rho, Jalen]":
+        "[[Assault: Elia, Vesper, Nyx, Avyanna | Hold: Elisira, Rho, Jalen]":
             $ game_state.set_flag("assault_team_mixed_range")
             jump act1_climax_setup_assault_team_2
-        "[Assault: Elisira, Rho, Nyx, Jalen | Hold: Elia, Vesper, Avyanna]":
+        "[[Assault: Elisira, Rho, Nyx, Jalen | Hold: Elia, Vesper, Avyanna]":
             $ game_state.set_flag("assault_team_tactical_precision")
             jump act1_climax_setup_assault_team_3
 
@@ -497,7 +497,7 @@ label act1_climax_setup_assault_team_1:
     jump act1_climax_setup_hold_team_1
 
 label act1_climax_setup_hold_team_1:
-    vesper "{i}Calm.{/i} Jalen pilots extraction, I provide overwatch and counter-sniper. Avyanna coordinates comms and tracks hostiles. {i}[She looks at you.]{/i} You'll be our eyes."
+    vesper "{i}Calm.{/i} Jalen pilots extraction, I provide overwatch and counter-sniper. Avyanna coordinates comms and tracks hostiles. {i}[[She looks at you.]{/i} You'll be our eyes."
     jump act1_climax_setup_team_1_reactions
 
 label act1_climax_setup_team_1_reactions:
@@ -505,27 +505,27 @@ label act1_climax_setup_team_1_reactions:
     jump act1_climax_setup_team_1_nyx_react
 
 label act1_climax_setup_team_1_nyx_react:
-    nyx "Rho breaches, I follow through the gap. His explosions will mask my ward disruptions—by the time they realize I'm in their Lattice, it's already peeled. {i}[She almost smiles.]{/i} Symbiotic chaos."
+    nyx "Rho breaches, I follow through the gap. His explosions will mask my ward disruptions—by the time they realize I'm in their Lattice, it's already peeled. {i}[[She almost smiles.]{/i} Symbiotic chaos."
     jump act1_climax_setup_team_1_elisira_react
 
 label act1_climax_setup_team_1_elisira_react:
-    elisira "I'll handle Dreeve personally if we encounter him. {i}[She checks her pistols—a gesture that's half maintenance, half ritual.]{/i} He won't expect me. That advantage lasts exactly once."
+    elisira "I'll handle Dreeve personally if we encounter him. {i}[[She checks her pistols—a gesture that's half maintenance, half ritual.]{/i} He won't expect me. That advantage lasts exactly once."
     jump act1_climax_setup_team_1_jalen_react
 
 label act1_climax_setup_team_1_jalen_react:
-    jalen "I'll run electronic warfare from the extraction point. Camera loops, comms jamming, bulkhead overrides—whatever the assault team needs, I'll push remotely. {i}[He looks at Vesper.]{/i} You and I need a shared tactical display."
+    jalen "I'll run electronic warfare from the extraction point. Camera loops, comms jamming, bulkhead overrides—whatever the assault team needs, I'll push remotely. {i}[[He looks at Vesper.]{/i} You and I need a shared tactical display."
     jump act1_climax_setup_team_1_vesper_avyanna
 
 label act1_climax_setup_team_1_vesper_avyanna:
-    vesper "{i}To you.{/i} Avyanna. At the extraction point, your shard may pick up things Jalen's sensors miss. Lattice signatures, ward shifts, personnel movement. Trust what you feel. Report what you sense. {i}[She holds your gaze.]{/i} I'll handle the rest."
+    vesper "{i}To you.{/i} Avyanna. At the extraction point, your shard may pick up things Jalen's sensors miss. Lattice signatures, ward shifts, personnel movement. Trust what you feel. Report what you sense. {i}[[She holds your gaze.]{/i} I'll handle the rest."
     jump act1_climax_setup_team_1_confirmation
 
 label act1_climax_setup_team_1_confirmation:
-    elia "{i}To the assault team.{/i} We go fast. We go hard. We do not stop until we're in the data core. {i}[To the hold team.]{/i} You are our lifeline. If you fall, we die in there. {i}[Beat.]{/i} No pressure."
+    elia "{i}To the assault team.{/i} We go fast. We go hard. We do not stop until we're in the data core. {i}[[To the hold team.]{/i} You are our lifeline. If you fall, we die in there. {i}[[Beat.]{/i} No pressure."
     jump act1_climax_setup_final_briefing
 
 label act1_climax_setup_assault_team_2:
-    vesper "{i}Raised eyebrow.{/i} Mixed range. Elia closes distance, I provide precision fire, Nyx handles wards, Avyanna... {i}[She looks at you.]{/i} You're coming in with us?"
+    vesper "{i}Raised eyebrow.{/i} Mixed range. Elia closes distance, I provide precision fire, Nyx handles wards, Avyanna... {i}[[She looks at you.]{/i} You're coming in with us?"
     jump act1_climax_setup_avyanna_in_assault
 
 label act1_climax_setup_avyanna_in_assault:
@@ -541,11 +541,11 @@ label act1_climax_setup_team_2_avyanna_response:
     jump act1_climax_setup_hold_team_2
 
 label act1_climax_setup_hold_team_2:
-    elisira "{i}Flat.{/i} Rho breaches from range. Jalen coordinates timing. I handle counter-assault if they flank. {i}[Beat.]{/i} Surgical."
+    elisira "{i}Flat.{/i} Rho breaches from range. Jalen coordinates timing. I handle counter-assault if they flank. {i}[[Beat.]{/i} Surgical."
     jump act1_climax_setup_team_2_rho_react
 
 label act1_climax_setup_team_2_rho_react:
-    rho "{i}Cracking his neck.{/i} Hold team with the big gun. Fine. Anyone comes near that extraction point, they meet the rotary cannon. {i}[He glances at Elisira.]{/i} Try to leave some for me."
+    rho "{i}Cracking his neck.{/i} Hold team with the big gun. Fine. Anyone comes near that extraction point, they meet the rotary cannon. {i}[[He glances at Elisira.]{/i} Try to leave some for me."
     jump act1_climax_setup_team_2_elisira_react
 
 label act1_climax_setup_team_2_elisira_react:
@@ -553,7 +553,7 @@ label act1_climax_setup_team_2_elisira_react:
     jump act1_climax_setup_team_2_jalen_react
 
 label act1_climax_setup_team_2_jalen_react:
-    jalen "I'll run overwatch from the hold position. Full electronic warfare suite. {i}[He looks at Nyx.]{/i} When you hit the wards, I'll try to map the resonance pattern from outside. Might give you an edge."
+    jalen "I'll run overwatch from the hold position. Full electronic warfare suite. {i}[[He looks at Nyx.]{/i} When you hit the wards, I'll try to map the resonance pattern from outside. Might give you an edge."
     jump act1_climax_setup_team_2_confirmation
 
 label act1_climax_setup_team_2_confirmation:
@@ -569,7 +569,7 @@ label act1_climax_setup_assault_team_3:
     jump act1_climax_setup_hold_team_3
 
 label act1_climax_setup_hold_team_3:
-    elia "{i}Grim smile.{/i} Vesper and I hold extraction. Long-range dominance, close-quarters fallback. Avyanna coordinates. {i}[She looks at you.]{/i} This puts you in the most danger if they breach our perimeter."
+    elia "{i}Grim smile.{/i} Vesper and I hold extraction. Long-range dominance, close-quarters fallback. Avyanna coordinates. {i}[[She looks at you.]{/i} This puts you in the most danger if they breach our perimeter."
     jump act1_climax_setup_team_3_vesper_react
 
 label act1_climax_setup_team_3_vesper_react:
@@ -585,39 +585,39 @@ label act1_climax_setup_team_3_jalen_react:
     jump act1_climax_setup_team_3_rho_react
 
 label act1_climax_setup_team_3_rho_react:
-    rho "Clean breaches on Elisira's mark. Shaped charges, precision placement, minimal collateral. {i}[He looks at Nyx.]{/i} I'll make the holes. You do the magic."
+    rho "Clean breaches on Elisira's mark. Shaped charges, precision placement, minimal collateral. {i}[[He looks at Nyx.]{/i} I'll make the holes. You do the magic."
     jump act1_climax_setup_team_3_nyx_react
 
 label act1_climax_setup_team_3_nyx_react:
-    nyx "With Jalen mapping the ward architecture from inside, I can target specific nodes instead of brute-forcing the whole structure. More efficient. Less noise. {i}[She looks satisfied.]{/i} This is the smart play."
+    nyx "With Jalen mapping the ward architecture from inside, I can target specific nodes instead of brute-forcing the whole structure. More efficient. Less noise. {i}[[She looks satisfied.]{/i} This is the smart play."
     jump act1_climax_setup_team_3_confirmation
 
 label act1_climax_setup_team_3_confirmation:
-    elia "{i}To the assault team.{/i} Elisira has command inside. Follow her calls. {i}[To you.]{/i} Avyanna—you coordinate between teams. You're our bridge. If comms go down, you're the last thread holding this together."
+    elia "{i}To the assault team.{/i} Elisira has command inside. Follow her calls. {i}[[To you.]{/i} Avyanna—you coordinate between teams. You're our bridge. If comms go down, you're the last thread holding this together."
     jump act1_climax_setup_final_briefing
 
 label act1_climax_setup_final_briefing:
-    elia "{i}Standing.{/i} Everyone clear on roles? Questions? Concerns? {i}[She looks around the table.]{/i} Speak now."
+    elia "{i}Standing.{/i} Everyone clear on roles? Questions? Concerns? {i}[[She looks around the table.]{/i} Speak now."
     jump act1_climax_setup_final_questions_choice
 
 label act1_climax_setup_final_questions_choice:
     "{i}The table is quiet. But the silence is full of things unsaid.{/i}"
     menu:
-        "[Ask about contingencies] What if the assault team gets trapped?":
+        "[[Ask about contingencies] What if the assault team gets trapped?":
             jump act1_climax_setup_contingency_question
-        "[Ask about the entity] What if whatever's caged under the station wakes up?":
+        "[[Ask about the entity] What if whatever's caged under the station wakes up?":
             jump act1_climax_setup_entity_question
-        "[Ask about Dreeve] What do we know about the station commander?":
+        "[[Ask about Dreeve] What do we know about the station commander?":
             jump act1_climax_setup_dreeve_question
-        "[Stay silent] You've said enough. Let them prepare.":
+        "[[Stay silent] You've said enough. Let them prepare.":
             jump act1_climax_setup_crew_silence
 
 label act1_climax_setup_contingency_question:
-    elia "If the assault team is trapped behind a sealed bulkhead, the hold team has ninety seconds to reach them before the station's internal security converges. {i}[She's thought about this.]{/i} After ninety seconds, the assault team fights through or finds another way out. The hold team does not abandon the extraction point to rescue them."
+    elia "If the assault team is trapped behind a sealed bulkhead, the hold team has ninety seconds to reach them before the station's internal security converges. {i}[[She's thought about this.]{/i} After ninety seconds, the assault team fights through or finds another way out. The hold team does not abandon the extraction point to rescue them."
     jump act1_climax_setup_contingency_hard_truth
 
 label act1_climax_setup_contingency_hard_truth:
-    elia "{i}Harder.{/i} If the assault team cannot reach the data core and cannot retreat, the hold team extracts without them. That's the order. {i}[She looks at each assault team member.]{/i} You volunteered for the harder job. You knew the math."
+    elia "{i}Harder.{/i} If the assault team cannot reach the data core and cannot retreat, the hold team extracts without them. That's the order. {i}[[She looks at each assault team member.]{/i} You volunteered for the harder job. You knew the math."
     jump act1_climax_setup_rho_contingency
 
 label act1_climax_setup_rho_contingency:
@@ -633,11 +633,11 @@ label act1_climax_setup_entity_question:
     jump act1_climax_setup_nyx_entity_detail
 
 label act1_climax_setup_nyx_entity_detail:
-    nyx "...it could try to communicate. Primordial entities aren't mindless. They're alien. If it recognizes the shard, it might reach for Avyanna. {i}[She meets your eyes.]{/i} If that happens, you tell me immediately. Don't try to manage it alone."
+    nyx "...it could try to communicate. Primordial entities aren't mindless. They're alien. If it recognizes the shard, it might reach for Avyanna. {i}[[She meets your eyes.]{/i} If that happens, you tell me immediately. Don't try to manage it alone."
     jump act1_climax_setup_bee_entity_analysis
 
 label act1_climax_setup_bee_entity_analysis:
-    bee "{{BEE:: primordial-contact-protocol logged | host-protection: priority-absolute | note: if the cage opens, I will not be a passive observer}}"
+    bee "{{BEE:: primordial-contact-protocol logged | host-protection: priority-absolute | note: if the cage opens, I will not be a passive observer}"
     jump act1_climax_setup_entity_to_silence
 
 label act1_climax_setup_entity_to_silence:
@@ -649,11 +649,11 @@ label act1_climax_setup_dreeve_question:
     jump act1_climax_setup_elisira_dreeve_2
 
 label act1_climax_setup_elisira_dreeve_2:
-    elisira "He's competent, ruthless, and loyal to whoever signs his contract. He won't surrender because surrender means a tribunal—and he's already had one. {i}[Her voice is flat, clinical.]{/i} He'll fight to the last."
+    elisira "He's competent, ruthless, and loyal to whoever signs his contract. He won't surrender because surrender means a tribunal—and he's already had one. {i}[[Her voice is flat, clinical.]{/i} He'll fight to the last."
     jump act1_climax_setup_elisira_dreeve_3
 
 label act1_climax_setup_elisira_dreeve_3:
-    elisira "{i}Softer—barely.{/i} I've met men like him before. They're not evil. They're empty. They filled the hole with duty and orders. Take away the structure and they collapse. {i}[She looks at Elia.]{/i} Don't try to reason with him. Just be faster."
+    elisira "{i}Softer—barely.{/i} I've met men like him before. They're not evil. They're empty. They filled the hole with duty and orders. Take away the structure and they collapse. {i}[[She looks at Elia.]{/i} Don't try to reason with him. Just be faster."
     jump act1_climax_setup_dreeve_to_silence
 
 label act1_climax_setup_dreeve_to_silence:
@@ -663,9 +663,9 @@ label act1_climax_setup_dreeve_to_silence:
 label act1_climax_setup_other_questions_choice:
     "{i}The briefing continues.{/i}"
     menu:
-        "[Ask another question]":
+        "[[Ask another question]":
             jump act1_climax_setup_final_questions_choice
-        "[No more questions. Move on.]":
+        "[[No more questions. Move on.]":
             jump act1_climax_setup_crew_silence
 
 label act1_climax_setup_crew_silence:
@@ -673,7 +673,7 @@ label act1_climax_setup_crew_silence:
     jump act1_climax_setup_bee_tactical_full
 
 label act1_climax_setup_bee_tactical_full:
-    bee "{{BEE:: tactical-summary compiled | threat-level: severe | crew-cohesion: high | probability-of-mission-success: 34.7%% | probability-of-zero-casualties: 11.2%% | personal-annotation: numbers lie—this crew defies probability}}"
+    bee "{{BEE:: tactical-summary compiled | threat-level: severe | crew-cohesion: high | probability-of-mission-success: 34.7%% | probability-of-zero-casualties: 11.2%% | personal-annotation: numbers lie—this crew defies probability}"
     jump act1_climax_setup_avyanna_bee_private
 
 label act1_climax_setup_avyanna_bee_private:
@@ -681,7 +681,7 @@ label act1_climax_setup_avyanna_bee_private:
     jump act1_climax_setup_elia_dismisses_briefing
 
 label act1_climax_setup_elia_dismisses_briefing:
-    elia "Briefing's done. Four hours until insertion. Gear up, rest, do whatever you need to do. {i}[She pauses.]{/i} I want everyone back here in three hours for final checks."
+    elia "Briefing's done. Four hours until insertion. Gear up, rest, do whatever you need to do. {i}[[She pauses.]{/i} I want everyone back here in three hours for final checks."
     jump act1_climax_setup_crew_disperses
 
 label act1_climax_setup_crew_disperses:
@@ -691,17 +691,17 @@ label act1_climax_setup_crew_disperses:
 label act1_climax_setup_personal_moments_choice:
     "{i}The briefing room empties slowly. You have time to speak with someone before preparations begin.{/i}"
     menu:
-        "[Find Vesper] She's in the observation deck, cleaning her rifle.":
+        "[[Find Vesper] She's in the observation deck, cleaning her rifle.":
             jump act1_climax_setup_personal_vesper
-        "[Find Rho] He's in the cargo bay, checking his charges.":
+        "[[Find Rho] He's in the cargo bay, checking his charges.":
             jump act1_climax_setup_personal_rho
-        "[Find Nyx] She's in the engine room, meditating near the Lattice conduits.":
+        "[[Find Nyx] She's in the engine room, meditating near the Lattice conduits.":
             jump act1_climax_setup_personal_nyx
-        "[Find Jalen] He's at his workstation, running simulations.":
+        "[[Find Jalen] He's at his workstation, running simulations.":
             jump act1_climax_setup_personal_jalen
-        "[Find Elisira] She's in the armory, alone.":
+        "[[Find Elisira] She's in the armory, alone.":
             jump act1_climax_setup_personal_elisira
-        "[Stay with Elia] She hasn't left the briefing room.":
+        "[[Stay with Elia] She hasn't left the briefing room.":
             jump act1_climax_setup_personal_elia
 
 label act1_climax_setup_personal_vesper:
@@ -722,15 +722,15 @@ label act1_climax_setup_vesper_personal_choice:
             jump act1_climax_setup_vesper_personal_honest
         "Are you scared?":
             jump act1_climax_setup_vesper_personal_direct
-        "[Sit quietly beside her]":
+        "[[Sit quietly beside her]":
             jump act1_climax_setup_vesper_personal_silent
 
 label act1_climax_setup_vesper_personal_honest:
-    vesper "{i}Her hands pause. Just for a moment.{/i} That's... unusually honest. {i}[She looks at you.]{/i} What do you need?"
+    vesper "{i}Her hands pause. Just for a moment.{/i} That's... unusually honest. {i}[[She looks at you.]{/i} What do you need?"
     jump act1_climax_setup_vesper_personal_depth
 
 label act1_climax_setup_vesper_personal_direct:
-    vesper "{i}A breath of something that might be a laugh.{/i} Scared. That's a word for people who can still choose to leave. {i}[She slots the barrel into place.]{/i} I'm... aware of consequences."
+    vesper "{i}A breath of something that might be a laugh.{/i} Scared. That's a word for people who can still choose to leave. {i}[[She slots the barrel into place.]{/i} I'm... aware of consequences."
     jump act1_climax_setup_vesper_personal_depth
 
 label act1_climax_setup_vesper_personal_silent:
@@ -738,16 +738,16 @@ label act1_climax_setup_vesper_personal_silent:
     jump act1_climax_setup_vesper_personal_depth
 
 label act1_climax_setup_vesper_personal_depth:
-    vesper "{i}Quietly, after a long moment.{/i} I've been in operations where people died. I've been the reason some of them didn't. {i}[She looks at the stars.]{/i} But I've never done it with people I—"
+    vesper "{i}Quietly, after a long moment.{/i} I've been in operations where people died. I've been the reason some of them didn't. {i}[[She looks at the stars.]{/i} But I've never done it with people I—"
     jump act1_climax_setup_vesper_personal_catch
 
 label act1_climax_setup_vesper_personal_catch:
-    vesper "{i}She stops. Recalibrates. When she speaks again, the sniper is back.{/i} People I've trained with this long. The calculus changes when you know someone's patterns. Their breathing. Their tells. {i}[Beat.]{/i} It makes you better. And it makes losing them worse."
+    vesper "{i}She stops. Recalibrates. When she speaks again, the sniper is back.{/i} People I've trained with this long. The calculus changes when you know someone's patterns. Their breathing. Their tells. {i}[[Beat.]{/i} It makes you better. And it makes losing them worse."
     jump act1_climax_setup_vesper_personal_resolve
 
 label act1_climax_setup_vesper_personal_resolve:
     $ relationship_manager.process_reputation_affinity("vesper", 1)
-    vesper "So no. I'm not scared. I'm precise. And tomorrow, precision keeps people alive. {i}[She chambers a round—a sound like a period at the end of a sentence.]{/i} Including you."
+    vesper "So no. I'm not scared. I'm precise. And tomorrow, precision keeps people alive. {i}[[She chambers a round—a sound like a period at the end of a sentence.]{/i} Including you."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_rho:
@@ -768,7 +768,7 @@ label act1_climax_setup_rho_personal_choice:
             jump act1_climax_setup_rho_personal_meridian
         "How do you stay calm before something like this?":
             jump act1_climax_setup_rho_personal_calm
-        "[Help him sort the charges in silence]":
+        "[[Help him sort the charges in silence]":
             jump act1_climax_setup_rho_personal_help
 
 label act1_climax_setup_rho_personal_meridian:
@@ -776,7 +776,7 @@ label act1_climax_setup_rho_personal_meridian:
     jump act1_climax_setup_rho_meridian_2
 
 label act1_climax_setup_rho_meridian_2:
-    rho "{i}He picks up a charge, turns it in his hands.{/i} I tried to hold two positions at once. Ego. I was big enough, strong enough—I thought I could cover both. {i}[His voice drops.]{/i} I was wrong."
+    rho "{i}He picks up a charge, turns it in his hands.{/i} I tried to hold two positions at once. Ego. I was big enough, strong enough—I thought I could cover both. {i}[[His voice drops.]{/i} I was wrong."
     jump act1_climax_setup_rho_personal_truth
 
 label act1_climax_setup_rho_personal_calm:
@@ -793,7 +793,7 @@ label act1_climax_setup_rho_personal_truth:
 
 label act1_climax_setup_rho_personal_truth_2:
     $ relationship_manager.process_reputation_affinity("rho", 1)
-    rho "{i}He meets your eyes.{/i} And I like that you're here. A kid with a shard in her skull and more courage than sense. {i}[The grin comes back, but warmer.]{/i} Reminds me why I stopped doing this for money."
+    rho "{i}He meets your eyes.{/i} And I like that you're here. A kid with a shard in her skull and more courage than sense. {i}[[The grin comes back, but warmer.]{/i} Reminds me why I stopped doing this for money."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_nyx:
@@ -814,7 +814,7 @@ label act1_climax_setup_nyx_personal_choice:
             jump act1_climax_setup_nyx_personal_lattice
         "You said you fought a Writbound before. Tell me.":
             jump act1_climax_setup_nyx_personal_writbound
-        "[Sit with her. Match your breathing to the conduit pulse.]":
+        "[[Sit with her. Match your breathing to the conduit pulse.]":
             jump act1_climax_setup_nyx_personal_meditate
 
 label act1_climax_setup_nyx_personal_lattice:
@@ -822,7 +822,7 @@ label act1_climax_setup_nyx_personal_lattice:
     jump act1_climax_setup_nyx_personal_fear
 
 label act1_climax_setup_nyx_personal_writbound:
-    nyx "{i}Her eyes open. The memory is right there, behind them.{/i} Kallos Station. Three years ago. A containment entity had bonded with a security operative. He could reshape walls, seal doors with a thought, turn the architecture into a weapon. {i}[She touches a scar beneath her collar.]{/i} I won because I'm stubborn and he was overconfident. That's not a strategy I'd recommend."
+    nyx "{i}Her eyes open. The memory is right there, behind them.{/i} Kallos Station. Three years ago. A containment entity had bonded with a security operative. He could reshape walls, seal doors with a thought, turn the architecture into a weapon. {i}[[She touches a scar beneath her collar.]{/i} I won because I'm stubborn and he was overconfident. That's not a strategy I'd recommend."
     jump act1_climax_setup_nyx_personal_fear
 
 label act1_climax_setup_nyx_personal_meditate:
@@ -835,7 +835,7 @@ label act1_climax_setup_nyx_personal_fear:
 
 label act1_climax_setup_nyx_personal_fear_2:
     $ relationship_manager.process_reputation_affinity("nyx", 1)
-    nyx "{i}She shakes her head.{/i} It would be like going deaf. Blind. Worse. It would be like forgetting that music exists. {i}[She looks at you.]{/i} Protect my back in there. Not my body—my focus. Keep them off me long enough to do my work."
+    nyx "{i}She shakes her head.{/i} It would be like going deaf. Blind. Worse. It would be like forgetting that music exists. {i}[[She looks at you.]{/i} Protect my back in there. Not my body—my focus. Keep them off me long enough to do my work."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_jalen:
@@ -846,7 +846,7 @@ label act1_climax_setup_jalen_personal_1:
     if game_state.has_flag("jalen_bonded"):
         jalen "{i}He sees you and immediately saves his work—actually saves and closes a screen. For Jalen, that's the equivalent of a standing ovation.{/i} Hey. Come look at this."
     else:
-        jalen "{i}He holds up one finger—wait.{/i} ...{i}typing intensifies{/i}... {i}another thirty seconds{/i}... Done. Partial decryption of their secondary comm channel. {i}[He spins his chair to face you.]{/i} What's up?"
+        jalen "{i}He holds up one finger—wait.{/i} ...{i}typing intensifies{/i}... {i}another thirty seconds{/i}... Done. Partial decryption of their secondary comm channel. {i}[[He spins his chair to face you.]{/i} What's up?"
     jump act1_climax_setup_jalen_personal_choice
 
 label act1_climax_setup_jalen_personal_choice:
@@ -856,7 +856,7 @@ label act1_climax_setup_jalen_personal_choice:
             jump act1_climax_setup_jalen_personal_tech
         "How are you holding up?":
             jump act1_climax_setup_jalen_personal_honest
-        "[Look at his simulations. Try to understand the numbers.]":
+        "[[Look at his simulations. Try to understand the numbers.]":
             jump act1_climax_setup_jalen_personal_learn
 
 label act1_climax_setup_jalen_personal_honest:
@@ -864,7 +864,7 @@ label act1_climax_setup_jalen_personal_honest:
     jump act1_climax_setup_jalen_personal_honest_2
 
 label act1_climax_setup_jalen_personal_honest_2:
-    jalen "{i}He looks at you.{/i} I was corporate. Did you know that? Three years as a systems architect for Meridian Industrial. I built the security that kept people like us out. {i}[He swallows.]{/i} Now I'm on this side of the wall, and I keep wondering if someone like me is in there right now, building the thing that kills one of us."
+    jalen "{i}He looks at you.{/i} I was corporate. Did you know that? Three years as a systems architect for Meridian Industrial. I built the security that kept people like us out. {i}[[He swallows.]{/i} Now I'm on this side of the wall, and I keep wondering if someone like me is in there right now, building the thing that kills one of us."
     jump act1_climax_setup_jalen_personal_truth
 
 label act1_climax_setup_jalen_personal_learn:
@@ -872,7 +872,7 @@ label act1_climax_setup_jalen_personal_learn:
     jump act1_climax_setup_jalen_personal_learn_2
 
 label act1_climax_setup_jalen_personal_learn_2:
-    jalen "{i}He notices you reading. His expression shifts—surprise, then something warmer.{/i} You see the pattern? The security response clusters here—predictable, because corporate doctrine values consistency over creativity. That's their weakness. {i}[He points.]{/i} And that gap is where we get in."
+    jalen "{i}He notices you reading. His expression shifts—surprise, then something warmer.{/i} You see the pattern? The security response clusters here—predictable, because corporate doctrine values consistency over creativity. That's their weakness. {i}[[He points.]{/i} And that gap is where we get in."
     jump act1_climax_setup_jalen_personal_truth
 
 label act1_climax_setup_jalen_personal_tech:
@@ -880,7 +880,7 @@ label act1_climax_setup_jalen_personal_tech:
     jump act1_climax_setup_jalen_tech_detail_2
 
 label act1_climax_setup_jalen_tech_detail_2:
-    jalen "—you use this. {i}[He hands you a data chip, small and warm.]{/i} Insert it into the console. It'll bypass the biometric and start the data pull. Takes ninety seconds. Don't remove it early or the files corrupt."
+    jalen "—you use this. {i}[[He hands you a data chip, small and warm.]{/i} Insert it into the console. It'll bypass the biometric and start the data pull. Takes ninety seconds. Don't remove it early or the files corrupt."
     jump act1_climax_setup_jalen_tech_check
 
 label act1_climax_setup_jalen_tech_check:
@@ -894,11 +894,11 @@ label act1_climax_setup_jalen_tech_check:
 label act1_climax_setup_jalen_tech_success:
     $ game_state.set_flag("avyanna_knows_extraction")
     $ relationship_manager.process_reputation_affinity("jalen", 1)
-    jalen "{i}Surprised. Pleased.{/i} You picked that up fast. Most people need three run-throughs. {i}[He leans back.]{/i} If I go down, you can finish the extraction. That's... that's good to know."
+    jalen "{i}Surprised. Pleased.{/i} You picked that up fast. Most people need three run-throughs. {i}[[He leans back.]{/i} If I go down, you can finish the extraction. That's... that's good to know."
     jump act1_climax_setup_jalen_personal_truth
 
 label act1_climax_setup_jalen_tech_failure:
-    jalen "{i}Patient.{/i} Close. The sequence is insert-confirm-wait. Not insert-wait-confirm. Let's run it again. {i}[He smiles.]{/i} You'll get it. The important part is you asked."
+    jalen "{i}Patient.{/i} Close. The sequence is insert-confirm-wait. Not insert-wait-confirm. Let's run it again. {i}[[He smiles.]{/i} You'll get it. The important part is you asked."
     jump act1_climax_setup_jalen_personal_truth
 
 label act1_climax_setup_jalen_personal_truth:
@@ -906,7 +906,7 @@ label act1_climax_setup_jalen_personal_truth:
     jump act1_climax_setup_jalen_personal_truth_2
 
 label act1_climax_setup_jalen_personal_truth_2:
-    jalen "{i}He takes off his glasses, rubs his eyes.{/i} I build systems. I believe in information. But some information breaks people. {i}[He puts the glasses back on.]{/i} I guess that's why we have each other. To hold the weight together."
+    jalen "{i}He takes off his glasses, rubs his eyes.{/i} I build systems. I believe in information. But some information breaks people. {i}[[He puts the glasses back on.]{/i} I guess that's why we have each other. To hold the weight together."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_elisira:
@@ -927,15 +927,15 @@ label act1_climax_setup_elisira_personal_choice:
             jump act1_climax_setup_elisira_personal_dreeve
         "What were you, before?":
             jump act1_climax_setup_elisira_personal_before
-        "[Pick up a cleaning kit and work on your own weapon beside her]":
+        "[[Pick up a cleaning kit and work on your own weapon beside her]":
             jump act1_climax_setup_elisira_personal_parallel
 
 label act1_climax_setup_elisira_personal_dreeve:
-    elisira "{i}Her hands slow—not stop.{/i} I don't know Dreeve. I know the type. The machine made him and the machine will use him until he breaks. {i}[She slots a component into place.]{/i} That's not personal. That's pattern recognition."
+    elisira "{i}Her hands slow—not stop.{/i} I don't know Dreeve. I know the type. The machine made him and the machine will use him until he breaks. {i}[[She slots a component into place.]{/i} That's not personal. That's pattern recognition."
     jump act1_climax_setup_elisira_personal_deeper
 
 label act1_climax_setup_elisira_personal_before:
-    elisira "{i}A pause. The kind that means she's deciding how much truth to spend.{/i} I was a tool. A very expensive, very effective tool. I did what they pointed me at and I did it well. {i}[Beat.]{/i} That's not who I am now. But it's who I know how to be."
+    elisira "{i}A pause. The kind that means she's deciding how much truth to spend.{/i} I was a tool. A very expensive, very effective tool. I did what they pointed me at and I did it well. {i}[[Beat.]{/i} That's not who I am now. But it's who I know how to be."
     jump act1_climax_setup_elisira_personal_deeper
 
 label act1_climax_setup_elisira_personal_parallel:
@@ -948,7 +948,7 @@ label act1_climax_setup_elisira_personal_deeper:
 
 label act1_climax_setup_elisira_personal_deeper_2:
     $ relationship_manager.process_reputation_affinity("elisira", 1)
-    elisira "{i}She holds a pistol up to the light, checking the barrel.{/i} They're good people doing hard work without losing themselves. That's rare. That's worth protecting. {i}[She looks at you sidelong.]{/i} So is whatever's growing in you. The shard, the entity—BEE. Don't let anyone take it from you."
+    elisira "{i}She holds a pistol up to the light, checking the barrel.{/i} They're good people doing hard work without losing themselves. That's rare. That's worth protecting. {i}[[She looks at you sidelong.]{/i} So is whatever's growing in you. The shard, the entity—BEE. Don't let anyone take it from you."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_elia:
@@ -969,15 +969,15 @@ label act1_climax_setup_elia_personal_choice:
             jump act1_climax_setup_elia_personal_weight
         "Are we going to make it?":
             jump act1_climax_setup_elia_personal_odds
-        "[Say nothing. Just stand beside her and look at the stars.]":
+        "[[Say nothing. Just stand beside her and look at the stars.]":
             jump act1_climax_setup_elia_personal_quiet
 
 label act1_climax_setup_elia_personal_weight:
-    elia "{i}Long exhale.{/i} I don't carry it. I hold it. There's a difference. Carrying implies you can put it down. {i}[She looks at her hands.]{/i} I hold it because if I let go, someone else has to pick it up, and they might not be strong enough."
+    elia "{i}Long exhale.{/i} I don't carry it. I hold it. There's a difference. Carrying implies you can put it down. {i}[[She looks at her hands.]{/i} I hold it because if I let go, someone else has to pick it up, and they might not be strong enough."
     jump act1_climax_setup_elia_personal_truth
 
 label act1_climax_setup_elia_personal_odds:
-    elia "{i}She turns to face you. Direct.{/i} Honestly? I don't know. The math says no. The crew says yes. {i}[A ghost of a smile.]{/i} I've always bet on people over numbers."
+    elia "{i}She turns to face you. Direct.{/i} Honestly? I don't know. The math says no. The crew says yes. {i}[[A ghost of a smile.]{/i} I've always bet on people over numbers."
     jump act1_climax_setup_elia_personal_truth
 
 label act1_climax_setup_elia_personal_quiet:
@@ -994,15 +994,15 @@ label act1_climax_setup_elia_personal_truth_2:
 
 label act1_climax_setup_elia_personal_truth_3:
     $ relationship_manager.process_reputation_affinity("elia", 2)
-    elia "{i}She stops. Starts again.{/i} You made me remember why I do this. Not the contracts. Not the survival. The {i}people{/i}. {i}[She meets your eyes.]{/i} So yes. We're going to make it. Because I refuse to lose any of you."
+    elia "{i}She stops. Starts again.{/i} You made me remember why I do this. Not the contracts. Not the survival. The {i}people{/i}. {i}[[She meets your eyes.]{/i} So yes. We're going to make it. Because I refuse to lose any of you."
     jump act1_climax_setup_personal_return
 
 label act1_climax_setup_personal_return:
     "{i}You return to the common area. The ship hums around you—alive, waiting, faithful.{/i}"
     menu:
-        "[Speak with someone else]":
+        "[[Speak with someone else]":
             jump act1_climax_setup_personal_moments_choice
-        "[Head to the briefing room. It's time.]":
+        "[[Head to the briefing room. It's time.]":
             jump act1_climax_setup_three_hours_later
 
 label act1_climax_setup_three_hours_later:
@@ -1042,7 +1042,7 @@ label act1_climax_setup_equipment_avyanna:
     jump act1_climax_setup_bee_equipment_scan
 
 label act1_climax_setup_bee_equipment_scan:
-    bee "{{BEE:: host-systems nominal | shard-resonance stable | combat-readiness assessed | personal note: I will be with you in the dark places—you will not walk alone}}"
+    bee "{{BEE:: host-systems nominal | shard-resonance stable | combat-readiness assessed | personal note: I will be with you in the dark places—you will not walk alone}"
     jump act1_climax_setup_equipment_insight_check
 
 label act1_climax_setup_equipment_insight_check:
@@ -1067,7 +1067,7 @@ label act1_climax_setup_insight_pass:
     jump act1_climax_setup_waffle_climax_ready
 
 label act1_climax_setup_waffle_climax_ready:
-    waffle "{i}}{{WAFFLE.BAT// ALL_SYSTEMS: combat ready | CREW_VITALS: elevated but stable | PERSONAL_NOTE: bring everyone home. please.}}{/i}}"
+    waffle "{i}{{WAFFLE.BAT// ALL_SYSTEMS: combat ready | CREW_VITALS: elevated but stable | PERSONAL_NOTE: bring everyone home. please.}{/i}"
     jump act1_climax_setup_bubbles_climax_care
 
 label act1_climax_setup_bubbles_climax_care:
@@ -1087,11 +1087,11 @@ label act1_climax_setup_elia_speech_1:
     jump act1_climax_setup_elia_speech_2
 
 label act1_climax_setup_elia_speech_2:
-    elia "I'm not going to tell you the odds. Jalen already ran them. They're bad. {i}[A few grim smiles around the table.]{/i} But we've beaten bad odds before. That's not luck. That's us."
+    elia "I'm not going to tell you the odds. Jalen already ran them. They're bad. {i}[[A few grim smiles around the table.]{/i} But we've beaten bad odds before. That's not luck. That's us."
     jump act1_climax_setup_elia_speech_3
 
 label act1_climax_setup_elia_speech_3:
-    elia "What I will tell you is this: inside that station are records that will determine whether Avyanna lives free or gets dragged back into a cage. {i}[She looks at you.]{/i} She's one of us. That makes this simple."
+    elia "What I will tell you is this: inside that station are records that will determine whether Avyanna lives free or gets dragged back into a cage. {i}[[She looks at you.]{/i} She's one of us. That makes this simple."
     jump act1_climax_setup_elia_speech_4
 
 label act1_climax_setup_elia_speech_4:
@@ -1099,7 +1099,7 @@ label act1_climax_setup_elia_speech_4:
     jump act1_climax_setup_elia_speech_5
 
 label act1_climax_setup_elia_speech_5:
-    elia "{i}She looks at each of them. One at a time. Taking the measure.{/i} —we choose the life. Every time. No data is worth more than any one of you. {i}[Beat.]{/i} Not even mine."
+    elia "{i}She looks at each of them. One at a time. Taking the measure.{/i} —we choose the life. Every time. No data is worth more than any one of you. {i}[[Beat.]{/i} Not even mine."
     jump act1_climax_setup_elia_speech_6
 
 label act1_climax_setup_elia_speech_6:
@@ -1121,11 +1121,11 @@ label act1_climax_setup_speech_reaction:
 label act1_climax_setup_speech_player_choice:
     "{i}The crew waits for you. The newest member. The reason for all of it.{/i}"
     menu:
-        "[Draw your weapon and raise it with the crew]":
+        "[[Draw your weapon and raise it with the crew]":
             jump act1_climax_setup_speech_response_weapon
-        "[Place your hand over the shard at your neck — your answer is in the pulse of it]":
+        "[[Place your hand over the shard at your neck — your answer is in the pulse of it]":
             jump act1_climax_setup_speech_response_shard
-        "[Simply say: 'Floor holds.']":
+        "[[Simply say: 'Floor holds.']":
             jump act1_climax_setup_speech_response_words
 
 label act1_climax_setup_speech_response_weapon:
@@ -1137,7 +1137,7 @@ label act1_climax_setup_speech_response_shard:
     jump act1_climax_setup_bee_speech_response
 
 label act1_climax_setup_bee_speech_response:
-    bee "{{BEE:: host-affirmation registered | crew-bond acknowledged | the floor holds because we hold it—all of us, living and lattice-born}}"
+    bee "{{BEE:: host-affirmation registered | crew-bond acknowledged | the floor holds because we hold it—all of us, living and lattice-born}"
     jump act1_climax_setup_elia_floor_holds
 
 label act1_climax_setup_speech_response_words:
@@ -1158,7 +1158,7 @@ label act1_climax_setup_crew_response:
     jump act1_climax_setup_elia_final_words
 
 label act1_climax_setup_elia_final_words:
-    elia "We go in four hours. Gear up. Rest if you can. {i}[She looks at each person.]{/i} We're getting those records. And we're all coming home."
+    elia "We go in four hours. Gear up. Rest if you can. {i}[[She looks at each person.]{/i} We're getting those records. And we're all coming home."
     jump act1_climax_setup_final_tactical_review
 
 label act1_climax_setup_final_tactical_review:
@@ -1166,7 +1166,7 @@ label act1_climax_setup_final_tactical_review:
     jump act1_climax_setup_jalen_comms_check
 
 label act1_climax_setup_jalen_comms_check:
-    jalen "Comms check. Assault team, channel alpha. Hold team, channel bravo. Emergency fallback on channel delta. {i}[He taps his earpiece.]{/i} If you hear static on alpha, switch to delta immediately. If delta goes down—"
+    jalen "Comms check. Assault team, channel alpha. Hold team, channel bravo. Emergency fallback on channel delta. {i}[[He taps his earpiece.]{/i} If you hear static on alpha, switch to delta immediately. If delta goes down—"
     jump act1_climax_setup_jalen_comms_check_2
 
 label act1_climax_setup_jalen_comms_check_2:
@@ -1174,23 +1174,23 @@ label act1_climax_setup_jalen_comms_check_2:
     jump act1_climax_setup_vesper_final_review
 
 label act1_climax_setup_vesper_final_review:
-    vesper "Overwatch positions mapped. Primary, secondary, and tertiary fallback points for extraction. {i}[She looks at the schematic one final time.]{/i} Sight lines confirmed. Counter-sniper protocols loaded. If they have marksmen, I'll find them first."
+    vesper "Overwatch positions mapped. Primary, secondary, and tertiary fallback points for extraction. {i}[[She looks at the schematic one final time.]{/i} Sight lines confirmed. Counter-sniper protocols loaded. If they have marksmen, I'll find them first."
     jump act1_climax_setup_rho_final_review
 
 label act1_climax_setup_rho_final_review:
-    rho "Breach charges calibrated. Three for bulkheads, two for emergency access, one reserve. {i}[He holds up the last charge.]{/i} This one's for something we haven't planned for. There's always something."
+    rho "Breach charges calibrated. Three for bulkheads, two for emergency access, one reserve. {i}[[He holds up the last charge.]{/i} This one's for something we haven't planned for. There's always something."
     jump act1_climax_setup_nyx_final_review
 
 label act1_climax_setup_nyx_final_review:
-    nyx "Lattice disruption array is primed. I'll hit their outer wards the moment we're in range. The inner wards—the old ones—I'll assess in real-time. {i}[She flexes her fingers and the conductive ink glows.]{/i} I'm ready."
+    nyx "Lattice disruption array is primed. I'll hit their outer wards the moment we're in range. The inner wards—the old ones—I'll assess in real-time. {i}[[She flexes her fingers and the conductive ink glows.]{/i} I'm ready."
     jump act1_climax_setup_elisira_final_review
 
 label act1_climax_setup_elisira_final_review:
-    elisira "Suppressed pistols, close-quarters loadout, Dreeve's likely command post flagged on the schematic. {i}[She checks her watch—mechanical, analog, the only non-digital thing about her.]{/i} Two minutes to insertion window."
+    elisira "Suppressed pistols, close-quarters loadout, Dreeve's likely command post flagged on the schematic. {i}[[She checks her watch—mechanical, analog, the only non-digital thing about her.]{/i} Two minutes to insertion window."
     jump act1_climax_setup_bee_final_analysis
 
 label act1_climax_setup_bee_final_analysis:
-    bee "{{BEE:: final tactical assessment | all variables logged | crew cohesion: maximum observed value | probability models inadequate for this variable | conclusion: they will exceed expectations—they always do}}"
+    bee "{{BEE:: final tactical assessment | all variables logged | crew cohesion: maximum observed value | probability models inadequate for this variable | conclusion: they will exceed expectations—they always do}"
     jump act1_climax_setup_final_departure_narration
 
 label act1_climax_setup_final_departure_narration:
@@ -1202,7 +1202,7 @@ label act1_climax_setup_elia_go_order:
     jump act1_climax_setup_elia_go_order_2
 
 label act1_climax_setup_elia_go_order_2:
-    elia "{i}Her hand finds the hilt of her blade. The ritual begins.{/i} We go quiet. We go fast. We go together. {i}[She inhales. Holds it.]{/i}"
+    elia "{i}Her hand finds the hilt of her blade. The ritual begins.{/i} We go quiet. We go fast. We go together. {i}[[She inhales. Holds it.]{/i}"
     jump act1_climax_setup_elia_go_final
 
 label act1_climax_setup_elia_go_final:
@@ -1212,6 +1212,6 @@ label act1_climax_setup_elia_go_final:
 label act1_climax_setup_end_briefing:
     "{i}The airlock opens. The station waits. Seven people step forward into the dark—armed, afraid, and unwilling to let fear make the choice for them. The floor holds. The floor always holds. Until it doesn't. And then you find out what you're really made of.{/i}"
     menu:
-        "[Continue]":
+        "[[Continue]":
             $ game_state.set_flag("act1_climax_ready")
             return

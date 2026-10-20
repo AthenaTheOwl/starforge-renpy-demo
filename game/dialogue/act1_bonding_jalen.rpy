@@ -20,7 +20,7 @@ label act1_bonding_jalen_avyanna_response_discovery:
 label act1_bonding_jalen_jalen_explanation:
     jalen "It's beautiful. Whoever built this was a genius. They embedded resonance sensors in standard station infrastructure—temperature, pressure, Lattice coherence, all feeding into a hidden database. {i}Gesturing rapidly.{/i} The company has no idea. They've been sitting on intelligence infrastructure for years and treating it like maintenance logs."
     menu:
-        "[Tech] Examine the interface. Try to understand what he's seeing.":
+        "[[Tech] Examine the interface. Try to understand what he's seeing.":
             $ _sc_result = skill_check("tech", 10, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_bonding_jalen_tech_success

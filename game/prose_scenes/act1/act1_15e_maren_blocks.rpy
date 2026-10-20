@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_15e_maren_blocks:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH15]{/b}\n{i}Trigger: Elisira teaches \"pattern\" like it's a language{/i}\n{i}Purpose: show Maren Sova's foundation without confirming her fate{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH15]{/b}\n{i}Trigger: Elisira teaches \"pattern\" like it's a language{/i}\n{i}Purpose: show Maren Sova's foundation without confirming her fate{/i}{/color}"
     pause 0.3
     narrator "{i}Elisira's lessons always look like paperwork until you realize they're knives.{/i}"
     narrator "{i}After the ghost net drill, Avyanna finds Elisira at the galley table with a small tin of colored blocks spread before her.{/i}"
@@ -14,7 +14,7 @@ label act1_15e_maren_blocks:
     narrator "{i}Yellow.{/i}"
     narrator "{i}Then she flips two pieces without changing her expression.{/i}"
     narrator "{i}The whole row reads differently.{/i}"
-    avyanna "{i}[[cautious]]{/i} What is that."
+    avyanna "{i}[[cautious]{/i} What is that."
     elisira "Encryption."
     avyanna "With blocks."
     elisira "With patterns."
@@ -36,7 +36,7 @@ label act1_15e_maren_blocks:
     narrator "{i}Her hands are stained with marker ink.{/i}"
     narrator "{i}Across from her, Maren Sova lays down three colored blocks like she's dealing cards.{/i}"
     maren "Rule one."
-    elisira "{i}[[automatic]]{/i} Don't trust a label."
+    elisira "{i}[[automatic]{/i} Don't trust a label."
     narrator "{i}Maren's mouth twitches.{/i}"
     maren "Good."
     maren "Rule two."
@@ -59,7 +59,7 @@ label act1_15e_maren_blocks:
     maren "Colors are symbols."
     maren "Symbols become rules when someone enforces them."
     maren "Who enforces this."
-    elisira "{i}[[frowning]]{/i} You."
+    elisira "{i}[[frowning]{/i} You."
     maren "Here."
     narrator "{i}Maren slides the blocks across the table, out of her own reach.{/i}"
     maren "Now who enforces it."
@@ -82,7 +82,7 @@ label act1_15e_maren_blocks:
     narrator "{i}Maren's eyes flicker-too fast to be a confession, too slow to be nothing.{/i}"
     maren "It sounds like being prepared."
     elisira "Prepared for what."
-    maren "{i}[[quiet]]{/i} For a galaxy that lies."
+    maren "{i}[[quiet]{/i} For a galaxy that lies."
 
     scene black with dissolve
     pause 0.5
@@ -105,13 +105,13 @@ label act1_15e_maren_blocks:
     narrator "{i}Elisira's fingers move again.{/i}"
     narrator "{i}She flips a block.{/i}"
     narrator "{i}The pattern changes.{/i}"
-    avyanna "{i}[[quiet]]{/i} Is it easier when it's colors."
+    avyanna "{i}[[quiet]{/i} Is it easier when it's colors."
     elisira "It was."
     avyanna "Was."
     narrator "{i}Elisira looks at her for one second.{/i}"
     elisira "It's easier when the rules are honest."
     avyanna "The galaxy isn't."
-    elisira "{i}[[flat]]{/i} Correct."
+    elisira "{i}[[flat]{/i} Correct."
     narrator "{i}Elisira turns a block over in her fingers, considering its weight.{/i}"
     elisira "That's why we make our own."
     narrator "{i}She pushes one block toward Avyanna.{/i}"

@@ -28,7 +28,7 @@ label act1_deep_rho_avyanna_confused:
             jump act1_deep_rho_ask_count
         "You don't have to tell me.":
             jump act1_deep_rho_offer_out
-        "[Stay silent. Wait for him.]":
+        "[[Stay silent. Wait for him.]":
             jump act1_deep_rho_patient_silence
 
 label act1_deep_rho_ask_count:
@@ -64,7 +64,7 @@ label act1_deep_rho_militia_prompt_choices:
             jump act1_deep_rho_militia_history
         "What was it like out there?":
             jump act1_deep_rho_militia_life
-        "[Say nothing. Let him find his own way into it.]":
+        "[[Say nothing. Let him find his own way into it.]":
             jump act1_deep_rho_militia_life
 
 label act1_deep_rho_militia_history:
@@ -325,7 +325,7 @@ label act1_deep_rho_finding_crew_transition:
             jump act1_deep_rho_finding_crew
         "I lost people too. Not the same way, but—I understand the weight.":
             jump act1_deep_rho_player_loss_share
-        "[Let the silence hold. He'll continue when he's ready.]":
+        "[[Let the silence hold. He'll continue when he's ready.]":
             jump act1_deep_rho_finding_crew
 
 label act1_deep_rho_player_loss_share:
@@ -388,7 +388,7 @@ label act1_deep_rho_loyalty_philosophy_3:
 label act1_deep_rho_empathy_check:
     "His hands have stopped moving. The firing mechanism rests in his lap, forgotten. His shoulders carry a weight that has nothing to do with armor."
     menu:
-        "[Empathy DC 12] You carry their weight because you loved them.":
+        "[[Empathy DC 12] You carry their weight because you loved them.":
             $ _sc_result = skill_check("empathy", 12, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_rho_empathy_success

@@ -10,7 +10,7 @@ label act1_corporate_conspiracy_start:
     jump act1_corporate_conspiracy_jalen_greeting
 
 label act1_corporate_conspiracy_jalen_greeting:
-    jalen "Avyanna. Good. You should hear this. {i}[He gestures to a chair.]{/i} Sit down."
+    jalen "Avyanna. Good. You should hear this. {i}[[He gestures to a chair.]{/i} Sit down."
     jump act1_corporate_conspiracy_avyanna_concern
 
 label act1_corporate_conspiracy_avyanna_concern:
@@ -18,7 +18,7 @@ label act1_corporate_conspiracy_avyanna_concern:
     jump act1_corporate_conspiracy_jalen_reveal_start
 
 label act1_corporate_conspiracy_jalen_reveal_start:
-    jalen "I've been tracking corporate filings. Cross-referencing Aurum Extraction's debt recovery claims with Compact medical research permits. {i}[He turns a datapad toward you.]{/i} Look at this."
+    jalen "I've been tracking corporate filings. Cross-referencing Aurum Extraction's debt recovery claims with Compact medical research permits. {i}[[He turns a datapad toward you.]{/i} Look at this."
     jump act1_corporate_conspiracy_data_display
 
 label act1_corporate_conspiracy_data_display:
@@ -30,7 +30,7 @@ label act1_corporate_conspiracy_jalen_explanation_1:
     jump act1_corporate_conspiracy_jalen_explanation_2
 
 label act1_corporate_conspiracy_jalen_explanation_2:
-    jalen "They found something down there. Something old. Pre-Synthetic. And when you touched it—{i}[He looks at you.]{/i}—you became their primary asset."
+    jalen "They found something down there. Something old. Pre-Synthetic. And when you touched it—{i}[[He looks at you.]{/i}—you became their primary asset."
     jump act1_corporate_conspiracy_avyanna_processing
 
 label act1_corporate_conspiracy_avyanna_processing:
@@ -38,7 +38,7 @@ label act1_corporate_conspiracy_avyanna_processing:
     jump act1_corporate_conspiracy_jalen_confirmation
 
 label act1_corporate_conspiracy_jalen_confirmation:
-    jalen "They knew. And they let you touch it anyway. {i}[He swipes to another file.]{/i} Here—medical recovery permits filed three days after we extracted you. {b}'Debt recovery and asset reclamation.'{/b}"
+    jalen "They knew. And they let you touch it anyway. {i}[[He swipes to another file.]{/i} Here—medical recovery permits filed three days after we extracted you. {b}'Debt recovery and asset reclamation.'{/b}"
     jump act1_corporate_conspiracy_conspiracy_depth
 
 label act1_corporate_conspiracy_conspiracy_depth:
@@ -54,7 +54,7 @@ label act1_corporate_conspiracy_elia_arrives:
     jump act1_corporate_conspiracy_elia_reaction_01
 
 label act1_corporate_conspiracy_elia_reaction_01:
-    elia "Jalen sent me a copy. {i}[She sets the datapad down, carefully, like she's afraid she'll break it if she doesn't.]{/i} I've seen corporate ugliness before. Wage theft, forced labor, AI exploitation. But this..."
+    elia "Jalen sent me a copy. {i}[[She sets the datapad down, carefully, like she's afraid she'll break it if she doesn't.]{/i} I've seen corporate ugliness before. Wage theft, forced labor, AI exploitation. But this..."
     jump act1_corporate_conspiracy_elia_reaction_02
 
 label act1_corporate_conspiracy_elia_reaction_02:
@@ -66,7 +66,7 @@ label act1_corporate_conspiracy_elia_reaction_03:
     jump act1_corporate_conspiracy_new_evidence_discovery
 
 label act1_corporate_conspiracy_new_evidence_discovery:
-    jalen "{i}[He pulls up one more file — this one encrypted, recently cracked.]{/i} There's something else. I found a shipping manifest routed through a Compact waystation. Aurum was moving sealed crates labeled 'geological samples' to a black-site facility in the Reach Terminus sector."
+    jalen "{i}[[He pulls up one more file — this one encrypted, recently cracked.]{/i} There's something else. I found a shipping manifest routed through a Compact waystation. Aurum was moving sealed crates labeled 'geological samples' to a black-site facility in the Reach Terminus sector."
     jump act1_corporate_conspiracy_new_evidence_02
 
 label act1_corporate_conspiracy_new_evidence_02:
@@ -78,29 +78,29 @@ label act1_corporate_conspiracy_new_evidence_03:
     jump act1_corporate_conspiracy_bee_analysis
 
 label act1_corporate_conspiracy_bee_analysis:
-    "{{BEE:: Corporate data cross-reference complete | STATUS: Pattern confirmed | DETAIL: Aurum Extraction, Debtor Holdings, and Compact Medical Research Division 7 share 14 board members. Shell corporation nesting depth: 6 layers. Financial trail terminates at a classified Consortium defense account. This is not corporate greed — this is state-sponsored weapons research using Primordial artifacts as substrate.}}"
+    "{{BEE:: Corporate data cross-reference complete | STATUS: Pattern confirmed | DETAIL: Aurum Extraction, Debtor Holdings, and Compact Medical Research Division 7 share 14 board members. Shell corporation nesting depth: 6 layers. Financial trail terminates at a classified Consortium defense account. This is not corporate greed — this is state-sponsored weapons research using Primordial artifacts as substrate.}"
     jump act1_corporate_conspiracy_jalen_bee_react
 
 label act1_corporate_conspiracy_jalen_bee_react:
-    jalen "{i}[Reading the BEE output, his face goes pale.]{/i} Consortium defense. This goes higher than corporate. This is {i}government{/i}."
+    jalen "{i}[[Reading the BEE output, his face goes pale.]{/i} Consortium defense. This goes higher than corporate. This is {i}government{/i}."
     jump act1_corporate_conspiracy_player_choice
 
 label act1_corporate_conspiracy_player_choice:
     "{i}The weight of it settles. You're not free. You're fugitive property carrying contraband. The choice is how you respond.{/i}"
     menu:
-        "[Caution] We hide. Stay off grids. Don't give them a target.":
+        "[[Caution] We hide. Stay off grids. Don't give them a target.":
             $ game_state.set_flag("conspiracy_revealed")
             $ game_state.set_flag("rep_corporate_heat", game_state.get_flag("rep_corporate_heat", 0) + 0)
             jump act1_corporate_conspiracy_caution_response
-        "[Aggression] We hit them first. Expose this publicly.":
+        "[[Aggression] We hit them first. Expose this publicly.":
             $ game_state.set_flag("conspiracy_revealed")
             $ game_state.set_flag("rep_corporate_heat", game_state.get_flag("rep_corporate_heat", 0) + 2)
             jump act1_corporate_conspiracy_aggression_response
-        "[Investigation] We need more data. Find their weak points.":
+        "[[Investigation] We need more data. Find their weak points.":
             $ game_state.set_flag("conspiracy_revealed")
             $ game_state.set_flag("rep_corporate_heat", game_state.get_flag("rep_corporate_heat", 0) + 1)
             jump act1_corporate_conspiracy_investigation_response
-        "[Defiance] They made me into a weapon. Fine. Let them regret it.":
+        "[[Defiance] They made me into a weapon. Fine. Let them regret it.":
             $ game_state.set_flag("conspiracy_revealed")
             $ game_state.set_flag("rep_corporate_heat", game_state.get_flag("rep_corporate_heat", 0) + 1)
             jump act1_corporate_conspiracy_defiance_response
@@ -114,7 +114,7 @@ label act1_corporate_conspiracy_caution_vesper:
     jump act1_corporate_conspiracy_caution_outcome
 
 label act1_corporate_conspiracy_caution_outcome:
-    jalen "It's not a permanent solution. But it's survivable. {i}[He looks at you.]{/i} You okay with being a ghost?"
+    jalen "It's not a permanent solution. But it's survivable. {i}[[He looks at you.]{/i} You okay with being a ghost?"
     return
 
 label act1_corporate_conspiracy_aggression_response:
@@ -122,11 +122,11 @@ label act1_corporate_conspiracy_aggression_response:
     jump act1_corporate_conspiracy_aggression_vesper
 
 label act1_corporate_conspiracy_aggression_vesper:
-    vesper "{i}Stepping into the room.{/i} But public exposure limits their options. They can't quietly disappear you if the galaxy is watching. {i}[Beat.]{/i} We'd need ironclad evidence. And a platform they can't suppress."
+    vesper "{i}Stepping into the room.{/i} But public exposure limits their options. They can't quietly disappear you if the galaxy is watching. {i}[[Beat.]{/i} We'd need ironclad evidence. And a platform they can't suppress."
     jump act1_corporate_conspiracy_aggression_jalen
 
 label act1_corporate_conspiracy_aggression_jalen:
-    jalen "I can build the case. Manifests, permits, financial trails. But once we file, there's no taking it back. {i}[He looks at you.]{/i} You'd be painting a target on your back."
+    jalen "I can build the case. Manifests, permits, financial trails. But once we file, there's no taking it back. {i}[[He looks at you.]{/i} You'd be painting a target on your back."
     jump act1_corporate_conspiracy_aggression_choice
 
 label act1_corporate_conspiracy_aggression_choice:
@@ -146,7 +146,7 @@ label act1_corporate_conspiracy_investigation_plan:
     jump act1_corporate_conspiracy_investigation_vesper_addition
 
 label act1_corporate_conspiracy_investigation_vesper_addition:
-    vesper "And I'll start building exit strategies. Safe houses, alternate identities, extraction routes. If this goes wrong, we need options. {i}[She looks at you.]{/i} You're not going back."
+    vesper "And I'll start building exit strategies. Safe houses, alternate identities, extraction routes. If this goes wrong, we need options. {i}[[She looks at you.]{/i} You're not going back."
     return
 
 label act1_corporate_conspiracy_defiance_response:
@@ -161,5 +161,5 @@ label act1_corporate_conspiracy_defiance_jalen:
     $ game_state.set_flag("chose_defiance")
     $ relationship_manager.process_reputation_affinity("elia", 1)
     $ relationship_manager.process_reputation_affinity("jalen", 1)
-    jalen "{i}Quietly.{/i} Defiance without strategy is just noise. But defiance {i}with{/i} strategy... that's revolution. {i}[He leans forward.]{/i} Tell me what you need. I'll make it happen."
+    jalen "{i}Quietly.{/i} Defiance without strategy is just noise. But defiance {i}with{/i} strategy... that's revolution. {i}[[He leans forward.]{/i} Tell me what you need. I'll make it happen."
     return

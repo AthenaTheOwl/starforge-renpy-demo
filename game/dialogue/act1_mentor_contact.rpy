@@ -18,7 +18,7 @@ label act1_mentor_contact_signal_incoming:
     jump act1_mentor_contact_mentor_greeting
 
 label act1_mentor_contact_mentor_greeting:
-    unknown "{i}[Static]{/i} —listening? Good. Don't respond yet. Just hear this: {b}the girl you rescued from Site K-9 is more valuable than you know.{/b}"
+    unknown "{i}[[Static]{/i} —listening? Good. Don't respond yet. Just hear this: {b}the girl you rescued from Site K-9 is more valuable than you know.{/b}"
     jump act1_mentor_contact_mentor_warning
 
 label act1_mentor_contact_mentor_warning:
@@ -30,7 +30,7 @@ label act1_mentor_contact_elia_listens:
     jump act1_mentor_contact_mentor_deflect
 
 label act1_mentor_contact_mentor_deflect:
-    unknown "Someone who wants her to survive. Someone who's been watching the Kennel for fifteen years. {i}[Static surge]{/i} —doesn't matter who I am. What matters is {b}she's a target{/b}."
+    unknown "Someone who wants her to survive. Someone who's been watching the Kennel for fifteen years. {i}[[Static surge]{/i} —doesn't matter who I am. What matters is {b}she's a target{/b}."
     jump act1_mentor_contact_mentor_reveal_shard
 
 label act1_mentor_contact_mentor_reveal_shard:
@@ -38,11 +38,11 @@ label act1_mentor_contact_mentor_reveal_shard:
     jump act1_mentor_contact_mentor_lattice_hint
 
 label act1_mentor_contact_mentor_lattice_hint:
-    unknown "But the shard isn't what makes her dangerous. It's what it woke up. {i}[Static crackle]{/i} Her resonance with the Lattice—that's why they took her in the first place. That's why {b}extraction{/b} wasn't random."
+    unknown "But the shard isn't what makes her dangerous. It's what it woke up. {i}[[Static crackle]{/i} Her resonance with the Lattice—that's why they took her in the first place. That's why {b}extraction{/b} wasn't random."
     jump act1_mentor_contact_bee_agitation_early
 
 label act1_mentor_contact_bee_agitation_early:
-    "{{BEE:: lattice resonance referenced — unknown source | ELEVATED | pattern matches restricted K-9 documentation}}"
+    "{{BEE:: lattice resonance referenced — unknown source | ELEVATED | pattern matches restricted K-9 documentation}"
     jump act1_mentor_contact_mentor_preextraction
 
 label act1_mentor_contact_mentor_preextraction:
@@ -50,23 +50,23 @@ label act1_mentor_contact_mentor_preextraction:
     jump act1_mentor_contact_mentor_targeted
 
 label act1_mentor_contact_mentor_targeted:
-    unknown "She wasn't rescued from K-9, not really. She was {b}moved{/b}. From one cage to a smaller one. The shard was their leash. And now that she's loose— {i}[static hiss]{/i} —they want their investment back."
+    unknown "She wasn't rescued from K-9, not really. She was {b}moved{/b}. From one cage to a smaller one. The shard was their leash. And now that she's loose— {i}[[static hiss]{/i} —they want their investment back."
     jump act1_mentor_contact_player_choice
 
 label act1_mentor_contact_player_choice:
     "{i}The voice waits. Elia looks at you. The choice is yours.{/i}"
     menu:
-        "[Trust] Ask them what we should do.":
+        "[[Trust] Ask them what we should do.":
             $ game_state.set_flag("mentor_trusted")
             $ game_state.set_flag("rep_unknown_ally", game_state.get_flag("rep_unknown_ally", 0) + 1)
             jump act1_mentor_contact_trust_response
-        "[Demand Answers] Who are you? Why should we believe this?":
+        "[[Demand Answers] Who are you? Why should we believe this?":
             $ game_state.set_flag("mentor_questioned")
             jump act1_mentor_contact_demand_response
-        "[Cut Transmission] This is manipulation. End it now.":
+        "[[Cut Transmission] This is manipulation. End it now.":
             $ game_state.set_flag("mentor_rejected")
             jump act1_mentor_contact_cut_response
-        "[Trace Signal] Keep them talking. Waffle—lock onto that signal.":
+        "[[Trace Signal] Keep them talking. Waffle—lock onto that signal.":
             $ game_state.set_flag("mentor_traced")
             jump act1_mentor_contact_trace_attempt
 
@@ -94,7 +94,7 @@ label act1_mentor_contact_cut_response:
 
 label act1_mentor_contact_cut_followup:
     $ game_state.set_flag("mentor_contacted")
-    waffle "Signal terminated. Source remains unknown. {i}[Beat.]{/i} Recommendation: Monitor corporate feeds anyway. Just in case."
+    waffle "Signal terminated. Source remains unknown. {i}[[Beat.]{/i} Recommendation: Monitor corporate feeds anyway. Just in case."
     jump act1_mentor_contact_bee_react_cut
 
 label act1_mentor_contact_trace_attempt:
@@ -120,11 +120,11 @@ label act1_mentor_contact_trace_reaction:
 
 label act1_mentor_contact_mentor_crew_warning:
     $ game_state.set_flag("mentor_warning_heard")
-    unknown "{i}[Static drops to a whisper.]{/i} One more thing. Someone on your crew isn't what they seem. I don't know who. The signal noise makes it hard to be sure. But {b}someone close to you has a second loyalty.{/b}"
+    unknown "{i}[[Static drops to a whisper.]{/i} One more thing. Someone on your crew isn't what they seem. I don't know who. The signal noise makes it hard to be sure. But {b}someone close to you has a second loyalty.{/b}"
     jump act1_mentor_contact_mentor_crew_warning_2
 
 label act1_mentor_contact_mentor_crew_warning_2:
-    unknown "Could be debt. Could be ideology. Could be blackmail. Doesn't matter. When Aurum comes knocking, someone on that ship is going to open the door. {i}[The static swells.]{/i} Watch for it."
+    unknown "Could be debt. Could be ideology. Could be blackmail. Doesn't matter. When Aurum comes knocking, someone on that ship is going to open the door. {i}[[The static swells.]{/i} Watch for it."
     jump act1_mentor_contact_signal_death
 
 label act1_mentor_contact_signal_death:
@@ -132,7 +132,7 @@ label act1_mentor_contact_signal_death:
     jump act1_mentor_contact_bee_react_full
 
 label act1_mentor_contact_bee_react_full:
-    "{{BEE:: UNKNOWN CONTACT TERMINATED | AGITATED | lattice resonance claims require verification — crew integrity warning logged — recommend heightened monitoring of all shipboard communications}}"
+    "{{BEE:: UNKNOWN CONTACT TERMINATED | AGITATED | lattice resonance claims require verification — crew integrity warning logged — recommend heightened monitoring of all shipboard communications}"
     jump act1_mentor_contact_elia_aftermath
 
 label act1_mentor_contact_elia_aftermath:
@@ -142,11 +142,11 @@ label act1_mentor_contact_elia_aftermath:
 label act1_mentor_contact_aftermath_choice:
     "{i}The silence on the bridge is thick enough to cut. Elia watches you, waiting.{/i}"
     menu:
-        "[Cautious] We tell no one about this. Not until we know more.":
+        "[[Cautious] We tell no one about this. Not until we know more.":
             jump act1_mentor_contact_aftermath_secret
-        "[Open] We tell the crew. If someone's compromised, transparency is our best weapon.":
+        "[[Open] We tell the crew. If someone's compromised, transparency is our best weapon.":
             jump act1_mentor_contact_aftermath_open
-        "[Dismissive] It's paranoia bait. Classic destabilization. Ignore it.":
+        "[[Dismissive] It's paranoia bait. Classic destabilization. Ignore it.":
             jump act1_mentor_contact_aftermath_dismiss
 
 label act1_mentor_contact_aftermath_secret:
@@ -165,7 +165,7 @@ label act1_mentor_contact_aftermath_dismiss:
     return
 
 label act1_mentor_contact_bee_react_cut:
-    "{{BEE:: transmission terminated prematurely | AGITATED | partial data captured — lattice resonance claims flagged for review — insufficient information to assess threat level}}"
+    "{{BEE:: transmission terminated prematurely | AGITATED | partial data captured — lattice resonance claims flagged for review — insufficient information to assess threat level}"
     jump act1_mentor_contact_elia_aftermath_cut
 
 label act1_mentor_contact_elia_aftermath_cut:

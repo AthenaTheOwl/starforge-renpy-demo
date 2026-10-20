@@ -45,7 +45,7 @@ label act1_bonding_vesper_assessment:
 
 label act1_bonding_vesper_assessment_choice:
     menu:
-        "[Tactics] Break down the engagement angles":
+        "[[Tactics] Break down the engagement angles":
             $ _sc_result = skill_check("tactics", 10, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_bonding_vesper_skill_check_tactics_success

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_20d_aleena_pulls_elia_from_wreckage:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH20]{/b}\n{i}Trigger: Avyanna watches Elia move through the ship like it belongs to her{/i}\n{i}Purpose: Aleena as origin of \"you coming?\" as invitation, not leash{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH20]{/b}\n{i}Trigger: Avyanna watches Elia move through the ship like it belongs to her{/i}\n{i}Purpose: Aleena as origin of \"you coming?\" as invitation, not leash{/i}{/color}"
     pause 0.3
     narrator "{i}After \"The Receipt,\" the ship feels too bright.{/i}"
     narrator "{i}Not because the lights changed.{/i}"
@@ -17,7 +17,7 @@ label act1_20d_aleena_pulls_elia_from_wreckage:
     narrator "{i}Elia's mouth quirks.{/i}"
     elia "Want to break something."
     avyanna "No."
-    elia "{i}[[delighted]]{/i} Lies."
+    elia "{i}[[delighted]{/i} Lies."
     narrator "{i}Avyanna surprises herself by almost smiling.{/i}"
 
     scene black with dissolve
@@ -28,7 +28,7 @@ label act1_20d_aleena_pulls_elia_from_wreckage:
     avyanna "Vesper said-"
     narrator "{i}Avyanna stops.{/i}"
     narrator "{i}She doesn't know how to say \"family\" without choking.{/i}"
-    elia "{i}[[softer, still blunt]]{/i} Yeah."
+    elia "{i}[[softer, still blunt]{/i} Yeah."
     elia "That'll do it."
     narrator "{i}Avyanna's gaze flicks to Elia's hands.{/i}"
     narrator "{i}Scarred. Precise. Calm with weapons.{/i}"
@@ -91,7 +91,7 @@ label act1_20d_aleena_pulls_elia_from_wreckage:
     elia "Didn't take."
     narrator "{i}Avyanna's throat tightens.{/i}"
     avyanna "She said \"you coming?\""
-    elia "{i}[[a small nod]]{/i} Yeah."
+    elia "{i}[[a small nod]{/i} Yeah."
     elia "That's the whole thing."
     elia "It's not a command."
     elia "It's a door."
@@ -103,10 +103,10 @@ label act1_20d_aleena_pulls_elia_from_wreckage:
     elia "But it's always your feet."
     narrator "{i}Avyanna swallows.{/i}"
     avyanna "Okay."
-    elia "{i}[[crooked]]{/i} Good."
+    elia "{i}[[crooked]{/i} Good."
     elia "Now go do whatever your vibrating problem is."
-    avyanna "{i}[[deadpan]]{/i} That was emotional."
-    elia "{i}[[immediately defensive]]{/i} It was practical."
+    avyanna "{i}[[deadpan]{/i} That was emotional."
+    elia "{i}[[immediately defensive]{/i} It was practical."
     narrator "{i}Avyanna walks out of the bay with her chest tight and her spine a fraction straighter.{/i}"
     narrator "{i}A door, offered.{/i}"
     narrator "{i}A phrase that means: choose.{/i}"

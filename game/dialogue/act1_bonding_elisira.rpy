@@ -20,7 +20,7 @@ label act1_bonding_elisira_avyanna_deflect:
 label act1_bonding_elisira_elisira_assessment:
     elisira "That's the answer I wanted. No performance. No embellishment. You assessed, you acted, you didn't wait for permission. {i}A pause. Something in her expression shifts—not warmth, but acknowledgment.{/i} You've been doing that since you came aboard. Initiative without grandstanding."
     menu:
-        "[Insight] Read her intent. What is she actually saying?":
+        "[[Insight] Read her intent. What is she actually saying?":
             $ _sc_result = skill_check("insight", 10, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_bonding_elisira_insight_success

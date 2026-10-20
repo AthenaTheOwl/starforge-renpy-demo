@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_14d_orin_teaches_bearing:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH14]{/b}\n{i}Trigger: Jalen refuses to teach \"instinct\" without ethics{/i}\n{i}Purpose: Orin Vey's framework, carried forward{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH14]{/b}\n{i}Trigger: Jalen refuses to teach \"instinct\" without ethics{/i}\n{i}Purpose: Orin Vey's framework, carried forward{/i}{/color}"
     pause 0.3
     narrator "{i}Jalen teaches like every mistake will kill someone.{/i}"
     narrator "{i}Which is not paranoia.{/i}"
@@ -22,7 +22,7 @@ label act1_14d_orin_teaches_bearing:
     avyanna "Teach me, then."
     narrator "{i}Jalen's gaze flicks to her, sharp.{/i}"
     jalen "You want the mechanics or the ethics."
-    avyanna "{i}[[honest]]{/i} Both."
+    avyanna "{i}[[honest]{/i} Both."
     narrator "{i}Jalen goes still.{/i}"
     narrator "{i}Not suspicious.{/i}"
     narrator "{i}...Relieved, maybe.{/i}"
@@ -41,7 +41,7 @@ label act1_14d_orin_teaches_bearing:
     jalen "So I don't die."
     orin "That's a reason."
     orin "Not a why."
-    jalen "{i}[[spits it]]{/i} So no one else dies because of me."
+    jalen "{i}[[spits it]{/i} So no one else dies because of me."
     narrator "{i}Orin's mouth twitches.{/i}"
     orin "That's closer."
     orin "Bearing isn't about the route you take."
@@ -70,9 +70,9 @@ label act1_14d_orin_teaches_bearing:
     narrator "{i}They don't force.{/i}"
     narrator "{i}They speak like consent is part of piloting.{/i}"
     orin "You can refuse to fly."
-    jalen "{i}[[instant]]{/i} No."
+    jalen "{i}[[instant]{/i} No."
     orin "You can refuse a route."
-    jalen "{i}[[hesitates]]{/i} That's not allowed."
+    jalen "{i}[[hesitates]{/i} That's not allowed."
     orin "That's a story."
     orin "Who enforces it."
     narrator "{i}Jalen's mouth opens.{/i}"
@@ -103,12 +103,12 @@ label act1_14d_orin_teaches_bearing:
     scene bg ship_interior with dissolve
     narrator "{i}Avyanna blinks back into the present with the strange certainty that Jalen didn't intend to give her that story.{/i}"
     narrator "{i}But something in their eyes, when they said \"Bearing,\" sounded like a memory with teeth.{/i}"
-    avyanna "{i}[[quiet]]{/i} It's about knowing why."
+    avyanna "{i}[[quiet]{/i} It's about knowing why."
     narrator "{i}Jalen's jaw flexes.{/i}"
     jalen "Don't quote things at me."
     avyanna "You just did."
     narrator "{i}Jalen's mouth tightens.{/i}"
-    jalen "{i}[[rough]]{/i} Yeah."
+    jalen "{i}[[rough]{/i} Yeah."
     jalen "So."
     jalen "Why are you asking."
     avyanna "Because I don't want to be a liar."

@@ -7,6 +7,9 @@ screen dice_roll_screen():
     zorder 150
     modal False
 
+    # combat calls this screen and waits for it to return
+    key "dismiss" action Return()
+
     if last_skill_check:
         $ _check = last_skill_check
         $ _result = _check.get("result", "FAILURE")
@@ -99,7 +102,7 @@ screen dice_roll_screen():
 
                         text "[_total]":
                             size 48
-                            color "[_color]"
+                            color _color
                             xalign 0.5
 
                     text "vs DC":
@@ -120,6 +123,6 @@ screen dice_roll_screen():
                 ## Result label
                 text "[_label]":
                     size 32
-                    color "[_color]"
+                    color _color
                     xalign 0.5
                     bold True

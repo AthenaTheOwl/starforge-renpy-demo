@@ -27,6 +27,7 @@ label act1_bonding_rho_rho_continues:
         "What does it cost you?":
             jump act1_bonding_rho_ask_cost
         "Why does loyalty matter so much to you?":
+            $ game_state.set_flag("rho_mentioned_past")
             jump act1_bonding_rho_ask_loyalty
         "What comes first for you—mission or crew?":
             jump act1_bonding_rho_ask_priorities

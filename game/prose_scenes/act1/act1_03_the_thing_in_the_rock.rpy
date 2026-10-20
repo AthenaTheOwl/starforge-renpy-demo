@@ -2,10 +2,10 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_03_the_thing_in_the_rock:
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - RESTRICTED SECTION MAINTENANCE SCHEDULE{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Section:{/i} Lower Works, Subsection 7-Gamma (DECOMMISSIONED)\n{i}Status:{/i} Quarterly cleaning cycle (minimal crew)\n{i}Authorization Level:{/i} Standard labor (supervised)\n{i}Note:{/i} Section sealed following geological instability event (see Incident Report 7-G-441, CLASSIFIED). Access for maintenance only. No extraction activity. Report anomalies to Shift Supervisor immediately.\n{i}Reminder:{/i} Curiosity is not a productivity metric.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - RESTRICTED SECTION MAINTENANCE SCHEDULE{/b}\n{i}Site:{/i} K-9 (\"The Kennel\")\n{i}Section:{/i} Lower Works, Subsection 7-Gamma (DECOMMISSIONED)\n{i}Status:{/i} Quarterly cleaning cycle (minimal crew)\n{i}Authorization Level:{/i} Standard labor (supervised)\n{i}Note:{/i} Section sealed following geological instability event (see Incident Report 7-G-441, CLASSIFIED). Access for maintenance only. No extraction activity. Report anomalies to Shift Supervisor immediately.\n{i}Reminder:{/i} Curiosity is not a productivity metric.{/color}"
     pause 0.3
     narrator "{i}The assignment comes through her tag at second-shift break. A vibration against her neck, then the data:{/i}"
-    narrator "{{color=#808090}}{b}WORKER 477 - SPECIAL ASSIGNMENT{/b}{{/color}}"
+    narrator "{color=#808090}{b}WORKER 477 - SPECIAL ASSIGNMENT{/b}{/color}"
     narrator "{i}Off-quota. That means it doesn't count toward her daily numbers. Eighty ticks for four hours-less than she'd make on the line, but not by much.{/i}"
     narrator "Lower Works. They're sending me to the Lower Works."
     narrator "{i}She hasn't been down there since they closed Section 7. Two years ago. Before-{/i}"
@@ -17,13 +17,13 @@ label act1_03_the_thing_in_the_rock:
     narrator "{i}The access point is a reinforced door at the bottom of the Cinder Steps. The kind of door that says \"authorized personnel only\" in the way it's built: heavy, scarred, clearly designed to keep things in as much as out.{/i}"
     narrator "{i}Supervisor Coil is waiting. She looks tired. More tired than usual.{/i}"
     coil "Four-seven-seven. You're on cleaning detail."
-    avyanna "{i}[[flat]]{/i} Yes."
-    coil "{i}[[handing her a kit-brushes, solvents, a respiratory mask that's seen better decades]]{/i} Section's been sealed two years. Dust, debris, some water damage from the condensation. You'll start in the equipment bays, work your way back to the old extraction face."
-    avyanna "{i}[[not quite a question]]{/i} Alone?"
-    coil "{i}[[beat]]{/i} You're steady. You don't panic. That's why you."
+    avyanna "{i}[[flat]{/i} Yes."
+    coil "{i}[[handing her a kit-brushes, solvents, a respiratory mask that's seen better decades]{/i} Section's been sealed two years. Dust, debris, some water damage from the condensation. You'll start in the equipment bays, work your way back to the old extraction face."
+    avyanna "{i}[[not quite a question]{/i} Alone?"
+    coil "{i}[[beat]{/i} You're steady. You don't panic. That's why you."
     narrator "That's why me. Because I'm quiet. Because I make quota and don't ask questions. Because I'm the safest body to throw into a sealed section."
-    coil "{i}[[she keys the door, which groans as it unseals]]{/i} Stay on the marked paths. Don't touch anything that looks unstable. Don't go past the barrier tape."
-    avyanna "{i}[[automatic]]{/i} Yes, Supervisor."
+    coil "{i}[[she keys the door, which groans as it unseals]{/i} Stay on the marked paths. Don't touch anything that looks unstable. Don't go past the barrier tape."
+    avyanna "{i}[[automatic]{/i} Yes, Supervisor."
     narrator "{i}Coil looks at her. Something in the supervisor's eyes-not concern. Fear. The kind of fear that doesn't know its own name.{/i}"
     coil "The Lower Works are... different. Old equipment down there. Things that were here before the current operation. [[she pauses, seems to stop herself from saying more] Just-clean what you can reach. Don't wander. And if you hear anything... don't answer."
     narrator "{i}She doesn't wait for Avyanna to respond. The door is open. The darkness beyond it is patient.{/i}"
@@ -38,7 +38,7 @@ label act1_03_the_thing_in_the_rock:
     narrator "{i}The equipment bays are exactly what Coil described: abandoned spaces filled with machinery that hasn't run in years. Dust covers everything-thick, gray-gold, the same color as the aurum dust but somehow different. Older.{/i}"
     narrator "{i}She starts cleaning. Methodical. Careful. The way she does everything.{/i}"
     narrator "{i}The cleaning kit has a checklist clipped inside. Standard corporate procedure. She reads it as she works:{/i}"
-    narrator "{{color=#808090}}{i}1. Confirm barrier tape integrity (photograph if damaged).{/i}\n{i}2. Clear debris from marked walkways only.{/i}\n{i}3. Report unauthorized symbols to Shift Supervisor.{/i}\n{i}4. Do not engage with auditory phenomena.{/i}\n{i}5. If equipment activates spontaneously, evacuate immediately.{/i}{{/color}}"
+    narrator "{color=#808090}{i}1. Confirm barrier tape integrity (photograph if damaged).{/i}\n{i}2. Clear debris from marked walkways only.{/i}\n{i}3. Report unauthorized symbols to Shift Supervisor.{/i}\n{i}4. Do not engage with auditory phenomena.{/i}\n{i}5. If equipment activates spontaneously, evacuate immediately.{/i}{/color}"
     narrator "Do not engage with auditory phenomena. They put that in the checklist. Like it's normal."
     narrator "{i}The work is simple. Sweep debris. Wipe surfaces. Bag what can be removed, mark what can't. The motions are automatic. Her mind wanders.{/i}"
     narrator "Why send me? Why now? Two years this place has been sealed, and suddenly they need it cleaned."
@@ -142,12 +142,12 @@ label act1_03_the_thing_in_the_rock:
     narrator "{i}She finishes the cleaning. Packs up the kit. Walks back through the Lower Works, past the old equipment, through the reinforced door, up the Cinder Steps to the world she knows.{/i}"
     narrator "{i}Supervisor Coil is gone. A different guard waves her through the checkpoint. The scanner beeps against her tag-{/i}"
     narrator "{i}And stops. The guard frowns. Checks his tablet.{/i}"
-    guard "{i}[[flat]]{/i} Hold."
+    guard "{i}[[flat]{/i} Hold."
     narrator "{i}Avyanna's blood goes cold. Her hands stay at her sides. She doesn't move. Doesn't breathe.{/i}"
     narrator "They know. The scanner saw something. They're going to-"
-    guard "{i}[[tapping the tablet, annoyed]]{/i} Calibration drift. Third time today. [[he waves her through] Go."
+    guard "{i}[[tapping the tablet, annoyed]{/i} Calibration drift. Third time today. [[he waves her through] Go."
     narrator "{i}The tag vibrates against her neck. A message she's not supposed to see-a flicker in her visual cortex, there and gone:{/i}"
-    narrator "{{color=#808090}}{i}NEUROLOAD SPIKE / FLAGGED FOR REVIEW / AUTO-CLEARED: ENVIRONMENTAL INTERFERENCE (7-GAMMA){/i}{{/color}}"
+    narrator "{color=#808090}{i}NEUROLOAD SPIKE / FLAGGED FOR REVIEW / AUTO-CLEARED: ENVIRONMENTAL INTERFERENCE (7-GAMMA){/i}{/color}"
     narrator "{i}Auto-cleared. The system saw something. The system decided it was nothing.{/i}"
     narrator "It's not nothing. But the system doesn't know that. Not yet."
     narrator "{i}Her head pounds. Something behind her eyes pulses in response-almost like gratitude. Almost like it's pleased the system didn't notice.{/i}"
@@ -222,7 +222,7 @@ label act1_03_the_thing_in_the_rock:
     narrator "I should report this. I should tell someone. I should-"
     narrator "{i}She doesn't. She won't. Old habits. Don't show weakness. Don't draw attention. Don't be anything except a number that makes quota.{/i}"
     narrator "{i}She stands. Walks to the count. Lets Coil's scanner beep against her neck.{/i}"
-    coil "{i}[[calling numbers]]{/i} Four-seven-five. Four-seven-six. Four-seven-seven."
+    coil "{i}[[calling numbers]{/i} Four-seven-five. Four-seven-six. Four-seven-seven."
     narrator "{i}Avyanna is four-seven-seven. She is nothing more than that. She is invisible. She is safe.{/i}"
     narrator "Except I'm not. Not anymore. Something marked me."
     narrator "And I don't know what comes next."
@@ -265,7 +265,7 @@ label act1_03_the_thing_in_the_rock:
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    narrator "{{color=#808090}}{b}AURUM EXTRACTION LTD. - ANOMALY REPORT (INTERNAL){/b}\n{i}Site:{/i} K-9\n{i}Section:{/i} Lower Works, Subsection 7-Gamma\n{i}Date:{/i} [[REDACTED]\n{i}Reporting Officer:{/i} [[REDACTED]\n{i}Observation:{/i} Routine maintenance cleaning completed. No significant debris. No structural concerns. Barrier integrity maintained.\n{i}Anomalies Detected:{/i} None.\n{i}Recommendation:{/i} Continue quarterly maintenance schedule. No further action required.\n{i}Note:{/i} Worker assigned to cleaning detail (477) completed task within acceptable parameters. No deviations observed. Performance adequate.{{/color}}"
+    narrator "{color=#808090}{b}AURUM EXTRACTION LTD. - ANOMALY REPORT (INTERNAL){/b}\n{i}Site:{/i} K-9\n{i}Section:{/i} Lower Works, Subsection 7-Gamma\n{i}Date:{/i} [[REDACTED]\n{i}Reporting Officer:{/i} [[REDACTED]\n{i}Observation:{/i} Routine maintenance cleaning completed. No significant debris. No structural concerns. Barrier integrity maintained.\n{i}Anomalies Detected:{/i} None.\n{i}Recommendation:{/i} Continue quarterly maintenance schedule. No further action required.\n{i}Note:{/i} Worker assigned to cleaning detail (477) completed task within acceptable parameters. No deviations observed. Performance adequate.{/color}"
 
     scene black with dissolve
     pause 0.5

@@ -2,7 +2,7 @@
 ## Do not edit manually — re-run converter after prose changes
 
 label act1_17e_nyx_and_halcyon_ward_lesson:
-    narrator "{{color=#808090}}{b}[[INTERSTITIAL - OCCURS POST-CH17]{/b}\n{i}Trigger: Nyx says \"witness\" like it's a verb{/i}\n{i}Purpose: show Sutured practice as discipline, not myth{/i}{{/color}}"
+    narrator "{color=#808090}{b}[[INTERSTITIAL - OCCURS POST-CH17]{/b}\n{i}Trigger: Nyx says \"witness\" like it's a verb{/i}\n{i}Purpose: show Sutured practice as discipline, not myth{/i}{/color}"
     pause 0.3
     narrator "{i}Nyx's lessons are quiet in the way a blade is quiet.{/i}"
     narrator "{i}Avyanna finds them in a corner of the ship that smells faintly of herbs and ozone, surrounded by small ward-stones laid out like a careful argument.{/i}"
@@ -11,13 +11,13 @@ label act1_17e_nyx_and_halcyon_ward_lesson:
     nyx "Breathe."
     narrator "{i}Avyanna breathes.{/i}"
     nyx "Now witness."
-    avyanna "{i}[[frowning]]{/i} Witness what."
+    avyanna "{i}[[frowning]{/i} Witness what."
     nyx "Your body."
     nyx "Your fear."
     nyx "The story you keep telling yourself about what fear means."
     narrator "{i}Avyanna's jaw tightens.{/i}"
     avyanna "Fear means I'm about to get punished."
-    nyx "{i}[[calm]]{/i} That is one story."
+    nyx "{i}[[calm]{/i} That is one story."
     nyx "Not the only one."
     narrator "{i}Nyx's fingers trace the edge of a ward-stone.{/i}"
     narrator "{i}Avyanna watches their hands.{/i}"
@@ -55,7 +55,7 @@ label act1_17e_nyx_and_halcyon_ward_lesson:
     narrator "{i}They don't fix it for Nyx.{/i}"
     narrator "{i}They point.{/i}"
     halcyon "Where did you exhale."
-    nyx "{i}[[confused]]{/i} Here."
+    nyx "{i}[[confused]{/i} Here."
     halcyon "Your breath moved your hand."
     nyx "That's ridiculous."
     halcyon "It's physics."

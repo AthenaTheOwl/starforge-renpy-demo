@@ -23,12 +23,16 @@ def main() -> int:
     warnings: list[str] = []
     rpy_files = sorted(GAME.rglob("*.rpy"))
     labels: set[str] = set()
+    attack_labels: set[str] = set()
     marker_hits = []
     menus = 0
 
     for path in rpy_files:
         text = path.read_text(encoding="utf-8", errors="replace")
-        labels.update(LABEL_RE.findall(text))
+        file_labels = LABEL_RE.findall(text)
+        labels.update(file_labels)
+        if "resolve_attack(" in text:
+            attack_labels.update(file_labels)
         menus += len(re.findall(r"^\s*menu\s*:", text, re.MULTILINE))
         for line_no, line in enumerate(text.splitlines(), start=1):
             if QUEUE_MARKERS.search(line):
@@ -67,6 +71,12 @@ def main() -> int:
             errors.append(f"encounter {encounter_id}: threat score is zero")
 
     warnings.extend(marker_hits)
+    for route_id in routed_combat:
+        if f"combat_{route_id}" in attack_labels and route_id not in encounters:
+            warnings.append(
+                f"routed combat {route_id}: attack option has no data/encounters/{route_id}.json, "
+                "so it rolls against no enemies"
+            )
 
     print("Ren'Py playtest audit")
     print(f"- labels: {len(labels)}")

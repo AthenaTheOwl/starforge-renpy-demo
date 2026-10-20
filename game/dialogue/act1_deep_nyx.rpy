@@ -34,7 +34,7 @@ label act1_deep_nyx_choice_opening:
     else:
         "{i}Something feels different tonight. Nyx is usually composed, distant. But there's a weariness here. A weight she's carrying. The question is whether you acknowledge it or let her hide behind deflection.{/i}"
     menu:
-        "[Empathy DC 14] 'You're not just tired. Something's bothering you.'":
+        "[[Empathy DC 14] 'You're not just tired. Something's bothering you.'":
             $ _sc_result = skill_check("empathy", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_nyx_empathy_success
@@ -123,7 +123,7 @@ label act1_deep_nyx_choice_respond_writbound:
         "'What happened? Why did you leave?'":
             $ relationship_manager.process_reputation_affinity("nyx", 1)
             jump act1_deep_nyx_ask_why_left
-        "[Sit beside her] 'You don't have to tell me if it's too hard.'":
+        "[[Sit beside her] 'You don't have to tell me if it's too hard.'":
             $ relationship_manager.process_reputation_affinity("nyx", 1)
             jump act1_deep_nyx_offer_space
         "'Fifteen is too young to make that choice. They took advantage of you.'":
@@ -360,7 +360,7 @@ label act1_deep_nyx_choice_press_order:
         "'What was it like inside? The Order itself.'":
             $ relationship_manager.process_reputation_affinity("nyx", 1)
             jump act1_deep_nyx_ask_inside_order
-        "[Insight DC 13] Study the way Nyx holds her hands — the glow beneath the skin.":
+        "[[Insight DC 13] Study the way Nyx holds her hands — the glow beneath the skin.":
             $ _sc_result = skill_check("insight", 13, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_nyx_insight_hands_success
@@ -407,7 +407,7 @@ label act1_deep_nyx_choice_binding_reaction:
         "'Three days. They tortured you for three days and called it a gift.'":
             $ relationship_manager.process_reputation_affinity("nyx", 1)
             jump act1_deep_nyx_call_it_torture
-        "[Empathy DC 15] Reach for her glowing hands.":
+        "[[Empathy DC 15] Reach for her glowing hands.":
             $ _sc_result = skill_check("empathy", 15, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_nyx_reach_for_hands_success
@@ -558,7 +558,7 @@ label act1_deep_nyx_choice_escape_approach:
     menu:
         "'Tell me. I want to understand.'":
             jump act1_deep_nyx_nyx_escape_begins
-        "[Insight DC 14] 'There was someone else, wasn't there? Someone who helped you escape.'":
+        "[[Insight DC 14] 'There was someone else, wasn't there? Someone who helped you escape.'":
             $ _sc_result = skill_check("insight", 14, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_nyx_insight_helper_success
@@ -781,7 +781,7 @@ label act1_deep_nyx_choice_bee_challenge:
             jump act1_deep_nyx_defend_bee_consent
         "'You see parallels. Between your Binding and Bee.'":
             jump act1_deep_nyx_acknowledge_parallel
-        "[Empathy DC 16] 'You're afraid for me. Not of Bee — for me.'":
+        "[[Empathy DC 16] 'You're afraid for me. Not of Bee — for me.'":
             $ _sc_result = skill_check("empathy", 16, "avyanna")
             if _sc_result == "SUCCESS" or _sc_result == "CRITICAL_SUCCESS":
                 jump act1_deep_nyx_empathy_bee_success
@@ -1097,7 +1097,7 @@ label act1_deep_nyx_choice_final:
         "'You're not alone. Not anymore. That's a promise, not a platitude.'":
             $ relationship_manager.process_reputation_affinity("nyx", 2)
             jump act1_deep_nyx_final_promise
-        "[Stay silent. Move closer. Let presence be the answer.]":
+        "[[Stay silent. Move closer. Let presence be the answer.]":
             $ relationship_manager.process_reputation_affinity("nyx", 2)
             jump act1_deep_nyx_final_silence
         "'Dangerous is good. Dangerous means it matters.'":
