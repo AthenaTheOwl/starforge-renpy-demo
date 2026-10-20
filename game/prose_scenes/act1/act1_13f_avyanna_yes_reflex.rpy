@@ -6,7 +6,7 @@ label act1_13f_avyanna_yes_reflex:
     pause 0.3
     narrator "{i}Elia's lesson doesn't end when the spar ends.{/i}"
     narrator "{i}It follows Avyanna down the corridor like an afterimage.{/i}"
-    elia "{i}[[earlier, blunt]]{/i} Stop saying yes like it's oxygen."
+    elia "{i}[[earlier, blunt]{/i} Stop saying yes like it's oxygen."
     narrator "{i}Avyanna has laughed at that like it's a joke.{/i}"
     narrator "{i}It wasn't.{/i}"
 

@@ -7,7 +7,8 @@ Checks:
 3. No orphan labels (unreachable from entry points)
 4. Label naming conventions
 5. Screen text uses only known text tags and substitutions of defined names
-6. Script text has no over-escaped text tags or unmatched closing braces
+6. Script text has no over-escaped text tags, unmatched closing braces or
+   over-escaped brackets
 """
 
 import ast
@@ -129,6 +130,9 @@ def check_screen_text(screen_strings, defined_names):
 OVER_ESCAPED_TAG = re.compile(
     r"\{\{(/?(?:" + "|".join(sorted(tag for tag in RENPY_TEXT_TAGS if tag)) + r")(?:=[^{}]*)?)\}"
 )
+# Likewise '[[' escapes a literal '[' but ']' has no escape, so '[[x]]' shows
+# '[x]]' with a stray bracket.
+OVER_ESCAPED_BRACKET = re.compile(r"(?<!\[)\[\[([^\[\]]*)\]\]")
 PYTHON_BLOCK = re.compile(r"^\s*(?:init(?:\s+-?\d+)?\s+)?python\b[^:]*:\s*$")
 
 
@@ -177,9 +181,14 @@ def iter_script_strings(source):
 
 
 def check_text_escapes(script_strings):
-    """Return error messages for script text whose braces Ren'Py would show as written."""
+    """Return error messages for script text whose braces or brackets Ren'Py would show as written."""
     problems = []
     for relpath, line_num, text in script_strings:
+        for match in OVER_ESCAPED_BRACKET.finditer(text):
+            problems.append(
+                f"Over-escaped bracket '{match.group(0)}' shows a stray ']' at {relpath}:{line_num} "
+                f"(write '[[{match.group(1)}]')"
+            )
         for match in OVER_ESCAPED_TAG.finditer(text):
             problems.append(
                 f"Over-escaped text tag '{match.group(0)}' shows as raw markup at {relpath}:{line_num} "
@@ -342,7 +351,7 @@ def validate(game_dir):
         print(f"  ERROR: {problem}")
         errors += 1
 
-    # 5. Check braces in script text that Ren'Py would show as written (lint does not)
+    # 5. Check braces and brackets in script text that Ren'Py would show as written (lint does not)
     print("\n--- Text Escape Validation ---")
     for problem in check_text_escapes(script_strings):
         print(f"  ERROR: {problem}")

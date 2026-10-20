@@ -13,16 +13,16 @@ label act1_15b_first_purchase_decision:
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee has been stationary for 4.7 minutes | QUERY: do you require assistance>{/color}"
-    avyanna "{i}[[uncertain]]{/i} I don't know what to buy."
+    avyanna "{i}[[uncertain]{/i} I don't know what to buy."
     narrator "{color=#43d4a8}<BUBBLES// CLARIFICATION REQUIRED: you don't know what to buy because you lack information about available goods, or because you are uncertain of your preferences>{/color}"
-    avyanna "{i}[[frustrated]]{/i} Both. Neither. I just... I have money and I don't know what to do with it."
+    avyanna "{i}[[frustrated]{/i} Both. Neither. I just... I have money and I don't know what to do with it."
     narrator "{color=#43d4a8}<BUBBLES// ACKNOWLEDGED: first autonomous purchase decision is difficult | SUGGESTION: start with needs, then proceed to wants | NEEDS = items required for survival/function | WANTS = items that increase comfort/pleasure but are not strictly necessary>{/color}"
 
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
     narrator "{i}Avyanna processes that. Needs first. She can do needs. Needs are objective.{/i}"
-    avyanna "{i}[[to Bubbles]]{/i} What do I need?"
+    avyanna "{i}[[to Bubbles]{/i} What do I need?"
     narrator "{color=#43d4a8}<BUBBLES// ASSESSMENT: basic hygiene supplies running low | CLOTHING: adequate but minimal variety | NUTRITION: ship provides meals but personal snack stores are recommended for autonomy | COMFORT ITEMS: worry stone acquired, other grounding tools may be beneficial>{/color}"
     narrator "{i}Bubbles projects a small list in the air.{/i}"
     narrator "{color=#43d4a8}<BUBBLES// RECOMMENDED PURCHASES:{/color}"
@@ -37,7 +37,7 @@ label act1_15b_first_purchase_decision:
     scene bg ship_interior with dissolve
     narrator "{i}Avyanna reads the list. Seventy-five credits for needs. One hundred twenty-five credits left over. For wants.{/i}"
     narrator "{i}The concept of having money left over after needs feels impossible.{/i}"
-    avyanna "{i}[[quiet]]{/i} What do I do with the rest?"
+    avyanna "{i}[[quiet]{/i} What do I do with the rest?"
     narrator "{color=#43d4a8}<BUBBLES// OPTIONS:{/color}"
     narrator "{i}1. Save for future needs{/i}"
     narrator "{i}2. Purchase comfort/pleasure items{/i}"
@@ -51,13 +51,13 @@ label act1_15b_first_purchase_decision:
     scene bg ship_interior with dissolve
     narrator "{i}{b}Hygiene Supplies{/b}{/i}"
     narrator "{i}The vendor has twenty different kinds of soap. TWENTY. Avyanna stares at them like they're a threat.{/i}"
-    vendor "{i}[[helpful]]{/i} Looking for anything specific?"
-    avyanna "{i}[[overwhelmed]]{/i} Just... soap."
-    vendor "{i}[[nodding]]{/i} Bar or liquid? Scented or unscented? Antibacterial or moisturizing?"
+    vendor "{i}[[helpful]{/i} Looking for anything specific?"
+    avyanna "{i}[[overwhelmed]{/i} Just... soap."
+    vendor "{i}[[nodding]{/i} Bar or liquid? Scented or unscented? Antibacterial or moisturizing?"
     narrator "{i}Avyanna's brain shorts out. Too many options. Too many variables.{/i}"
     narrator "{color=#43d4a8}<BUBBLES// ASSISTANCE: recommend unscented, moisturizing, bar form | REASONING: less likely to trigger scent-based trauma memories, easy to store, station-standard quality>{/color}"
-    avyanna "{i}[[to vendor]]{/i} That one. The unscented moisturizing bar."
-    vendor "{i}[[handing it to her]]{/i} Good choice. Anything else?"
+    avyanna "{i}[[to vendor]{/i} That one. The unscented moisturizing bar."
+    vendor "{i}[[handing it to her]{/i} Good choice. Anything else?"
 
     scene black with dissolve
     pause 0.5
@@ -69,7 +69,7 @@ label act1_15b_first_purchase_decision:
     narrator "{i}The clothing stalls are worse. So many colors. So many styles. So many ways to be wrong.{/i}"
     narrator "{i}She gravitates toward gray. Safe. Familiar. The mine color. But then she remembers-she doesn't have to wear gray anymore. Gray isn't mandatory. Gray is just habit.{/i}"
     narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee selecting gray garments | QUERY: is this preference or default trauma response>{/color}"
-    avyanna "{i}[[pausing]]{/i} I don't know."
+    avyanna "{i}[[pausing]{/i} I don't know."
     narrator "{color=#43d4a8}<BUBBLES// SUGGESTION: test alternative | SELECT ONE ITEM IN DIFFERENT COLOR | COMPARE EMOTIONAL RESPONSE | DETERMINE IF GRAY IS PREFERENCE OR SAFETY BEHAVIOR>{/color}"
 
     scene black with dissolve
@@ -77,7 +77,7 @@ label act1_15b_first_purchase_decision:
     scene bg ship_interior with dissolve
     narrator "{i}Avyanna picks up a gray shirt. Then a blue one. The blue reminds her of Jalen's nav displays. Of the first coffee ritual. Of sky that isn't filtered through mine dust.{/i}"
     narrator "{i}She holds both. Compares. The gray feels safe. The blue feels like... possibility?{/i}"
-    vendor "{i}[[nearby]]{/i} Try them on if you want. Changing room's open."
+    vendor "{i}[[nearby]{/i} Try them on if you want. Changing room's open."
     narrator "{i}Avyanna tries the blue shirt. It fits. The color is bright against her skin in a way that feels foreign but not wrong.{/i}"
     narrator "{i}She buys both. Gray for safe days. Blue for days when she wants to remember that she's not in the mine anymore.{/i}"
     narrator "{i}Cost: thirty-two credits. Within budget.{/i}"
@@ -100,11 +100,11 @@ label act1_15b_first_purchase_decision:
     narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: trainee hesitating at grounding tools vendor | REMINDER: comfort items are not frivolous | MENTAL HEALTH TOOLS ARE VALID PURCHASES | YOU ARE ALLOWED TO INVEST IN YOUR OWN WELL-BEING>{/color}"
     narrator "{i}Avyanna approaches the vendor. Looks at the options. Fidget rings. Textured squares. Small puzzles. Things designed to give restless hands something to do.{/i}"
     narrator "{i}She picks up a smooth metal ring. It spins. The motion is satisfying. Mindless. Something to do when her thoughts get too loud.{/i}"
-    vendor "{i}[[knowledgeable]]{/i} That's a spinner ring. Good for anxiety. Fidget without being disruptive."
-    avyanna "{i}[[testing it]]{/i} How much?"
+    vendor "{i}[[knowledgeable]{/i} That's a spinner ring. Good for anxiety. Fidget without being disruptive."
+    avyanna "{i}[[testing it]{/i} How much?"
     vendor "Eight credits."
     narrator "{i}Eight credits. For something she doesn't strictly need. For comfort. For mental health. For herself.{/i}"
-    avyanna "{i}[[decision made]]{/i} I'll take it."
+    avyanna "{i}[[decision made]{/i} I'll take it."
 
     scene black with dissolve
     pause 0.5
@@ -124,15 +124,15 @@ label act1_15b_first_purchase_decision:
     narrator "{i}There's a small succulent. Dark green with purple edges. Sturdy. Low-maintenance. The vendor says it needs water once a week and tolerates low light.{/i}"
     narrator "{i}Avyanna stares at it.{/i}"
     narrator "{color=#43d4a8}<BUBBLES// QUERY: interest in plant acquisition?>{/color}"
-    avyanna "{i}[[quiet]]{/i} I've never had a plant before."
+    avyanna "{i}[[quiet]{/i} I've never had a plant before."
     narrator "{color=#43d4a8}<BUBBLES// OBSERVATION: plants provide psychological benefits | CARING FOR LIVING THING DEVELOPS NURTURING CAPACITY | ALSO: AESTHETIC BENEFIT | ALSO: PLANTS PRODUCE OXYGEN (MINIMAL BUT NON-ZERO)>{/color}"
 
     scene black with dissolve
     pause 0.5
     scene bg ship_interior with dissolve
-    vendor "{i}[[to Avyanna]]{/i} First plant?"
-    avyanna "{i}[[nodding]]{/i} Yes."
-    vendor "{i}[[gentle]]{/i} That's a good starter. Very hard to kill. Forgiving of mistakes. If you forget to water it, it'll recover. If you overwater it, just let it dry out. It wants to survive."
+    vendor "{i}[[to Avyanna]{/i} First plant?"
+    avyanna "{i}[[nodding]{/i} Yes."
+    vendor "{i}[[gentle]{/i} That's a good starter. Very hard to kill. Forgiving of mistakes. If you forget to water it, it'll recover. If you overwater it, just let it dry out. It wants to survive."
     narrator "{i}The phrase hits different. \"It wants to survive.\"{/i}"
     narrator "{i}She buys the plant. Twenty credits. More than the spinner ring. More than the soap. But it's alive. It's something that exists with her, not just for her.{/i}"
     narrator "{i}Cost: twenty credits.{/i}"

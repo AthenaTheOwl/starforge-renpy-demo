@@ -58,6 +58,23 @@ def test_text_escape_check_flags_braces_renpy_shows_as_written() -> None:
     assert all("Unmatched '}'" in problem for problem in problems[2:])
 
 
+def test_text_escape_check_flags_brackets_renpy_shows_as_written() -> None:
+    sys.path.insert(0, str(ROOT / "tools"))
+    import validate_renpy
+
+    strings = [
+        ("x.rpy", 1, "{i}[[quiet]]{/i} I know."),
+        ("x.rpy", 2, "Seal the breach [[Engineering vs DC 14]]"),
+        ("x.rpy", 3, "{i}[[quiet]{/i} [_result['damage']] damage"),
+    ]
+
+    problems = validate_renpy.check_text_escapes(strings)
+
+    assert len(problems) == 2, problems
+    assert "Over-escaped bracket '[[quiet]]'" in problems[0] and "write '[[quiet]'" in problems[0]
+    assert "x.rpy:2" in problems[1]
+
+
 def test_script_string_scan_skips_python_and_tracks_multiline_strings() -> None:
     sys.path.insert(0, str(ROOT / "tools"))
     import validate_renpy
